@@ -1,0 +1,65 @@
+[
+  {
+    "slot": 0,
+    "kind": "baseline",
+    "port": null,
+    "evicted": null,
+    "fraction": 0.0
+  },
+  {
+    "slot": 1,
+    "kind": "recruitment",
+    "port": 8,
+    "evicted": null,
+    "fraction": -0.05
+  },
+  {
+    "slot": 2,
+    "kind": "recruitment",
+    "port": 8,
+    "evicted": null,
+    "fraction": -0.02
+  },
+  {
+    "slot": 3,
+    "kind": "recruitment",
+    "port": 8,
+    "evicted": null,
+    "fraction": 0.02
+  },
+  {
+    "slot": 4,
+    "kind": "recruitment",
+    "port": 8,
+    "evicted": null,
+    "fraction": 0.05
+  },
+  {
+    "slot": 5,
+    "kind": "recruitment",
+    "port": 121,
+    "evicted": null,
+    "fraction": -0.05
+  },
+  {
+    "slot": 6,
+    "kind": "recruitment",
+    "port": 121,
+    "evicted": null,
+    "fraction": -0.02
+  },
+  {
+    "slot": 7,
+    "kind": "recruitment",
+    "port": 121,
+    "evicted": null,
+    "fraction": 0.02
+  },
+  {
+    "slot": 8,
+    "kind": "recruitment",
+    "port": 121,
+    "evicted": null,
+    "fraction": 0.05
+  }
+]

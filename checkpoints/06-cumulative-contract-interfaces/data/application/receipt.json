@@ -1,0 +1,12 @@
+{
+  "dataset": "UCI Appliances Energy Prediction",
+  "creator": "Luis Candanedo",
+  "doi": "10.24432/C5VC8G",
+  "license": "CC BY4.0",
+  "source": "https://archive.ics.uci.edu/static/public/374/appliances%2Benergy%2Bprediction.zip",
+  "archive_sha256": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+  "csv_sha256": "2820bf712ad0275cb18b85a05250926100d8e65ebb9f4d2d016ca91ea152a25d",
+  "bytes": 11979363,
+  "wall_seconds": 2.0886748749762774,
+  "scope": "Raw dataset download only; no forecasting or test outcome computed."
+}

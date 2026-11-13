@@ -1,0 +1,14 @@
+[
+  {
+    "index": 111,
+    "score": null,
+    "signal_rms": 0.0022291063039664018,
+    "direction_rms": 0.029394377928845174
+  },
+  {
+    "index": 71,
+    "score": null,
+    "signal_rms": 0.016936353033535516,
+    "direction_rms": 0.029626287338504337
+  }
+]

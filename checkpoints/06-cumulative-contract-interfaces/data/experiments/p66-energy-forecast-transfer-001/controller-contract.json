@@ -1,0 +1,10 @@
+{
+  "source": "results/p65-program-contract-interfaces-001/contexts/0.6B-151003-contract/terminal/final-state",
+  "map_sha256": "1e1527f1af0a4abe614da7788c987a85173065951aafd902dbca2ff3be6c08b6",
+  "edges": [
+    {
+      "id": 38,
+      "alpha": 524.3276060488415
+    }
+  ]
+}

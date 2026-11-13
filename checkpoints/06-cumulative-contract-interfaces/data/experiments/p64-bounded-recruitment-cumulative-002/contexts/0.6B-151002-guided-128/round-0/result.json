@@ -1,0 +1,93 @@
+{
+  "context": "0.6B-151002-guided-128",
+  "model": "0.6B",
+  "seed": 151002,
+  "arm": "guided-128",
+  "round": 0,
+  "selected_slot": 3,
+  "relative_gains": [
+    1.0103627037245928,
+    1.0686136908464041
+  ],
+  "quality_changes": [
+    1.0356863483434042,
+    1.009236705064408
+  ],
+  "strict_fresh_gain": true,
+  "contracts": [
+    {
+      "retained": 10,
+      "total": 10,
+      "quality_ok": true,
+      "programs_ok": true
+    },
+    {
+      "retained": 10,
+      "total": 10,
+      "quality_ok": true,
+      "programs_ok": true
+    }
+  ],
+  "accepted": true,
+  "selected_metadata": {
+    "slot": 3,
+    "kind": "recruitment",
+    "port": 96,
+    "evicted": null,
+    "fraction": 0.02
+  },
+  "retained_port_ids": [
+    96
+  ],
+  "retained_payload_bytes": 1102272,
+  "shared_map_values": 600,
+  "protected_program_instances": 17,
+  "library_count": 3,
+  "parent_state_sha256": "20ffce001e2d831a5698fd6dae4896053dde07d6ca63e2fe316fe12fc5a1e5cf",
+  "retained_state_sha256": "b01e96fa88d9a446b0d553ce88aa5c81f0b9f8b42699a16c93d74821e5f6a259",
+  "timing": {
+    "screening_parent": 0.19637908297590911,
+    "screening_ports": 0.009277583099901676,
+    "local_profiles": 0.0043264159467071295,
+    "candidate_source_and_fit": 0.4242097919341177,
+    "feedback-0": 0.4397581659723073,
+    "feedback-1": 0.4265022501349449,
+    "fresh-0": 0.4335414581000805,
+    "fresh-1": 0.42439641687087715
+  },
+  "wall_seconds": 2.5989090828225017,
+  "acquisition_work": {
+    "compiled_port_rows": 132,
+    "native_scalar_responses": 179460,
+    "native_scalar_partials": 2340,
+    "local_interfaces_fitted": 2,
+    "maximum_screen_workspace_bytes": 464256,
+    "source_array_bytes_read": 1625184
+  },
+  "base_runtime_work": {
+    "screening_parent:interface_predictions": 55296,
+    "screening_parent:native_selected_responses": 9216,
+    "screening_parent:committed_fragments": 9216,
+    "screening_parent:routing_comparisons": 55296,
+    "candidate_source:interface_predictions": 552960,
+    "candidate_source:native_selected_responses": 92160,
+    "candidate_source:committed_fragments": 92160,
+    "candidate_source:routing_comparisons": 552960,
+    "feedback-0:interface_predictions": 552960,
+    "feedback-0:native_selected_responses": 92160,
+    "feedback-0:committed_fragments": 92160,
+    "feedback-0:routing_comparisons": 552960,
+    "feedback-1:interface_predictions": 552960,
+    "feedback-1:native_selected_responses": 92160,
+    "feedback-1:committed_fragments": 92160,
+    "feedback-1:routing_comparisons": 552960,
+    "fresh-0:interface_predictions": 552960,
+    "fresh-0:native_selected_responses": 92160,
+    "fresh-0:committed_fragments": 92160,
+    "fresh-0:routing_comparisons": 552960,
+    "fresh-1:interface_predictions": 552960,
+    "fresh-1:native_selected_responses": 92160,
+    "fresh-1:committed_fragments": 92160,
+    "fresh-1:routing_comparisons": 552960
+  }
+}

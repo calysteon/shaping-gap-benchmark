@@ -1,0 +1,2 @@
+# Preserve the upstream CSV exactly, including its original CRLF bytes.
+data/application/energydata_complete.csv -text

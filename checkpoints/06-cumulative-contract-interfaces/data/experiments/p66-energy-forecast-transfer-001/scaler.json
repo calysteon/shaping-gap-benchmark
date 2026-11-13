@@ -1,0 +1,12 @@
+{
+  "log1p": true,
+  "median": 4.110873864173311,
+  "standard_deviation": 0.687118379809508,
+  "fitted_rows": [
+    0,
+    11841
+  ],
+  "train_end": 11841,
+  "validation_end": 15788,
+  "total_rows": 19735
+}

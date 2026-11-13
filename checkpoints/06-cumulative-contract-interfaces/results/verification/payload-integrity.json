@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "recorded_npz_files": 4030,
+  "all_recorded_numeric_payloads_byte_identical": true,
+  "previous_checkpoint_content": "Root publication process checks historical files unchanged."
+}

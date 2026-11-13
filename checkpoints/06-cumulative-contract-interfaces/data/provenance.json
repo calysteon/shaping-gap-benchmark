@@ -1,0 +1,6 @@
+{
+  "recorded_numeric_arrays": "All recorded NPZ files are copied byte-for-byte. Raw study snapshots and original failed P64 launch retained.",
+  "portable_sources": "Only path/CLI changes for cached checks and optional extraction; fresh acquisition executes the unchanged captured numerical sources in a prepared workspace.",
+  "original_model_provenance": "../05-component-learning-cycle/data/banks/manifest.json",
+  "excluded_unexecuted_exploration": "The unused exploratory adjoint.py is excluded. Higher-order necessity, multi-slot competition and eviction are not demonstrated."
+}

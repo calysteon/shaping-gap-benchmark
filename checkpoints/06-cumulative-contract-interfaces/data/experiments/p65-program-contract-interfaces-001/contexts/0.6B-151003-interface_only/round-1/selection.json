@@ -1,0 +1,137 @@
+{
+  "selected_slot": 0,
+  "candidates": [
+    {
+      "slot": 1,
+      "gains": [
+        -0.040775526872338076,
+        0.09458931275366105
+      ],
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": false,
+          "programs_ok": true
+        },
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": true,
+          "programs_ok": true
+        }
+      ],
+      "admissible": false
+    },
+    {
+      "slot": 2,
+      "gains": [
+        0.014012148562251787,
+        0.050565382560348864
+      ],
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": false,
+          "programs_ok": true
+        },
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": true,
+          "programs_ok": true
+        }
+      ],
+      "admissible": false
+    },
+    {
+      "slot": 3,
+      "gains": [
+        -0.02195215151234274,
+        0.08965725005838292
+      ],
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": false,
+          "programs_ok": true
+        },
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": true,
+          "programs_ok": true
+        }
+      ],
+      "admissible": false
+    },
+    {
+      "slot": 4,
+      "gains": [
+        0.012850103261891574,
+        0.046084820237330196
+      ],
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": false,
+          "programs_ok": true
+        },
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": true,
+          "programs_ok": true
+        }
+      ],
+      "admissible": false
+    },
+    {
+      "slot": 5,
+      "gains": [
+        -0.011230421109942653,
+        0.08927485027712531
+      ],
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": false,
+          "programs_ok": true
+        },
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": true,
+          "programs_ok": true
+        }
+      ],
+      "admissible": false
+    },
+    {
+      "slot": 6,
+      "gains": [
+        0.010507291367058401,
+        0.042645943916654314
+      ],
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": false,
+          "programs_ok": true
+        },
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": true,
+          "programs_ok": true
+        }
+      ],
+      "admissible": false
+    }
+  ]
+}

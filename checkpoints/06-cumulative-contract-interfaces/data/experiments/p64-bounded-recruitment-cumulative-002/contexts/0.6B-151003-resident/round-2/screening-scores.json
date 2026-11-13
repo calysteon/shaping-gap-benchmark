@@ -1,0 +1,170 @@
+[
+  {
+    "index": -1,
+    "score": 15.650315038371533,
+    "signal_rms": 0.000806602669980284,
+    "direction_rms": 0.21302753710723207,
+    "admissible": true
+  },
+  {
+    "index": -2,
+    "score": 26.333640456153795,
+    "signal_rms": 0.0014474780338644972,
+    "direction_rms": 0.08339113265102378,
+    "admissible": true
+  },
+  {
+    "index": -3,
+    "score": 1.0356201951481683,
+    "signal_rms": 0.00044966864223683437,
+    "direction_rms": 0.1608697654068669,
+    "admissible": true
+  },
+  {
+    "index": -4,
+    "score": 235.81329463409557,
+    "signal_rms": 0.009784710391454754,
+    "direction_rms": 0.14214895853434964,
+    "admissible": true
+  },
+  {
+    "index": -5,
+    "score": 4.4557363626410496,
+    "signal_rms": 0.003232232607296834,
+    "direction_rms": 0.13562840194651957,
+    "admissible": true
+  },
+  {
+    "index": -6,
+    "score": 45.5085517188185,
+    "signal_rms": 0.0009736292468982866,
+    "direction_rms": 0.23519826897319884,
+    "admissible": true
+  },
+  {
+    "index": -7,
+    "score": 19.09288668964451,
+    "signal_rms": 0.0010547768420654685,
+    "direction_rms": 0.19582056807800874,
+    "admissible": true
+  },
+  {
+    "index": -8,
+    "score": 5.167004819917915,
+    "signal_rms": 0.001314851406350934,
+    "direction_rms": 0.1661372446368909,
+    "admissible": true
+  },
+  {
+    "index": -9,
+    "score": 49.936352133128416,
+    "signal_rms": 0.008679478767605497,
+    "direction_rms": 0.15893096900304585,
+    "admissible": true
+  },
+  {
+    "index": -10,
+    "score": 2.234703610984559,
+    "signal_rms": 0.0052603584940825445,
+    "direction_rms": 0.038010888655638196,
+    "admissible": true
+  },
+  {
+    "index": -11,
+    "score": 23.639927173717435,
+    "signal_rms": 5.1841163319349534e-05,
+    "direction_rms": 0.1901458083916453,
+    "admissible": true
+  },
+  {
+    "index": -12,
+    "score": 468.5082951108858,
+    "signal_rms": 0.00043466890613738245,
+    "direction_rms": 0.16682232429311547,
+    "admissible": true
+  },
+  {
+    "index": -13,
+    "score": 4.552935309708184,
+    "signal_rms": 0.00032248459859995714,
+    "direction_rms": 0.14232277808270735,
+    "admissible": true
+  },
+  {
+    "index": -14,
+    "score": 191.54165329572587,
+    "signal_rms": 0.002242851761813565,
+    "direction_rms": 0.1453984184471061,
+    "admissible": true
+  },
+  {
+    "index": -15,
+    "score": 118.37612533816471,
+    "signal_rms": 0.00040324632373545414,
+    "direction_rms": 0.02617645916323803,
+    "admissible": true
+  },
+  {
+    "index": -16,
+    "score": 21.60089635341977,
+    "signal_rms": 0.0008983603050961197,
+    "direction_rms": 0.202643896328742,
+    "admissible": true
+  },
+  {
+    "index": -17,
+    "score": 69.65691886069301,
+    "signal_rms": 0.0013345648933293507,
+    "direction_rms": 0.11068879124236838,
+    "admissible": true
+  },
+  {
+    "index": -18,
+    "score": 182.45351046907555,
+    "signal_rms": 0.002165705237174035,
+    "direction_rms": 0.07804696283530335,
+    "admissible": true
+  },
+  {
+    "index": -19,
+    "score": 54.70030293727091,
+    "signal_rms": 0.006871295311044944,
+    "direction_rms": 0.03578160682027065,
+    "admissible": true
+  },
+  {
+    "index": -20,
+    "score": 187.84821178232065,
+    "signal_rms": 0.0004689638461515599,
+    "direction_rms": 0.13955127667558065,
+    "admissible": true
+  },
+  {
+    "index": -21,
+    "score": 45.766372542111526,
+    "signal_rms": 0.0003888428283044107,
+    "direction_rms": 0.14731770531348326,
+    "admissible": true
+  },
+  {
+    "index": -22,
+    "score": 126.07618506319673,
+    "signal_rms": 0.00036070781879305635,
+    "direction_rms": 0.2504984492082678,
+    "admissible": true
+  },
+  {
+    "index": -23,
+    "score": 0.015293914428736958,
+    "signal_rms": 8.840773077126487e-05,
+    "direction_rms": 0.11158016727820791,
+    "admissible": true
+  },
+  {
+    "index": -24,
+    "score": 19.970751227200417,
+    "signal_rms": 0.000871962971013033,
+    "direction_rms": 0.18087843809437976,
+    "admissible": true
+  }
+]

@@ -1,0 +1,9 @@
+Appliances Energy Prediction
+Luis Candanedo (2017), UCI Machine Learning Repository.
+DOI: https://doi.org/10.24432/C5VC8G
+Dataset: https://archive.ics.uci.edu/dataset/374/appliances+energy+prediction
+License: Creative Commons Attribution 4.0 International (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/legalcode
+The original CSV and source ZIP are redistributed unmodified.
+Derived driver arrays, forecasts and metrics are separately identified in the experiment.
+This study uses only appliance consumption from one house, excluding other covariates.

@@ -1,0 +1,75 @@
+{
+  "plan_id": "P64-BOUNDED-RECRUITMENT-CUMULATIVE-001",
+  "created_utc": "2026-11-13T22:17:15.192065+00:00",
+  "source_sha256": "ea97ef8aeb9ad8784c05ae6a4db61a89b81e87172d125c36255191c852901e53",
+  "helper_sha256": {
+    "interfaces.py": "45f4c4723c50bebd6ea34df90e6b6314412ad0d244f74301a32e74769deb9f35",
+    "cycle.py": "3b5a9e7182bcc157beca5366e26393542db172146fb1e9616e62492d5c05bce1",
+    "recruit.py": "e3e022340e44b32ba8a0986af59aca8a88ebe8c9cda8288ac3a3c8a21d509bf0",
+    "run.py": "ea97ef8aeb9ad8784c05ae6a4db61a89b81e87172d125c36255191c852901e53",
+    "legacy_engine.py": "bd21cd091212e4643db1df5063d04887d0c6dc700ac07d31c8930f33f678e825",
+    "policy.py": "aa395ef22162d9c8aff3e61c71115d9a6ec4eab576500a0432721cbfce21730f",
+    "stimulus.py": "7b918a4b7b0d381b87963605ba300a3d24b5cd6e246a9c1f9536b3643afd1452",
+    "capacity_engine.py": "486427011c2fba46a29f05024f9ede84cac18dde0d734944e62d1f79cff964ea",
+    "component.py": "11500ccee6efc99c3281db5647846943c623c43eb51b96a836126c9ead9b6136",
+    "extract_pool.py": "4739e5c515b0cd11a5b7f922f55fce526b36561934070909dfd1caf8edbbf5d6"
+  },
+  "config": {
+    "models": [
+      "0.6B",
+      "1.7B"
+    ],
+    "seeds": [
+      151001,
+      151002,
+      151003
+    ],
+    "arms": [
+      "guided-64",
+      "guided-128",
+      "guided-512",
+      "random-128",
+      "resident"
+    ],
+    "deep_model": "0.6B",
+    "deep_seed": 151003,
+    "deep_rounds": 5,
+    "retained_recruits": 4,
+    "executed_recruits": 2,
+    "proposed_ports": 2,
+    "screen_chunk": 16,
+    "signal_floor": 1e-24,
+    "epsilon": 0.8,
+    "input_gain": 0.2,
+    "state_limit": 50.0,
+    "burn": 128,
+    "training_steps": 1024,
+    "assessment_steps": 1024,
+    "readout_ridge": 0.0001,
+    "transport_ridge": 0.001,
+    "reliability_threshold": 0.5,
+    "quality_acceptance": 0.01,
+    "preservation_tolerance": 0.01,
+    "local_profile_samples": 64,
+    "local_scale_floor": 0.01,
+    "local_jitter": 0.1,
+    "local_profile_ridge": 1e-06,
+    "signed_action_fractions": [
+      -0.05,
+      -0.02,
+      0.02,
+      0.05
+    ],
+    "seed_base": 2100000,
+    "seed_stride": 1000,
+    "terminal_source_seed": 2300001,
+    "terminal_training": 2048,
+    "terminal_seeds": [
+      2300011,
+      2300012
+    ],
+    "terminal_steps": 2048,
+    "retained_payload_cap": 8388608
+  },
+  "pool_manifest_sha256": "c82d0007450382a37755b1759970b988cc9999c1a080eca25ea2f745189ee6ce"
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "python_sources_parsed": 75,
+  "paper_pages": 8,
+  "all_paper_pages_rendered_and_visually_reviewed": true,
+  "portable_replay_passed": true,
+  "source_path_privacy_audit_passed": true,
+  "author_names": [
+    "Nathaniel Oh",
+    "Paul Attie"
+  ]
+}

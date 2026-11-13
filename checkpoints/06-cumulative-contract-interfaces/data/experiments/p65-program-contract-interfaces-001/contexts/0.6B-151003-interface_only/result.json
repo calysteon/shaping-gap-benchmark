@@ -1,0 +1,571 @@
+{
+  "context": "0.6B-151003-interface_only",
+  "model": "0.6B",
+  "seed": 151003,
+  "arm": "interface_only",
+  "rounds": [
+    {
+      "context": "0.6B-151003-interface_only",
+      "model": "0.6B",
+      "seed": 151003,
+      "arm": "interface_only",
+      "round": 0,
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "strict_fresh_gain": false,
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": true,
+          "programs_ok": true
+        },
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": true,
+          "programs_ok": true
+        }
+      ],
+      "accepted": false,
+      "selected_metadata": {
+        "slot": 0,
+        "kind": "baseline",
+        "port": null,
+        "evicted": null,
+        "fraction": 0.0,
+        "physical_slot": 0,
+        "interface": "unchanged"
+      },
+      "neural_recruitment_accepted": false,
+      "retained_port_ids": [],
+      "retained_payload_bytes": 1067280,
+      "shared_map_values": 600,
+      "protected_program_instances": 4,
+      "library_count": 2,
+      "parent_state_sha256": "20ffce001e2d831a5698fd6dae4896053dde07d6ca63e2fe316fe12fc5a1e5cf",
+      "retained_state_sha256": "20ffce001e2d831a5698fd6dae4896053dde07d6ca63e2fe316fe12fc5a1e5cf",
+      "timing": {
+        "screening_parent": 0.1987158339470625,
+        "screening_ports": 0.008369040908291936,
+        "local_profiles": 0.004494583001360297,
+        "candidate_source_and_fit": 0.4671692498959601,
+        "feedback-0": 0.19689704198390245,
+        "feedback-1": 0.19603824988007545,
+        "fresh-0": 0.19895120803266764,
+        "fresh-1": 0.2094214588869363
+      },
+      "wall_seconds": 1.6905682920478284,
+      "acquisition_work": {
+        "compiled_port_rows": 132,
+        "native_scalar_responses": 142596,
+        "native_scalar_partials": 2340,
+        "local_interfaces_fitted": 2,
+        "maximum_screen_workspace_bytes": 464256,
+        "source_array_bytes_read": 1625184
+      },
+      "base_runtime_work": {
+        "screening_parent:interface_predictions": 55296,
+        "screening_parent:native_selected_responses": 9216,
+        "screening_parent:committed_fragments": 9216,
+        "screening_parent:routing_comparisons": 55296,
+        "candidate_source:interface_predictions": 497664,
+        "candidate_source:native_selected_responses": 82944,
+        "candidate_source:committed_fragments": 82944,
+        "candidate_source:routing_comparisons": 497664,
+        "feedback-0:interface_predictions": 55296,
+        "feedback-0:native_selected_responses": 9216,
+        "feedback-0:committed_fragments": 9216,
+        "feedback-0:routing_comparisons": 55296,
+        "feedback-1:interface_predictions": 55296,
+        "feedback-1:native_selected_responses": 9216,
+        "feedback-1:committed_fragments": 9216,
+        "feedback-1:routing_comparisons": 55296,
+        "fresh-0:interface_predictions": 55296,
+        "fresh-0:native_selected_responses": 9216,
+        "fresh-0:committed_fragments": 9216,
+        "fresh-0:routing_comparisons": 55296,
+        "fresh-1:interface_predictions": 55296,
+        "fresh-1:native_selected_responses": 9216,
+        "fresh-1:committed_fragments": 9216,
+        "fresh-1:routing_comparisons": 55296
+      }
+    },
+    {
+      "context": "0.6B-151003-interface_only",
+      "model": "0.6B",
+      "seed": 151003,
+      "arm": "interface_only",
+      "round": 1,
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "strict_fresh_gain": false,
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": true,
+          "programs_ok": true
+        },
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": true,
+          "programs_ok": true
+        }
+      ],
+      "accepted": false,
+      "selected_metadata": {
+        "slot": 0,
+        "kind": "baseline",
+        "port": null,
+        "evicted": null,
+        "fraction": 0.0,
+        "physical_slot": 0,
+        "interface": "unchanged"
+      },
+      "neural_recruitment_accepted": false,
+      "retained_port_ids": [],
+      "retained_payload_bytes": 1067280,
+      "shared_map_values": 600,
+      "protected_program_instances": 4,
+      "library_count": 2,
+      "parent_state_sha256": "20ffce001e2d831a5698fd6dae4896053dde07d6ca63e2fe316fe12fc5a1e5cf",
+      "retained_state_sha256": "20ffce001e2d831a5698fd6dae4896053dde07d6ca63e2fe316fe12fc5a1e5cf",
+      "timing": {
+        "screening_parent": 0.1999892918393016,
+        "screening_ports": 0.008279790868982673,
+        "local_profiles": 0.004658624995499849,
+        "candidate_source_and_fit": 0.46580129209905863,
+        "feedback-0": 0.19986199983395636,
+        "feedback-1": 0.19772337493486702,
+        "fresh-0": 0.19689737493172288,
+        "fresh-1": 0.19711883296258748
+      },
+      "wall_seconds": 1.6800078749656677,
+      "acquisition_work": {
+        "compiled_port_rows": 132,
+        "native_scalar_responses": 142596,
+        "native_scalar_partials": 2340,
+        "local_interfaces_fitted": 2,
+        "maximum_screen_workspace_bytes": 464256,
+        "source_array_bytes_read": 1625184
+      },
+      "base_runtime_work": {
+        "screening_parent:interface_predictions": 55296,
+        "screening_parent:native_selected_responses": 9216,
+        "screening_parent:committed_fragments": 9216,
+        "screening_parent:routing_comparisons": 55296,
+        "candidate_source:interface_predictions": 497664,
+        "candidate_source:native_selected_responses": 82944,
+        "candidate_source:committed_fragments": 82944,
+        "candidate_source:routing_comparisons": 497664,
+        "feedback-0:interface_predictions": 55296,
+        "feedback-0:native_selected_responses": 9216,
+        "feedback-0:committed_fragments": 9216,
+        "feedback-0:routing_comparisons": 55296,
+        "feedback-1:interface_predictions": 55296,
+        "feedback-1:native_selected_responses": 9216,
+        "feedback-1:committed_fragments": 9216,
+        "feedback-1:routing_comparisons": 55296,
+        "fresh-0:interface_predictions": 55296,
+        "fresh-0:native_selected_responses": 9216,
+        "fresh-0:committed_fragments": 9216,
+        "fresh-0:routing_comparisons": 55296,
+        "fresh-1:interface_predictions": 55296,
+        "fresh-1:native_selected_responses": 9216,
+        "fresh-1:committed_fragments": 9216,
+        "fresh-1:routing_comparisons": 55296
+      }
+    },
+    {
+      "context": "0.6B-151003-interface_only",
+      "model": "0.6B",
+      "seed": 151003,
+      "arm": "interface_only",
+      "round": 2,
+      "selected_slot": 6,
+      "relative_gains": [
+        0.01903914139906337,
+        0.0009076421850344082
+      ],
+      "quality_changes": [
+        0.0218347415555169,
+        0.0010784022554097827
+      ],
+      "strict_fresh_gain": false,
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": true,
+          "programs_ok": true
+        },
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": false,
+          "programs_ok": true
+        }
+      ],
+      "accepted": false,
+      "selected_metadata": {
+        "slot": 6,
+        "kind": "baseline",
+        "port": null,
+        "evicted": null,
+        "fraction": 0.0,
+        "physical_slot": 0,
+        "interface": "program_contract",
+        "feature_weight": 1.0,
+        "ridge": 0.01,
+        "minimum_output_weight_eigenvalue": 1.0000000512076703,
+        "maximum_output_weight_eigenvalue": 1818.8051066948653
+      },
+      "neural_recruitment_accepted": false,
+      "retained_port_ids": [],
+      "retained_payload_bytes": 1067280,
+      "shared_map_values": 600,
+      "protected_program_instances": 4,
+      "library_count": 2,
+      "parent_state_sha256": "20ffce001e2d831a5698fd6dae4896053dde07d6ca63e2fe316fe12fc5a1e5cf",
+      "retained_state_sha256": "20ffce001e2d831a5698fd6dae4896053dde07d6ca63e2fe316fe12fc5a1e5cf",
+      "timing": {
+        "screening_parent": 0.19681154214777052,
+        "screening_ports": 0.008167166030034423,
+        "local_profiles": 0.004465084057301283,
+        "candidate_source_and_fit": 0.4679709579795599,
+        "feedback-0": 0.19562858412973583,
+        "feedback-1": 0.1949863750487566,
+        "fresh-0": 0.19348945887759328,
+        "fresh-1": 0.19687029183842242
+      },
+      "wall_seconds": 1.6675812921021134,
+      "acquisition_work": {
+        "compiled_port_rows": 132,
+        "native_scalar_responses": 142596,
+        "native_scalar_partials": 2340,
+        "local_interfaces_fitted": 2,
+        "maximum_screen_workspace_bytes": 464256,
+        "source_array_bytes_read": 1625184
+      },
+      "base_runtime_work": {
+        "screening_parent:interface_predictions": 55296,
+        "screening_parent:native_selected_responses": 9216,
+        "screening_parent:committed_fragments": 9216,
+        "screening_parent:routing_comparisons": 55296,
+        "candidate_source:interface_predictions": 497664,
+        "candidate_source:native_selected_responses": 82944,
+        "candidate_source:committed_fragments": 82944,
+        "candidate_source:routing_comparisons": 497664,
+        "feedback-0:interface_predictions": 55296,
+        "feedback-0:native_selected_responses": 9216,
+        "feedback-0:committed_fragments": 9216,
+        "feedback-0:routing_comparisons": 55296,
+        "feedback-1:interface_predictions": 55296,
+        "feedback-1:native_selected_responses": 9216,
+        "feedback-1:committed_fragments": 9216,
+        "feedback-1:routing_comparisons": 55296,
+        "fresh-0:interface_predictions": 55296,
+        "fresh-0:native_selected_responses": 9216,
+        "fresh-0:committed_fragments": 9216,
+        "fresh-0:routing_comparisons": 55296,
+        "fresh-1:interface_predictions": 55296,
+        "fresh-1:native_selected_responses": 9216,
+        "fresh-1:committed_fragments": 9216,
+        "fresh-1:routing_comparisons": 55296
+      }
+    },
+    {
+      "context": "0.6B-151003-interface_only",
+      "model": "0.6B",
+      "seed": 151003,
+      "arm": "interface_only",
+      "round": 3,
+      "selected_slot": 2,
+      "relative_gains": [
+        0.031619058449150056,
+        0.028533714682245085
+      ],
+      "quality_changes": [
+        0.03820432751378067,
+        0.03153619960839649
+      ],
+      "strict_fresh_gain": false,
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": false,
+          "programs_ok": true
+        },
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": true,
+          "programs_ok": true
+        }
+      ],
+      "accepted": false,
+      "selected_metadata": {
+        "slot": 2,
+        "kind": "baseline",
+        "port": null,
+        "evicted": null,
+        "fraction": 0.0,
+        "physical_slot": 0,
+        "interface": "program_contract",
+        "feature_weight": 0.01,
+        "ridge": 0.01,
+        "minimum_output_weight_eigenvalue": 0.010000064721417888,
+        "maximum_output_weight_eigenvalue": 2171.342630823826
+      },
+      "neural_recruitment_accepted": false,
+      "retained_port_ids": [],
+      "retained_payload_bytes": 1067280,
+      "shared_map_values": 600,
+      "protected_program_instances": 4,
+      "library_count": 2,
+      "parent_state_sha256": "20ffce001e2d831a5698fd6dae4896053dde07d6ca63e2fe316fe12fc5a1e5cf",
+      "retained_state_sha256": "20ffce001e2d831a5698fd6dae4896053dde07d6ca63e2fe316fe12fc5a1e5cf",
+      "timing": {
+        "screening_parent": 0.19591987505555153,
+        "screening_ports": 0.008200374897569418,
+        "local_profiles": 0.00436812499538064,
+        "candidate_source_and_fit": 0.46597837493754923,
+        "feedback-0": 0.19575270800851285,
+        "feedback-1": 0.19795070798136294,
+        "fresh-0": 0.19523966708220541,
+        "fresh-1": 0.20946770790033042
+      },
+      "wall_seconds": 1.6842453749850392,
+      "acquisition_work": {
+        "compiled_port_rows": 132,
+        "native_scalar_responses": 142596,
+        "native_scalar_partials": 2340,
+        "local_interfaces_fitted": 2,
+        "maximum_screen_workspace_bytes": 464256,
+        "source_array_bytes_read": 1625184
+      },
+      "base_runtime_work": {
+        "screening_parent:interface_predictions": 55296,
+        "screening_parent:native_selected_responses": 9216,
+        "screening_parent:committed_fragments": 9216,
+        "screening_parent:routing_comparisons": 55296,
+        "candidate_source:interface_predictions": 497664,
+        "candidate_source:native_selected_responses": 82944,
+        "candidate_source:committed_fragments": 82944,
+        "candidate_source:routing_comparisons": 497664,
+        "feedback-0:interface_predictions": 55296,
+        "feedback-0:native_selected_responses": 9216,
+        "feedback-0:committed_fragments": 9216,
+        "feedback-0:routing_comparisons": 55296,
+        "feedback-1:interface_predictions": 55296,
+        "feedback-1:native_selected_responses": 9216,
+        "feedback-1:committed_fragments": 9216,
+        "feedback-1:routing_comparisons": 55296,
+        "fresh-0:interface_predictions": 55296,
+        "fresh-0:native_selected_responses": 9216,
+        "fresh-0:committed_fragments": 9216,
+        "fresh-0:routing_comparisons": 55296,
+        "fresh-1:interface_predictions": 55296,
+        "fresh-1:native_selected_responses": 9216,
+        "fresh-1:committed_fragments": 9216,
+        "fresh-1:routing_comparisons": 55296
+      }
+    },
+    {
+      "context": "0.6B-151003-interface_only",
+      "model": "0.6B",
+      "seed": 151003,
+      "arm": "interface_only",
+      "round": 4,
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "strict_fresh_gain": false,
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": true,
+          "programs_ok": true
+        },
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": true,
+          "programs_ok": true
+        }
+      ],
+      "accepted": false,
+      "selected_metadata": {
+        "slot": 0,
+        "kind": "baseline",
+        "port": null,
+        "evicted": null,
+        "fraction": 0.0,
+        "physical_slot": 0,
+        "interface": "unchanged"
+      },
+      "neural_recruitment_accepted": false,
+      "retained_port_ids": [],
+      "retained_payload_bytes": 1067280,
+      "shared_map_values": 600,
+      "protected_program_instances": 4,
+      "library_count": 2,
+      "parent_state_sha256": "20ffce001e2d831a5698fd6dae4896053dde07d6ca63e2fe316fe12fc5a1e5cf",
+      "retained_state_sha256": "20ffce001e2d831a5698fd6dae4896053dde07d6ca63e2fe316fe12fc5a1e5cf",
+      "timing": {
+        "screening_parent": 0.1999838340561837,
+        "screening_ports": 0.008536749985069036,
+        "local_profiles": 0.004612082848325372,
+        "candidate_source_and_fit": 0.4716099591460079,
+        "feedback-0": 0.2009218749590218,
+        "feedback-1": 0.20250366698019207,
+        "fresh-0": 0.19330062507651746,
+        "fresh-1": 0.19467045809142292
+      },
+      "wall_seconds": 1.685711125144735,
+      "acquisition_work": {
+        "compiled_port_rows": 132,
+        "native_scalar_responses": 142596,
+        "native_scalar_partials": 2340,
+        "local_interfaces_fitted": 2,
+        "maximum_screen_workspace_bytes": 464256,
+        "source_array_bytes_read": 1625184
+      },
+      "base_runtime_work": {
+        "screening_parent:interface_predictions": 55296,
+        "screening_parent:native_selected_responses": 9216,
+        "screening_parent:committed_fragments": 9216,
+        "screening_parent:routing_comparisons": 55296,
+        "candidate_source:interface_predictions": 497664,
+        "candidate_source:native_selected_responses": 82944,
+        "candidate_source:committed_fragments": 82944,
+        "candidate_source:routing_comparisons": 497664,
+        "feedback-0:interface_predictions": 55296,
+        "feedback-0:native_selected_responses": 9216,
+        "feedback-0:committed_fragments": 9216,
+        "feedback-0:routing_comparisons": 55296,
+        "feedback-1:interface_predictions": 55296,
+        "feedback-1:native_selected_responses": 9216,
+        "feedback-1:committed_fragments": 9216,
+        "feedback-1:routing_comparisons": 55296,
+        "fresh-0:interface_predictions": 55296,
+        "fresh-0:native_selected_responses": 9216,
+        "fresh-0:committed_fragments": 9216,
+        "fresh-0:routing_comparisons": 55296,
+        "fresh-1:interface_predictions": 55296,
+        "fresh-1:native_selected_responses": 9216,
+        "fresh-1:committed_fragments": 9216,
+        "fresh-1:routing_comparisons": 55296
+      }
+    }
+  ],
+  "accepted_acquisitions": 0,
+  "accepted_neural_recruitments": 0,
+  "terminal_relative_gains": [
+    0.0,
+    0.0
+  ],
+  "terminal_quality_changes": [
+    0.0,
+    0.0
+  ],
+  "terminal_quality_root": [
+    1.3879235498411817,
+    1.1390376500195938
+  ],
+  "terminal_quality_final": [
+    1.3879235498411817,
+    1.1390376500195938
+  ],
+  "terminal_contracts": [
+    {
+      "retained": 4,
+      "total": 4,
+      "quality_ok": true,
+      "programs_ok": true
+    },
+    {
+      "retained": 4,
+      "total": 4,
+      "quality_ok": true,
+      "programs_ok": true
+    }
+  ],
+  "terminal_strict_gain": false,
+  "cumulative_repeated_gain": false,
+  "final_retained_port_ids": [],
+  "fixed_map_values": 600,
+  "peak_retained_payload_bytes": 1067280,
+  "source_and_online_work": {
+    "compiled_port_rows": 660,
+    "native_scalar_responses": 712980,
+    "native_scalar_partials": 11700,
+    "local_interfaces_fitted": 10,
+    "maximum_screen_workspace_bytes": 464256,
+    "source_array_bytes_read": 8125920
+  },
+  "base_runtime_work": {
+    "screening_parent:interface_predictions": 276480,
+    "screening_parent:native_selected_responses": 46080,
+    "screening_parent:committed_fragments": 46080,
+    "screening_parent:routing_comparisons": 276480,
+    "candidate_source:interface_predictions": 2488320,
+    "candidate_source:native_selected_responses": 414720,
+    "candidate_source:committed_fragments": 414720,
+    "candidate_source:routing_comparisons": 2488320,
+    "feedback-0:interface_predictions": 276480,
+    "feedback-0:native_selected_responses": 46080,
+    "feedback-0:committed_fragments": 46080,
+    "feedback-0:routing_comparisons": 276480,
+    "feedback-1:interface_predictions": 276480,
+    "feedback-1:native_selected_responses": 46080,
+    "feedback-1:committed_fragments": 46080,
+    "feedback-1:routing_comparisons": 276480,
+    "fresh-0:interface_predictions": 276480,
+    "fresh-0:native_selected_responses": 46080,
+    "fresh-0:committed_fragments": 46080,
+    "fresh-0:routing_comparisons": 276480,
+    "fresh-1:interface_predictions": 276480,
+    "fresh-1:native_selected_responses": 46080,
+    "fresh-1:committed_fragments": 46080,
+    "fresh-1:routing_comparisons": 276480,
+    "terminal_source:interface_predictions": 104448,
+    "terminal_source:native_selected_responses": 17408,
+    "terminal_source:committed_fragments": 17408,
+    "terminal_source:routing_comparisons": 104448,
+    "terminal-0:interface_predictions": 104448,
+    "terminal-0:native_selected_responses": 17408,
+    "terminal-0:committed_fragments": 17408,
+    "terminal-0:routing_comparisons": 104448,
+    "terminal-1:interface_predictions": 104448,
+    "terminal-1:native_selected_responses": 17408,
+    "terminal-1:committed_fragments": 17408,
+    "terminal-1:routing_comparisons": 104448
+  },
+  "wall_seconds": 9.606350417016074,
+  "terminal_seconds": 1.193326166830957
+}

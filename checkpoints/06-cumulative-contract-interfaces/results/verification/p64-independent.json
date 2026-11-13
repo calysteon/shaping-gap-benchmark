@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "contexts": 30,
+  "rounds": 50,
+  "score_vectors": 6540,
+  "maximum_score_error": 1.5543122344752192e-15,
+  "seals_checked": 650,
+  "all_source_heads_refitted": true,
+  "all_feedback_choices_replayed": true,
+  "all_acceptance_and_rollback_decisions_replayed": true,
+  "terminal_gains_replayed": true,
+  "retained_slots_and_shared_map_shape_verified": true,
+  "wall_seconds": 3.543731000041589
+}

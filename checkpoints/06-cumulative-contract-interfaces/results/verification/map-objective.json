@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "contract_maps": 300,
+  "maximum_relative_stationarity_error": 5.90638910405847e-13,
+  "criterion": "First-order stationarity of actual source objective via independent forward program-output losses; no reused Sylvester/eigen solver.",
+  "wall_seconds": 0.45929345791228116
+}

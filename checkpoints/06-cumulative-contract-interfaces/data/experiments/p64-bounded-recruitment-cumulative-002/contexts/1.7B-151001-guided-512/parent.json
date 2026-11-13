@@ -1,0 +1,7 @@
+{
+  "context": "1.7B-151001-integrated",
+  "selected_slot": 0,
+  "source_runtime_sha256": "32840a41aaabf1f5917358694576c6ff7881af7e1da74e86af40a0f3569bf703",
+  "source_return_sha256": "e1fd26cc042514bb54293c7df19777997a8039fd1b14109efd211eff76d8119d",
+  "initial_compatibility": "Canonical space is the accepted Checkpoint05 runtime. Original readouts unchanged."
+}

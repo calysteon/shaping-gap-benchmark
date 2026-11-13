@@ -1,0 +1,16 @@
+[
+  {
+    "port": 18,
+    "signal_rms": 0.0005270843339534987,
+    "direction_rms": 0.024972906943860673,
+    "parent_state_rms": 0.24471347463294507,
+    "profile_relative_error": 0.0038448022376620272
+  },
+  {
+    "port": 124,
+    "signal_rms": 0.0005635815664257573,
+    "direction_rms": 0.013908566662521315,
+    "parent_state_rms": 0.24471347463294507,
+    "profile_relative_error": 0.0010404152465681685
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "number": 6,
+  "id": "06-cumulative-contract-interfaces",
+  "date": "2026-11-13",
+  "title": "Shaping Gap Benchmark VI: A Second Compatible Neural Acquisition Through Program-Contract Interfaces",
+  "authors": [
+    "Nathaniel Oh",
+    "Paul Attie"
+  ],
+  "paper": "paper/shaping-gap-benchmark-vi.pdf",
+  "predecessor": "05-component-learning-cycle",
+  "status": "published-in-repository",
+  "observed_advances": [
+    "Second retained neural acquisition from the already improved component runtime: terminal nonlinear temporal scores1.38792/1.13904 to1.84921/1.70404, with6/6 protected program instances retained.",
+    "A shared program-contract observation map remains600 values; one newly recruited original pretrained port retained, source parameters frozen.",
+    "Complete recruitment study scales64to512 candidates with2/6to4/6 terminal gains and explicit work; its already improved chain stalls.",
+    "Chronological public energy-series transfer:0.564percent lower onehourRMSE,2.220percent tenminute regression; primaryapplicationcriterion fails andAR64isstronger.",
+    "Independent score/selection/native/map/application audits and complete negative results included."
+  ],
+  "research_scope": [
+    "One prior successful context for the secondgain continuation; matchedfeaturemap controlalso succeeds.",
+    "Program-contract map uses numerical source targets through unchangedprogramreadouts, rather than label-freeacquisition.",
+    "One additionalgain, noactive-slot eviction exercised; stronger repeatedacquisition criterionfalse.",
+    "Temporalprocessingassay andonehouseunivariateforecasting, notlanguageaccuracy ormeasuredcommercial/energy savings."
+  ]
+}

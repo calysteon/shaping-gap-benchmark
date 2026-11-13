@@ -1,0 +1,5 @@
+{
+  "max_absolute_error": 5.4624476480327535e-18,
+  "rtol": 2e-05,
+  "atol": 2e-05
+}

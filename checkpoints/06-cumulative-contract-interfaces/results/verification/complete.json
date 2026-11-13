@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "p64",
+    "p65",
+    "maps",
+    "native",
+    "application"
+  ],
+  "wall_seconds": 7.259745249990374,
+  "recorded_data_modified": false
+}

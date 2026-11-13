@@ -1,0 +1,89 @@
+[
+  {
+    "slot": 0,
+    "kind": "baseline",
+    "port": null,
+    "evicted": null,
+    "fraction": 0.0,
+    "physical_slot": 0,
+    "interface": "unchanged"
+  },
+  {
+    "slot": 1,
+    "kind": "baseline",
+    "port": null,
+    "evicted": null,
+    "fraction": 0.0,
+    "physical_slot": 0,
+    "interface": "program_contract",
+    "feature_weight": 0.01,
+    "ridge": 0.001,
+    "minimum_output_weight_eigenvalue": 0.010000051207688376,
+    "maximum_output_weight_eigenvalue": 1817.8151066948658
+  },
+  {
+    "slot": 2,
+    "kind": "baseline",
+    "port": null,
+    "evicted": null,
+    "fraction": 0.0,
+    "physical_slot": 0,
+    "interface": "program_contract",
+    "feature_weight": 0.01,
+    "ridge": 0.01,
+    "minimum_output_weight_eigenvalue": 0.010000051207688376,
+    "maximum_output_weight_eigenvalue": 1817.8151066948658
+  },
+  {
+    "slot": 3,
+    "kind": "baseline",
+    "port": null,
+    "evicted": null,
+    "fraction": 0.0,
+    "physical_slot": 0,
+    "interface": "program_contract",
+    "feature_weight": 0.1,
+    "ridge": 0.001,
+    "minimum_output_weight_eigenvalue": 0.10000005120767436,
+    "maximum_output_weight_eigenvalue": 1817.905106694865
+  },
+  {
+    "slot": 4,
+    "kind": "baseline",
+    "port": null,
+    "evicted": null,
+    "fraction": 0.0,
+    "physical_slot": 0,
+    "interface": "program_contract",
+    "feature_weight": 0.1,
+    "ridge": 0.01,
+    "minimum_output_weight_eigenvalue": 0.10000005120767436,
+    "maximum_output_weight_eigenvalue": 1817.905106694865
+  },
+  {
+    "slot": 5,
+    "kind": "baseline",
+    "port": null,
+    "evicted": null,
+    "fraction": 0.0,
+    "physical_slot": 0,
+    "interface": "program_contract",
+    "feature_weight": 1.0,
+    "ridge": 0.001,
+    "minimum_output_weight_eigenvalue": 1.0000000512076703,
+    "maximum_output_weight_eigenvalue": 1818.8051066948653
+  },
+  {
+    "slot": 6,
+    "kind": "baseline",
+    "port": null,
+    "evicted": null,
+    "fraction": 0.0,
+    "physical_slot": 0,
+    "interface": "program_contract",
+    "feature_weight": 1.0,
+    "ridge": 0.01,
+    "minimum_output_weight_eigenvalue": 1.0000000512076703,
+    "maximum_output_weight_eigenvalue": 1818.8051066948653
+  }
+]

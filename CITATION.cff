@@ -10,11 +10,11 @@ authors:
 repository-code: "https://github.com/calysteon/shaping-gap-benchmark"
 preferred-citation:
   type: article
-  title: "Shaping Gap Benchmark V: Learned Component Execution Beyond the Transformer Graph"
+  title: "Shaping Gap Benchmark VI: A Second Compatible Neural Acquisition Through Program-Contract Interfaces"
   authors:
     - family-names: Oh
       given-names: Nathaniel
     - family-names: Attie
       given-names: Paul
   year: 2026
-  url: "https://github.com/calysteon/shaping-gap-benchmark/blob/main/checkpoints/05-component-learning-cycle/paper/shaping-gap-benchmark-v.pdf"
+  url: "https://github.com/calysteon/shaping-gap-benchmark/blob/main/checkpoints/06-cumulative-contract-interfaces/paper/shaping-gap-benchmark-vi.pdf"

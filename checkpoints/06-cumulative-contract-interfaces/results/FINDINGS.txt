@@ -1,0 +1,16 @@
+CHECKPOINT06: SECOND COMPATIBLE COMPONENT ACQUISITION
+
+Second neural gain confirmed from the already improved runtime: True
+Stronger two-additional-recruitment criterion: False
+
+P64 recruitment/scaling and the failed deep-chain attempt remain part of the evidence.
+P65 feature: 1 neural recruitments; terminal scores [1.3879235498411902, 1.1390376500195911] -> [1.672734639987962, 1.4535187961073057]; gains [0.20520661255395556, 0.276093723576482]; contracts [{'retained': 6, 'total': 6, 'quality_ok': True, 'programs_ok': True}, {'retained': 6, 'total': 6, 'quality_ok': True, 'programs_ok': True}]
+P65 contract: 1 neural recruitments; terminal scores [1.3879235498411902, 1.1390376500195911] -> [1.8492100331573258, 1.7040425330376852]; gains [0.33235727095265244, 0.4960370563768249]; contracts [{'retained': 6, 'total': 6, 'quality_ok': True, 'programs_ok': True}, {'retained': 6, 'total': 6, 'quality_ok': True, 'programs_ok': True}]
+P65 interface_only: 0 neural recruitments; terminal scores [1.3879235498411817, 1.1390376500195938] -> [1.3879235498411817, 1.1390376500195938]; gains [0.0, 0.0]; contracts [{'retained': 4, 'total': 4, 'quality_ok': True, 'programs_ok': True}, {'retained': 4, 'total': 4, 'quality_ok': True, 'programs_ok': True}]
+
+P66 application primary criterion: False
+Test paired changes: {'1': {'relative_rmse_reduction': -0.022200574545488908, 'paired_block_interval': [-0.04435937427863379, 0.004031120739906887]}, '6': {'relative_rmse_reduction': 0.005642320348901437, 'paired_block_interval': [0.0010088128587800397, 0.011751435727284666]}, '24': {'relative_rmse_reduction': 8.880494917329613e-05, 'paired_block_interval': [-0.0016311405658446206, 0.0014113247603952219]}}
+One-hour RMSE improves0.56percent, ten-minute RMSE worsens2.22percent,64-lag ridge is stronger.
+The source components remain frozen; source labels enter the new program-contract interface objective.
+Four retained recruitment slots are a cap; the successful controller uses one and no eviction is exercised.
+Shared canonical compatibility has600 coefficients throughout. Program libraries and CPU/preparation peaks are separately charged.

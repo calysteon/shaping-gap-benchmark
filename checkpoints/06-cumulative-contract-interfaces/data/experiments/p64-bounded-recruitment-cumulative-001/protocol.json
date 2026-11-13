@@ -1,0 +1,71 @@
+{
+  "id": "P64-BOUNDED-RECRUITMENT-CUMULATIVE-001",
+  "run_id": "p64-bounded-recruitment-cumulative-001",
+  "status": "prospective_before_new_task_outcomes",
+  "question": "Can response/residual-sensitive recruitment add retained processing gains to an already improved component runtime, with fixed active recruitment slots, unchanged old programs, composed compatibility and full acquisition/maintenance costs?",
+  "config": {
+    "models": [
+      "0.6B",
+      "1.7B"
+    ],
+    "seeds": [
+      151001,
+      151002,
+      151003
+    ],
+    "arms": [
+      "guided-64",
+      "guided-128",
+      "guided-512",
+      "random-128",
+      "resident"
+    ],
+    "deep_model": "0.6B",
+    "deep_seed": 151003,
+    "deep_rounds": 5,
+    "retained_recruits": 4,
+    "executed_recruits": 2,
+    "proposed_ports": 2,
+    "screen_chunk": 16,
+    "signal_floor": 1e-24,
+    "epsilon": 0.8,
+    "input_gain": 0.2,
+    "state_limit": 50.0,
+    "burn": 128,
+    "training_steps": 1024,
+    "assessment_steps": 1024,
+    "readout_ridge": 0.0001,
+    "transport_ridge": 0.001,
+    "reliability_threshold": 0.5,
+    "quality_acceptance": 0.01,
+    "preservation_tolerance": 0.01,
+    "local_profile_samples": 64,
+    "local_scale_floor": 0.01,
+    "local_jitter": 0.1,
+    "local_profile_ridge": 1e-06,
+    "signed_action_fractions": [
+      -0.05,
+      -0.02,
+      0.02,
+      0.05
+    ],
+    "seed_base": 2100000,
+    "seed_stride": 1000,
+    "terminal_source_seed": 2300001,
+    "terminal_training": 2048,
+    "terminal_seeds": [
+      2300011,
+      2300012
+    ],
+    "terminal_steps": 2048,
+    "retained_payload_cap": 8388608
+  },
+  "scope": "Six inherited integrated contexts start at their exact P63 accepted state. All five arms execute one acquisition in all six contexts. The already successful0.6B context151003 executes five rounds per arm, prespecified from published prior result. This deliberate deep chain tests a second gain from a known improved runtime; no population extrapolation.",
+  "mechanism": "Stream immutable512-port pools in16-row chunks. Guided arms rank64/128/512 candidates by normalized alignment of native nonlinear response contrast with the current unmet-target residual propagated through frozen readout state sensitivities. Gaussian/random candidate identity control samples2 from128 without screening every port; resident control scores only the original24 fragments. Profile only2 shortlisted ports using64 local native value/partial observations. Four active retained slots, at most2 extra fragment executions per step. Once full, propose replacement of the source-smallest-RMS edge. Four signed calibrated action fractions are supplied. All native fragments remain fixed; connection choice, local interface and raw-affine compatibility are acquired.",
+  "compatibility": "All readouts remain unchanged in a common raw canonical space of the P63 accepted runtime. Child-to-parent maps fitted on paired neural source observations compose into a single24x24 raw-affine map with24 bias values, independent of cycle count. The initial P63 map supplies the fixed legacy input adapter. New assessment heads fit source data only and are frozen. Program library storage is separately charged; no unlimited-archive bound.",
+  "acceptance": "Development choice requires >=1percent gain in both new feedback streams versus an equal-source-refitted parent readout, all fixed old program IDs >=.5, every prior library quality no more than1percent below paired current parent, and root accepted-head quality no more than1percent below the fixed P63 accepted reference. Lock choice before two fresh streams. Fresh pass commits for the next round; failure rolls back with work/failure retained. Per-round fresh outcomes are explicit prior experience only for later rounds. Final controller and equally fitted root/final terminal heads seal before two untouched2048-step terminal streams.",
+  "primary": "A fresh second retained gain from the prespecified already improved0.6B151003 path. Stronger repeated-acquisition criterion: >=2 accepted P64 acquisitions on that path and >=1percent terminal quality gain in both independent terminal streams with all prior program/quality obligations. Controls, source-null cases and all six-context results reported independently of this chain.",
+  "costs": "Every inherited P63 source cost is carried as shared history; pool extraction and fidelity measured separately. Charge per-arm screening queries, native values/partials, compilation, unused profiles, all candidate execution, refit-only baseline, feedback, rollbacks, evictions and map composition. Bound retained controller/program arrays to8MiB and active recruitment to4 slots; report whole-process and preparation peaks separately. Source archives are not active controller state. No direct energy or whole-LLM capability claim.",
+  "stopping": "One fixed50-round-cell study (30 first rounds plus20 deep continuation rounds), followed by all terminal tests. No tuning or exclusions after outcomes. Engineering failure preserves partial records and source before a new version/run. No changes to prior P63 data or public checkpoint. A separate application study is designed after mechanism results but before its test outcomes.",
+  "pool_manifest_sha256": "c82d0007450382a37755b1759970b988cc9999c1a080eca25ea2f745189ee6ce"
+}

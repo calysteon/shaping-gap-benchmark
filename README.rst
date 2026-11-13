@@ -4,46 +4,57 @@ Shaping Gap Benchmark
 Learning executable improvements from pretrained neural components
 ------------------------------------------------------------------
 
-**The learning and compatibility cycle now operates without executing the
-original transformer graph.** A component runtime acquires response interfaces,
-uses them to connect frozen pretrained fragments, and learns which execution
-change and shared compatibility interface to retain for fresh inputs.
+**A runtime built from frozen pretrained components has acquired a second
+compatible neural improvement.** It recruits an additional native component,
+learns one shared interface to keep earlier programs usable, and selects the
+execution/interface pair from experience before testing on fresh inputs.
 
-**Latest: Checkpoint 05 - Component learning beyond the transformer graph.**
-`Read Paper V <checkpoints/05-component-learning-cycle/paper/shaping-gap-benchmark-v.pdf>`_
-· `Code, data and reproduction <checkpoints/05-component-learning-cycle/README.rst>`_
-· `All results and controls <checkpoints/05-component-learning-cycle/results/FINDINGS.txt>`_
+**Latest: Checkpoint 06 - A second compatible neural acquisition.**
+`Read Paper VI <checkpoints/06-cumulative-contract-interfaces/paper/shaping-gap-benchmark-vi.pdf>`_
+· `Code, data and reproduction <checkpoints/06-cumulative-contract-interfaces/README.rst>`_
+· `All findings <checkpoints/06-cumulative-contract-interfaces/results/FINDINGS.txt>`_
 
-.. image:: checkpoints/05-component-learning-cycle/results/checkpoint-overview.png
-   :alt: Acquired component runtime with one retained fresh quality improvement and complete-cohort controls
+.. image:: checkpoints/06-cumulative-contract-interfaces/results/checkpoint-overview.png
+   :alt: Second retained gain and recruitment screening results at increasing candidate pool sizes
    :width: 100%
 
 Measured advance
 ----------------
 
-Twenty-four sampled neural fragments from each source context execute through
-a new recurrent runtime. Acquired response/partial interfaces guide which
-fragments interact. Transformer blocks, attention, tokenization and generation
-are outside its execution path. The selected pretrained component arrays stay
-fixed; the acquired runtime and interfaces are additional recorded state.
+From the already improved Checkpoint 05 runtime, two untouched terminal
+nonlinear temporal-processing scores rise **1.38792 -> 1.84921** and
+**1.13904 -> 1.70404** (33.24%/49.60%), while **6/6** protected program instances
+remain usable. These instances belong to three frozen program libraries;
+they are not six distinct new functions. The feature-interface control gains
+20.52%/27.61%; the interface-only control retains baseline.
 
-In one 0.6B-derived context, fresh nonlinear temporal-processing scores improve
-**0.75648 -> 1.17401** and **0.79913 -> 1.16017**, with **2/2** eligible old
-programs retained through the shared interface, versus **1/2** direct.
-Across all six integrated-guidance contexts, one retained update and five
-baseline fallbacks give positive mean score changes **+0.06959/+0.06017** and
-**18/18** old program instances retained.
+The successful construction adds **one original pretrained component** and
+keeps **one 600-value shared map**, with 1,102,272 bytes of conservatively counted
+runtime/program arrays. The source weights remain fixed and the original
+transformer graph is outside execution. The acquired map uses numerical source
+targets through unchanged programs. One additional acquisition is confirmed;
+the stronger two-additional-gain criterion is not met.
 
-All 24 model/context/control conditions are released. First-order guidance has
-two strict successes; shuffled and norm-matched random-weight controls have one
-each. This establishes one finite component-level learning/reuse cycle, with
-the controls, precision differences and resource costs explicit.
+Recruitment and application evidence
+------------------------------------
 
-**Verification:** 1,440 score vectors, all choices and 360 seals replay;
-4,800 component fields and 9,600 stage-binding choices are independently checked.
-CPU replay and execution use the supplied component banks, without loading the
-original language models. The checkpoint guide separates compiled-runtime memory
-from full-model preparation and documents numerical materialization tolerances.
+The initial recruitment study screens **64/128/512** candidates in fixed chunks,
+yielding **2/3/4** terminal gains across six inherited contexts. Random-128 and
+resident controls each yield three. Larger pools cost more to screen, and the
+already improved chain stalls in this first study. That measured preservation
+bottleneck motivates the prospectively tested program-contract interface.
+
+A separate chronological appliance-energy transfer test keeps the acquired
+controllers fixed. One-hour forecast RMSE falls **83.1373 -> 82.6682 Wh** (0.564%),
+but ten-minute error rises 2.220%, and a 64-lag ridge autoregression reference is
+stronger at all horizons. The application primary criterion is not met. All
+results, controls, failed attempts and lifecycle costs are released. The next
+acquisition can now target those concrete forecast requirements directly.
+
+**Verification:** 12,112 temporal score vectors, 1,109 seals, 300 program-map
+stationarity checks, 8,320 full-coordinate native response points and 48
+application metric rows replay. Fresh portable contract acquisition and
+application execution reproduce the reported outcomes exactly.
 
 Checkpoint 04 remains the whole-body foundation
 -----------------------------------------------
@@ -59,13 +70,12 @@ Start with the current result
 
 From the repository root::
 
-    python3 -m pip install -r checkpoints/05-component-learning-cycle/requirements-analysis.txt
-    python3 checkpoints/05-component-learning-cycle/code/replay.py
-    python3 checkpoints/05-component-learning-cycle/code/report.py
+    python3 -m pip install -r checkpoints/06-cumulative-contract-interfaces/requirements-analysis.txt
+    python3 checkpoints/06-cumulative-contract-interfaces/code/replay.py
 
-Replay loads no source language model. The `checkpoint guide <checkpoints/05-component-learning-cycle/README.rst>`_
-also documents full component-cycle acquisition and optional original-checkpoint
-extraction verification. New outputs go under the checkpoint's ``runs/`` directory.
+Replay uses supplied component banks on CPU. The `checkpoint guide <checkpoints/06-cumulative-contract-interfaces/README.rst>`_
+also documents fresh acquisition, real-data forecasting and optional exact-revision
+source-model re-extraction. Outputs go under the checkpoint's ``runs/`` directory.
 
 Research checkpoints
 --------------------
@@ -83,7 +93,13 @@ and `machine-readable index <CHECKPOINTS.json>`_ to track the buildup.
      - Advance
      - Paper and evidence
      - Publication record
-   * - **05 · Central result**
+   * - **06 · Central result**
+     - A second retained neural gain with shared program-contract compatibility;
+       bounded recruitment, complete controls and a real application boundary.
+     - `Paper VI <checkpoints/06-cumulative-contract-interfaces/paper/shaping-gap-benchmark-vi.pdf>`_
+       · `Code, data and reproduction <checkpoints/06-cumulative-contract-interfaces/README.rst>`_
+     - November 13, 2026 · `Checkpoint commits <https://github.com/calysteon/shaping-gap-benchmark/commits/main/checkpoints/06-cumulative-contract-interfaces>`_
+   * - **05 · Component learning**
      - Learned component execution completes an acquired execution/interface reuse
        cycle without the original transformer graph; full controls and costs.
      - `Paper V <checkpoints/05-component-learning-cycle/paper/shaping-gap-benchmark-v.pdf>`_
@@ -117,11 +133,11 @@ and `machine-readable index <CHECKPOINTS.json>`_ to track the buildup.
 The next research threshold
 ---------------------------
 
-Start from the accepted component runtime and acquire a second retained gain,
-composing compatibility interfaces into one fixed-size map while charging
-reorganization, failed trials and maintenance. This tests cumulative development
-from the demonstrated learning-and-reuse cycle. Stronger regression control and
-transfer to unseen runtimes remain explicit parts of the research program.
+Acquire directly against application contracts: improve longer-horizon forecasts
+while preserving the short-horizon consumer and competing with AR64. Continue
+beyond this second neural gain, then test replacement in a full active bank.
+Discovery, failed proposals, verification and maintenance stay in the cost
+ledger. Application quality and lifetime economics define the next threshold.
 
 Authors and citation
 --------------------

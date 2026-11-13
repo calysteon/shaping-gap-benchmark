@@ -1,0 +1,48 @@
+{
+  "id": "P66-ENERGY-FORECAST-TRANSFER-001",
+  "run_id": "p66-energy-forecast-transfer-001",
+  "status": "prospective_before_any_application_prediction_or_test_outcome",
+  "question": "Does a controller improved through component acquisition and contract-aware compatibility transfer to useful chronological appliance-energy forecasting?",
+  "config": {
+    "expected_rows": 19735,
+    "train_fraction": 0.6,
+    "validation_end_fraction": 0.8,
+    "horizons": [
+      1,
+      6,
+      24
+    ],
+    "primary_horizon": 6,
+    "washout": 128,
+    "ar_lags": 64,
+    "day_steps": 144,
+    "readout_ridge": 0.001,
+    "epsilon": 0.8,
+    "input_gain": 0.2,
+    "state_limit": 50.0,
+    "executed_recruits": 2,
+    "retained_recruits": 4,
+    "bootstrap_block": 144,
+    "bootstrap_repeats": 1000,
+    "bootstrap_seed": 4200001,
+    "quality_acceptance": 0.01,
+    "regression_allowance": 0.01
+  },
+  "data": {
+    "dataset": "UCI Appliances Energy Prediction",
+    "creator": "Luis Candanedo",
+    "doi": "10.24432/C5VC8G",
+    "license": "CC BY4.0",
+    "source": "https://archive.ics.uci.edu/static/public/374/appliances%2Benergy%2Bprediction.zip",
+    "archive_sha256": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+    "csv_sha256": "2820bf712ad0275cb18b85a05250926100d8e65ebb9f4d2d016ca91ea152a25d",
+    "bytes": 11979363,
+    "wall_seconds": 2.0886748749762774,
+    "scope": "Raw dataset download only; no forecasting or test outcome computed."
+  },
+  "method": "Controllers fixed fromP63/P65; no application-based choice. Inputs are past/current appliance Wh transformed by training-only log1p median/std and tanh. Runtimes remain unchanged. Fit three linear forecast readouts on first60percent; lock before validation/test. Validation20percent never changes settings. Test last20percent; horizons10min,1h,4h, exclude targets crossing partition boundaries; state carried causally. Same source-label exposure and ridge for all neural models and64-lag ridge AR; persistence and daily-seasonal references. No room/weather covariates used.",
+  "primary": "P65 contract controller vs P63 accepted runtime: >=1percent lower1hour test RMSE, paired144-sample block-bootstrap95percent interval for improvement above0, and no more than1percent degradation at other horizons. Stronger operational competitiveness vsAR64/persistence/seasonal is reported separately. Report all five runtimes and three classical baselines even if primary fails.",
+  "costs": "Carry P63/P64/P65 development and pool preparation as inherited research work. Report application readout fitting, native inference/compiled-port work, wall/memory and unchanged controller hashes separately. All neural controllers get equal source forecast labels; none of their pretrained weights or execution parameters changes. No measured electricity or savings claim.",
+  "scope": "Single low-energy-house public measurement series at10min resolution. Forecast transfer on one variable, not an entire industrial deployment or state-of-the-art multivariate comparison. Source model arrays and program contracts were acquired on a different synthetic numerical workload.",
+  "stopping": "One chronological split and fixed source-derived scaling/forecasters/hyperparameters. No tuning or controller selection against validation/test. Preserve all results and errors; engineering failures require recorded new version."
+}

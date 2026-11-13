@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "forecast_metric_rows": 48,
+  "source_heads_refit": true,
+  "training_only_scaler_verified": true,
+  "chronological_no_boundary_crossing_targets": true,
+  "head_seals_verified": true,
+  "maximum_coefficient_refit_error": 0.0,
+  "maximum_prediction_replay_error": 0.0,
+  "all_classical_baselines_recomputed": true,
+  "wall_seconds": 0.04780829115770757
+}

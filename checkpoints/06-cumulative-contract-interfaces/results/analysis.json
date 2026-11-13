@@ -1,0 +1,790 @@
+{
+  "recruitment": {
+    "prespecified_second_gain_on_already_improved_chain": false,
+    "repeated_acquisition_criterion_met": false,
+    "groups": {
+      "guided-64": {
+        "accepted_acquisitions": 2,
+        "terminal_success_contexts": 2,
+        "mean_terminal_quality_changes": [
+          0.12817153213678253,
+          0.1221181392862533
+        ],
+        "deep_accepted_acquisitions": 0,
+        "deep_terminal_gains": [
+          0.0,
+          0.0
+        ],
+        "largest_screen_workspace": 660864,
+        "max_retained_payload": 1847744,
+        "native_screen_and_port_responses": 1164712
+      },
+      "guided-128": {
+        "accepted_acquisitions": 3,
+        "terminal_success_contexts": 3,
+        "mean_terminal_quality_changes": [
+          0.31780956021667134,
+          0.31107886238772703
+        ],
+        "deep_accepted_acquisitions": 0,
+        "deep_terminal_gains": [
+          0.0,
+          0.0
+        ],
+        "largest_screen_workspace": 660864,
+        "max_retained_payload": 1847744,
+        "native_screen_and_port_responses": 1833768
+      },
+      "guided-512": {
+        "accepted_acquisitions": 4,
+        "terminal_success_contexts": 4,
+        "mean_terminal_quality_changes": [
+          0.43055626113714984,
+          0.42208003217503415
+        ],
+        "deep_accepted_acquisitions": 0,
+        "deep_terminal_gains": [
+          0.0,
+          0.0
+        ],
+        "largest_screen_workspace": 660864,
+        "max_retained_payload": 1847744,
+        "native_screen_and_port_responses": 5782824
+      },
+      "random-128": {
+        "accepted_acquisitions": 3,
+        "terminal_success_contexts": 3,
+        "mean_terminal_quality_changes": [
+          0.36832377922891246,
+          0.39748759753003693
+        ],
+        "deep_accepted_acquisitions": 0,
+        "deep_terminal_gains": [
+          0.0,
+          0.0
+        ],
+        "largest_screen_workspace": 0,
+        "max_retained_payload": 1847744,
+        "native_screen_and_port_responses": 542268
+      },
+      "resident": {
+        "accepted_acquisitions": 3,
+        "terminal_success_contexts": 3,
+        "mean_terminal_quality_changes": [
+          0.3291919222237485,
+          0.34294329705395293
+        ],
+        "deep_accepted_acquisitions": 0,
+        "deep_terminal_gains": [
+          0.0,
+          0.0
+        ],
+        "largest_screen_workspace": 660864,
+        "max_retained_payload": 1847744,
+        "native_screen_and_port_responses": 767768
+      }
+    },
+    "development_contract_counts": {
+      "candidates": 400,
+      "quality_gain_both": 288,
+      "reliable_programs_preserved": 223,
+      "prior_quality_preserved": 66,
+      "fully_admissible": 37
+    },
+    "deep_chain_contract_counts": {
+      "candidates": 200,
+      "quality_gain_both": 112,
+      "reliable_programs_preserved": 110,
+      "prior_quality_preserved": 9,
+      "fully_admissible": 8
+    },
+    "wall_seconds": 175.40736520802602,
+    "process_peak_rss_bytes": 93241344,
+    "interpretation": "Guided recruitment with512 candidates yields4/6 terminal gains at fixed recruitment capacity;128 yields3/6,64 yields2/6. All deep-chain arms preserve baseline: no second retained gain from the already improved P63 context. Most source-supported quality opportunities fail the stronger preservation contract; compatibility/acquisition must be improved. Random/resident controls also succeed in some other contexts."
+  },
+  "second_acquisition": [
+    {
+      "arm": "feature",
+      "accepted_acquisitions": 1,
+      "accepted_neural_recruitments": 1,
+      "terminal_relative_gains": [
+        0.20520661255395556,
+        0.276093723576482
+      ],
+      "terminal_quality_root": [
+        1.3879235498411902,
+        1.1390376500195911
+      ],
+      "terminal_quality_final": [
+        1.672734639987962,
+        1.4535187961073057
+      ],
+      "terminal_contracts": [
+        {
+          "retained": 6,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": true
+        },
+        {
+          "retained": 6,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": true
+        }
+      ],
+      "terminal_strict_gain": true,
+      "cumulative_repeated_gain": false,
+      "final_retained_port_ids": [
+        38
+      ],
+      "fixed_map_values": 600,
+      "peak_retained_payload_bytes": 1102272,
+      "source_and_online_work": {
+        "compiled_port_rows": 660,
+        "native_scalar_responses": 1009812,
+        "native_scalar_partials": 11700,
+        "local_interfaces_fitted": 10,
+        "maximum_screen_workspace_bytes": 464256,
+        "source_array_bytes_read": 8125920
+      },
+      "wall_seconds": 15.873141042189673
+    },
+    {
+      "arm": "contract",
+      "accepted_acquisitions": 1,
+      "accepted_neural_recruitments": 1,
+      "terminal_relative_gains": [
+        0.33235727095265244,
+        0.4960370563768249
+      ],
+      "terminal_quality_root": [
+        1.3879235498411902,
+        1.1390376500195911
+      ],
+      "terminal_quality_final": [
+        1.8492100331573258,
+        1.7040425330376852
+      ],
+      "terminal_contracts": [
+        {
+          "retained": 6,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": true
+        },
+        {
+          "retained": 6,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": true
+        }
+      ],
+      "terminal_strict_gain": true,
+      "cumulative_repeated_gain": false,
+      "final_retained_port_ids": [
+        38
+      ],
+      "fixed_map_values": 600,
+      "peak_retained_payload_bytes": 1102272,
+      "source_and_online_work": {
+        "compiled_port_rows": 660,
+        "native_scalar_responses": 1009812,
+        "native_scalar_partials": 11700,
+        "local_interfaces_fitted": 10,
+        "maximum_screen_workspace_bytes": 464256,
+        "source_array_bytes_read": 8125920
+      },
+      "wall_seconds": 23.2746727920603
+    },
+    {
+      "arm": "interface_only",
+      "accepted_acquisitions": 0,
+      "accepted_neural_recruitments": 0,
+      "terminal_relative_gains": [
+        0.0,
+        0.0
+      ],
+      "terminal_quality_root": [
+        1.3879235498411817,
+        1.1390376500195938
+      ],
+      "terminal_quality_final": [
+        1.3879235498411817,
+        1.1390376500195938
+      ],
+      "terminal_contracts": [
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": true,
+          "programs_ok": true
+        },
+        {
+          "retained": 4,
+          "total": 4,
+          "quality_ok": true,
+          "programs_ok": true
+        }
+      ],
+      "terminal_strict_gain": false,
+      "cumulative_repeated_gain": false,
+      "final_retained_port_ids": [],
+      "fixed_map_values": 600,
+      "peak_retained_payload_bytes": 1067280,
+      "source_and_online_work": {
+        "compiled_port_rows": 660,
+        "native_scalar_responses": 712980,
+        "native_scalar_partials": 11700,
+        "local_interfaces_fitted": 10,
+        "maximum_screen_workspace_bytes": 464256,
+        "source_array_bytes_read": 8125920
+      },
+      "wall_seconds": 9.606350417016074
+    }
+  ],
+  "second_gain_confirmed": true,
+  "stronger_repeated_criterion": false,
+  "program_contract_new_work_seconds": 48.786353499861434,
+  "program_contract_process_peak_rss_bytes": 158056448,
+  "application": {
+    "results": [
+      {
+        "split": "validation",
+        "model": "checkpoint05_before_first_gain",
+        "horizon": 1,
+        "forecast_minutes": 10,
+        "units": "Wh",
+        "mae": 39.98398096242507,
+        "rmse": 73.4508585110264,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "checkpoint05_before_first_gain",
+        "horizon": 6,
+        "forecast_minutes": 60,
+        "units": "Wh",
+        "mae": 53.01076311208865,
+        "rmse": 94.60592703207102,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "checkpoint05_before_first_gain",
+        "horizon": 24,
+        "forecast_minutes": 240,
+        "units": "Wh",
+        "mae": 57.694441587015326,
+        "rmse": 102.94047673866623,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "checkpoint05_accepted",
+        "horizon": 1,
+        "forecast_minutes": 10,
+        "units": "Wh",
+        "mae": 40.93887935363538,
+        "rmse": 74.36648977034407,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "checkpoint05_accepted",
+        "horizon": 6,
+        "forecast_minutes": 60,
+        "units": "Wh",
+        "mae": 51.45210399336553,
+        "rmse": 94.42923259150454,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "checkpoint05_accepted",
+        "horizon": 24,
+        "forecast_minutes": 240,
+        "units": "Wh",
+        "mae": 58.99908724927763,
+        "rmse": 103.09210309205741,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "p65_feature",
+        "horizon": 1,
+        "forecast_minutes": 10,
+        "units": "Wh",
+        "mae": 40.977254487350805,
+        "rmse": 74.31943774354427,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "p65_feature",
+        "horizon": 6,
+        "forecast_minutes": 60,
+        "units": "Wh",
+        "mae": 51.59072827626842,
+        "rmse": 94.5485834310221,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "p65_feature",
+        "horizon": 24,
+        "forecast_minutes": 240,
+        "units": "Wh",
+        "mae": 59.0130839442861,
+        "rmse": 103.08430702719109,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "p65_contract",
+        "horizon": 1,
+        "forecast_minutes": 10,
+        "units": "Wh",
+        "mae": 40.29547117662503,
+        "rmse": 73.9685543553348,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "p65_contract",
+        "horizon": 6,
+        "forecast_minutes": 60,
+        "units": "Wh",
+        "mae": 51.28327700830192,
+        "rmse": 94.32495018890579,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "p65_contract",
+        "horizon": 24,
+        "forecast_minutes": 240,
+        "units": "Wh",
+        "mae": 58.88917702335132,
+        "rmse": 103.02218840319851,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "p65_interface_only",
+        "horizon": 1,
+        "forecast_minutes": 10,
+        "units": "Wh",
+        "mae": 40.938879353635414,
+        "rmse": 74.36648977034412,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "p65_interface_only",
+        "horizon": 6,
+        "forecast_minutes": 60,
+        "units": "Wh",
+        "mae": 51.452103993365526,
+        "rmse": 94.42923259150454,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "p65_interface_only",
+        "horizon": 24,
+        "forecast_minutes": 240,
+        "units": "Wh",
+        "mae": 58.99908724927763,
+        "rmse": 103.0921030920574,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "ar64",
+        "horizon": 1,
+        "forecast_minutes": 10,
+        "units": "Wh",
+        "mae": 28.705484467061634,
+        "rmse": 65.23455954383479,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "ar64",
+        "horizon": 6,
+        "forecast_minutes": 60,
+        "units": "Wh",
+        "mae": 47.85424657024105,
+        "rmse": 92.1152296938198,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "ar64",
+        "horizon": 24,
+        "forecast_minutes": 240,
+        "units": "Wh",
+        "mae": 57.16732233061202,
+        "rmse": 101.85681029118149,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "persistence",
+        "horizon": 1,
+        "forecast_minutes": 10,
+        "units": "Wh",
+        "mae": 28.473107315829722,
+        "rmse": 72.07531393916372,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "persistence",
+        "horizon": 6,
+        "forecast_minutes": 60,
+        "units": "Wh",
+        "mae": 55.0293143002804,
+        "rmse": 117.86117550452173,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "persistence",
+        "horizon": 24,
+        "forecast_minutes": 240,
+        "units": "Wh",
+        "mae": 71.67218965077747,
+        "rmse": 137.72828244728152,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "daily_seasonal",
+        "horizon": 1,
+        "forecast_minutes": 10,
+        "units": "Wh",
+        "mae": 59.90568442518481,
+        "rmse": 126.96229326171117,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "daily_seasonal",
+        "horizon": 6,
+        "forecast_minutes": 60,
+        "units": "Wh",
+        "mae": 59.900586286005606,
+        "rmse": 126.9620924878011,
+        "samples": 3923
+      },
+      {
+        "split": "validation",
+        "model": "daily_seasonal",
+        "horizon": 24,
+        "forecast_minutes": 240,
+        "units": "Wh",
+        "mae": 60.476676013255165,
+        "rmse": 127.67005573061154,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "checkpoint05_before_first_gain",
+        "horizon": 1,
+        "forecast_minutes": 10,
+        "units": "Wh",
+        "mae": 43.81047287179229,
+        "rmse": 71.32359217870547,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "checkpoint05_before_first_gain",
+        "horizon": 6,
+        "forecast_minutes": 60,
+        "units": "Wh",
+        "mae": 50.47327012881605,
+        "rmse": 83.22834085336224,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "checkpoint05_before_first_gain",
+        "horizon": 24,
+        "forecast_minutes": 240,
+        "units": "Wh",
+        "mae": 51.0806954315573,
+        "rmse": 89.65406023813874,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "checkpoint05_accepted",
+        "horizon": 1,
+        "forecast_minutes": 10,
+        "units": "Wh",
+        "mae": 46.105131590385334,
+        "rmse": 74.2172552075691,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "checkpoint05_accepted",
+        "horizon": 6,
+        "forecast_minutes": 60,
+        "units": "Wh",
+        "mae": 46.60076637330382,
+        "rmse": 83.1372942138527,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "checkpoint05_accepted",
+        "horizon": 24,
+        "forecast_minutes": 240,
+        "units": "Wh",
+        "mae": 51.92611904127502,
+        "rmse": 89.52475375218096,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "p65_feature",
+        "horizon": 1,
+        "forecast_minutes": 10,
+        "units": "Wh",
+        "mae": 45.72527786212429,
+        "rmse": 73.59644849538927,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "p65_feature",
+        "horizon": 6,
+        "forecast_minutes": 60,
+        "units": "Wh",
+        "mae": 46.45154771774828,
+        "rmse": 83.06323677449328,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "p65_feature",
+        "horizon": 24,
+        "forecast_minutes": 240,
+        "units": "Wh",
+        "mae": 52.08746025186516,
+        "rmse": 89.63068694384002,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "p65_contract",
+        "horizon": 1,
+        "forecast_minutes": 10,
+        "units": "Wh",
+        "mae": 46.83929609475207,
+        "rmse": 75.86492091436631,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "p65_contract",
+        "horizon": 6,
+        "forecast_minutes": 60,
+        "units": "Wh",
+        "mae": 46.36283440855759,
+        "rmse": 82.66820696695727,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "p65_contract",
+        "horizon": 24,
+        "forecast_minutes": 240,
+        "units": "Wh",
+        "mae": 51.94775244015115,
+        "rmse": 89.51680351097424,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "p65_interface_only",
+        "horizon": 1,
+        "forecast_minutes": 10,
+        "units": "Wh",
+        "mae": 46.10513159038524,
+        "rmse": 74.217255207569,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "p65_interface_only",
+        "horizon": 6,
+        "forecast_minutes": 60,
+        "units": "Wh",
+        "mae": 46.60076637330386,
+        "rmse": 83.13729421385266,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "p65_interface_only",
+        "horizon": 24,
+        "forecast_minutes": 240,
+        "units": "Wh",
+        "mae": 51.92611904127504,
+        "rmse": 89.52475375218096,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "ar64",
+        "horizon": 1,
+        "forecast_minutes": 10,
+        "units": "Wh",
+        "mae": 27.074743378469304,
+        "rmse": 60.16049538403962,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "ar64",
+        "horizon": 6,
+        "forecast_minutes": 60,
+        "units": "Wh",
+        "mae": 42.91014043653729,
+        "rmse": 81.43526453134743,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "ar64",
+        "horizon": 24,
+        "forecast_minutes": 240,
+        "units": "Wh",
+        "mae": 50.669268211293314,
+        "rmse": 86.86199500246298,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "persistence",
+        "horizon": 1,
+        "forecast_minutes": 10,
+        "units": "Wh",
+        "mae": 26.594443028294673,
+        "rmse": 66.4712702837309,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "persistence",
+        "horizon": 6,
+        "forecast_minutes": 60,
+        "units": "Wh",
+        "mae": 47.4636757583482,
+        "rmse": 103.45571213907628,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "persistence",
+        "horizon": 24,
+        "forecast_minutes": 240,
+        "units": "Wh",
+        "mae": 60.14019882742799,
+        "rmse": 116.63597668757218,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "daily_seasonal",
+        "horizon": 1,
+        "forecast_minutes": 10,
+        "units": "Wh",
+        "mae": 52.814172826918174,
+        "rmse": 110.29414013884703,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "daily_seasonal",
+        "horizon": 6,
+        "forecast_minutes": 60,
+        "units": "Wh",
+        "mae": 52.4802447106806,
+        "rmse": 109.78299917554898,
+        "samples": 3923
+      },
+      {
+        "split": "test",
+        "model": "daily_seasonal",
+        "horizon": 24,
+        "forecast_minutes": 240,
+        "units": "Wh",
+        "mae": 52.151414733622225,
+        "rmse": 109.01699675950718,
+        "samples": 3923
+      }
+    ],
+    "primary_fresh_transfer_criterion_met": false,
+    "test_paired_changes": {
+      "1": {
+        "relative_rmse_reduction": -0.022200574545488908,
+        "paired_block_interval": [
+          -0.04435937427863379,
+          0.004031120739906887
+        ]
+      },
+      "6": {
+        "relative_rmse_reduction": 0.005642320348901437,
+        "paired_block_interval": [
+          0.0010088128587800397,
+          0.011751435727284666
+        ]
+      },
+      "24": {
+        "relative_rmse_reduction": 8.880494917329613e-05,
+        "paired_block_interval": [
+          -0.0016311405658446206,
+          0.0014113247603952219
+        ]
+      }
+    },
+    "train_seconds": 2.8803624589927495,
+    "later_execution_seconds": 1.9423781249206513,
+    "wall_seconds": 5.273262792034075,
+    "process_peak_rss_bytes": 167198720,
+    "all_native_models_bounded": true,
+    "base_native_work": {
+      "application_training:interface_predictions": 2841840,
+      "application_training:native_selected_responses": 473640,
+      "application_training:committed_fragments": 473640,
+      "application_training:routing_comparisons": 2841840,
+      "application_validation_and_test:interface_predictions": 1894560,
+      "application_validation_and_test:native_selected_responses": 315760,
+      "application_validation_and_test:committed_fragments": 315760,
+      "application_validation_and_test:routing_comparisons": 1894560
+    },
+    "recruited_port_work": {
+      "compiled_port_rows": 0,
+      "native_scalar_responses": 39470,
+      "native_scalar_partials": 0,
+      "local_interfaces_fitted": 0,
+      "maximum_screen_workspace_bytes": 0,
+      "source_array_bytes_read": 0
+    },
+    "controller_names": [
+      "checkpoint05_before_first_gain",
+      "checkpoint05_accepted",
+      "p65_feature",
+      "p65_contract",
+      "p65_interface_only"
+    ],
+    "data_reference": "UCI Appliances Energy Prediction; Luis Candanedo2017; CC BY4.0; DOI10.24432/C5VC8G",
+    "forecast_scope": "Univariate chronological forecasting from prior/current appliance consumption; no weather/room covariates. Mechanism transfer test, not a full-dataset state-of-the-art claim."
+  }
+}

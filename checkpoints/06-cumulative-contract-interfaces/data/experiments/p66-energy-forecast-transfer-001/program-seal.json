@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-13T22:36:32.211284+00:00",
+  "source_row_indices": [
+    128,
+    11816
+  ],
+  "heads": {
+    "0": "483cef7a3d74fba1a7e4d8324552a9f0c88549aeef3e7b91ee0f5449aa0f98c2",
+    "1": "7d6cc4fd4d8bf1481b1ad862e164c5d4d8594fe65679d2d8a0b32af1d8c7fa39",
+    "2": "df61d362e6d1adc044f863ef6ec02ca521ae16ef009b3051676a9cc401881c8c",
+    "3": "e8106d92c20d56967c3c8885aeec5ab5562f760c459f39d8958961c0c9044070",
+    "4": "afe3dd9c69610ef53e5a063d140efc321b34aa31e45a517cf5e2c6b4aaf71de4"
+  },
+  "ar_head_sha256": "300ea5021e0e1599d6cc701ba8e8b4aa186f1bc9915c9f14e76d73a1950ba131",
+  "test_outcomes_exposed": false,
+  "controller_selection": "Contract arm fixed prospectively; no application-based controller choice."
+}

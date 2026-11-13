@@ -40,3 +40,20 @@ model revisions and numerical fidelity in data/banks/manifest.json. These small
 derived banks are redistributed with the retained upstream Qwen license and
 attribution. They are transformed arrays, not unchanged full source models.
 The separate Gaussian controls are generated with matched row norms.
+
+Checkpoint 06 recruitment pools and application data
+----------------------------------------------------
+
+Checkpoint 06 redistributes selected frozen pretrained parameter rows under the
+same Qwen3 model provenance and terms listed above and in Checkpoint 05. Its
+pool manifests record exact source parameter digests, unit coordinates and
+original-module numerical fidelity. These arrays are selected component banks,
+not complete source language models.
+
+The UCI Appliances Energy Prediction dataset is by Luis Candanedo (2017),
+DOI https://doi.org/10.24432/C5VC8G, licensed under Creative Commons Attribution
+4.0 International: https://creativecommons.org/licenses/by/4.0/.
+Unmodified source CSV and ZIP, download receipt and attribution are in
+``checkpoints/06-cumulative-contract-interfaces/data/application/``.
+The forecast study uses univariate appliance consumption from one house.
+Derived forecasts and numerical features are identified separately.

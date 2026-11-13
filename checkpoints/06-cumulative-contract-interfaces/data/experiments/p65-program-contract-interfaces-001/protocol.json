@@ -1,0 +1,74 @@
+{
+  "id": "P65-PROGRAM-CONTRACT-INTERFACES-001",
+  "run_id": "p65-program-contract-interfaces-001",
+  "status": "prospective_before_new_source_feedback_fresh_outcomes",
+  "question": "Can a shared compatibility map acquired against the retained program contracts unlock a second neural gain from the already improved runtime, while preserving old programs and a fixed recruitment budget?",
+  "config": {
+    "models": [
+      "0.6B"
+    ],
+    "seeds": [
+      151003
+    ],
+    "arms": [
+      "feature",
+      "contract",
+      "interface_only"
+    ],
+    "deep_model": "0.6B",
+    "deep_seed": 151003,
+    "deep_rounds": 5,
+    "retained_recruits": 4,
+    "executed_recruits": 2,
+    "proposed_ports": 2,
+    "screen_chunk": 16,
+    "signal_floor": 1e-24,
+    "epsilon": 0.8,
+    "input_gain": 0.2,
+    "state_limit": 50.0,
+    "burn": 128,
+    "training_steps": 1024,
+    "assessment_steps": 1024,
+    "readout_ridge": 0.0001,
+    "transport_ridge": 0.001,
+    "reliability_threshold": 0.5,
+    "quality_acceptance": 0.01,
+    "preservation_tolerance": 0.01,
+    "local_profile_samples": 64,
+    "local_scale_floor": 0.01,
+    "local_jitter": 0.1,
+    "local_profile_ridge": 1e-06,
+    "signed_action_fractions": [
+      -0.05,
+      -0.02,
+      0.02,
+      0.05
+    ],
+    "seed_base": 3100000,
+    "seed_stride": 1000,
+    "terminal_source_seed": 3300001,
+    "terminal_training": 2048,
+    "terminal_seeds": [
+      3300011,
+      3300012
+    ],
+    "terminal_steps": 2048,
+    "retained_payload_cap": 8388608,
+    "screen_pool": 128,
+    "contract_feature_weights": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "contract_ridges": [
+      0.001,
+      0.01
+    ]
+  },
+  "motivation": "P64 completed and independently verified. Guided recruitment512 succeeds in4/6 contexts but all arms fail to add a second retained gain on the prespecified already improved0.6B151003 chain. Of200 deep-chain development candidates,112 improve own quality in both blocks,110 retain reliable old program IDs, only9 preserve the stronger prior quality contract. This follow-up changes compatibility acquisition rather than weakening preservation.",
+  "mechanism": "Same original pretrained components, local response interfaces, instantaneous residual/sensitivity recruitment, four retained slots and at most two extra native evaluations. Feature control uses paired-feature ridge transport. Contract arm also proposes a single shared raw-affine canonical map fitted to known source input-history task targets evaluated through every unchanged retained program. The objective combines program-output loss, paired-feature anchoring and an identity prior; feature weights0.01/0.1/1 and ridge0.001/0.01 are supplied. Old program weights unchanged. Six numerical map variants per physical candidate plus the feature map; joint feedback chooses execution/interface pair. Interface-only control offers the same map variants on unchanged execution. No claim of label-free transport in this follow-up: numerical target labels enter interface acquisition and their construction/fitting costs are explicit.",
+  "boundaries": "P64 evidence is development motivation only. New P65 source, feedback, round-fresh and terminal seeds are disjoint. Physical graphs with identical frozen component/connection parameters share exactly the same native exposure within an arm; alternate maps reuse those observations, with all map/program fit costs measured. No sharing of unseen outcomes across arms, stages or inputs. First accepted improvement is guarded against the fixed P63 reference. No prior head is refitted; new assessment heads have matched source exposure on baseline and candidate.",
+  "primary": "At least one new neural connection is retained after a strict second-gain fresh test and the final controller improves terminal quality >=1percent in both untouched terminal streams while meeting all inherited program/quality contracts. Stronger repeated criterion requires >=2 accepted neural recruitments plus that terminal result. Pure interface-only changes are separately counted, never called new neural recruitment.",
+  "stopping": "All three arms execute five rounds once; identical retention tests and fallback/rollback policy toP64. Every candidate map, selected/failed pair and terminal result retained. No outcome-driven tuning or exclusions. Engineering exceptions preserve raw data/source and require a new recorded version. Application evaluation remains separate and prospective.",
+  "inherited_costs": "P63 history, P64 discovery/negative deep-chain work, pool extraction and fidelity are inherited development work. New native execution and CPU map fitting, unused alternatives, maintenance and final validation charged separately."
+}

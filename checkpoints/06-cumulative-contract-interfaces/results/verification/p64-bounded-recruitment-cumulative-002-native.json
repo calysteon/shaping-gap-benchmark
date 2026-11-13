@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "local_port_interfaces": 130,
+  "native_response_points": 8320,
+  "maximum_relative_value_error": 1.2105098963164604e-13,
+  "maximum_relative_partial_error": 6.1153351234615396e-15,
+  "per_study": {
+    "p64-bounded-recruitment-cumulative-002": 100,
+    "p65-program-contract-interfaces-001": 30
+  },
+  "wall_seconds": 0.28327399981208146,
+  "scope": "Direct full original-width SwiGLU/normalization arithmetic on original materialized rows; independent of the compiled9-coordinate kernel. Original mixed-precision materialization error is separately in pool provenance."
+}

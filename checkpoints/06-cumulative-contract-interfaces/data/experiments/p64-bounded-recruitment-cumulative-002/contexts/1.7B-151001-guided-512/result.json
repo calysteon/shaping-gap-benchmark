@@ -1,0 +1,187 @@
+{
+  "context": "1.7B-151001-guided-512",
+  "model": "1.7B",
+  "seed": 151001,
+  "arm": "guided-512",
+  "rounds": [
+    {
+      "context": "1.7B-151001-guided-512",
+      "model": "1.7B",
+      "seed": 151001,
+      "arm": "guided-512",
+      "round": 0,
+      "selected_slot": 7,
+      "relative_gains": [
+        0.20866306858915226,
+        0.14512717135522438
+      ],
+      "quality_changes": [
+        0.2820721965618058,
+        0.21610803683484425
+      ],
+      "strict_fresh_gain": true,
+      "contracts": [
+        {
+          "retained": 2,
+          "total": 2,
+          "quality_ok": true,
+          "programs_ok": true
+        },
+        {
+          "retained": 2,
+          "total": 2,
+          "quality_ok": true,
+          "programs_ok": true
+        }
+      ],
+      "accepted": true,
+      "selected_metadata": {
+        "slot": 7,
+        "kind": "recruitment",
+        "port": 109,
+        "evicted": null,
+        "fraction": 0.02
+      },
+      "retained_port_ids": [
+        109
+      ],
+      "retained_payload_bytes": 1847744,
+      "shared_map_values": 600,
+      "protected_program_instances": 3,
+      "library_count": 3,
+      "parent_state_sha256": "20ffce001e2d831a5698fd6dae4896053dde07d6ca63e2fe316fe12fc5a1e5cf",
+      "retained_state_sha256": "12a52e41a267fac360ebfdb76a0208fb6e6680896ae7d6da63b2dfd1224d5c52",
+      "timing": {
+        "screening_parent": 0.22377495816908777,
+        "screening_ports": 0.06080104201100767,
+        "local_profiles": 0.00631070788949728,
+        "candidate_source_and_fit": 0.45953779201954603,
+        "feedback-0": 0.4688571251463145,
+        "feedback-1": 0.4388722078874707,
+        "fresh-0": 0.4334703751374036,
+        "fresh-1": 0.4348269170150161
+      },
+      "wall_seconds": 2.7677127080969512,
+      "acquisition_work": {
+        "compiled_port_rows": 516,
+        "native_scalar_responses": 573060,
+        "native_scalar_partials": 5796,
+        "local_interfaces_fitted": 2,
+        "maximum_screen_workspace_bytes": 660864,
+        "source_array_bytes_read": 12693600
+      },
+      "base_runtime_work": {
+        "screening_parent:interface_predictions": 55296,
+        "screening_parent:native_selected_responses": 9216,
+        "screening_parent:committed_fragments": 9216,
+        "screening_parent:routing_comparisons": 55296,
+        "candidate_source:interface_predictions": 552960,
+        "candidate_source:native_selected_responses": 92160,
+        "candidate_source:committed_fragments": 92160,
+        "candidate_source:routing_comparisons": 552960,
+        "feedback-0:interface_predictions": 552960,
+        "feedback-0:native_selected_responses": 92160,
+        "feedback-0:committed_fragments": 92160,
+        "feedback-0:routing_comparisons": 552960,
+        "feedback-1:interface_predictions": 552960,
+        "feedback-1:native_selected_responses": 92160,
+        "feedback-1:committed_fragments": 92160,
+        "feedback-1:routing_comparisons": 552960,
+        "fresh-0:interface_predictions": 552960,
+        "fresh-0:native_selected_responses": 92160,
+        "fresh-0:committed_fragments": 92160,
+        "fresh-0:routing_comparisons": 552960,
+        "fresh-1:interface_predictions": 552960,
+        "fresh-1:native_selected_responses": 92160,
+        "fresh-1:committed_fragments": 92160,
+        "fresh-1:routing_comparisons": 552960
+      }
+    }
+  ],
+  "accepted_acquisitions": 1,
+  "terminal_relative_gains": [
+    0.26265966580683414,
+    0.2304745742539863
+  ],
+  "terminal_quality_changes": [
+    0.4104509425574423,
+    0.32799526572169246
+  ],
+  "terminal_quality_root": [
+    1.562672141901289,
+    1.4231299343251502
+  ],
+  "terminal_quality_final": [
+    1.9731230844587313,
+    1.7511252000468427
+  ],
+  "terminal_contracts": [
+    {
+      "retained": 3,
+      "total": 3,
+      "quality_ok": true,
+      "programs_ok": true
+    },
+    {
+      "retained": 3,
+      "total": 3,
+      "quality_ok": true,
+      "programs_ok": true
+    }
+  ],
+  "terminal_strict_gain": true,
+  "cumulative_repeated_gain": false,
+  "final_retained_port_ids": [
+    109
+  ],
+  "fixed_map_values": 600,
+  "peak_retained_payload_bytes": 1847744,
+  "source_and_online_work": {
+    "compiled_port_rows": 516,
+    "native_scalar_responses": 586116,
+    "native_scalar_partials": 5796,
+    "local_interfaces_fitted": 2,
+    "maximum_screen_workspace_bytes": 660864,
+    "source_array_bytes_read": 12693600
+  },
+  "base_runtime_work": {
+    "screening_parent:interface_predictions": 55296,
+    "screening_parent:native_selected_responses": 9216,
+    "screening_parent:committed_fragments": 9216,
+    "screening_parent:routing_comparisons": 55296,
+    "candidate_source:interface_predictions": 552960,
+    "candidate_source:native_selected_responses": 92160,
+    "candidate_source:committed_fragments": 92160,
+    "candidate_source:routing_comparisons": 552960,
+    "feedback-0:interface_predictions": 552960,
+    "feedback-0:native_selected_responses": 92160,
+    "feedback-0:committed_fragments": 92160,
+    "feedback-0:routing_comparisons": 552960,
+    "feedback-1:interface_predictions": 552960,
+    "feedback-1:native_selected_responses": 92160,
+    "feedback-1:committed_fragments": 92160,
+    "feedback-1:routing_comparisons": 552960,
+    "fresh-0:interface_predictions": 552960,
+    "fresh-0:native_selected_responses": 92160,
+    "fresh-0:committed_fragments": 92160,
+    "fresh-0:routing_comparisons": 552960,
+    "fresh-1:interface_predictions": 552960,
+    "fresh-1:native_selected_responses": 92160,
+    "fresh-1:committed_fragments": 92160,
+    "fresh-1:routing_comparisons": 552960,
+    "terminal_source:interface_predictions": 313344,
+    "terminal_source:native_selected_responses": 52224,
+    "terminal_source:committed_fragments": 52224,
+    "terminal_source:routing_comparisons": 313344,
+    "terminal-0:interface_predictions": 313344,
+    "terminal-0:native_selected_responses": 52224,
+    "terminal-0:committed_fragments": 52224,
+    "terminal-0:routing_comparisons": 313344,
+    "terminal-1:interface_predictions": 313344,
+    "terminal-1:native_selected_responses": 52224,
+    "terminal-1:committed_fragments": 52224,
+    "terminal-1:routing_comparisons": 313344
+  },
+  "wall_seconds": 4.367895625066012,
+  "terminal_seconds": 1.5946978328283876
+}

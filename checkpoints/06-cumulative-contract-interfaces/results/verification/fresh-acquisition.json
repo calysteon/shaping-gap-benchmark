@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "study": "p65-program-contract-interfaces-001",
+      "passed": true,
+      "numeric_fields_checked": 9,
+      "maximum_error": 0.0,
+      "all_choices_and_acceptance_reproduced": true,
+      "fresh_wall_seconds": 48.848541209008545,
+      "fresh_process_peak_rss_bytes": 178929664
+    },
+    {
+      "study": "p66-energy-forecast-transfer-001",
+      "passed": true,
+      "numeric_fields_checked": 96,
+      "maximum_error": 0.0,
+      "all_choices_and_acceptance_reproduced": false,
+      "fresh_wall_seconds": 5.266130458097905,
+      "fresh_process_peak_rss_bytes": 161759232
+    }
+  ],
+  "scope": "Portable source path/workspace validation; not independent statistical replications."
+}

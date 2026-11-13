@@ -1,0 +1,91 @@
+[
+  {
+    "slot": 0,
+    "kind": "baseline",
+    "port": null,
+    "evicted": null,
+    "fraction": 0.0,
+    "physical_slot": 0,
+    "interface": "unchanged"
+  },
+  {
+    "slot": 1,
+    "kind": "recruitment",
+    "port": 47,
+    "evicted": null,
+    "fraction": -0.05,
+    "physical_slot": 1,
+    "interface": "feature",
+    "ridge": 0.001
+  },
+  {
+    "slot": 2,
+    "kind": "recruitment",
+    "port": 47,
+    "evicted": null,
+    "fraction": -0.02,
+    "physical_slot": 2,
+    "interface": "feature",
+    "ridge": 0.001
+  },
+  {
+    "slot": 3,
+    "kind": "recruitment",
+    "port": 47,
+    "evicted": null,
+    "fraction": 0.02,
+    "physical_slot": 3,
+    "interface": "feature",
+    "ridge": 0.001
+  },
+  {
+    "slot": 4,
+    "kind": "recruitment",
+    "port": 47,
+    "evicted": null,
+    "fraction": 0.05,
+    "physical_slot": 4,
+    "interface": "feature",
+    "ridge": 0.001
+  },
+  {
+    "slot": 5,
+    "kind": "recruitment",
+    "port": 125,
+    "evicted": null,
+    "fraction": -0.05,
+    "physical_slot": 5,
+    "interface": "feature",
+    "ridge": 0.001
+  },
+  {
+    "slot": 6,
+    "kind": "recruitment",
+    "port": 125,
+    "evicted": null,
+    "fraction": -0.02,
+    "physical_slot": 6,
+    "interface": "feature",
+    "ridge": 0.001
+  },
+  {
+    "slot": 7,
+    "kind": "recruitment",
+    "port": 125,
+    "evicted": null,
+    "fraction": 0.02,
+    "physical_slot": 7,
+    "interface": "feature",
+    "ridge": 0.001
+  },
+  {
+    "slot": 8,
+    "kind": "recruitment",
+    "port": 125,
+    "evicted": null,
+    "fraction": 0.05,
+    "physical_slot": 8,
+    "interface": "feature",
+    "ridge": 0.001
+  }
+]

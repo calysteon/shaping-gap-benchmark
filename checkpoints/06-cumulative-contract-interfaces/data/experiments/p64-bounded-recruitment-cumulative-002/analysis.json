@@ -1,0 +1,103 @@
+{
+  "prespecified_second_gain_on_already_improved_chain": false,
+  "repeated_acquisition_criterion_met": false,
+  "groups": {
+    "guided-64": {
+      "accepted_acquisitions": 2,
+      "terminal_success_contexts": 2,
+      "mean_terminal_quality_changes": [
+        0.12817153213678253,
+        0.1221181392862533
+      ],
+      "deep_accepted_acquisitions": 0,
+      "deep_terminal_gains": [
+        0.0,
+        0.0
+      ],
+      "largest_screen_workspace": 660864,
+      "max_retained_payload": 1847744,
+      "native_screen_and_port_responses": 1164712
+    },
+    "guided-128": {
+      "accepted_acquisitions": 3,
+      "terminal_success_contexts": 3,
+      "mean_terminal_quality_changes": [
+        0.31780956021667134,
+        0.31107886238772703
+      ],
+      "deep_accepted_acquisitions": 0,
+      "deep_terminal_gains": [
+        0.0,
+        0.0
+      ],
+      "largest_screen_workspace": 660864,
+      "max_retained_payload": 1847744,
+      "native_screen_and_port_responses": 1833768
+    },
+    "guided-512": {
+      "accepted_acquisitions": 4,
+      "terminal_success_contexts": 4,
+      "mean_terminal_quality_changes": [
+        0.43055626113714984,
+        0.42208003217503415
+      ],
+      "deep_accepted_acquisitions": 0,
+      "deep_terminal_gains": [
+        0.0,
+        0.0
+      ],
+      "largest_screen_workspace": 660864,
+      "max_retained_payload": 1847744,
+      "native_screen_and_port_responses": 5782824
+    },
+    "random-128": {
+      "accepted_acquisitions": 3,
+      "terminal_success_contexts": 3,
+      "mean_terminal_quality_changes": [
+        0.36832377922891246,
+        0.39748759753003693
+      ],
+      "deep_accepted_acquisitions": 0,
+      "deep_terminal_gains": [
+        0.0,
+        0.0
+      ],
+      "largest_screen_workspace": 0,
+      "max_retained_payload": 1847744,
+      "native_screen_and_port_responses": 542268
+    },
+    "resident": {
+      "accepted_acquisitions": 3,
+      "terminal_success_contexts": 3,
+      "mean_terminal_quality_changes": [
+        0.3291919222237485,
+        0.34294329705395293
+      ],
+      "deep_accepted_acquisitions": 0,
+      "deep_terminal_gains": [
+        0.0,
+        0.0
+      ],
+      "largest_screen_workspace": 660864,
+      "max_retained_payload": 1847744,
+      "native_screen_and_port_responses": 767768
+    }
+  },
+  "development_contract_counts": {
+    "candidates": 400,
+    "quality_gain_both": 288,
+    "reliable_programs_preserved": 223,
+    "prior_quality_preserved": 66,
+    "fully_admissible": 37
+  },
+  "deep_chain_contract_counts": {
+    "candidates": 200,
+    "quality_gain_both": 112,
+    "reliable_programs_preserved": 110,
+    "prior_quality_preserved": 9,
+    "fully_admissible": 8
+  },
+  "wall_seconds": 175.40736520802602,
+  "process_peak_rss_bytes": 93241344,
+  "interpretation": "Guided recruitment with512 candidates yields4/6 terminal gains at fixed recruitment capacity;128 yields3/6,64 yields2/6. All deep-chain arms preserve baseline: no second retained gain from the already improved P63 context. Most source-supported quality opportunities fail the stronger preservation contract; compatibility/acquisition must be improved. Random/resident controls also succeed in some other contexts."
+}

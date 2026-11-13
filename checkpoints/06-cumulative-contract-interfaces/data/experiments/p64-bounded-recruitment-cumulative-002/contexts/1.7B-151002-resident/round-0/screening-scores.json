@@ -1,0 +1,170 @@
+[
+  {
+    "index": -1,
+    "score": 14441.228951332114,
+    "signal_rms": 0.00011856002968054517,
+    "direction_rms": 0.051935338369380836,
+    "admissible": true
+  },
+  {
+    "index": -2,
+    "score": 7301.179782160827,
+    "signal_rms": 1.4632039272242376e-05,
+    "direction_rms": 0.06709820903260902,
+    "admissible": true
+  },
+  {
+    "index": -3,
+    "score": 15807.801040483331,
+    "signal_rms": 1.6443456204467035e-06,
+    "direction_rms": 0.03774446754520364,
+    "admissible": true
+  },
+  {
+    "index": -4,
+    "score": 112751.85878019703,
+    "signal_rms": 6.077349634393023e-05,
+    "direction_rms": 0.03278255752258717,
+    "admissible": true
+  },
+  {
+    "index": -5,
+    "score": 3709.6877461232602,
+    "signal_rms": 0.00039436584603758226,
+    "direction_rms": 0.007410963738977114,
+    "admissible": true
+  },
+  {
+    "index": -6,
+    "score": 5388.025742621079,
+    "signal_rms": 5.49668104905746e-05,
+    "direction_rms": 0.05630573009184661,
+    "admissible": true
+  },
+  {
+    "index": -7,
+    "score": 103019.11300304014,
+    "signal_rms": 0.0018263988437690237,
+    "direction_rms": 0.06920910338347742,
+    "admissible": true
+  },
+  {
+    "index": -8,
+    "score": 506386.5849445076,
+    "signal_rms": 8.621940621241297e-05,
+    "direction_rms": 0.050537442925673595,
+    "admissible": true
+  },
+  {
+    "index": -9,
+    "score": 10809.268587062317,
+    "signal_rms": 0.012806744762495399,
+    "direction_rms": 0.01762941754050752,
+    "admissible": true
+  },
+  {
+    "index": -10,
+    "score": 17995.032067626285,
+    "signal_rms": 0.00015755413161021653,
+    "direction_rms": 0.033692068059744514,
+    "admissible": true
+  },
+  {
+    "index": -11,
+    "score": 69920.50162819382,
+    "signal_rms": 8.262704034040587e-05,
+    "direction_rms": 0.05490884314390879,
+    "admissible": true
+  },
+  {
+    "index": -12,
+    "score": 219067.192221512,
+    "signal_rms": 2.3034132978562267e-05,
+    "direction_rms": 0.04941330899663313,
+    "admissible": true
+  },
+  {
+    "index": -13,
+    "score": 98757.84504346705,
+    "signal_rms": 0.00014982283568341508,
+    "direction_rms": 0.06300892829435757,
+    "admissible": true
+  },
+  {
+    "index": -14,
+    "score": 72254.28226258731,
+    "signal_rms": 2.9388250147218058e-05,
+    "direction_rms": 0.04738658030139412,
+    "admissible": true
+  },
+  {
+    "index": -15,
+    "score": 1169.4168780374011,
+    "signal_rms": 0.000306600562338938,
+    "direction_rms": 0.029840825084975216,
+    "admissible": true
+  },
+  {
+    "index": -16,
+    "score": 166668.9974443739,
+    "signal_rms": 3.993956337215289e-05,
+    "direction_rms": 0.05648452433091526,
+    "admissible": true
+  },
+  {
+    "index": -17,
+    "score": 31326.443271977725,
+    "signal_rms": 2.996686712572246e-05,
+    "direction_rms": 0.0691355435745093,
+    "admissible": true
+  },
+  {
+    "index": -18,
+    "score": 2727.9182701011077,
+    "signal_rms": 1.7644073166927103e-05,
+    "direction_rms": 0.05185540347211428,
+    "admissible": true
+  },
+  {
+    "index": -19,
+    "score": 107868.32140427381,
+    "signal_rms": 0.0005939505740064073,
+    "direction_rms": 0.05104127660480921,
+    "admissible": true
+  },
+  {
+    "index": -20,
+    "score": 24770.757175282026,
+    "signal_rms": 1.3382911069879292e-05,
+    "direction_rms": 0.06567658253175605,
+    "admissible": true
+  },
+  {
+    "index": -21,
+    "score": 125699.62704683049,
+    "signal_rms": 0.00022111303772438833,
+    "direction_rms": 0.0408897310429319,
+    "admissible": true
+  },
+  {
+    "index": -22,
+    "score": 11272.912558727407,
+    "signal_rms": 0.000322169057572221,
+    "direction_rms": 0.04894339777783401,
+    "admissible": true
+  },
+  {
+    "index": -23,
+    "score": 60182.473722301904,
+    "signal_rms": 1.8741519368178056e-06,
+    "direction_rms": 0.030693494956167147,
+    "admissible": true
+  },
+  {
+    "index": -24,
+    "score": 32416.00992260124,
+    "signal_rms": 6.710242029618691e-06,
+    "direction_rms": 0.048526123675389686,
+    "admissible": true
+  }
+]

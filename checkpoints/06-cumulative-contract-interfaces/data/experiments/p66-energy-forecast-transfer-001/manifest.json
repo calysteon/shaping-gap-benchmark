@@ -1,0 +1,31 @@
+{
+  "plan_id": "P66-ENERGY-FORECAST-TRANSFER-001",
+  "created_utc": "2026-11-13T22:36:29.071868+00:00",
+  "source_sha256": "932af5526dc471567f007b94fdb6242bd5a209397e70689bc1cb3ec8d4430eb1",
+  "config": {
+    "expected_rows": 19735,
+    "train_fraction": 0.6,
+    "validation_end_fraction": 0.8,
+    "horizons": [
+      1,
+      6,
+      24
+    ],
+    "primary_horizon": 6,
+    "washout": 128,
+    "ar_lags": 64,
+    "day_steps": 144,
+    "readout_ridge": 0.001,
+    "epsilon": 0.8,
+    "input_gain": 0.2,
+    "state_limit": 50.0,
+    "executed_recruits": 2,
+    "retained_recruits": 4,
+    "bootstrap_block": 144,
+    "bootstrap_repeats": 1000,
+    "bootstrap_seed": 4200001,
+    "quality_acceptance": 0.01,
+    "regression_allowance": 0.01
+  },
+  "data_sha256": "2820bf712ad0275cb18b85a05250926100d8e65ebb9f4d2d016ca91ea152a25d"
+}

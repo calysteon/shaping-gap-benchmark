@@ -1,0 +1,181 @@
+{
+  "selected_slot": 0,
+  "candidates": [
+    {
+      "slot": 1,
+      "gains": [
+        1.8831173794902605,
+        2.266568009650955
+      ],
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": false
+        },
+        {
+          "retained": 4,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": false
+        }
+      ],
+      "admissible": false
+    },
+    {
+      "slot": 2,
+      "gains": [
+        2.137810575019741,
+        2.615107675546409
+      ],
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": false
+        },
+        {
+          "retained": 4,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": false
+        }
+      ],
+      "admissible": false
+    },
+    {
+      "slot": 3,
+      "gains": [
+        2.186606475248722,
+        2.737019284553541
+      ],
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": false
+        },
+        {
+          "retained": 4,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": false
+        }
+      ],
+      "admissible": false
+    },
+    {
+      "slot": 4,
+      "gains": [
+        2.074389259263595,
+        2.6014943783182995
+      ],
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": false
+        },
+        {
+          "retained": 4,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": false
+        }
+      ],
+      "admissible": false
+    },
+    {
+      "slot": 5,
+      "gains": [
+        0.17297353051920705,
+        0.1881818963316615
+      ],
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 6,
+          "quality_ok": false,
+          "programs_ok": false
+        },
+        {
+          "retained": 4,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": false
+        }
+      ],
+      "admissible": false
+    },
+    {
+      "slot": 6,
+      "gains": [
+        0.45797446285196397,
+        0.4617107695592324
+      ],
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": false
+        },
+        {
+          "retained": 4,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": false
+        }
+      ],
+      "admissible": false
+    },
+    {
+      "slot": 7,
+      "gains": [
+        0.6504708500761032,
+        0.6380047145045289
+      ],
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": false
+        },
+        {
+          "retained": 4,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": false
+        }
+      ],
+      "admissible": false
+    },
+    {
+      "slot": 8,
+      "gains": [
+        0.5793622550933315,
+        0.5793557235634665
+      ],
+      "contracts": [
+        {
+          "retained": 4,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": false
+        },
+        {
+          "retained": 4,
+          "total": 6,
+          "quality_ok": true,
+          "programs_ok": false
+        }
+      ],
+      "admissible": false
+    }
+  ]
+}
