@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-11-13T21:09:52.187404+00:00",
+  "files": {
+    "interface-3.npz": "4f4c61623bcc5096d5514a3b4dc5c38c8d53515a657239e110c81a98b977df01",
+    "runtime.npz": "ce33917684ac68e4cc3e76af4747ccc98106ebcab0bf1c507e50df5fc09e757f",
+    "interface-2.npz": "4f4c61623bcc5096d5514a3b4dc5c38c8d53515a657239e110c81a98b977df01",
+    "interface-0.npz": "4f4c61623bcc5096d5514a3b4dc5c38c8d53515a657239e110c81a98b977df01",
+    "interface-1.npz": "4f4c61623bcc5096d5514a3b4dc5c38c8d53515a657239e110c81a98b977df01",
+    "returns.npz": "ed02265f51d1a4712c372a0be5377df17515b43dfd4836d971fa060ea3f81d68",
+    "interface-4.npz": "9eea1bc9bb51fd2cbfc35a6855f9cdf705b2f6380098cadf0019f6d064c41166",
+    "head-2.npz": "cbf52b297f757690caf0b8304563a4fd35474b7fcdd452e17c96528b98e8d415",
+    "geometry.npz": "ab5f5020df40e4b4e93372552c8299abdb2a0680357f3606deee12420ec3db75",
+    "head-3.npz": "cbf52b297f757690caf0b8304563a4fd35474b7fcdd452e17c96528b98e8d415",
+    "head-1.npz": "cbf52b297f757690caf0b8304563a4fd35474b7fcdd452e17c96528b98e8d415",
+    "head-0.npz": "cbf52b297f757690caf0b8304563a4fd35474b7fcdd452e17c96528b98e8d415",
+    "head-4.npz": "49e691a4f0c98a2eaaf045fa8009e056050645e0c9fc76642c63bb0971be637c"
+  },
+  "feedback_exposed": false,
+  "validation_exposed": false,
+  "original_bank_sha256": "13c181a98a0a5875633593af902305c9a440cd0c22b5adb0ee04c518d28937ba",
+  "variant": "integrated"
+}

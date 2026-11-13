@@ -1,0 +1,80 @@
+{
+  "plan_id": "P63-COMPONENT-ACQUISITION-REUSE-001",
+  "created_utc": "2026-11-13T21:09:44.668123+00:00",
+  "source_sha256": "30a2038531f0cd1f703bac3d0bed1f97e74d8a419588e07424faaf59948632c3",
+  "helper_sha256": {
+    "interfaces.py": "45f4c4723c50bebd6ea34df90e6b6314412ad0d244f74301a32e74769deb9f35",
+    "run.py": "30a2038531f0cd1f703bac3d0bed1f97e74d8a419588e07424faaf59948632c3",
+    "policy.py": "aa395ef22162d9c8aff3e61c71115d9a6ec4eab576500a0432721cbfce21730f",
+    "stimulus.py": "7b918a4b7b0d381b87963605ba300a3d24b5cd6e246a9c1f9536b3643afd1452",
+    "capacity_engine.py": "486427011c2fba46a29f05024f9ede84cac18dde0d734944e62d1f79cff964ea",
+    "engine.py": "bd21cd091212e4643db1df5063d04887d0c6dc700ac07d31c8930f33f678e825",
+    "component.py": "11500ccee6efc99c3281db5647846943c623c43eb51b96a836126c9ead9b6136",
+    "extract.py": "32da8b38e12820e92bb46dcf3d7f41f3ec3b5ef78d572d50763eda9a347e734c"
+  },
+  "bank_manifest_sha256": "dcfb57e62ca91c7246b6ba1d8435c5fae03142c51cc22953f6dc23200a2f97fd",
+  "config": {
+    "models": [
+      "0.6B",
+      "1.7B"
+    ],
+    "seeds": [
+      151001,
+      151002,
+      151003
+    ],
+    "variants": [
+      "integrated",
+      "first_order",
+      "shuffled",
+      "random_weight"
+    ],
+    "anchor_rms_by_seed": {
+      "151001": 0.12,
+      "151002": 0.25,
+      "151003": 0.5
+    },
+    "epsilon": 0.8,
+    "profile_samples": 96,
+    "profile_validation": 24,
+    "profile_radius": 0.35,
+    "profile_ridge": 1e-06,
+    "active_fragments_per_stage": 4,
+    "observable_dimension": 16,
+    "differential_step": 0.04,
+    "curvature_samples": 96,
+    "curvature_probe_scale": 0.25,
+    "baseline_orientations": 2,
+    "spectral_radii": [
+      0.4,
+      0.7,
+      0.9
+    ],
+    "calibration_steps": 512,
+    "burn": 128,
+    "echo_tolerance": 0.1,
+    "state_limit": 50.0,
+    "input_gain": 0.2,
+    "signed_action_fractions": [
+      -0.05,
+      -0.02,
+      0.02,
+      0.05
+    ],
+    "training_steps": 1024,
+    "training_seed": 161001,
+    "assessment_steps": 1024,
+    "feedback_seeds": [
+      162001,
+      163001
+    ],
+    "fresh_seeds": [
+      164001,
+      165001
+    ],
+    "readout_ridge": 0.0001,
+    "transport_ridge": 0.001,
+    "reliability_threshold": 0.5,
+    "quality_acceptance": 0.01
+  }
+}

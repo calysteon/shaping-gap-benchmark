@@ -1,0 +1,1993 @@
+{
+  "primary_cycle_criterion_met": true,
+  "groups": {
+    "integrated": {
+      "contexts": 6,
+      "updates": 1,
+      "strict_joint": 1,
+      "mean_quality_change": [
+        0.06958857196188593,
+        0.06017283733573564
+      ],
+      "mean_selected_quality": [
+        0.7134364774033934,
+        0.7561072511438199
+      ],
+      "mean_baseline_quality": [
+        0.6438479054415076,
+        0.6959344138080842
+      ],
+      "old_programs": 18,
+      "old_retained_both": 18,
+      "runtime_wall_seconds": 10.701581749832258,
+      "minimum_runtime_payload": 994912,
+      "maximum_runtime_payload": 1740384
+    },
+    "first_order": {
+      "contexts": 6,
+      "updates": 2,
+      "strict_joint": 2,
+      "mean_quality_change": [
+        0.07828149533175649,
+        0.08789780190160701
+      ],
+      "mean_selected_quality": [
+        0.45679855525061414,
+        0.46848120716047664
+      ],
+      "mean_baseline_quality": [
+        0.3785170599188576,
+        0.38058340525886963
+      ],
+      "old_programs": 19,
+      "old_retained_both": 19,
+      "runtime_wall_seconds": 8.793214790988714,
+      "minimum_runtime_payload": 994912,
+      "maximum_runtime_payload": 1740384
+    },
+    "shuffled": {
+      "contexts": 6,
+      "updates": 2,
+      "strict_joint": 1,
+      "mean_quality_change": [
+        0.01666234965951946,
+        0.01438670656114216
+      ],
+      "mean_selected_quality": [
+        0.4447289454906869,
+        0.46512542795990375
+      ],
+      "mean_baseline_quality": [
+        0.4280665958311675,
+        0.45073872139876153
+      ],
+      "old_programs": 14,
+      "old_retained_both": 14,
+      "runtime_wall_seconds": 10.736971042118967,
+      "minimum_runtime_payload": 994912,
+      "maximum_runtime_payload": 1740384
+    },
+    "random_weight": {
+      "contexts": 6,
+      "updates": 1,
+      "strict_joint": 1,
+      "mean_quality_change": [
+        0.02397173815838614,
+        0.016646080721864114
+      ],
+      "mean_selected_quality": [
+        0.23735683085708412,
+        0.4036408146819545
+      ],
+      "mean_baseline_quality": [
+        0.21338509269869801,
+        0.3869947339600904
+      ],
+      "old_programs": 15,
+      "old_retained_both": 15,
+      "runtime_wall_seconds": 10.968962498242036,
+      "minimum_runtime_payload": 1390432,
+      "maximum_runtime_payload": 2529120
+    }
+  },
+  "contexts": [
+    {
+      "context": "0.6B-151001-integrated",
+      "model": "0.6B",
+      "seed": 151001,
+      "variant": "integrated",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        0.5051077521728559,
+        0.5103115203352733
+      ],
+      "selected_quality": [
+        0.5051077521728559,
+        0.5103115203352733
+      ],
+      "old_programs": 2,
+      "old_retained_both": 2,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.7650681249797344,
+      "runtime_payload_bytes": 994912,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 2,
+      "selected_fresh_sampled_routes": 2,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 2,
+          "retained": 2,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 2,
+          "retained": 2,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 2,
+          "retained": 2,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            2.2726080233566254e-13,
+            2.635265576371743e-13
+          ],
+          "old": 2,
+          "retained": 2,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "0.6B-151001-first_order",
+      "model": "0.6B",
+      "seed": 151001,
+      "variant": "first_order",
+      "selected_slot": 2,
+      "relative_gains": [
+        0.0846328469385651,
+        0.06740840008846637
+      ],
+      "quality_changes": [
+        0.04268958409353241,
+        0.035733644945676546
+      ],
+      "baseline_quality": [
+        0.5044091701714907,
+        0.5301067062677638
+      ],
+      "selected_quality": [
+        0.5470987542650231,
+        0.5658403512134403
+      ],
+      "old_programs": 2,
+      "old_retained_both": 2,
+      "strict_joint": true,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.401097791036591,
+      "runtime_payload_bytes": 994912,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 2,
+      "selected_fresh_sampled_routes": 3,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.07388499384832439,
+            -0.027724810750025693
+          ],
+          "old": 2,
+          "retained": 2,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.041081734249469856,
+            0.064420397036337
+          ],
+          "old": 2,
+          "retained": 2,
+          "admissible": true
+        },
+        {
+          "slot": 3,
+          "gains": [
+            -0.3284167673576645,
+            -0.008554582456476547
+          ],
+          "old": 2,
+          "retained": 2,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            -1.0,
+            -0.9811605892031171
+          ],
+          "old": 2,
+          "retained": 0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "0.6B-151001-shuffled",
+      "model": "0.6B",
+      "seed": 151001,
+      "variant": "shuffled",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        0.08297358289223589,
+        0.07967536936521413
+      ],
+      "selected_quality": [
+        0.08297358289223589,
+        0.07967536936521413
+      ],
+      "old_programs": 3,
+      "old_retained_both": 3,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.754219749942422,
+      "runtime_payload_bytes": 994912,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 3,
+      "selected_fresh_sampled_routes": 3,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 3,
+          "retained": 3,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 3,
+          "retained": 3,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 3,
+          "retained": 3,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            4.796163466380676e-14,
+            2.886579864025407e-13
+          ],
+          "old": 3,
+          "retained": 3,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "0.6B-151001-random_weight",
+      "model": "0.6B",
+      "seed": 151001,
+      "variant": "random_weight",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        0.05070889483311403,
+        0.07166215384334607
+      ],
+      "selected_quality": [
+        0.05070889483311403,
+        0.07166215384334607
+      ],
+      "old_programs": 0,
+      "old_retained_both": 0,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.9140887500252575,
+      "runtime_payload_bytes": 1390432,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 0,
+      "selected_fresh_sampled_routes": 9,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            -0.3301612405148866,
+            -0.15969484909938236
+          ],
+          "old": 0,
+          "retained": 0,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            -0.31485365780203,
+            -0.11017397222189285
+          ],
+          "old": 0,
+          "retained": 0,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.29510188899601886,
+            0.5465351674573005
+          ],
+          "old": 0,
+          "retained": 0,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            0.8661951779295176,
+            0.719777421289467
+          ],
+          "old": 0,
+          "retained": 0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "0.6B-151002-integrated",
+      "model": "0.6B",
+      "seed": 151002,
+      "variant": "integrated",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        0.9617484024253637,
+        0.9134829191683413
+      ],
+      "selected_quality": [
+        0.9617484024253637,
+        0.9134829191683413
+      ],
+      "old_programs": 5,
+      "old_retained_both": 5,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.740018165903166,
+      "runtime_payload_bytes": 994912,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 5,
+      "selected_fresh_sampled_routes": 1,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            0.0,
+            -4.082913244655487e-16
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "0.6B-151002-first_order",
+      "model": "0.6B",
+      "seed": 151002,
+      "variant": "first_order",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        0.4437532317837497,
+        0.426205306713339
+      ],
+      "selected_quality": [
+        0.4437532317837497,
+        0.426205306713339
+      ],
+      "old_programs": 5,
+      "old_retained_both": 5,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.4313991670496762,
+      "runtime_payload_bytes": 994912,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 5,
+      "selected_fresh_sampled_routes": 1,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            -1.2351608623282831e-15,
+            1.085803039095166e-15
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "0.6B-151002-shuffled",
+      "model": "0.6B",
+      "seed": 151002,
+      "variant": "shuffled",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        0.5713707767031276,
+        0.49399282285047597
+      ],
+      "selected_quality": [
+        0.5713707767031276,
+        0.49399282285047597
+      ],
+      "old_programs": 3,
+      "old_retained_both": 3,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.7637639581225812,
+      "runtime_payload_bytes": 994912,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 3,
+      "selected_fresh_sampled_routes": 2,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 3,
+          "retained": 3,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 3,
+          "retained": 3,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 3,
+          "retained": 3,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            -9.535912221992193e-16,
+            3.3262039902216864e-15
+          ],
+          "old": 3,
+          "retained": 3,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "0.6B-151002-random_weight",
+      "model": "0.6B",
+      "seed": 151002,
+      "variant": "random_weight",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        0.12068802658427658,
+        0.10915962550649416
+      ],
+      "selected_quality": [
+        0.12068802658427658,
+        0.10915962550649416
+      ],
+      "old_programs": 5,
+      "old_retained_both": 5,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.7813277910463512,
+      "runtime_payload_bytes": 1390432,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 5,
+      "selected_fresh_sampled_routes": 2,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            1.3189946302915536,
+            1.3116932168259257
+          ],
+          "old": 5,
+          "retained": 4,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.9682680118914351,
+            0.9580271119483252
+          ],
+          "old": 5,
+          "retained": 4,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            -0.11219322498413531,
+            -0.14904484209194324
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            0.45183376959505006,
+            0.44902571206806785
+          ],
+          "old": 5,
+          "retained": 4,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "0.6B-151003-integrated",
+      "model": "0.6B",
+      "seed": 151003,
+      "variant": "integrated",
+      "selected_slot": 4,
+      "relative_gains": [
+        0.5519417626645188,
+        0.45178707560254894
+      ],
+      "quality_changes": [
+        0.4175314317713156,
+        0.36103702401441384
+      ],
+      "baseline_quality": [
+        0.7564773315135053,
+        0.7991309258524015
+      ],
+      "selected_quality": [
+        1.1740087632848208,
+        1.1601679498668154
+      ],
+      "old_programs": 2,
+      "old_retained_both": 2,
+      "strict_joint": true,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.7842709589749575,
+      "runtime_payload_bytes": 994912,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 1,
+      "selected_fresh_sampled_routes": 6,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            -0.13541094256373584,
+            -0.06873861101945719
+          ],
+          "old": 2,
+          "retained": 2,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            -0.2516453590614532,
+            -0.02606791324747145
+          ],
+          "old": 2,
+          "retained": 2,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.34710568487170407,
+            0.4591653009622824
+          ],
+          "old": 2,
+          "retained": 2,
+          "admissible": true
+        },
+        {
+          "slot": 4,
+          "gains": [
+            0.5314084155474443,
+            0.5804967918451882
+          ],
+          "old": 2,
+          "retained": 2,
+          "admissible": true
+        }
+      ]
+    },
+    {
+      "context": "0.6B-151003-first_order",
+      "model": "0.6B",
+      "seed": 151003,
+      "variant": "first_order",
+      "selected_slot": 1,
+      "relative_gains": [
+        1.7079975515880261,
+        1.966612665855862
+      ],
+      "quality_changes": [
+        0.42699938789700653,
+        0.4916531664639655
+      ],
+      "baseline_quality": [
+        0.14328124466317815,
+        0.23807150145579026
+      ],
+      "selected_quality": [
+        0.5702806325601847,
+        0.7297246679197558
+      ],
+      "old_programs": 1,
+      "old_retained_both": 1,
+      "strict_joint": true,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.4770786669105291,
+      "runtime_payload_bytes": 994912,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 0,
+      "selected_fresh_sampled_routes": 2,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            2.150731794626542,
+            2.028335352568692
+          ],
+          "old": 1,
+          "retained": 1,
+          "admissible": true
+        },
+        {
+          "slot": 2,
+          "gains": [
+            -0.21499690031727786,
+            -0.37070002489542686
+          ],
+          "old": 1,
+          "retained": 1,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            -0.5942232487220493,
+            -0.0031147286473681163
+          ],
+          "old": 1,
+          "retained": 1,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            -0.31813166031143963,
+            -0.1415224663625912
+          ],
+          "old": 1,
+          "retained": 1,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "0.6B-151003-shuffled",
+      "model": "0.6B",
+      "seed": 151003,
+      "variant": "shuffled",
+      "selected_slot": 4,
+      "relative_gains": [
+        0.18990768431533622,
+        0.5385385034320747
+      ],
+      "quality_changes": [
+        0.047476921078834056,
+        0.13463462585801866
+      ],
+      "baseline_quality": [
+        0.0226794515283536,
+        0.01851190498846622
+      ],
+      "selected_quality": [
+        0.07015637260718766,
+        0.15314653084648489
+      ],
+      "old_programs": 1,
+      "old_retained_both": 1,
+      "strict_joint": true,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.7728944590780884,
+      "runtime_payload_bytes": 994912,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 1,
+      "selected_fresh_sampled_routes": 7,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.007986038933275985,
+            0.2825026871587908
+          ],
+          "old": 1,
+          "retained": 1,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.11784347944302409,
+            0.03616187511750324
+          ],
+          "old": 1,
+          "retained": 1,
+          "admissible": true
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.36692046155055547,
+            0.3187957505424124
+          ],
+          "old": 1,
+          "retained": 1,
+          "admissible": true
+        },
+        {
+          "slot": 4,
+          "gains": [
+            0.5204202070746873,
+            0.9345400671935811
+          ],
+          "old": 1,
+          "retained": 1,
+          "admissible": true
+        }
+      ]
+    },
+    {
+      "context": "0.6B-151003-random_weight",
+      "model": "0.6B",
+      "seed": 151003,
+      "variant": "random_weight",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        0.0,
+        1.0430398506282632
+      ],
+      "selected_quality": [
+        0.0,
+        1.0430398506282632
+      ],
+      "old_programs": 0,
+      "old_retained_both": 0,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.7568314159289002,
+      "runtime_payload_bytes": 1390432,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 0,
+      "selected_fresh_sampled_routes": 9,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            -1.0,
+            0.0
+          ],
+          "old": 0,
+          "retained": 0,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            -0.0957399338761245,
+            0.0
+          ],
+          "old": 0,
+          "retained": 0,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.16426589643182468,
+            0.0
+          ],
+          "old": 0,
+          "retained": 0,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            0.42145672006210755,
+            5.8542922653808915
+          ],
+          "old": 0,
+          "retained": 0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "1.7B-151001-integrated",
+      "model": "1.7B",
+      "seed": 151001,
+      "variant": "integrated",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        1.3108032177972393,
+        1.5823098344024062
+      ],
+      "selected_quality": [
+        1.3108032177972393,
+        1.5823098344024062
+      ],
+      "old_programs": 1,
+      "old_retained_both": 1,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.7942929579876363,
+      "runtime_payload_bytes": 1740384,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 1,
+      "selected_fresh_sampled_routes": 7,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            -0.03995821809466965,
+            0.006531218314617076
+          ],
+          "old": 1,
+          "retained": 1,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            -0.01658148111414247,
+            0.0020228922015863575
+          ],
+          "old": 1,
+          "retained": 1,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            -0.012128446288947775,
+            -0.035816877523429214
+          ],
+          "old": 1,
+          "retained": 1,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            -0.07411010749432786,
+            -0.05868676071272969
+          ],
+          "old": 1,
+          "retained": 1,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "1.7B-151001-first_order",
+      "model": "1.7B",
+      "seed": 151001,
+      "variant": "first_order",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        1.0460975004744935,
+        0.9297221294725792
+      ],
+      "selected_quality": [
+        1.0460975004744935,
+        0.9297221294725792
+      ],
+      "old_programs": 2,
+      "old_retained_both": 2,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.4937004160601646,
+      "runtime_payload_bytes": 1740384,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 2,
+      "selected_fresh_sampled_routes": 4,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 2,
+          "retained": 2,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 2,
+          "retained": 2,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 2,
+          "retained": 2,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            2.564209233466708e-15,
+            1.0716361147069736e-14
+          ],
+          "old": 2,
+          "retained": 2,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "1.7B-151001-shuffled",
+      "model": "1.7B",
+      "seed": 151001,
+      "variant": "shuffled",
+      "selected_slot": 2,
+      "relative_gains": [
+        0.034679665475959645,
+        -0.028670980119726987
+      ],
+      "quality_changes": [
+        0.0524971768782827,
+        -0.048314386491165706
+      ],
+      "baseline_quality": [
+        1.5137740274534761,
+        1.6851320146507
+      ],
+      "selected_quality": [
+        1.5662712043317588,
+        1.6368176281595344
+      ],
+      "old_programs": 2,
+      "old_retained_both": 2,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.8256179590243846,
+      "runtime_payload_bytes": 1740384,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 2,
+      "selected_fresh_sampled_routes": 7,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.0396932531491256,
+            0.06304372208927572
+          ],
+          "old": 2,
+          "retained": 1,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.034431543949313144,
+            0.016990611116387812
+          ],
+          "old": 2,
+          "retained": 2,
+          "admissible": true
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.03446239101690798,
+            -0.031439483209144636
+          ],
+          "old": 2,
+          "retained": 1,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            -0.018856907143434843,
+            -0.0939834468412897
+          ],
+          "old": 2,
+          "retained": 1,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "1.7B-151001-random_weight",
+      "model": "1.7B",
+      "seed": 151001,
+      "variant": "random_weight",
+      "selected_slot": 3,
+      "relative_gains": [
+        0.15152892978788196,
+        0.10778995518821138
+      ],
+      "quality_changes": [
+        0.14383042895031684,
+        0.09987648433118468
+      ],
+      "baseline_quality": [
+        0.9491945145501793,
+        0.926584338557252
+      ],
+      "selected_quality": [
+        1.0930249435004962,
+        1.0264608228884367
+      ],
+      "old_programs": 4,
+      "old_retained_both": 4,
+      "strict_joint": true,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.8597617079503834,
+      "runtime_payload_bytes": 2529120,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 4,
+      "selected_fresh_sampled_routes": 2,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            -1.0,
+            -0.6932780930506509
+          ],
+          "old": 4,
+          "retained": 0,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            -0.15159044874705094,
+            -0.12269804850070537
+          ],
+          "old": 4,
+          "retained": 3,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.13753678822540238,
+            0.13713118499981022
+          ],
+          "old": 4,
+          "retained": 4,
+          "admissible": true
+        },
+        {
+          "slot": 4,
+          "gains": [
+            0.06278371980093857,
+            0.010931603770087317
+          ],
+          "old": 4,
+          "retained": 4,
+          "admissible": true
+        }
+      ]
+    },
+    {
+      "context": "1.7B-151002-integrated",
+      "model": "1.7B",
+      "seed": 151002,
+      "variant": "integrated",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        0.004001126092952556,
+        0.0053976584769458436
+      ],
+      "selected_quality": [
+        0.004001126092952556,
+        0.0053976584769458436
+      ],
+      "old_programs": 3,
+      "old_retained_both": 3,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.814715167041868,
+      "runtime_payload_bytes": 1740384,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 3,
+      "selected_fresh_sampled_routes": 3,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 3,
+          "retained": 3,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 3,
+          "retained": 3,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 3,
+          "retained": 3,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            -3.921307722976053e-13,
+            4.276579090856103e-13
+          ],
+          "old": 3,
+          "retained": 3,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "1.7B-151002-first_order",
+      "model": "1.7B",
+      "seed": 151002,
+      "variant": "first_order",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        0.004726246956790692,
+        0.013224608217328737
+      ],
+      "selected_quality": [
+        0.004726246956790692,
+        0.013224608217328737
+      ],
+      "old_programs": 4,
+      "old_retained_both": 4,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.4704281250014901,
+      "runtime_payload_bytes": 1740384,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 4,
+      "selected_fresh_sampled_routes": 1,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 4,
+          "retained": 4,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 4,
+          "retained": 4,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 4,
+          "retained": 4,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            2.353672812205332e-13,
+            -7.149836278586008e-14
+          ],
+          "old": 4,
+          "retained": 4,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "1.7B-151002-shuffled",
+      "model": "1.7B",
+      "seed": 151002,
+      "variant": "shuffled",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        0.008411659097915525,
+        0.010535924581361988
+      ],
+      "selected_quality": [
+        0.008411659097915525,
+        0.010535924581361988
+      ],
+      "old_programs": 1,
+      "old_retained_both": 1,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.8085614999290556,
+      "runtime_payload_bytes": 1740384,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 1,
+      "selected_fresh_sampled_routes": 2,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 1,
+          "retained": 1,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 1,
+          "retained": 1,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 1,
+          "retained": 1,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            -1.7763568394002505e-15,
+            -7.549516567451064e-15
+          ],
+          "old": 1,
+          "retained": 1,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "1.7B-151002-random_weight",
+      "model": "1.7B",
+      "seed": 151002,
+      "variant": "random_weight",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        0.026912900129403394,
+        0.037958899123625045
+      ],
+      "selected_quality": [
+        0.026912900129403394,
+        0.037958899123625045
+      ],
+      "old_programs": 0,
+      "old_retained_both": 0,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.8278364171274006,
+      "runtime_payload_bytes": 2529120,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 0,
+      "selected_fresh_sampled_routes": 8,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.4207971271492559,
+            0.44792447538057756
+          ],
+          "old": 0,
+          "retained": 0,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.21817007457944282,
+            -0.10851235307940366
+          ],
+          "old": 0,
+          "retained": 0,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.3683598110126467,
+            -0.07727818338729131
+          ],
+          "old": 0,
+          "retained": 0,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            0.4399858337752276,
+            -0.10851235307940366
+          ],
+          "old": 0,
+          "retained": 0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "1.7B-151003-integrated",
+      "model": "1.7B",
+      "seed": 151003,
+      "variant": "integrated",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        0.3249496026471286,
+        0.36497362461313687
+      ],
+      "selected_quality": [
+        0.3249496026471286,
+        0.36497362461313687
+      ],
+      "old_programs": 5,
+      "old_retained_both": 5,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.8032163749448955,
+      "runtime_payload_bytes": 1740384,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 5,
+      "selected_fresh_sampled_routes": 1,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            -4.148443168593607e-15,
+            7.183289535883464e-14
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "1.7B-151003-first_order",
+      "model": "1.7B",
+      "seed": 151003,
+      "variant": "first_order",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        0.12883496546344309,
+        0.14617017942641697
+      ],
+      "selected_quality": [
+        0.12883496546344309,
+        0.14617017942641697
+      ],
+      "old_programs": 5,
+      "old_retained_both": 5,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.5195106249302626,
+      "runtime_payload_bytes": 1740384,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 5,
+      "selected_fresh_sampled_routes": 1,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            4.618527782440651e-14,
+            -1.6431300764452317e-14
+          ],
+          "old": 5,
+          "retained": 5,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "1.7B-151003-shuffled",
+      "model": "1.7B",
+      "seed": 151003,
+      "variant": "shuffled",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        0.36919007731189635,
+        0.41658429195635105
+      ],
+      "selected_quality": [
+        0.36919007731189635,
+        0.41658429195635105
+      ],
+      "old_programs": 4,
+      "old_retained_both": 4,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.8119134160224348,
+      "runtime_payload_bytes": 1740384,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 4,
+      "selected_fresh_sampled_routes": 2,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 4,
+          "retained": 4,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 4,
+          "retained": 4,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 4,
+          "retained": 4,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            -9.3910179301849e-09,
+            1.6149249710859525e-11
+          ],
+          "old": 4,
+          "retained": 4,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "context": "1.7B-151003-random_weight",
+      "model": "1.7B",
+      "seed": 151003,
+      "variant": "random_weight",
+      "selected_slot": 0,
+      "relative_gains": [
+        0.0,
+        0.0
+      ],
+      "quality_changes": [
+        0.0,
+        0.0
+      ],
+      "baseline_quality": [
+        0.1328062200952147,
+        0.13356353610156202
+      ],
+      "selected_quality": [
+        0.1328062200952147,
+        0.13356353610156202
+      ],
+      "old_programs": 6,
+      "old_retained_both": 6,
+      "strict_joint": false,
+      "source_baseline_admissible": true,
+      "wall_seconds": 1.8291164161637425,
+      "runtime_payload_bytes": 2529120,
+      "interface_bytes": 5376,
+      "return_bytes": 1536,
+      "readout_library_bytes": 28984,
+      "new_reliable_multilag_nonlinear_functions": 0,
+      "direct_old_intersection_both": 6,
+      "selected_fresh_sampled_routes": 2,
+      "feedback_candidates": [
+        {
+          "slot": 1,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 6,
+          "retained": 6,
+          "admissible": false
+        },
+        {
+          "slot": 2,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 6,
+          "retained": 6,
+          "admissible": false
+        },
+        {
+          "slot": 3,
+          "gains": [
+            0.0,
+            0.0
+          ],
+          "old": 6,
+          "retained": 6,
+          "admissible": false
+        },
+        {
+          "slot": 4,
+          "gains": [
+            -8.881784197001252e-16,
+            1.1102230246251565e-14
+          ],
+          "old": 6,
+          "retained": 6,
+          "admissible": false
+        }
+      ]
+    }
+  ],
+  "study_wall_seconds": 41.31955191702582,
+  "process_peak_rss_bytes": 98811904,
+  "work_counts": {
+    "interface_acquisition:native_response_candidates": 55296,
+    "interface_acquisition:native_response_partials": 1824768,
+    "interface_diagnostic:native_response_candidates": 13824,
+    "interface_diagnostic:native_response_partials": 456192,
+    "interface_diagnostic:interface_predictions": 13824,
+    "return_geometry:interface_predictions": 115920,
+    "return_geometry:native_selected_responses": 22080,
+    "return_geometry:committed_fragments": 22080,
+    "return_geometry:routing_comparisons": 132480,
+    "baseline_acquisition:interface_predictions": 6195168,
+    "baseline_acquisition:native_selected_responses": 1180032,
+    "baseline_acquisition:committed_fragments": 1180032,
+    "baseline_acquisition:routing_comparisons": 7080192,
+    "return_calibration:interface_predictions": 516096,
+    "return_calibration:native_selected_responses": 98304,
+    "return_calibration:committed_fragments": 98304,
+    "return_calibration:routing_comparisons": 589824,
+    "return_signal_calibration:interface_predictions": 516096,
+    "return_signal_calibration:native_selected_responses": 98304,
+    "return_signal_calibration:committed_fragments": 98304,
+    "return_signal_calibration:routing_comparisons": 589824,
+    "source_programs_and_compatibility:interface_predictions": 5806080,
+    "source_programs_and_compatibility:native_selected_responses": 1105920,
+    "source_programs_and_compatibility:committed_fragments": 1105920,
+    "source_programs_and_compatibility:routing_comparisons": 6635520,
+    "feedback-0:interface_predictions": 5806080,
+    "feedback-0:native_selected_responses": 1105920,
+    "feedback-0:committed_fragments": 1105920,
+    "feedback-0:routing_comparisons": 6635520,
+    "feedback-1:interface_predictions": 5806080,
+    "feedback-1:native_selected_responses": 1105920,
+    "feedback-1:committed_fragments": 1105920,
+    "feedback-1:routing_comparisons": 6635520,
+    "fresh-0:interface_predictions": 5806080,
+    "fresh-0:native_selected_responses": 1105920,
+    "fresh-0:committed_fragments": 1105920,
+    "fresh-0:routing_comparisons": 6635520,
+    "fresh-1:interface_predictions": 5806080,
+    "fresh-1:native_selected_responses": 1105920,
+    "fresh-1:committed_fragments": 1105920,
+    "fresh-1:routing_comparisons": 6635520
+  },
+  "transformer_calls": 0,
+  "attention_calls": 0,
+  "tokenizer_calls": 0,
+  "metric": "sum positive held-out R2 over109 multi-lag nonlinear Legendre targets;143 total readouts",
+  "original_precision_note": "Materialized pretrained component formulas; mixed-precision original-module fidelity is reported separately from full-coordinate compiled replay."
+}

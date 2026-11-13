@@ -30,3 +30,13 @@ Qwen/Qwen3-1.7B-MLX-4bit, revision
 The upstream model card identifies Apache-2.0. The existing Qwen license copy
 is retained at third-party/QWEN-LICENSE. Model weights are downloaded separately.
 Checkpoint 03 also uses Qwen/Qwen3-0.6B-MLX-4bit at its recorded pinned revision.
+
+Checkpoint 05 extracted component banks
+---------------------------------------
+
+Checkpoint 05 includes selected materialized gate/up rows, normalization-folded
+rows and down columns derived from both pinned Qwen3 checkpoints above, with
+model revisions and numerical fidelity in data/banks/manifest.json. These small
+derived banks are redistributed with the retained upstream Qwen license and
+attribution. They are transformed arrays, not unchanged full source models.
+The separate Gaussian controls are generated with matched row norms.

@@ -1,0 +1,50 @@
+{
+  "selected_slot": 0,
+  "old_program_ids": [
+    0,
+    1,
+    16
+  ],
+  "feedback_candidates": [
+    {
+      "slot": 1,
+      "gains": [
+        0.0,
+        0.0
+      ],
+      "old": 3,
+      "retained": 3,
+      "admissible": false
+    },
+    {
+      "slot": 2,
+      "gains": [
+        0.0,
+        0.0
+      ],
+      "old": 3,
+      "retained": 3,
+      "admissible": false
+    },
+    {
+      "slot": 3,
+      "gains": [
+        0.0,
+        0.0
+      ],
+      "old": 3,
+      "retained": 3,
+      "admissible": false
+    },
+    {
+      "slot": 4,
+      "gains": [
+        -9.535912221992193e-16,
+        3.3262039902216864e-15
+      ],
+      "old": 3,
+      "retained": 3,
+      "admissible": false
+    }
+  ]
+}

@@ -1,86 +1,71 @@
 Shaping Gap Benchmark
-====================
+=====================
 
-Learning executable improvements over frozen pretrained computation
------------------------------------------------------------------
+Learning executable improvements from pretrained neural components
+------------------------------------------------------------------
 
-**The central result: a runtime can acquire an execution change together with
-an interface that keeps existing programs usable, then retain improved
-computation on fresh inputs.**
+**The learning and compatibility cycle now operates without executing the
+original transformer graph.** A component runtime acquires response interfaces,
+uses them to connect frozen pretrained fragments, and learns which execution
+change and shared compatibility interface to retain for fresh inputs.
 
-Shaping Gap Benchmark develops runtimes over existing pretrained neural
-computation. Native experience acquires execution changes; paired trajectories
-acquire shared compatibility interfaces; outcome feedback determines which
-construction to retain. The pretrained weights remain fixed.
+**Latest: Checkpoint 05 - Component learning beyond the transformer graph.**
+`Read Paper V <checkpoints/05-component-learning-cycle/paper/shaping-gap-benchmark-v.pdf>`_
+· `Code, data and reproduction <checkpoints/05-component-learning-cycle/README.rst>`_
+· `All results and controls <checkpoints/05-component-learning-cycle/results/FINDINGS.txt>`_
 
-**Latest: Checkpoint 04 — Experience-acquired execution and compatibility reuse.**
-`Read Paper IV <checkpoints/04-experience-acquired-reuse/paper/shaping-gap-benchmark-iv.pdf>`_
-· `Code, data and reproduction <checkpoints/04-experience-acquired-reuse/README.rst>`_
-· `Full results <checkpoints/04-experience-acquired-reuse/results/report/FEEDBACK-RESULTS.txt>`_
-
-Experience → acquire an execution/interface pair → lock the construction → reuse
-it on untouched inputs. Checkpoint 04 closes this finite cycle in known runtime
-contexts, with acquisition and lifecycle costs recorded.
-
-.. image:: checkpoints/04-experience-acquired-reuse/results/report/checkpoint-overview.png
-   :alt: Experience-acquired execution/interface cycle, two strict success contexts and old-program retention across all twelve contexts
+.. image:: checkpoints/05-component-learning-cycle/results/checkpoint-overview.png
+   :alt: Acquired component runtime with one retained fresh quality improvement and complete-cohort controls
    :width: 100%
 
 Measured advance
 ----------------
 
-On the nonlinear temporal-computation benchmark, two retained constructions
-improve processing quality on both fresh validation streams while preserving
-all eligible old programs:
+Twenty-four sampled neural fragments from each source context execute through
+a new recurrent runtime. Acquired response/partial interfaces guide which
+fragments interact. Transformer blocks, attention, tokenization and generation
+are outside its execution path. The selected pretrained component arrays stay
+fixed; the acquired runtime and interfaces are additional recorded state.
 
-.. list-table:: Two strict joint-success contexts
-   :header-rows: 1
-   :widths: 25 25 25 25
+In one 0.6B-derived context, fresh nonlinear temporal-processing scores improve
+**0.75648 -> 1.17401** and **0.79913 -> 1.16017**, with **2/2** eligible old
+programs retained through the shared interface, versus **1/2** direct.
+Across all six integrated-guidance contexts, one retained update and five
+baseline fallbacks give positive mean score changes **+0.06959/+0.06017** and
+**18/18** old program instances retained.
 
-   * - Frozen model / context
-     - Fresh-stream quality gains
-     - Old programs with shared interface
-     - Old programs with direct reuse
-   * - 0.6B / 111005
-     - **+3.95%, +4.39%**
-     - **13/13**
-     - 9/13
-   * - 1.7B / 111004
-     - **+5.09%, +4.96%**
-     - **18/18**
-     - 10/18
+All 24 model/context/control conditions are released. First-order guidance has
+two strict successes; shuffled and norm-matched random-weight controls have one
+each. This establishes one finite component-level learning/reuse cycle, with
+the controls, precision differences and resource costs explicit.
 
-Across **all twelve contexts**, five updates are retained and seven keep baseline.
-Four selected updates improve quality on both streams with full old-program
-retention; two meet the stricter 1% gain threshold in both. Pooled mean score
-changes are **+0.114 and +0.076**, and **140/141** old program instances remain
-usable, versus 116/141 without the shared interfaces. One selected update
-regresses and loses a program; every case remains in the published evidence.
+**Verification:** 1,440 score vectors, all choices and 360 seals replay;
+4,800 component fields and 9,600 stage-binding choices are independently checked.
+CPU replay and execution use the supplied component banks, without loading the
+original language models. The checkpoint guide separates compiled-runtime memory
+from full-model preparation and documents numerical materialization tolerances.
 
-This is learning and reuse within experienced runtime contexts. The separate
-predictor evaluated on unseen runtime geometry misses its aggregate transfer
-criterion. The percentages above measure a finite temporal-processing score.
-Pretrained weights, observation interfaces and readout coefficients stay frozen
-during final reuse validation.
+Checkpoint 04 remains the whole-body foundation
+-----------------------------------------------
 
-**Verification and costs:** 5,040 saved native outputs independently reproduce
-bit exactly; 1,008 score vectors and 387 seals replay. The ledger charges
-1,852,268 new two-position native sequences, including unsuccessful trials,
-controls, padding and verification, with inherited acquisition reported
-separately. Interface, policy, readout and chart storage are explicit.
+`Paper IV <checkpoints/04-experience-acquired-reuse/paper/shaping-gap-benchmark-iv.pdf>`_
+closed the experience/selection/reuse cycle around the complete frozen transformer
+body: two contexts gained approximately 4-5% on both fresh streams while retaining
+13/13 and 18/18 old programs. Checkpoint 05 brings that cycle into component
+execution. Each study retains its own metric values, complete cases and scope.
 
 Start with the current result
 -----------------------------
 
 From the repository root::
 
-    python3 -m pip install -r checkpoints/04-experience-acquired-reuse/requirements-analysis.txt
-    python3 checkpoints/04-experience-acquired-reuse/code/replay.py
-    python3 checkpoints/04-experience-acquired-reuse/code/report.py
+    python3 -m pip install -r checkpoints/05-component-learning-cycle/requirements-analysis.txt
+    python3 checkpoints/05-component-learning-cycle/code/replay.py
+    python3 checkpoints/05-component-learning-cycle/code/report.py
 
-Replay loads no model. The `checkpoint guide <checkpoints/04-experience-acquired-reuse/README.rst>`_
-also documents original-weight verification and complete native acquisition in
-a separate workspace. New outputs go under the checkpoint's ``runs/`` directory.
+Replay loads no source language model. The `checkpoint guide <checkpoints/05-component-learning-cycle/README.rst>`_
+also documents full component-cycle acquisition and optional original-checkpoint
+extraction verification. New outputs go under the checkpoint's ``runs/`` directory.
 
 Research checkpoints
 --------------------
@@ -98,7 +83,13 @@ and `machine-readable index <CHECKPOINTS.json>`_ to track the buildup.
      - Advance
      - Paper and evidence
      - Publication record
-   * - **04 · Central result**
+   * - **05 · Central result**
+     - Learned component execution completes an acquired execution/interface reuse
+       cycle without the original transformer graph; full controls and costs.
+     - `Paper V <checkpoints/05-component-learning-cycle/paper/shaping-gap-benchmark-v.pdf>`_
+       · `Code, data and reproduction <checkpoints/05-component-learning-cycle/README.rst>`_
+     - November 13, 2026 · `Checkpoint commits <https://github.com/calysteon/shaping-gap-benchmark/commits/main/checkpoints/05-component-learning-cycle>`_
+   * - **04 · Experience and reuse**
      - Experience acquires a retained execution/interface pair; two fresh-stream
        joint successes, positive pooled quality and 140/141 old instances retained.
      - `Paper IV <checkpoints/04-experience-acquired-reuse/paper/shaping-gap-benchmark-iv.pdf>`_
@@ -124,9 +115,9 @@ and `machine-readable index <CHECKPOINTS.json>`_ to track the buildup.
      - November 12, 2026 · `20b5a2a <https://github.com/calysteon/shaping-gap-benchmark/commit/20b5a2a8d63998b13e78041d0d3b7ec7812779e7>`_
 
 The next research threshold
-----------------------------
+---------------------------
 
-Start from an already improved runtime and acquire a second retained gain,
+Start from the accepted component runtime and acquire a second retained gain,
 composing compatibility interfaces into one fixed-size map while charging
 reorganization, failed trials and maintenance. This tests cumulative development
 from the demonstrated learning-and-reuse cycle. Stronger regression control and

@@ -1,0 +1,84 @@
+{
+  "id": "P63-COMPONENT-ACQUISITION-REUSE-001",
+  "run_id": "p63-component-acquisition-reuse-001",
+  "status": "prospective_protocol_before_task_outcomes",
+  "question": "Can acquired effect/partial interfaces guide layerless pretrained-fragment interactions, then can experience select an execution/compatibility pair that improves temporal processing on fresh inputs?",
+  "config": {
+    "models": [
+      "0.6B",
+      "1.7B"
+    ],
+    "seeds": [
+      151001,
+      151002,
+      151003
+    ],
+    "variants": [
+      "integrated",
+      "first_order",
+      "shuffled",
+      "random_weight"
+    ],
+    "anchor_rms_by_seed": {
+      "151001": 0.12,
+      "151002": 0.25,
+      "151003": 0.5
+    },
+    "epsilon": 0.8,
+    "profile_samples": 96,
+    "profile_validation": 24,
+    "profile_radius": 0.35,
+    "profile_ridge": 1e-06,
+    "active_fragments_per_stage": 4,
+    "observable_dimension": 16,
+    "differential_step": 0.04,
+    "curvature_samples": 96,
+    "curvature_probe_scale": 0.25,
+    "baseline_orientations": 2,
+    "spectral_radii": [
+      0.4,
+      0.7,
+      0.9
+    ],
+    "calibration_steps": 512,
+    "burn": 128,
+    "echo_tolerance": 0.1,
+    "state_limit": 50.0,
+    "input_gain": 0.2,
+    "signed_action_fractions": [
+      -0.05,
+      -0.02,
+      0.02,
+      0.05
+    ],
+    "training_steps": 1024,
+    "training_seed": 161001,
+    "assessment_steps": 1024,
+    "feedback_seeds": [
+      162001,
+      163001
+    ],
+    "fresh_seeds": [
+      164001,
+      165001
+    ],
+    "readout_ridge": 0.0001,
+    "transport_ridge": 0.001,
+    "reliability_threshold": 0.5,
+    "quality_acceptance": 0.01
+  },
+  "mechanism": "24 uniformly sampled physical SwiGLU units per model/context. Original gate/up/down/norm rows materialized from pinned four-bit pretrained checkpoints. Two native fragment stages: first route ranks current predicted write size, second ranks accumulated response change caused by the first native write. Generic integrable quadratic interfaces learned from native values and partials. Eight-state return and sixteen observation coordinates acquired from this component field. Native-response curvature complement proposes return rewiring; source neural pairs fit a shared observation map. Two feedback blocks choose a pair or baseline; lock before two fresh blocks.",
+  "information_boundary": "Native profile data and partials are unlabeled. Numerical temporal target labels fit readout programs and provide explicit development feedback. All variants have identical source budgets and candidate grammar. Interfaces, readouts and selected return remain fixed throughout final validation. Fresh seeds are declared but outcomes unobserved before seals. Context identity supplied. Physical unit inventory, two-stage grammar, polynomial family, input coordinates, candidate doses and acceptance rules supplied; no claim they were discovered.",
+  "controls": "Same native components, acquired interface and root ranking with first-order-only successor conditioning or permuted conditioning; norm-matched Gaussian gate/up/down rows with the same tensor dimensions and anchors. Each variant acquires its own stable return and compatibility under the same budget; these are matched procedures rather than identical latent dynamics. Baseline return is included in every variant. Checkpoint04 is an historical whole-body reference, not a matched resource comparator in this study.",
+  "primary_outcomes": [
+    "Locked fresh quality change and complete prior-old program retention per context; all fallbacks and regressions retained",
+    "Paired guidance comparisons across integrated/first_order/shuffled with quality, selection and full lifecycle cost reported together",
+    "Pretrained versus norm-matched random component quality, treated as a finite matched-control measurement",
+    "Profile value/partial accuracy, state-dependent routing, graph detachment, immutable parameter provenance and native primitive fidelity"
+  ],
+  "positive_cycle_criterion": "At least one pretrained integrated context meets >=1percent gain in both fresh blocks with complete nonempty prior-old retention, and mean integrated quality changes across all six contexts are positive in both blocks. Guidance and pretrained-specific advantages are separate comparisons, not implied by meeting this criterion.",
+  "resources": "Charge extraction and native module fidelity, native profile values/partials, unused returns and two-replica calibration, all candidate execution, source maps/readouts, feedback trials, rejected choices and fresh validation. Track committed fragment evaluations, measured derivative labels, routing/interface work, wall by phase, stored arrays and whole-process peak RSS separately. Affine coordinate contraction accelerates original component formulas and is disclosed. No electrical energy measurement. Core component bank frozen; learned/controller arrays are additional resources.",
+  "numerical_scope": "Native pre-extraction fidelity is a diagnostic collected before task outcomes, not a task result. Float32 materialization and subsequent float64 coordinate arithmetic differ from original mixed-precision MLX evaluation; all measured errors published. No whole-transformer, attention, tokenizer, English prompt or generation call exists in experiment runtime. Extractor uses guarded original primitives only for fidelity. Imported known calculus/linear regression are tools, not an asserted invention.",
+  "stopping": "Run all 24 declared model/context/variant cases once. No outcome-driven retuning or exclusion. Source inadmissibility retained and reported. A crash preserves raw partial outputs and source snapshots; engineering correction and fresh run ID required. Diagnostic outcomes cannot choose profile degree, radius, rows or seeds. This study is one acquisition/selection/reuse cycle, not cumulative depth or general language ability.",
+  "bank_manifest_sha256": "dcfb57e62ca91c7246b6ba1d8435c5fae03142c51cc22953f6dc23200a2f97fd"
+}

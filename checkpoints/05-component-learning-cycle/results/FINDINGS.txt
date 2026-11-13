@@ -1,0 +1,41 @@
+P63 / CHECKPOINT05: COMPONENT ACQUISITION AND COMPATIBLE REUSE
+
+Prespecified finite component-cycle criterion met: True
+
+integrated: selected 1/6; strict joint 1; mean fresh quality changes [0.06958857196188593, 0.06017283733573564]; old retained 18/18; mean final qualities [0.7134364774033934, 0.7561072511438199]
+first_order: selected 2/6; strict joint 2; mean fresh quality changes [0.07828149533175649, 0.08789780190160701]; old retained 19/19; mean final qualities [0.45679855525061414, 0.46848120716047664]
+shuffled: selected 2/6; strict joint 1; mean fresh quality changes [0.01666234965951946, 0.01438670656114216]; old retained 14/14; mean final qualities [0.4447289454906869, 0.46512542795990375]
+random_weight: selected 1/6; strict joint 1; mean fresh quality changes [0.02397173815838614, 0.016646080721864114]; old retained 15/15; mean final qualities [0.23735683085708412, 0.4036408146819545]
+
+All cases (no exclusions):
+0.6B-151001-integrated: slot0; quality [0.5051077521728559, 0.5103115203352733] -> [0.5051077521728559, 0.5103115203352733]; relative changes [0.0, 0.0]; old 2/2; direct old intersection 2; strict False; sampled selected fresh routes 2
+0.6B-151001-first_order: slot2; quality [0.5044091701714907, 0.5301067062677638] -> [0.5470987542650231, 0.5658403512134403]; relative changes [0.0846328469385651, 0.06740840008846637]; old 2/2; direct old intersection 2; strict True; sampled selected fresh routes 3
+0.6B-151001-shuffled: slot0; quality [0.08297358289223589, 0.07967536936521413] -> [0.08297358289223589, 0.07967536936521413]; relative changes [0.0, 0.0]; old 3/3; direct old intersection 3; strict False; sampled selected fresh routes 3
+0.6B-151001-random_weight: slot0; quality [0.05070889483311403, 0.07166215384334607] -> [0.05070889483311403, 0.07166215384334607]; relative changes [0.0, 0.0]; old 0/0; direct old intersection 0; strict False; sampled selected fresh routes 9
+0.6B-151002-integrated: slot0; quality [0.9617484024253637, 0.9134829191683413] -> [0.9617484024253637, 0.9134829191683413]; relative changes [0.0, 0.0]; old 5/5; direct old intersection 5; strict False; sampled selected fresh routes 1
+0.6B-151002-first_order: slot0; quality [0.4437532317837497, 0.426205306713339] -> [0.4437532317837497, 0.426205306713339]; relative changes [0.0, 0.0]; old 5/5; direct old intersection 5; strict False; sampled selected fresh routes 1
+0.6B-151002-shuffled: slot0; quality [0.5713707767031276, 0.49399282285047597] -> [0.5713707767031276, 0.49399282285047597]; relative changes [0.0, 0.0]; old 3/3; direct old intersection 3; strict False; sampled selected fresh routes 2
+0.6B-151002-random_weight: slot0; quality [0.12068802658427658, 0.10915962550649416] -> [0.12068802658427658, 0.10915962550649416]; relative changes [0.0, 0.0]; old 5/5; direct old intersection 5; strict False; sampled selected fresh routes 2
+0.6B-151003-integrated: slot4; quality [0.7564773315135053, 0.7991309258524015] -> [1.1740087632848208, 1.1601679498668154]; relative changes [0.5519417626645188, 0.45178707560254894]; old 2/2; direct old intersection 1; strict True; sampled selected fresh routes 6
+0.6B-151003-first_order: slot1; quality [0.14328124466317815, 0.23807150145579026] -> [0.5702806325601847, 0.7297246679197558]; relative changes [1.7079975515880261, 1.966612665855862]; old 1/1; direct old intersection 0; strict True; sampled selected fresh routes 2
+0.6B-151003-shuffled: slot4; quality [0.0226794515283536, 0.01851190498846622] -> [0.07015637260718766, 0.15314653084648489]; relative changes [0.18990768431533622, 0.5385385034320747]; old 1/1; direct old intersection 1; strict True; sampled selected fresh routes 7
+0.6B-151003-random_weight: slot0; quality [0.0, 1.0430398506282632] -> [0.0, 1.0430398506282632]; relative changes [0.0, 0.0]; old 0/0; direct old intersection 0; strict False; sampled selected fresh routes 9
+1.7B-151001-integrated: slot0; quality [1.3108032177972393, 1.5823098344024062] -> [1.3108032177972393, 1.5823098344024062]; relative changes [0.0, 0.0]; old 1/1; direct old intersection 1; strict False; sampled selected fresh routes 7
+1.7B-151001-first_order: slot0; quality [1.0460975004744935, 0.9297221294725792] -> [1.0460975004744935, 0.9297221294725792]; relative changes [0.0, 0.0]; old 2/2; direct old intersection 2; strict False; sampled selected fresh routes 4
+1.7B-151001-shuffled: slot2; quality [1.5137740274534761, 1.6851320146507] -> [1.5662712043317588, 1.6368176281595344]; relative changes [0.034679665475959645, -0.028670980119726987]; old 2/2; direct old intersection 2; strict False; sampled selected fresh routes 7
+1.7B-151001-random_weight: slot3; quality [0.9491945145501793, 0.926584338557252] -> [1.0930249435004962, 1.0264608228884367]; relative changes [0.15152892978788196, 0.10778995518821138]; old 4/4; direct old intersection 4; strict True; sampled selected fresh routes 2
+1.7B-151002-integrated: slot0; quality [0.004001126092952556, 0.0053976584769458436] -> [0.004001126092952556, 0.0053976584769458436]; relative changes [0.0, 0.0]; old 3/3; direct old intersection 3; strict False; sampled selected fresh routes 3
+1.7B-151002-first_order: slot0; quality [0.004726246956790692, 0.013224608217328737] -> [0.004726246956790692, 0.013224608217328737]; relative changes [0.0, 0.0]; old 4/4; direct old intersection 4; strict False; sampled selected fresh routes 1
+1.7B-151002-shuffled: slot0; quality [0.008411659097915525, 0.010535924581361988] -> [0.008411659097915525, 0.010535924581361988]; relative changes [0.0, 0.0]; old 1/1; direct old intersection 1; strict False; sampled selected fresh routes 2
+1.7B-151002-random_weight: slot0; quality [0.026912900129403394, 0.037958899123625045] -> [0.026912900129403394, 0.037958899123625045]; relative changes [0.0, 0.0]; old 0/0; direct old intersection 0; strict False; sampled selected fresh routes 8
+1.7B-151003-integrated: slot0; quality [0.3249496026471286, 0.36497362461313687] -> [0.3249496026471286, 0.36497362461313687]; relative changes [0.0, 0.0]; old 5/5; direct old intersection 5; strict False; sampled selected fresh routes 1
+1.7B-151003-first_order: slot0; quality [0.12883496546344309, 0.14617017942641697] -> [0.12883496546344309, 0.14617017942641697]; relative changes [0.0, 0.0]; old 5/5; direct old intersection 5; strict False; sampled selected fresh routes 1
+1.7B-151003-shuffled: slot0; quality [0.36919007731189635, 0.41658429195635105] -> [0.36919007731189635, 0.41658429195635105]; relative changes [0.0, 0.0]; old 4/4; direct old intersection 4; strict False; sampled selected fresh routes 2
+1.7B-151003-random_weight: slot0; quality [0.1328062200952147, 0.13356353610156202] -> [0.1328062200952147, 0.13356353610156202]; relative changes [0.0, 0.0]; old 6/6; direct old intersection 6; strict False; sampled selected fresh routes 2
+
+The acquired pair is a response-derived return change plus a shared observation map.
+Six pretrained integrated contexts: one update, five baseline fallbacks; all18 old instances retained.
+First-order guidance produces two strict successes; shuffled and random-weight controls each produce one.
+Comparisons do not establish general superiority of integrated conditioning or a pretraining-specific mechanism.
+One cycle; numerical temporal computation from selected frozen components, not a language-task evaluation.
+Complete controller memory and acquisition counts are separate from frozen parameters and preparation.

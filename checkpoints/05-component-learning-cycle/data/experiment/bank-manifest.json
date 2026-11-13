@@ -1,0 +1,625 @@
+{
+  "records": [
+    {
+      "model": "0.6B",
+      "seed": 151001,
+      "file": "0.6B-151001.npz",
+      "sha256": "6b169011a8cd0d64a50fb950cce7c90c225047de4fccb37a94191df06e441818",
+      "width": 1024,
+      "fragments": 24,
+      "checks": [
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.06398701809968799,
+          "relative_error": 0.0024297019836555197
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0015269580572668394,
+          "absolute_error": 1.9433100533206016e-06
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014651767213135912,
+          "absolute_error": 8.756205716053955e-08
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013649779611212174,
+          "absolute_error": 8.465893915854394e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014141474583537247,
+          "absolute_error": 5.0548449507914484e-05
+        },
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.012164518000098212,
+          "relative_error": 0.0028981606086819285
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0015269703294152075,
+          "absolute_error": 1.086635165847838e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.001465177223784612,
+          "absolute_error": 4.777760477736592e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013649777883584422,
+          "absolute_error": 0.001439088024199009
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014141445634272302,
+          "absolute_error": 2.347660483792424e-06
+        },
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.03260975390280496,
+          "relative_error": 0.004248501813854691
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0015269625628471196,
+          "absolute_error": 1.6954318198258989e-06
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014651789234683768,
+          "absolute_error": 3.469749935902655e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013649878202061183,
+          "absolute_error": 8.717569289728999e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.001414149058213781,
+          "absolute_error": 4.5289008994586766e-05
+        }
+      ],
+      "guarded_original_calls": [
+        "model",
+        "body",
+        "block",
+        "attention",
+        "embedding",
+        "unembedding"
+      ],
+      "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+      "receipt": {
+        "repo": "Qwen/Qwen3-0.6B-MLX-4bit",
+        "revision": "173234aa840d113125e9f2271100ddbaf16c9620",
+        "local_path": "models/qwen3-0.6b-4bit",
+        "method": "Public checkpoint, provided 4-bit quantization, frozen for experiments; no conversion or model training.",
+        "sources": [
+          "https://huggingface.co/Qwen/Qwen3-0.6B-MLX-4bit",
+          "https://github.com/ml-explore/mlx-lm"
+        ]
+      },
+      "packed_bytes": 295488
+    },
+    {
+      "model": "0.6B",
+      "seed": 151002,
+      "file": "0.6B-151002.npz",
+      "sha256": "13c181a98a0a5875633593af902305c9a440cd0c22b5adb0ee04c518d28937ba",
+      "width": 1024,
+      "fragments": 24,
+      "checks": [
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.01950027167003965,
+          "relative_error": 0.0014319050995788706
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0015200937977834779,
+          "absolute_error": 2.4235545424744487e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014700019662445098,
+          "absolute_error": 4.754559995490126e-06
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014050096064403207,
+          "absolute_error": 7.522403029724956e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.00146944583057062,
+          "absolute_error": 0.00030542141757905483
+        },
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.011318583568620255,
+          "relative_error": 0.0017068382530005433
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.001520089348524531,
+          "absolute_error": 2.122218575095758e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014700092286781582,
+          "absolute_error": 6.274822226259857e-06
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014050065821849785,
+          "absolute_error": 8.058173989411443e-06
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014694377800073904,
+          "absolute_error": 0.0007052626460790634
+        },
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.016316156363988865,
+          "relative_error": 0.00455178897887712
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0015200971531576317,
+          "absolute_error": 2.740531272138469e-06
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.001470001124188121,
+          "absolute_error": 0.00016389350639656186
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014050070511715744,
+          "absolute_error": 2.5634042685851455e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.001469441284198207,
+          "absolute_error": 1.61997159011662e-05
+        }
+      ],
+      "guarded_original_calls": [
+        "model",
+        "body",
+        "block",
+        "attention",
+        "embedding",
+        "unembedding"
+      ],
+      "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+      "receipt": {
+        "repo": "Qwen/Qwen3-0.6B-MLX-4bit",
+        "revision": "173234aa840d113125e9f2271100ddbaf16c9620",
+        "local_path": "models/qwen3-0.6b-4bit",
+        "method": "Public checkpoint, provided 4-bit quantization, frozen for experiments; no conversion or model training.",
+        "sources": [
+          "https://huggingface.co/Qwen/Qwen3-0.6B-MLX-4bit",
+          "https://github.com/ml-explore/mlx-lm"
+        ]
+      },
+      "packed_bytes": 295488
+    },
+    {
+      "model": "0.6B",
+      "seed": 151003,
+      "file": "0.6B-151003.npz",
+      "sha256": "15271ca1b170ad01d1afa430dfef6567440709cdff271b9dc628373f797819f4",
+      "width": 1024,
+      "fragments": 24,
+      "checks": [
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.006542769257637193,
+          "relative_error": 0.002731376426821331
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014446992575162124,
+          "absolute_error": 1.4227331121219322e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014607134903868197,
+          "absolute_error": 2.8717971872538328e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013533013118502556,
+          "absolute_error": 7.62213603593409e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013030358672407522,
+          "absolute_error": 4.43509197793901e-05
+        },
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.07106782819485602,
+          "relative_error": 0.002920331510034507
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014447023238193329,
+          "absolute_error": 4.744075340568088e-06
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.001460719277447516,
+          "absolute_error": 0.00037591438740491867
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013532967868928145,
+          "absolute_error": 1.6398887964896858e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.001303031825855786,
+          "absolute_error": 7.495207682950422e-06
+        },
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.009783907775954503,
+          "relative_error": 0.003375538132977373
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014447035733745706,
+          "absolute_error": 2.3943095584399998e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014607167790033923,
+          "absolute_error": 6.176359602250159e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013532956001804186,
+          "absolute_error": 8.66912305355072e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013030326318836743,
+          "absolute_error": 3.1990612114896066e-06
+        }
+      ],
+      "guarded_original_calls": [
+        "model",
+        "body",
+        "block",
+        "attention",
+        "embedding",
+        "unembedding"
+      ],
+      "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+      "receipt": {
+        "repo": "Qwen/Qwen3-0.6B-MLX-4bit",
+        "revision": "173234aa840d113125e9f2271100ddbaf16c9620",
+        "local_path": "models/qwen3-0.6b-4bit",
+        "method": "Public checkpoint, provided 4-bit quantization, frozen for experiments; no conversion or model training.",
+        "sources": [
+          "https://huggingface.co/Qwen/Qwen3-0.6B-MLX-4bit",
+          "https://github.com/ml-explore/mlx-lm"
+        ]
+      },
+      "packed_bytes": 295488
+    },
+    {
+      "model": "1.7B",
+      "seed": 151001,
+      "file": "1.7B-151001.npz",
+      "sha256": "158636c8a71bfb1bc4057d6ec9cd40fcce6fb5d1f20de65500e316f68d73cd44",
+      "width": 2048,
+      "fragments": 24,
+      "checks": [
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.2589130397825272,
+          "relative_error": 0.0014663027625254075
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014143745881048954,
+          "absolute_error": 3.4426237107254565e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014974394434586356,
+          "absolute_error": 3.7529796827584505e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013852342877931044,
+          "absolute_error": 7.948139682412148e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013826929003697792,
+          "absolute_error": 0.00010072204167954624
+        },
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.017256452202221162,
+          "relative_error": 0.005988447964791383
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014143730451577565,
+          "absolute_error": 2.7647176466416568e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014974369926362963,
+          "absolute_error": 2.16818880289793e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013852317927354825,
+          "absolute_error": 0.00017743330681696534
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013826913094056891,
+          "absolute_error": 0.0001539096119813621
+        },
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.06485463162826213,
+          "relative_error": 0.0038353492491571897
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014143719811128552,
+          "absolute_error": 2.3310545657295734e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014974444628125618,
+          "absolute_error": 3.33403586409986e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013852340854675856,
+          "absolute_error": 0.002174749970436096
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013826864495738176,
+          "absolute_error": 3.68403852917254e-05
+        }
+      ],
+      "guarded_original_calls": [
+        "model",
+        "body",
+        "block",
+        "attention",
+        "embedding",
+        "unembedding"
+      ],
+      "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7",
+      "receipt": {
+        "repo": "Qwen/Qwen3-1.7B-MLX-4bit",
+        "revision": "21457c6f51ed54a7c16e988c0844db973815c137",
+        "local_path": "models/qwen3-1.7b-4bit",
+        "purpose": "Local frozen-weight comparison; no hosted inference or remote code execution."
+      },
+      "packed_bytes": 590400
+    },
+    {
+      "model": "1.7B",
+      "seed": 151002,
+      "file": "1.7B-151002.npz",
+      "sha256": "b41525cad772d5b0e36ba94476f36860a72712569981660cd70a69c6af050351",
+      "width": 2048,
+      "fragments": 24,
+      "checks": [
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.09943054768869919,
+          "relative_error": 0.005781751779107729
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014104379818707302,
+          "absolute_error": 0.00014898483641445637
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014249427631251941,
+          "absolute_error": 9.569448593538254e-06
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.00142281251372465,
+          "absolute_error": 2.238100023532752e-06
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014471210649556526,
+          "absolute_error": 0.0001110160956159234
+        },
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.09707873833158276,
+          "relative_error": 0.01909385233143418
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014104379450029026,
+          "absolute_error": 7.704446034040302e-06
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014249390339207502,
+          "absolute_error": 6.238685455173254e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014228141934246822,
+          "absolute_error": 7.017457392066717e-06
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014471260618299092,
+          "absolute_error": 7.944533717818558e-05
+        },
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.2776172834002466,
+          "relative_error": 0.00409788971213699
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014104361724395376,
+          "absolute_error": 8.960487321019173e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014249426611675602,
+          "absolute_error": 0.00010631346958689392
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.001422805706082038,
+          "absolute_error": 9.284209227189422e-06
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014471314850980064,
+          "absolute_error": 2.3708445951342583e-05
+        }
+      ],
+      "guarded_original_calls": [
+        "model",
+        "body",
+        "block",
+        "attention",
+        "embedding",
+        "unembedding"
+      ],
+      "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7",
+      "receipt": {
+        "repo": "Qwen/Qwen3-1.7B-MLX-4bit",
+        "revision": "21457c6f51ed54a7c16e988c0844db973815c137",
+        "local_path": "models/qwen3-1.7b-4bit",
+        "purpose": "Local frozen-weight comparison; no hosted inference or remote code execution."
+      },
+      "packed_bytes": 590400
+    },
+    {
+      "model": "1.7B",
+      "seed": 151003,
+      "file": "1.7B-151003.npz",
+      "sha256": "84badeb7a5d73665d0cd8794ad7e1894b173433561d171f1d6a72250d82cab30",
+      "width": 2048,
+      "fragments": 24,
+      "checks": [
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.03951058343929903,
+          "relative_error": 0.00356049410583689
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013262832740702077,
+          "absolute_error": 0.00013378314906731248
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013968838073877199,
+          "absolute_error": 4.567713403957896e-06
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014224627296474037,
+          "absolute_error": 0.0007141188252717257
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014018354551579534,
+          "absolute_error": 0.0007481509819626808
+        },
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.1052725227339053,
+          "relative_error": 0.002266778636915565
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.001326279787512634,
+          "absolute_error": 0.0001914583845064044
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0013968919056030601,
+          "absolute_error": 0.00010397782898508012
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014224653705766856,
+          "absolute_error": 0.008794784545898438
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014018350698568466,
+          "absolute_error": 6.1100407037884e-05
+        },
+        {
+          "kind": "native_amplitudes",
+          "absolute_error": 0.04978418598887302,
+          "relative_error": 0.0036342056154249837
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.001326285289648239,
+          "absolute_error": 1.10213368316181e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.001396883352435935,
+          "absolute_error": 0.0001104485709220171
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.001422464979399111,
+          "absolute_error": 6.939267041161656e-05
+        },
+        {
+          "kind": "native_write",
+          "relative_error": 0.0014018369348327213,
+          "absolute_error": 0.0012476968113332987
+        }
+      ],
+      "guarded_original_calls": [
+        "model",
+        "body",
+        "block",
+        "attention",
+        "embedding",
+        "unembedding"
+      ],
+      "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7",
+      "receipt": {
+        "repo": "Qwen/Qwen3-1.7B-MLX-4bit",
+        "revision": "21457c6f51ed54a7c16e988c0844db973815c137",
+        "local_path": "models/qwen3-1.7b-4bit",
+        "purpose": "Local frozen-weight comparison; no hosted inference or remote code execution."
+      },
+      "packed_bytes": 590400
+    }
+  ],
+  "wall_seconds": 1.2167858330067247,
+  "extraction_source_sha256": "32da8b38e12820e92bb46dcf3d7f41f3ec3b5ef78d572d50763eda9a347e734c",
+  "execution_note": "Original modules used only for guarded primitive fidelity checks. Transformer, attention and token execution forbidden. Native kernels retained as extracted float32 row/column arithmetic; original mixed precision rounding separately quantified."
+}

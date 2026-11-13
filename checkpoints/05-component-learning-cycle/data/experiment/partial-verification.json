@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "contexts": 24,
+  "points_per_context": 3,
+  "coordinate_step": 1e-05,
+  "maximum_relative_gradient_error": 2.183699499198768e-09,
+  "maximum_absolute_gradient_error": 3.7604665692470007e-07,
+  "native_response_vectors": 114048,
+  "source_gradient_method": "analytic partials of frozen primitive; independent check uses full input coordinates and symmetric differences"
+}

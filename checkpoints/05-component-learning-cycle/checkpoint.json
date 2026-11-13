@@ -1,0 +1,25 @@
+{
+  "number": 5,
+  "id": "05-component-learning-cycle",
+  "date": "2026-11-13",
+  "title": "Shaping Gap Benchmark V: Learned Component Execution Beyond the Transformer Graph",
+  "authors": [
+    "Nathaniel Oh",
+    "Paul Attie"
+  ],
+  "paper": "paper/shaping-gap-benchmark-v.pdf",
+  "predecessor": "04-experience-acquired-reuse",
+  "status": "published-in-repository",
+  "observed_advances": [
+    "One acquired execution/interface pair improves nonlinear temporal quality on both fresh streams in a component runtime without the original transformer graph.",
+    "Shared compatibility retains2/2 old programs versus1/2 direct in the successful context;18/18 retained across all six integrated contexts.",
+    "All24 controls/cases and numerical materialization tolerances are reported; first-order guidance also succeeds.",
+    "Independent replay reproduces1440 score vectors and4800 full-coordinate native component fields."
+  ],
+  "research_scope": [
+    "Selected pretrained components and numerical temporal assay; language abilities not assessed.",
+    "One cycle with human-supplied physical inventory/grammar and finite feedback contract.",
+    "First-order, shuffled and random-weight controls remain part of the evidence.",
+    "Recorded runtime memory/time exclude full-model preparation, whose operation counts and timing gaps are explicit."
+  ]
+}

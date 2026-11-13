@@ -1,0 +1,66 @@
+{
+  "candidates": [
+    {
+      "slot": 0,
+      "orientation": 0,
+      "rho": 0.4,
+      "bounded": true,
+      "variance": 0.299716415829287,
+      "echo_ratio": 0.0,
+      "effective_rank": 1.0222166341631982,
+      "admissible": true
+    },
+    {
+      "slot": 1,
+      "orientation": 0,
+      "rho": 0.7,
+      "bounded": true,
+      "variance": 26.73769227662231,
+      "echo_ratio": 0.8172865415347366,
+      "effective_rank": 2.071940920584594,
+      "admissible": false
+    },
+    {
+      "slot": 2,
+      "orientation": 0,
+      "rho": 0.9,
+      "bounded": false,
+      "variance": 0.0,
+      "echo_ratio": 0.0,
+      "effective_rank": 0.0,
+      "admissible": false
+    },
+    {
+      "slot": 3,
+      "orientation": 1,
+      "rho": 0.4,
+      "bounded": true,
+      "variance": 0.020206486388080095,
+      "echo_ratio": 0.0,
+      "effective_rank": 1.2094406223075669,
+      "admissible": true
+    },
+    {
+      "slot": 4,
+      "orientation": 1,
+      "rho": 0.7,
+      "bounded": true,
+      "variance": 0.06424535397834612,
+      "echo_ratio": 0.0,
+      "effective_rank": 1.2498068482119837,
+      "admissible": true
+    },
+    {
+      "slot": 5,
+      "orientation": 1,
+      "rho": 0.9,
+      "bounded": true,
+      "variance": 0.13796140717784977,
+      "echo_ratio": 0.0,
+      "effective_rank": 1.4714120295919848,
+      "admissible": true
+    }
+  ],
+  "selected": 5,
+  "source_admissible": true
+}

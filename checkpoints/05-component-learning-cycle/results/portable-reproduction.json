@@ -1,0 +1,9 @@
+{
+  "all_numeric_arrays_bitexact": true,
+  "npz_files_compared": 648,
+  "all_selections_identical": true,
+  "repeated_scientific_observations": false,
+  "wall_seconds": 41.25082116690464,
+  "process_peak_rss_bytes": 98336768,
+  "note": "Portable publication entrypoint, supplied source banks, identical declared seeds; release reproduction QA."
+}

@@ -1,0 +1,66 @@
+{
+  "candidates": [
+    {
+      "slot": 0,
+      "orientation": 0,
+      "rho": 0.4,
+      "bounded": true,
+      "variance": 4.7317359209068206e-05,
+      "echo_ratio": 0.0,
+      "effective_rank": 1.031766171616567,
+      "admissible": true
+    },
+    {
+      "slot": 1,
+      "orientation": 0,
+      "rho": 0.7,
+      "bounded": true,
+      "variance": 0.0001602624746422171,
+      "echo_ratio": 0.0,
+      "effective_rank": 1.152724119043988,
+      "admissible": true
+    },
+    {
+      "slot": 2,
+      "orientation": 0,
+      "rho": 0.9,
+      "bounded": true,
+      "variance": 0.00034766519088164007,
+      "echo_ratio": 3.0099901985236846e-07,
+      "effective_rank": 1.4306300717012406,
+      "admissible": true
+    },
+    {
+      "slot": 3,
+      "orientation": 1,
+      "rho": 0.4,
+      "bounded": true,
+      "variance": 0.0006338663366722676,
+      "echo_ratio": 0.0,
+      "effective_rank": 1.0113023987624,
+      "admissible": true
+    },
+    {
+      "slot": 4,
+      "orientation": 1,
+      "rho": 0.7,
+      "bounded": true,
+      "variance": 9.746005628382469e-05,
+      "echo_ratio": 0.0,
+      "effective_rank": 1.0584843316673744,
+      "admissible": true
+    },
+    {
+      "slot": 5,
+      "orientation": 1,
+      "rho": 0.9,
+      "bounded": true,
+      "variance": 6.958789384348727e-05,
+      "echo_ratio": 0.0,
+      "effective_rank": 1.0464411124827842,
+      "admissible": true
+    }
+  ],
+  "selected": 2,
+  "source_admissible": true
+}

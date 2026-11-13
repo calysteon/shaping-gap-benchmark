@@ -1,0 +1,7 @@
+{
+  "value_relative_rmse": 0.10009604708745304,
+  "partial_relative_rmse": 0.2687416298487586,
+  "profile_bytes": 215616,
+  "source_points": 96,
+  "validation_points": 24
+}

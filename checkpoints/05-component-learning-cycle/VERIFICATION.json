@@ -1,0 +1,210 @@
+{
+  "passed": true,
+  "complete_study_cases": 24,
+  "portable_replay": {
+    "passed": true,
+    "score_vectors": 1440,
+    "max_score_error": 3.4924596548080444e-10,
+    "full_space_native_fields": 4800,
+    "individual_binding_choices": 9600,
+    "max_native_output_error": 6.482287759723704e-05,
+    "max_native_output_relative_error": 1.1905025523668566e-06,
+    "native_comparison_tolerance": {
+      "rtol": 2e-05,
+      "atol": 2e-05
+    },
+    "max_native_amplitude_error": 7.105427357601002e-13,
+    "max_quadratic_integral_identity_error": 1.280568540096283e-09,
+    "max_quadratic_integral_scaled_error": 4.3778714357869295e-14,
+    "seals_checked": 360,
+    "all_selections_replayed": true,
+    "all_heads_refitted": true,
+    "all_shared_interfaces_refitted": true,
+    "wall_seconds": 1.4974816250614822,
+    "original_transformer_calls": 0,
+    "contexts": [
+      {
+        "context": "0.6B-151001-integrated",
+        "selected_slot": 0,
+        "old": 2,
+        "retained": 2,
+        "strict_joint": false
+      },
+      {
+        "context": "0.6B-151001-first_order",
+        "selected_slot": 2,
+        "old": 2,
+        "retained": 2,
+        "strict_joint": true
+      },
+      {
+        "context": "0.6B-151001-shuffled",
+        "selected_slot": 0,
+        "old": 3,
+        "retained": 3,
+        "strict_joint": false
+      },
+      {
+        "context": "0.6B-151001-random_weight",
+        "selected_slot": 0,
+        "old": 0,
+        "retained": 0,
+        "strict_joint": false
+      },
+      {
+        "context": "0.6B-151002-integrated",
+        "selected_slot": 0,
+        "old": 5,
+        "retained": 5,
+        "strict_joint": false
+      },
+      {
+        "context": "0.6B-151002-first_order",
+        "selected_slot": 0,
+        "old": 5,
+        "retained": 5,
+        "strict_joint": false
+      },
+      {
+        "context": "0.6B-151002-shuffled",
+        "selected_slot": 0,
+        "old": 3,
+        "retained": 3,
+        "strict_joint": false
+      },
+      {
+        "context": "0.6B-151002-random_weight",
+        "selected_slot": 0,
+        "old": 5,
+        "retained": 5,
+        "strict_joint": false
+      },
+      {
+        "context": "0.6B-151003-integrated",
+        "selected_slot": 4,
+        "old": 2,
+        "retained": 2,
+        "strict_joint": true
+      },
+      {
+        "context": "0.6B-151003-first_order",
+        "selected_slot": 1,
+        "old": 1,
+        "retained": 1,
+        "strict_joint": true
+      },
+      {
+        "context": "0.6B-151003-shuffled",
+        "selected_slot": 4,
+        "old": 1,
+        "retained": 1,
+        "strict_joint": true
+      },
+      {
+        "context": "0.6B-151003-random_weight",
+        "selected_slot": 0,
+        "old": 0,
+        "retained": 0,
+        "strict_joint": false
+      },
+      {
+        "context": "1.7B-151001-integrated",
+        "selected_slot": 0,
+        "old": 1,
+        "retained": 1,
+        "strict_joint": false
+      },
+      {
+        "context": "1.7B-151001-first_order",
+        "selected_slot": 0,
+        "old": 2,
+        "retained": 2,
+        "strict_joint": false
+      },
+      {
+        "context": "1.7B-151001-shuffled",
+        "selected_slot": 2,
+        "old": 2,
+        "retained": 2,
+        "strict_joint": false
+      },
+      {
+        "context": "1.7B-151001-random_weight",
+        "selected_slot": 3,
+        "old": 4,
+        "retained": 4,
+        "strict_joint": true
+      },
+      {
+        "context": "1.7B-151002-integrated",
+        "selected_slot": 0,
+        "old": 3,
+        "retained": 3,
+        "strict_joint": false
+      },
+      {
+        "context": "1.7B-151002-first_order",
+        "selected_slot": 0,
+        "old": 4,
+        "retained": 4,
+        "strict_joint": false
+      },
+      {
+        "context": "1.7B-151002-shuffled",
+        "selected_slot": 0,
+        "old": 1,
+        "retained": 1,
+        "strict_joint": false
+      },
+      {
+        "context": "1.7B-151002-random_weight",
+        "selected_slot": 0,
+        "old": 0,
+        "retained": 0,
+        "strict_joint": false
+      },
+      {
+        "context": "1.7B-151003-integrated",
+        "selected_slot": 0,
+        "old": 5,
+        "retained": 5,
+        "strict_joint": false
+      },
+      {
+        "context": "1.7B-151003-first_order",
+        "selected_slot": 0,
+        "old": 5,
+        "retained": 5,
+        "strict_joint": false
+      },
+      {
+        "context": "1.7B-151003-shuffled",
+        "selected_slot": 0,
+        "old": 4,
+        "retained": 4,
+        "strict_joint": false
+      },
+      {
+        "context": "1.7B-151003-random_weight",
+        "selected_slot": 0,
+        "old": 6,
+        "retained": 6,
+        "strict_joint": false
+      }
+    ]
+  },
+  "portable_fresh_reproduction": {
+    "all_numeric_arrays_bitexact": true,
+    "npz_files_compared": 648,
+    "all_selections_identical": true,
+    "repeated_scientific_observations": false,
+    "wall_seconds": 41.25082116690464,
+    "process_peak_rss_bytes": 98336768,
+    "note": "Portable publication entrypoint, supplied source banks, identical declared seeds; release reproduction QA.",
+    "same_component_work_as_original_experiment": true
+  },
+  "numerical_arrays_unchanged": true,
+  "pdf_pages": 9,
+  "pdf_visual_review": "All nine rendered pages inspected; no overfull boxes or unresolved references in final compile.",
+  "energy_measured": false
+}

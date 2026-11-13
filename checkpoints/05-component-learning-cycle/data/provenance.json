@@ -1,0 +1,27 @@
+{
+  "numeric_payloads": "All NPZ experiment arrays unchanged from the captured study; retained float32-materialized pretrained components are included under upstream attribution.",
+  "metadata_redactions": [
+    {
+      "file": "data/experiment/bank-manifest.json",
+      "original_sha256": "dcfb57e62ca91c7246b6ba1d8435c5fae03142c51cc22953f6dc23200a2f97fd",
+      "portable_sha256": "f945cb22a44c347ae17ceaf3dc107babe65fb820aba203edec8dfce10943bbee",
+      "change": "Replace machine-local model paths in receipts with portable model references. All numeric arrays unchanged."
+    },
+    {
+      "file": "data/banks/manifest.json",
+      "original_sha256": "dcfb57e62ca91c7246b6ba1d8435c5fae03142c51cc22953f6dc23200a2f97fd",
+      "portable_sha256": "f945cb22a44c347ae17ceaf3dc107babe65fb820aba203edec8dfce10943bbee",
+      "change": "Receipt path redaction only."
+    }
+  ],
+  "portable_source_changes": [
+    "Relative CLI paths and outputs go to runs/.",
+    "Independent replay writes a separate receipt; recorded observations are read-only.",
+    "Unused numerical helper functions omitted; used functions preserved.",
+    "Optional extraction takes explicit local checkpoint paths.",
+    "Portable protocol updates only the redacted bank-manifest hash; original protocol retained."
+  ],
+  "source_reference": "data/experiment/runner_snapshot.py and helpers retain executed source and its manifest.",
+  "executed_protocol_sha256": "b2cdc8be70b0ae20dc69c767feb8b753fc73b619a9e95a5d2cf534e9500c7bca",
+  "portable_protocol_sha256": "a0f67d003ef38141674a5be2e09f07d1e60ed4c57ae6c34ff62aa3d35581455f"
+}
