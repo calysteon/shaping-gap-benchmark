@@ -1,0 +1,23 @@
+{
+  "checkpoint": "04-experience-acquired-reuse",
+  "date": "2026-11-13",
+  "score_vectors_reproduced": 1008,
+  "sealed_files_verified": 387,
+  "native_outputs_bitexact": 5040,
+  "policy_and_transport_refit_max_error": 0.0,
+  "public_entrypoint_native_verification": "results/public-entrypoint-verification/summary.json",
+  "public_historical_training_policy_array_max_error": 0.0,
+  "manifest_files": 361,
+  "protected_preexisting_files_unchanged": 956,
+  "privacy_scan": "passed",
+  "python_syntax": "passed",
+  "relative_documentation_links": "passed",
+  "max_file_bytes": 22320648,
+  "pdf": {
+    "pages": 10,
+    "visual_review": "All pages rendered and inspected; no clipping or missing glyphs.",
+    "text_bounds": "passed",
+    "tex_log": "No overfull, underfull, missing-character or undefined-reference diagnostics."
+  },
+  "scope": "Full studies P61/P62 remain distinct. Publication native re-execution repeats the same saved outputs and is separately charged as release QA."
+}

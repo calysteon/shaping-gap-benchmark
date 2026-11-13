@@ -1,0 +1,5 @@
+Build from paper/source/main.tex with a standard TeX installation including
+geometry, Latin Modern, AMS, booktabs, graphicx, microtype and hyperref.
+From paper/source: latexmk -pdf main.tex
+The recorded PDF uses Tectonic0.17.0. Regenerate included tables/figures with
+code/report.py --paper-assets /path/to/paper/source before compiling.

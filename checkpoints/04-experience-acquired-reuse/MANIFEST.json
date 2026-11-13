@@ -1,0 +1,1810 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 51,
+      "sha256": "ecf5cd6f495ca6b01395af841a12ea0b8db08eb1ce65697bdcce93537a4d6751"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 729,
+      "sha256": "d1459c57b6b8ae324dbcce9d76c727ed6740d58902ae1008a29ac19395f8acaf"
+    },
+    {
+      "path": "README.rst",
+      "bytes": 7846,
+      "sha256": "276999c851ea09043e6f87c8a15d38d06c69db59e711e76af032b2f1de501ced"
+    },
+    {
+      "path": "checkpoint.json",
+      "bytes": 1776,
+      "sha256": "35ca449e4b36345d4bb58889e3b3b48d87b95b4c6614e6ff57edb9be1c4ec23e"
+    },
+    {
+      "path": "code/prepare_native.py",
+      "bytes": 2012,
+      "sha256": "87364634f5fa03d2f750bf913146a0408286887b08c1663bd3223517079cb546"
+    },
+    {
+      "path": "code/replay.py",
+      "bytes": 2378,
+      "sha256": "80496e2efc00f0a43dd38561015e59d444e6a5f559b24d4d45748c0f56d6f646"
+    },
+    {
+      "path": "code/report.py",
+      "bytes": 6604,
+      "sha256": "5fc84fdac06586d461e770a95089aa8bc1b52e96dfafedf6bee497986ea72f1c"
+    },
+    {
+      "path": "code/studies/feedback-update-study/analyze.py",
+      "bytes": 6380,
+      "sha256": "1431905adb25d2a524a2450f9aadf1b54a7f4381ce19704628ad99848955b485"
+    },
+    {
+      "path": "code/studies/feedback-update-study/augmentation.py",
+      "bytes": 13984,
+      "sha256": "22cb17784dc5908772e0c8964593d5ebe83ef1736f11f09e60f927c620c1bb2c"
+    },
+    {
+      "path": "code/studies/feedback-update-study/capacity_engine.py",
+      "bytes": 10877,
+      "sha256": "486427011c2fba46a29f05024f9ede84cac18dde0d734944e62d1f79cff964ea"
+    },
+    {
+      "path": "code/studies/feedback-update-study/engine.py",
+      "bytes": 12978,
+      "sha256": "d09cad8acf131719c474afe3dd10bd61fef5e922ef40379f18ca197f0c8ac07d"
+    },
+    {
+      "path": "code/studies/feedback-update-study/native.py",
+      "bytes": 2522,
+      "sha256": "d1e1925eca01f66325c1c8e63da8c37521c8335c8854304f0d51819ba2b5976e"
+    },
+    {
+      "path": "code/studies/feedback-update-study/plot.py",
+      "bytes": 3066,
+      "sha256": "177bb8e6479467d3b5ef7aa7172bf7b60a3bdbcb3b4cb5bafe53efb9a2d4d741"
+    },
+    {
+      "path": "code/studies/feedback-update-study/policy.py",
+      "bytes": 4254,
+      "sha256": "aa395ef22162d9c8aff3e61c71115d9a6ec4eab576500a0432721cbfce21730f"
+    },
+    {
+      "path": "code/studies/feedback-update-study/protocol.json",
+      "bytes": 5381,
+      "sha256": "6d2c01eee72e1185dbd0ba9b97adcd9a13c69020f435294bc2a0e09dec901968"
+    },
+    {
+      "path": "code/studies/feedback-update-study/run.py",
+      "bytes": 6909,
+      "sha256": "e9c68b55cb272b0a37dbee5ab89ffddb3b6a29c807cfaf2fea6271da9dc13859"
+    },
+    {
+      "path": "code/studies/feedback-update-study/stimulus.py",
+      "bytes": 4694,
+      "sha256": "7b918a4b7b0d381b87963605ba300a3d24b5cd6e246a9c1f9536b3643afd1452"
+    },
+    {
+      "path": "code/studies/feedback-update-study/verify.py",
+      "bytes": 5086,
+      "sha256": "a1e75f68410944ade2bd2fb18c574d74947e808662c7d07f5b236c52136e9b47"
+    },
+    {
+      "path": "code/studies/update-policy-study/analyze.py",
+      "bytes": 6321,
+      "sha256": "0c32e5ab7af6a1f2254cf85ef7b1b7d6ce2593827ba00af08329d844c56c5249"
+    },
+    {
+      "path": "code/studies/update-policy-study/augmentation.py",
+      "bytes": 13984,
+      "sha256": "22cb17784dc5908772e0c8964593d5ebe83ef1736f11f09e60f927c620c1bb2c"
+    },
+    {
+      "path": "code/studies/update-policy-study/capacity_engine.py",
+      "bytes": 10877,
+      "sha256": "486427011c2fba46a29f05024f9ede84cac18dde0d734944e62d1f79cff964ea"
+    },
+    {
+      "path": "code/studies/update-policy-study/native.py",
+      "bytes": 2522,
+      "sha256": "d1e1925eca01f66325c1c8e63da8c37521c8335c8854304f0d51819ba2b5976e"
+    },
+    {
+      "path": "code/studies/update-policy-study/plot.py",
+      "bytes": 3018,
+      "sha256": "6648325084dfa55cfd9cab90c201873ffcc1d64f1a2f76ff11f700692e0112d1"
+    },
+    {
+      "path": "code/studies/update-policy-study/policy.py",
+      "bytes": 4254,
+      "sha256": "aa395ef22162d9c8aff3e61c71115d9a6ec4eab576500a0432721cbfce21730f"
+    },
+    {
+      "path": "code/studies/update-policy-study/protocol.json",
+      "bytes": 7422,
+      "sha256": "d05bbe3ff7a6cfb9b0c7bd49a95022709617921f7754a33d5150316ef2b19128"
+    },
+    {
+      "path": "code/studies/update-policy-study/run.py",
+      "bytes": 12978,
+      "sha256": "d09cad8acf131719c474afe3dd10bd61fef5e922ef40379f18ca197f0c8ac07d"
+    },
+    {
+      "path": "code/studies/update-policy-study/stimulus.py",
+      "bytes": 4694,
+      "sha256": "7b918a4b7b0d381b87963605ba300a3d24b5cd6e246a9c1f9536b3643afd1452"
+    },
+    {
+      "path": "code/studies/update-policy-study/train.py",
+      "bytes": 5237,
+      "sha256": "94c0bd46921da8e1fc49d6c9412897e2e209b0336a6acd122d65a575e89b6158"
+    },
+    {
+      "path": "code/studies/update-policy-study/verify.py",
+      "bytes": 6025,
+      "sha256": "6489c1ae56ae287f53ab660a0b8a337335d53d78372f13f7c6297ad07c7a67af"
+    },
+    {
+      "path": "data/provenance.json",
+      "bytes": 1978,
+      "sha256": "fc49df20fce6a1c7eff2f053a0c8c9f420bcd6ca024f9ebe4f05a337d43e0732"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/helpers/augmentation.py",
+      "bytes": 13984,
+      "sha256": "22cb17784dc5908772e0c8964593d5ebe83ef1736f11f09e60f927c620c1bb2c"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/helpers/capacity_engine.py",
+      "bytes": 10877,
+      "sha256": "486427011c2fba46a29f05024f9ede84cac18dde0d734944e62d1f79cff964ea"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/helpers/native.py",
+      "bytes": 2522,
+      "sha256": "d1e1925eca01f66325c1c8e63da8c37521c8335c8854304f0d51819ba2b5976e"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/helpers/policy.py",
+      "bytes": 4254,
+      "sha256": "aa395ef22162d9c8aff3e61c71115d9a6ec4eab576500a0432721cbfce21730f"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/helpers/stimulus.py",
+      "bytes": 4694,
+      "sha256": "7b918a4b7b0d381b87963605ba300a3d24b5cd6e246a9c1f9536b3643afd1452"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/manifest.json",
+      "bytes": 2206,
+      "sha256": "c73f777ffa54f49ad29b7eb16e02edd506e35f72d3d75fbbf33d93a33053eaba"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/assessment-0-native-checks.npz",
+      "bytes": 11800296,
+      "sha256": "f43d3fb177a2a78360dbc3074196a77f475eb540c8dedacfe5faee3d0f8a1a1a"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/assessment-0.npz",
+      "bytes": 14579935,
+      "sha256": "6666b036e1a20370323756c527572e6087222591521ce68807a356af528f0549"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/assessment-1-native-checks.npz",
+      "bytes": 11799516,
+      "sha256": "4b6fcabcd36fdb78ef01168c15e32f3f8b27812ee4e805715f3db2453c7e8682"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/assessment-1.npz",
+      "bytes": 14587171,
+      "sha256": "5a8b11cb3f23563b19580ce75419084d883b1a366c909e1d6141dbfdb3f91956"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/calibration.json",
+      "bytes": 2541,
+      "sha256": "da422ee78d69cfbb751aedbd3a33053b093dbfbe9184d50ad47976c5813c377d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/calibration.npz",
+      "bytes": 234526,
+      "sha256": "6ea2aee8c2708ba501b07b6a3a33813558ef5b1b9d0888860e0892593a828b9d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/case-0.npz",
+      "bytes": 884051,
+      "sha256": "c4df7a539ded9315a95f48df55641b1ad89d1d4b6e66916c1e14ea20772b1cfd"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/case-1.npz",
+      "bytes": 891807,
+      "sha256": "277dc49926fcbb85066ba95bf959631f9c8d1c91b027840b29e3f773f4e45e3a"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/case-2.npz",
+      "bytes": 893706,
+      "sha256": "fd9b8f3e12f27274c7ccfc851f3f99e4ef2698e3fb9c5b6b21a603fb8b2f68d5"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/case-3.npz",
+      "bytes": 894492,
+      "sha256": "ec701d85487a27e6d991e9bf7c4c1b29a251ab1f24ee1c1a3160bdcefb119d22"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/case-4.npz",
+      "bytes": 890374,
+      "sha256": "905a0ecc28c9dc5617caf1e0558d4a7b2ffaa52f31d2dc0362dab665f4cdc160"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/case-5.npz",
+      "bytes": 891816,
+      "sha256": "f080ea3e09213102458bc2f73973abeb0c9be9551e0a6aaedd434c7d0263597c"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/chart-111001-source.json",
+      "bytes": 18683,
+      "sha256": "70b933d2cd4091d46c541711581ba0c129dff57bfcb54e809a0d5c569c91b31b"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/chart-111001-source.npz",
+      "bytes": 811116,
+      "sha256": "790f7770dab0e5941f5e606b334169fae46ce6805997b4e73e3b2813478385e3"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/chart-111002-source.json",
+      "bytes": 18689,
+      "sha256": "897bc84ba626f9c4d054e9747c1545b4720bca6d9404a1c5fdf493770a19b0be"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/chart-111002-source.npz",
+      "bytes": 812917,
+      "sha256": "277537fdcda51fb3109ae267c393969a03f27c1c3f51f8425108b83e942bcd57"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/chart-111003-source.json",
+      "bytes": 18754,
+      "sha256": "1cf678a6081ea65d0242809b554555e6689dc08e3d2eb99238548e6e1184e78a"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/chart-111003-source.npz",
+      "bytes": 822078,
+      "sha256": "edce3533bb2014c6afb49efb3c96b3f8d7493f88b015b49b26316a9a80e09da4"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/chart-111004-source.json",
+      "bytes": 18713,
+      "sha256": "81644f67af1e6cdfa6eb17309b76451b39c04949ec397d7ad6c479326d9bbd17"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/chart-111004-source.npz",
+      "bytes": 813018,
+      "sha256": "231b8d79d3ca6f0274a868384e4d91e703b24db12b78da4f9bc116110d9eda23"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/chart-111005-source.json",
+      "bytes": 18758,
+      "sha256": "2028ca72508f7f4d115f14b3e5c2cec2251582003ed512df913aac5699e9c6cd"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/chart-111005-source.npz",
+      "bytes": 823611,
+      "sha256": "6e44bc228141c6e2795c4f2ec49e610f291f3402542459da7dab434def8b9db7"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/chart-111006-source.json",
+      "bytes": 18619,
+      "sha256": "5a89dd874aed032be3278f36e2d9a9c810b9e5d766deb24b2339b521eae4bef1"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/chart-111006-source.npz",
+      "bytes": 791920,
+      "sha256": "6a3bbe70fc9a3c7b96038be147cf81a629352290408c3d926fc4a874e1722ab4"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/checkpoint.json",
+      "bytes": 383,
+      "sha256": "43a78cfcf91834b67889ced176454a16be125bdc425c79d9c10e7b3e251ca829"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/couplings-sealed.json",
+      "bytes": 1437,
+      "sha256": "e556491bf81ab2e06ca0b925ff720e0fb8c847c24f6a2b00eda33aeb2bb52a9f"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/decisions-sealed.json",
+      "bytes": 4342,
+      "sha256": "1277c4611c6c74ee4ebe7d3003c97bc3131ea3f37d254c880f1e9ff0491c621e"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/decisions.json",
+      "bytes": 3149,
+      "sha256": "9553d53220388ea4e074eafec36b6ee2191fa5e9aeed18769942a7fa454e213c"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-0-0.npz",
+      "bytes": 14653,
+      "sha256": "bf861282770332fce1721a078cd17c2ddd5c6b88e1911332c2fc69627056a481"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-0-1.npz",
+      "bytes": 14638,
+      "sha256": "ac42316b075d18c148196f7d676a4e53dff9d3b1119a3a500f904ef1a20d79fd"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-0-2.npz",
+      "bytes": 14651,
+      "sha256": "41065f185b52f99bfaab8cb67c84350094469d18fbedd4df2176dd258a7c0298"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-0-3.npz",
+      "bytes": 14654,
+      "sha256": "1aa23f9f893009dc99875c6b50fc01dcd6758a72a1e314e0bac1aa362f33cd39"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-0-4.npz",
+      "bytes": 14646,
+      "sha256": "5b76cde0ba187ed1d2dbf798eaf3153f7a13cf7da466328881f80669e7d77169"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-0-5.npz",
+      "bytes": 14650,
+      "sha256": "85c46ecae45fcc43e9610bf082dc8b2b525aaa13fec8cf6424f31deeccf7a13a"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-0-6.npz",
+      "bytes": 14653,
+      "sha256": "bf861282770332fce1721a078cd17c2ddd5c6b88e1911332c2fc69627056a481"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-1-0.npz",
+      "bytes": 14600,
+      "sha256": "f2dd1d0e39aa8c0ee9f7fa4184d5f7d719d150c0c38e09915a46923242d8ac39"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-1-1.npz",
+      "bytes": 14655,
+      "sha256": "affe360d4cfae41938f11eefeac13f90eb9ca974317adf83ebd364fdc348e232"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-1-2.npz",
+      "bytes": 14669,
+      "sha256": "443881688ec87568e6cd69176e09994069860fa0a3c5e32c1d54998966d72afa"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-1-3.npz",
+      "bytes": 14673,
+      "sha256": "99f0ac79251526fb0037dc684c484f57ae99e135e4f7e355978b24b914e95aa3"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-1-4.npz",
+      "bytes": 14659,
+      "sha256": "7fc956b7bbab286119eed8147d8640572afdd06f2bc72c32159b4b62de1d8299"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-1-5.npz",
+      "bytes": 14665,
+      "sha256": "948c92295b23de6e1f6068a61d631325c6d305822b475a028899ccecc235a7c8"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-1-6.npz",
+      "bytes": 14600,
+      "sha256": "f2dd1d0e39aa8c0ee9f7fa4184d5f7d719d150c0c38e09915a46923242d8ac39"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-2-0.npz",
+      "bytes": 14523,
+      "sha256": "0712dc9b7830c08e7cf9c97d82f5a8b677b84b45efdf84d358ad83a84858ad9d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-2-1.npz",
+      "bytes": 14651,
+      "sha256": "5ad5ea61b0af89ae33688daa6f07eda34fda780ce2f288ca79f3123f45c070b6"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-2-2.npz",
+      "bytes": 14660,
+      "sha256": "f002898e5df06de747202f02398bc5efe6fe70f44c57d52ead286c840e575916"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-2-3.npz",
+      "bytes": 14658,
+      "sha256": "e1a684e3eda6fd9d47484521193e1011a8feed3fe0cb8ae0331e160f8f7bc4e0"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-2-4.npz",
+      "bytes": 14656,
+      "sha256": "f6c277148208d5e6132495a7f32dcad63d30e45e2ad4662f61526a0bb6b00275"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-2-5.npz",
+      "bytes": 14660,
+      "sha256": "0f5bcbdd21022b63390a7b18618c3947efeda662cfa59d1bb4fb16156fa4eb7b"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-2-6.npz",
+      "bytes": 14523,
+      "sha256": "0712dc9b7830c08e7cf9c97d82f5a8b677b84b45efdf84d358ad83a84858ad9d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-3-0.npz",
+      "bytes": 14521,
+      "sha256": "3af84600e221ee326a43ade209a3c7e8a0496c821007f052c7f1eee63de106b2"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-3-1.npz",
+      "bytes": 14656,
+      "sha256": "54738a81961188efa31473386c35fcce663dd07a23f1ddb0d528bd6d18efb28d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-3-2.npz",
+      "bytes": 14674,
+      "sha256": "dbaa77156a32e14365bafd7f61b75cb66b18b0569bb4e0cbffa170758165d263"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-3-3.npz",
+      "bytes": 14650,
+      "sha256": "1231639870d73c8f3439aab4826ecd8cbd69df901c9f52bbc8f59e7dc813d0d5"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-3-4.npz",
+      "bytes": 14669,
+      "sha256": "422f38dfca3699b89960a2042ea222fbca6974a1ea1802ef93d6e8cb2731b2dc"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-3-5.npz",
+      "bytes": 14664,
+      "sha256": "1dc9d44f4a44bf32e8a15ed9db6952318069867e47a4c8c60fe6b7c7546a87be"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-3-6.npz",
+      "bytes": 14521,
+      "sha256": "3af84600e221ee326a43ade209a3c7e8a0496c821007f052c7f1eee63de106b2"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-4-0.npz",
+      "bytes": 14673,
+      "sha256": "460662d2e6358a53c9883765975f9439a128db1c2f4f11ac5d9f1df5b9eba0d5"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-4-1.npz",
+      "bytes": 14662,
+      "sha256": "274c151351b2114b20c1b1a64e638a2cc966ed87eb004f012850f9dcbe6cbfab"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-4-2.npz",
+      "bytes": 14655,
+      "sha256": "862249172dadfe40c20a6211d8d08d23a3430e9ef6a9b3a5f4115c47a7b987c9"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-4-3.npz",
+      "bytes": 14667,
+      "sha256": "2306d5d191a2bb7da50808a799cea6f619584dcfa49ff4ba358d97cf12ded400"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-4-4.npz",
+      "bytes": 14658,
+      "sha256": "75967a41066e0864628550ec253fc3d94e12f0c784c64407a1462829da21dc29"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-4-5.npz",
+      "bytes": 14655,
+      "sha256": "f8919547a11c82c60fe016cdc5dbe6add585b3e40351cfee51673c978c8c99fe"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-4-6.npz",
+      "bytes": 14673,
+      "sha256": "460662d2e6358a53c9883765975f9439a128db1c2f4f11ac5d9f1df5b9eba0d5"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-5-0.npz",
+      "bytes": 14566,
+      "sha256": "88a252b505831529321a5b1faf048b1ae6ccc570ef45b60a2a49455a8e03286d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-5-1.npz",
+      "bytes": 14668,
+      "sha256": "4a9280fe58cd4e4929caae3cf0de0c6eb78179dd5342ff4cd18798f973827ab1"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-5-2.npz",
+      "bytes": 14662,
+      "sha256": "e146163eed669636b2571b293cf85ef334b252dfcfffdeb56d563b2829657c8d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-5-3.npz",
+      "bytes": 14665,
+      "sha256": "f081044c2b3c1f075a55aee5957571acf828dc1ce3ac199fe73f1b031822d0dc"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-5-4.npz",
+      "bytes": 14648,
+      "sha256": "f14b27acf4298c00cb3733fb435be2a72846442509690dde77f812415566407e"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-5-5.npz",
+      "bytes": 14649,
+      "sha256": "c6d1581574e4a55a18b1abb907173b661616b39b69aab540a7d26836ab570ea4"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/interface-5-6.npz",
+      "bytes": 14566,
+      "sha256": "88a252b505831529321a5b1faf048b1ae6ccc570ef45b60a2a49455a8e03286d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/model-summary.json",
+      "bytes": 5314,
+      "sha256": "49407e2a8568f092b812b46d798188c17b51f57ce50974599171399d468fbd02"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/programs-sealed.json",
+      "bytes": 3932,
+      "sha256": "eed7611d3d0b547dc74ad48bed7b1b3554a4b2d9f14ab464eae949c8cabd68be"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-0-0.npz",
+      "bytes": 46680,
+      "sha256": "f08b8925e6a20744ec61893ab0eb93b3a4056a03010af9d451114f42d95cd6f4"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-0-1.npz",
+      "bytes": 46641,
+      "sha256": "bbf4c5ed851a381865eeb11522b0a137a63569098917ca45b8e8c99334ef7e59"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-0-2.npz",
+      "bytes": 46672,
+      "sha256": "36fbf05f2c0a44e58f00ff543ab9bc92444fffee4eb23bbfda8d95ff227bbb8e"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-0-3.npz",
+      "bytes": 46673,
+      "sha256": "9b446a310e5c4b04ecbe95b9fd7f5e5bb743ee6897989679b943994e1e5326a3"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-0-4.npz",
+      "bytes": 46653,
+      "sha256": "4cc5d3acf7142f9e16a44da3658a9e52d3b740595b2aed530e1e70b224cc179e"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-0-5.npz",
+      "bytes": 46694,
+      "sha256": "d5e283e021230bf49bbec906a6bfb25a52131213470533bccecc8cb922179b5a"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-0-6.npz",
+      "bytes": 46680,
+      "sha256": "f08b8925e6a20744ec61893ab0eb93b3a4056a03010af9d451114f42d95cd6f4"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-1-0.npz",
+      "bytes": 46510,
+      "sha256": "78963fe0b5c78c1bf2f6cffb81494b11cb4b005175aa8d33ea28279864cf5d27"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-1-1.npz",
+      "bytes": 46531,
+      "sha256": "07f2b9f6377d11224fbcff2732128890a41e3b91e5f5d9b54d24d1ba601d93ff"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-1-2.npz",
+      "bytes": 46507,
+      "sha256": "ad5bf443b8873c6f552d5fea3c134439751bb1db9957f8433d92b79fc45a5708"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-1-3.npz",
+      "bytes": 46499,
+      "sha256": "78291c12d468e5fa4778998ae05c535d94b08d8d0ad4e0c2e3f9eb308cea3a74"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-1-4.npz",
+      "bytes": 46537,
+      "sha256": "a0e747ba4f5ae49fddccb4c134f5ed22be10e6be2bd627eb28977cb9b2201cac"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-1-5.npz",
+      "bytes": 46508,
+      "sha256": "3b35ec9a128e01773851b94be9150a52f36e8e765ec2a15ca50381d5d62551f3"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-1-6.npz",
+      "bytes": 46510,
+      "sha256": "78963fe0b5c78c1bf2f6cffb81494b11cb4b005175aa8d33ea28279864cf5d27"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-2-0.npz",
+      "bytes": 46463,
+      "sha256": "003521338ad9db5f5555e33b5d42adf2a343ed0329f68bd17c9ac22caf2bf02d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-2-1.npz",
+      "bytes": 46468,
+      "sha256": "6b92cb9ceb16065e0151a0d0a29e3db5e73565ac8c4c47497cd3d497f2eb07fd"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-2-2.npz",
+      "bytes": 46457,
+      "sha256": "3bc9ce17b80b6ff307a0bb594bec59627a3bb61b1e5feb4ee26fe173a4aa1d40"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-2-3.npz",
+      "bytes": 46474,
+      "sha256": "f1797b3470899800050c11c3b8a74bc92a0a43ae8c7b13a72adbc99cb095da04"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-2-4.npz",
+      "bytes": 46452,
+      "sha256": "60fcbfd1441ab6445ed055590c053ac325acf56c0935c43e391c20ed6ea8c500"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-2-5.npz",
+      "bytes": 46471,
+      "sha256": "d1ea47c3f425482c0394f40316ca045b64e7bff37c0074ae41a76e989a690b85"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-2-6.npz",
+      "bytes": 46463,
+      "sha256": "003521338ad9db5f5555e33b5d42adf2a343ed0329f68bd17c9ac22caf2bf02d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-3-0.npz",
+      "bytes": 46455,
+      "sha256": "184462cedbb817e75a4909ca2c1a2e371c23e40c5a55bb9f77f4f5cde0cb4489"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-3-1.npz",
+      "bytes": 46459,
+      "sha256": "5cb0d480dcdd391715ebd7489414353fe898fc3063e61b940994375b0d614c28"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-3-2.npz",
+      "bytes": 46495,
+      "sha256": "54da5bb9ad47f70049fdc6b2676241b7fc990e9abbe9b397cda88443693f40e1"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-3-3.npz",
+      "bytes": 46480,
+      "sha256": "2236eea5a60db764563fe723bb4f81d5dc68c398b4768c7f3b87d1ad5dd8c57f"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-3-4.npz",
+      "bytes": 46460,
+      "sha256": "aea2f4bb89051c9f516dcc14928e229fc7c3e824cddab8f6f480c216092723b4"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-3-5.npz",
+      "bytes": 46454,
+      "sha256": "defe8643a54db3bba9fcf72e1cf70584524ba0468afa8ebbc5e005a07e5d35cb"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-3-6.npz",
+      "bytes": 46455,
+      "sha256": "184462cedbb817e75a4909ca2c1a2e371c23e40c5a55bb9f77f4f5cde0cb4489"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-4-0.npz",
+      "bytes": 46788,
+      "sha256": "829ea3d9c90c5b38024052a6bd63e0482ca6fc6b51ce49a81c031bbd2576e52f"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-4-1.npz",
+      "bytes": 46781,
+      "sha256": "4460e51f55763b33c2c50342b62816e60ec47417c58afaaf5090bee840c4abbb"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-4-2.npz",
+      "bytes": 46773,
+      "sha256": "a0e63edda01713d64c0eb64f28f66b888941cd54f141065f56c189aee38feba6"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-4-3.npz",
+      "bytes": 46780,
+      "sha256": "b3391e80bd2749554da2ef893b4b49819caab212b14d4f958a739cd8782b56c5"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-4-4.npz",
+      "bytes": 46800,
+      "sha256": "cd38e76498a643a68937753488586564e8fb12c5d6f5946929e38b30395577c5"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-4-5.npz",
+      "bytes": 46768,
+      "sha256": "382bdd28893ff6026822bd9df890639d93dc84f01497c28e3d442de5cdcbe4b6"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-4-6.npz",
+      "bytes": 46788,
+      "sha256": "829ea3d9c90c5b38024052a6bd63e0482ca6fc6b51ce49a81c031bbd2576e52f"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-5-0.npz",
+      "bytes": 46491,
+      "sha256": "b8205b0ee2472206712b730573a102573af3b4b1d82606228a07e86f63ef600d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-5-1.npz",
+      "bytes": 46465,
+      "sha256": "8dd409df64c5ef3471014a7abcb330d3af1c159ed8a6ed3188936be98a499403"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-5-2.npz",
+      "bytes": 46496,
+      "sha256": "9e041601c3fe7068eb838d57b2758b455f3a09c0697dc25ee15aeae2bd2bd384"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-5-3.npz",
+      "bytes": 46487,
+      "sha256": "f86e471c0a591f98fd940f188ce30786c4ba29597df3a3fa97bbfdb1c1c2fc40"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-5-4.npz",
+      "bytes": 46503,
+      "sha256": "b9007dee050373e888d448cf52cb6110f73a9bae335fae1e859fb514fc52ace6"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-5-5.npz",
+      "bytes": 46518,
+      "sha256": "f66630c754104b3029be57987a90f68e196cb34506aa476a0763a52077cf0f83"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/readout-5-6.npz",
+      "bytes": 46491,
+      "sha256": "b8205b0ee2472206712b730573a102573af3b4b1d82606228a07e86f63ef600d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/returns.npz",
+      "bytes": 5275020,
+      "sha256": "cadd627da3cbec675a8dc9a9a96298a665370d6dfdfe02e7cbaff0e06956c8b7"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/scores.json",
+      "bytes": 1023379,
+      "sha256": "91378d8d1d36080b0236d9097b2a57d4ef350c2ea0701a47838853041965f3ee"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/source-charts.json",
+      "bytes": 2604,
+      "sha256": "544796a922c7226c5accf9bc1cd1d48659bcc250833cca6c2b6ba5008b6d947c"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/source-native-checks.npz",
+      "bytes": 11800519,
+      "sha256": "54957c3061da1e01cda7a61e40d64b5f5f869ba8ac50b8f2a38650cc1c03a6a5"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/source-policy-features.json",
+      "bytes": 13954,
+      "sha256": "3f7666ecc7f1d23cc29ae1d96ca6a0cc06dc2e21f0389b9903c01661d1f72aeb"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/source.npz",
+      "bytes": 14586390,
+      "sha256": "a67afbf6189942d35775e618c8d0810eed51755ae2235bb0fe6d8ff938b5737c"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/systems.json",
+      "bytes": 13966,
+      "sha256": "4999f41b66d502f727f4f95bc32ce67a667fc03b381e0fd082aa0ccf2e66a915"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/targets.json",
+      "bytes": 20887,
+      "sha256": "3d042a7c192b3c6d3c8fcf55de19326924417225409fd4ad562af7bd6a2b1235"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/assessment-0-native-checks.npz",
+      "bytes": 22296320,
+      "sha256": "e85f3ad9417d489f2858b05531ab973bbff968c14591297cee370a3139008607"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/assessment-0.npz",
+      "bytes": 12021649,
+      "sha256": "18d483e8c24c6a151916bc9a77b20b1d71a4de4aec187c7d66a1728f2e3e002b"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/assessment-1-native-checks.npz",
+      "bytes": 22067335,
+      "sha256": "133486fc08d3b19f5d97f7ab7cbd1d1a293abe72c8537014ac2069f953dfeeb8"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/assessment-1.npz",
+      "bytes": 11394793,
+      "sha256": "9526ebc5f7d3c68d3f4aa79288b4e178adc18f601cd17d82f9563a4bbfefd475"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/calibration.json",
+      "bytes": 2535,
+      "sha256": "b54c758881067e1fdf80d5d192a55afeae3e50bb45613153abc087b1885d219a"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/calibration.npz",
+      "bytes": 210169,
+      "sha256": "00c6480b7c5f2fd16aae1e339d5f2f7d48282ce7e1ace8a3aa8f8873edda54ac"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/case-0.npz",
+      "bytes": 1765403,
+      "sha256": "8ff0f895a5015a8f14ded446d5e7397f2e069e365ae7d6bdf3b062bc4fd183e8"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/case-1.npz",
+      "bytes": 1760606,
+      "sha256": "8273fb0634be43419b65ee751f7e36434b65213485e3f4aca245d6f594d3db63"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/case-2.npz",
+      "bytes": 1775895,
+      "sha256": "886a7caeefc4822e500d5cd6f72c382a73287d17e77040f9d623270234daa89f"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/case-3.npz",
+      "bytes": 1775039,
+      "sha256": "5c08ade3935d222da57cf1e455a688e4873536ec72281f6ae195c5891bbfc0b7"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/case-4.npz",
+      "bytes": 1782327,
+      "sha256": "1a6495df761502103ed966f43eede8d2eeb7117e4d73df3f78a9a062bcb7ebae"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/case-5.npz",
+      "bytes": 1779174,
+      "sha256": "5ba92bc9e3e6a32aa05db669c8fbacf67f7a35957d42a24a745e798096bde912"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/chart-111001-source.json",
+      "bytes": 18706,
+      "sha256": "12ed96edb2a829b537853cf82bc500948362ad70fa9d4d0942c4045913bc348b"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/chart-111001-source.npz",
+      "bytes": 824751,
+      "sha256": "348cfd2371412c30d63912406c7d7ebc7cdf7d2b8ae9e2a564f73e38321632b9"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/chart-111002-source.json",
+      "bytes": 18732,
+      "sha256": "059f4c29416431ad75201f294acd8ed5f11e91a1106e8637787027b15cb65aa7"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/chart-111002-source.npz",
+      "bytes": 821702,
+      "sha256": "d233c2c495aa3f6120a911c49c93398fbe343f2049dfe840f2cf6b3a85a78fa9"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/chart-111003-source.json",
+      "bytes": 18732,
+      "sha256": "9659f3b5e37667f4340a332e9a23281dbedde17bb000ea41e591e4dee89b9d1f"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/chart-111003-source.npz",
+      "bytes": 825359,
+      "sha256": "933297f477f590f051258f7a870e684bfb72e1c1dcacf2d153ba9a75bf3dff3d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/chart-111004-source.json",
+      "bytes": 18762,
+      "sha256": "194fc21d9fc502140d0655bc1604f531baf6670439521dd7c744ef785c1d08f5"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/chart-111004-source.npz",
+      "bytes": 823019,
+      "sha256": "3415777bddd9f9731f40e5380c45ca7fa40a74b47a2ee4af90abc03adca50301"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/chart-111005-source.json",
+      "bytes": 18755,
+      "sha256": "da2fec3ba2d6225cd9fd5a05819cbd2981071696b84192b74ccadcaa82cfbd0e"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/chart-111005-source.npz",
+      "bytes": 823782,
+      "sha256": "8cf2a3f10c58d6f18938f9f4214a12673d028731a6da800173e8c660d91558eb"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/chart-111006-source.json",
+      "bytes": 18729,
+      "sha256": "54255ff4aa97296cbc9dd531f9b054ef2281ded06964216e6b8ad7c3c01823c1"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/chart-111006-source.npz",
+      "bytes": 822920,
+      "sha256": "3084d91d0031556dc2099a77a0057525cf0c8bcb2772ff45080358b747f8ea89"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/checkpoint.json",
+      "bytes": 239,
+      "sha256": "a364a03c714dfed072b12dea64bcbbed045b44e412979a1059ed1036eed6029b"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/couplings-sealed.json",
+      "bytes": 1437,
+      "sha256": "61c9098af53341c6f0327453268381140d43c7093647587b5ffb651faa922570"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/decisions-sealed.json",
+      "bytes": 4342,
+      "sha256": "e349f7cbe4cae86ae56199b97eadbb2a52b25ae05c543c82022e1ce433d8333a"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/decisions.json",
+      "bytes": 3161,
+      "sha256": "dfabb0e444d634f41c75306b6615ddbeea69fb30a3255d0a301e5cf56580f78a"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-0-0.npz",
+      "bytes": 14660,
+      "sha256": "a9e69cfcb48db72c4115b3c0c2ec6d76be0269204c511bc31846d859aabe5730"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-0-1.npz",
+      "bytes": 14648,
+      "sha256": "cd7b923e5095e9ecf0a4005737a2a6b3915d4454a456dbc2fc998a688ad84d49"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-0-2.npz",
+      "bytes": 14651,
+      "sha256": "f86bb20b1f59f6feba0b7bef6951600f3162625b0f0e1a658ea51bf761f8bdf2"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-0-3.npz",
+      "bytes": 14667,
+      "sha256": "a3d6d838e6d44898c2e775b71c3eeb27b3daf36457241d9779ab2c2ff6b29448"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-0-4.npz",
+      "bytes": 1847,
+      "sha256": "52da1b9708f8d3be42c467245a1910223f3d1b4da2f7f264a8fa72b364fb9d61"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-0-5.npz",
+      "bytes": 14697,
+      "sha256": "fb54f97dcb2e291678b980cac7f5f221cf5ea88421219a2234db4e15335ce91b"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-0-6.npz",
+      "bytes": 14660,
+      "sha256": "a9e69cfcb48db72c4115b3c0c2ec6d76be0269204c511bc31846d859aabe5730"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-1-0.npz",
+      "bytes": 14597,
+      "sha256": "0774e3faddaea002ceb66bedbc24b540113a07c0094f33768e3b6b2494b92534"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-1-1.npz",
+      "bytes": 14653,
+      "sha256": "506dfab35c84a2f5659acc54ea7ab767ebb81b28bd6d9e088c021574ef9b6b09"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-1-2.npz",
+      "bytes": 14656,
+      "sha256": "664ed64229c5393a14b7d55e70f5326ae0742f66007597a5d00727190da5ce21"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-1-3.npz",
+      "bytes": 14658,
+      "sha256": "088e658bd1b967c2b7a59c151b80d8b9972eb50105373b818ea8e9027165bdab"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-1-4.npz",
+      "bytes": 14662,
+      "sha256": "8a52a5efb45ca0e99608fe231f8ba497e22fecc09571abb22d31da7425554a3e"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-1-5.npz",
+      "bytes": 14647,
+      "sha256": "8f434489f2e5fd0b1ec69f093c1678bf396c07324f643066224bf5cd39708b16"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-1-6.npz",
+      "bytes": 14597,
+      "sha256": "0774e3faddaea002ceb66bedbc24b540113a07c0094f33768e3b6b2494b92534"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-2-0.npz",
+      "bytes": 14669,
+      "sha256": "763bafc7866b0f81467cfb96475f17fed34dbcdf3b76406d6fa31715fc5f63c1"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-2-1.npz",
+      "bytes": 14654,
+      "sha256": "3b1c953b5382c9618cffbe3b640945cf34cbae60a648582b5986532233dc436c"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-2-2.npz",
+      "bytes": 14658,
+      "sha256": "97e013098fea5ceee109c0ad3d0c3aff23e493900b3c8590fd463644fda6f461"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-2-3.npz",
+      "bytes": 14655,
+      "sha256": "383d9b7b20f6fa3c19e57dd138020a01ae6335cc88655c96ae8626999ce3a6d4"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-2-4.npz",
+      "bytes": 14652,
+      "sha256": "ec272e7fe27cfe45d0a1cc19897f2079f5bf45b3f342c8c9e66a8fb398ab52fe"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-2-5.npz",
+      "bytes": 14650,
+      "sha256": "0c5da4ec8c2e07c40f6760c9d2d61b25f83cbff8f234c10b8fbf7d8836b2838b"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-2-6.npz",
+      "bytes": 14669,
+      "sha256": "763bafc7866b0f81467cfb96475f17fed34dbcdf3b76406d6fa31715fc5f63c1"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-3-0.npz",
+      "bytes": 14676,
+      "sha256": "58e524f110e93ef70572df74b32fa842eb79cfe727ead8a28729fd0e00f2df0b"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-3-1.npz",
+      "bytes": 14690,
+      "sha256": "a815fb9d9c66b7b38123481b8e218898de6e6e7a7981521e6c0fd1291cc7fc47"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-3-2.npz",
+      "bytes": 14649,
+      "sha256": "cc43b34bb398344016c1205ac1b5a236d44cfbaf5c091ec6cbd4f759696e676c"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-3-3.npz",
+      "bytes": 14673,
+      "sha256": "c8f785fe0023dc4f36c618b407adab381e5fa16d32ea2f78961e1adb097990a9"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-3-4.npz",
+      "bytes": 14660,
+      "sha256": "2163f3ae1cb9ccf2612351bdae356c4ab095751e76a5c8574f0331dd0fa920cb"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-3-5.npz",
+      "bytes": 14640,
+      "sha256": "52a28864a78a8a033b56d57f10f10e35fabbf1a731505927a01eb79ae40ffb61"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-3-6.npz",
+      "bytes": 14676,
+      "sha256": "58e524f110e93ef70572df74b32fa842eb79cfe727ead8a28729fd0e00f2df0b"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-4-0.npz",
+      "bytes": 14660,
+      "sha256": "b91f6ac8055c294a5a2125fabb0055cbf8f17cd122326277290d155b0e9ad062"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-4-1.npz",
+      "bytes": 14649,
+      "sha256": "f03d84d0091d24d36624680645eee9daf0d001c4369267b2c37f189f9ecd9969"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-4-2.npz",
+      "bytes": 14659,
+      "sha256": "49810a5fe967ba2d3e356d66d4568ea4f0b8cc54c61356b478dd6ae60475e014"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-4-3.npz",
+      "bytes": 14637,
+      "sha256": "a97d7e19f9f90a88fbb4512519d267086b20729d836fa8a6e7d84f7b9e25f6b8"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-4-4.npz",
+      "bytes": 14648,
+      "sha256": "78769be710c1091785141ce38211bf1903a9c5eef792c55addb83aa7c892e43d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-4-5.npz",
+      "bytes": 14641,
+      "sha256": "6f8c242683c8ec12a563cf81fee8ff82127144174fa83d74d727c0b3b3a3a4f4"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-4-6.npz",
+      "bytes": 14660,
+      "sha256": "b91f6ac8055c294a5a2125fabb0055cbf8f17cd122326277290d155b0e9ad062"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-5-0.npz",
+      "bytes": 14661,
+      "sha256": "0ba068766649ccbb4facd7584d383d9c216bda78b6c0decc9c2dee40afc7fd1e"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-5-1.npz",
+      "bytes": 14661,
+      "sha256": "0ba068766649ccbb4facd7584d383d9c216bda78b6c0decc9c2dee40afc7fd1e"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-5-2.npz",
+      "bytes": 14661,
+      "sha256": "0ba068766649ccbb4facd7584d383d9c216bda78b6c0decc9c2dee40afc7fd1e"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-5-3.npz",
+      "bytes": 14661,
+      "sha256": "0ba068766649ccbb4facd7584d383d9c216bda78b6c0decc9c2dee40afc7fd1e"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-5-4.npz",
+      "bytes": 14661,
+      "sha256": "0ba068766649ccbb4facd7584d383d9c216bda78b6c0decc9c2dee40afc7fd1e"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-5-5.npz",
+      "bytes": 14661,
+      "sha256": "0ba068766649ccbb4facd7584d383d9c216bda78b6c0decc9c2dee40afc7fd1e"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/interface-5-6.npz",
+      "bytes": 14661,
+      "sha256": "0ba068766649ccbb4facd7584d383d9c216bda78b6c0decc9c2dee40afc7fd1e"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/model-summary.json",
+      "bytes": 5327,
+      "sha256": "20873a1f6e70b95a8d1ab9d044fa5c9ee34ba315783c7f624be760829d0e7a90"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/programs-sealed.json",
+      "bytes": 3932,
+      "sha256": "c0df58c59283833bed90f90b6de66f269088711668e1c51dc48be456da04b095"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-0-0.npz",
+      "bytes": 46544,
+      "sha256": "ade6a4c1e5bb8716812214f41247b255de101493e21bcfff4c3beafe8e16a09c"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-0-1.npz",
+      "bytes": 46515,
+      "sha256": "bceeb2bb6cd74efc1cdb11d80306d0da9e291bdc8224951b45db173bc7b34af0"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-0-2.npz",
+      "bytes": 46517,
+      "sha256": "8efa4c95c9623d81cabbd55c11d0e3b15dae3e601ed76c547fd7db71c277a515"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-0-3.npz",
+      "bytes": 46632,
+      "sha256": "5290b6254663f5a6182baefb9476ec2c620d374e7ca3d92362e127bf6d3a78c2"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-0-4.npz",
+      "bytes": 2039,
+      "sha256": "5d92f5251daa27459ca467c2756466dab7496181a853a0a6eaace83cf9aa42fc"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-0-5.npz",
+      "bytes": 46678,
+      "sha256": "fdcd4fcc422b34c3f355d699ab58ecb61895981d6e4c9191a3e4afc4fe4ec7a8"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-0-6.npz",
+      "bytes": 46544,
+      "sha256": "ade6a4c1e5bb8716812214f41247b255de101493e21bcfff4c3beafe8e16a09c"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-1-0.npz",
+      "bytes": 46493,
+      "sha256": "a0e121028604babfc48dcf9ef8784b7e42e370d067c4d179462af5a8956a35fe"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-1-1.npz",
+      "bytes": 46500,
+      "sha256": "69db5f7509aa0f40a4d582eb911c4944872d4c612edf51bd089d2707df82a6fb"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-1-2.npz",
+      "bytes": 46473,
+      "sha256": "95f40515520645d3eaa587af005a6ad364f5fb614c0c7e328798f7a17d77107a"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-1-3.npz",
+      "bytes": 46474,
+      "sha256": "12fe3066c2d9974c99b2aad2fbd076ea01d1c4a3c9e93cc740466e1800022d9e"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-1-4.npz",
+      "bytes": 46475,
+      "sha256": "91c616f73147839752f4f397ffaf1596d912a53b68a4e80ff59f68294ff5e3ca"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-1-5.npz",
+      "bytes": 46490,
+      "sha256": "972ae5c2819d280ec9c487ca26e6a12dc41dd8f14051ed70d410027d3579c079"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-1-6.npz",
+      "bytes": 46493,
+      "sha256": "a0e121028604babfc48dcf9ef8784b7e42e370d067c4d179462af5a8956a35fe"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-2-0.npz",
+      "bytes": 46647,
+      "sha256": "44b150a50a2a767d5d39c515d9c29b7ca960b055b1f4e6f5ba7ad3ba61f5d4b5"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-2-1.npz",
+      "bytes": 46653,
+      "sha256": "94227273d88e69a8fd00506ebc3cce7837d4b6ec10b1773eb248e7e9c38e47c1"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-2-2.npz",
+      "bytes": 46659,
+      "sha256": "5c228a34aa012d14e7fd0d3aa1b3e974f926ca0144ae030f1c052c4aff0d229d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-2-3.npz",
+      "bytes": 46628,
+      "sha256": "f9e6c69f3387285d5958607ec390715a9e851744d154fdc973d3986ec156f7df"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-2-4.npz",
+      "bytes": 46661,
+      "sha256": "83a60d2db93b8e9fece031a5eb8291592c05bac8835cee06556dc7cf6de9f6eb"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-2-5.npz",
+      "bytes": 46651,
+      "sha256": "a455611ae2b65b16383a2732cca6a918c916646b321e1d38fb21ef55340fd2d3"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-2-6.npz",
+      "bytes": 46647,
+      "sha256": "44b150a50a2a767d5d39c515d9c29b7ca960b055b1f4e6f5ba7ad3ba61f5d4b5"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-3-0.npz",
+      "bytes": 46616,
+      "sha256": "b597e54e04564684551dff01f5dc2ac9e4a6a9f89dfe53fcca919b1a5e287179"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-3-1.npz",
+      "bytes": 46586,
+      "sha256": "f1302f8b716ac2591a27582140eef443baea9d7dbae3a997cbba5cc1925d52c8"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-3-2.npz",
+      "bytes": 46621,
+      "sha256": "96b0c65ea36d11eedd40f1847ea9aabacb544402d18f9cf5cfca3924eec571f1"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-3-3.npz",
+      "bytes": 46643,
+      "sha256": "e62d4ce741de10dbff06c0a0e15f63fd592c30cbe102c371fbc6697aab3b4ae9"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-3-4.npz",
+      "bytes": 46627,
+      "sha256": "070ab6b04f7427903cf79732fd4db274305ad4b7e41d0e4e213b2f297d1012ca"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-3-5.npz",
+      "bytes": 46630,
+      "sha256": "79232e2abdc3229c3d4340137ce15b7f1816ca694c488bc15c59cc6c6149c549"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-3-6.npz",
+      "bytes": 46616,
+      "sha256": "b597e54e04564684551dff01f5dc2ac9e4a6a9f89dfe53fcca919b1a5e287179"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-4-0.npz",
+      "bytes": 46797,
+      "sha256": "b0d373924b95f0eb8fcddbf1d5086dc8da750fdbc06b6c58c548386bfc60a603"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-4-1.npz",
+      "bytes": 46772,
+      "sha256": "eb225b5dcfc45dba0f9c7b3f21fdb9048df70f0ce8f4f5fc159e543e8d43563e"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-4-2.npz",
+      "bytes": 46797,
+      "sha256": "7c69a52752be22690ea9d01c025052a259f841babf50824ff7695065c930d1a2"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-4-3.npz",
+      "bytes": 46823,
+      "sha256": "ec7db010587131e1e93838fa7f68cf5b08d63aee0176ed17f4170d57881245dd"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-4-4.npz",
+      "bytes": 46780,
+      "sha256": "09ab456e6525ea2c41043d95e797e2ded88fe6ff6e12e7a46ac47455b7fd4122"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-4-5.npz",
+      "bytes": 46803,
+      "sha256": "a2cc5d29448a8009ca72c2ef58c47fd499d6876197d0e10345d163367999e866"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-4-6.npz",
+      "bytes": 46797,
+      "sha256": "b0d373924b95f0eb8fcddbf1d5086dc8da750fdbc06b6c58c548386bfc60a603"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-5-0.npz",
+      "bytes": 46567,
+      "sha256": "5a9aab9cdf5cac8fa5c4493d25076e9d913099bb8d0dbd23a7dca7a0dad5f47c"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-5-1.npz",
+      "bytes": 46567,
+      "sha256": "5a9aab9cdf5cac8fa5c4493d25076e9d913099bb8d0dbd23a7dca7a0dad5f47c"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-5-2.npz",
+      "bytes": 46567,
+      "sha256": "5a9aab9cdf5cac8fa5c4493d25076e9d913099bb8d0dbd23a7dca7a0dad5f47c"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-5-3.npz",
+      "bytes": 46567,
+      "sha256": "5a9aab9cdf5cac8fa5c4493d25076e9d913099bb8d0dbd23a7dca7a0dad5f47c"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-5-4.npz",
+      "bytes": 46567,
+      "sha256": "5a9aab9cdf5cac8fa5c4493d25076e9d913099bb8d0dbd23a7dca7a0dad5f47c"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-5-5.npz",
+      "bytes": 46567,
+      "sha256": "5a9aab9cdf5cac8fa5c4493d25076e9d913099bb8d0dbd23a7dca7a0dad5f47c"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/readout-5-6.npz",
+      "bytes": 46567,
+      "sha256": "5a9aab9cdf5cac8fa5c4493d25076e9d913099bb8d0dbd23a7dca7a0dad5f47c"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/returns.npz",
+      "bytes": 10548137,
+      "sha256": "3bbd7ef5876a25d96788f9ffd351b0838745fbdb2dae0bb434e8695902251955"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/scores.json",
+      "bytes": 889647,
+      "sha256": "0ff54323c7fcdf30adfd16f507365ce209a68df5d32e89cc1ada698f356ce00d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/source-charts.json",
+      "bytes": 2602,
+      "sha256": "7207593de5e5b2001edd8764336bd983f6187a2fac50c7a92005050a2e81a580"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/source-native-checks.npz",
+      "bytes": 22282121,
+      "sha256": "acad9c0901106dbe2f80c4860bb3c615cbd644771dc0b13129cf565828a5f8be"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/source-policy-features.json",
+      "bytes": 13178,
+      "sha256": "9f2c7934ca564f619cfd7412c700e237d57f710ca14a91979d6439c5e34296fe"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/source.npz",
+      "bytes": 12497028,
+      "sha256": "bca6049d6685cf575bfc6ad719ac9e8f1406cba92e56241e7ac040f0917fdbdd"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/systems.json",
+      "bytes": 13681,
+      "sha256": "5a3b40fb80a8e0c8a28c30e5d92a94e70667241acf845dcc4ba4c746b12c0794"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/targets.json",
+      "bytes": 20887,
+      "sha256": "3d042a7c192b3c6d3c8fcf55de19326924417225409fd4ad562af7bd6a2b1235"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/policy-sealed.json",
+      "bytes": 1038,
+      "sha256": "6dacd384e43915b3545b9b37a82cb49d1fb0c54ecdd8ade68250c2ab7dcaf2d0"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/policy.npz",
+      "bytes": 8607,
+      "sha256": "c181ae8b88fe56811479ca042270509cecafbf1a26e3ac416ada64e02f674afb"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/progress.json",
+      "bytes": 43,
+      "sha256": "c329c061cd2fe2dbba6d00f1b8dc87fae453cc013fa31eba69216e771fb43295"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/protocol.json",
+      "bytes": 7422,
+      "sha256": "d05bbe3ff7a6cfb9b0c7bd49a95022709617921f7754a33d5150316ef2b19128"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/runner_snapshot.py",
+      "bytes": 12978,
+      "sha256": "d09cad8acf131719c474afe3dd10bd61fef5e922ef40379f18ca197f0c8ac07d"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/runs.jsonl",
+      "bytes": 7903124,
+      "sha256": "9d306add883d06c12b04c3a30158abefe74cac137681f9eff6d6294591bfd4e2"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/summary.json",
+      "bytes": 2077098,
+      "sha256": "039a8bc92c29e112bbd896ecdb4550a7592bfb60c4ace43397f9cba59d64f6ff"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/training-data.npz",
+      "bytes": 7847,
+      "sha256": "8223326b87d6eb90e49f4f3056a9a77015954d485b0d7fb6a0822fca36fcf5b9"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/training-rows.json",
+      "bytes": 34079,
+      "sha256": "3e155b09a348d934fb733a3a8ea31690de264cb1654b7c812a5d844c4fa43060"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/training-summary.json",
+      "bytes": 4442,
+      "sha256": "515517bfc5a6595cfdeb81006b0c61d063b78b066866de2351916d686375ee62"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/training_snapshot.py",
+      "bytes": 5237,
+      "sha256": "94c0bd46921da8e1fc49d6c9412897e2e209b0336a6acd122d65a575e89b6158"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/verification-0.6B-native.jsonl",
+      "bytes": 11520,
+      "sha256": "da0b2817264b129d51f761eca7681d02fc6d33fbf5d2f242578faa95dbce33dc"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/verification-1.7B-native.jsonl",
+      "bytes": 11520,
+      "sha256": "da0b2817264b129d51f761eca7681d02fc6d33fbf5d2f242578faa95dbce33dc"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/helpers/augmentation.py",
+      "bytes": 13984,
+      "sha256": "22cb17784dc5908772e0c8964593d5ebe83ef1736f11f09e60f927c620c1bb2c"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/helpers/capacity_engine.py",
+      "bytes": 10877,
+      "sha256": "486427011c2fba46a29f05024f9ede84cac18dde0d734944e62d1f79cff964ea"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/helpers/engine.py",
+      "bytes": 12978,
+      "sha256": "d09cad8acf131719c474afe3dd10bd61fef5e922ef40379f18ca197f0c8ac07d"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/helpers/native.py",
+      "bytes": 2522,
+      "sha256": "d1e1925eca01f66325c1c8e63da8c37521c8335c8854304f0d51819ba2b5976e"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/helpers/policy.py",
+      "bytes": 4254,
+      "sha256": "aa395ef22162d9c8aff3e61c71115d9a6ec4eab576500a0432721cbfce21730f"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/helpers/stimulus.py",
+      "bytes": 4694,
+      "sha256": "7b918a4b7b0d381b87963605ba300a3d24b5cd6e246a9c1f9536b3643afd1452"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/manifest.json",
+      "bytes": 1295,
+      "sha256": "56db3478fbd2228342ae650243d006d3cd223fb1c4854e274bab4f8bc85674f4"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/0.6B/assessment-0-native-checks.npz",
+      "bytes": 11801623,
+      "sha256": "e0b2ecdef3373560cecc344760cc89463674715065b708c881b02f40d3af07dd"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/0.6B/assessment-0.npz",
+      "bytes": 14583220,
+      "sha256": "128420dd7fd046b8f2a9c7fda1da7d9b87a0de1cc4500579a9aa2209864e29f5"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/0.6B/assessment-1-native-checks.npz",
+      "bytes": 11800426,
+      "sha256": "83c3d67dec39e204c449871a64040d5a458a47cd00545dfdbea3d90b58a55640"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/0.6B/assessment-1.npz",
+      "bytes": 14583941,
+      "sha256": "6509795ddb1ac1185feade06fee7748a33878dbda38bbc0e67357cc4afba08c9"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/0.6B/checkpoint.json",
+      "bytes": 383,
+      "sha256": "43a78cfcf91834b67889ced176454a16be125bdc425c79d9c10e7b3e251ca829"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/0.6B/inherited-sealed.json",
+      "bytes": 8465,
+      "sha256": "3c7d1b939730c7f947ccce1df6f12339fe2c8c4474ae15520292938854e3a047"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/0.6B/model-summary.json",
+      "bytes": 9424,
+      "sha256": "a5c1d2c612334715e1a25934ebfe7b284ff132510530eadf3419f4c6cc27fbd4"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/0.6B/scores.json",
+      "bytes": 1021707,
+      "sha256": "417fb3bf98ad1ac6727f143c5f0c50d698ced0d4a7eb621f7dbd8ce7dee7f30a"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/1.7B/assessment-0-native-checks.npz",
+      "bytes": 22266905,
+      "sha256": "fe2c71017efe20247dcf42db53456f7cbd00cfbf5fb55199211dfb1366cd49c8"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/1.7B/assessment-0.npz",
+      "bytes": 13952620,
+      "sha256": "0d840204d39fc0250e029b66a84b0418235ce48c2dcabdd907e46b035427752d"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/1.7B/assessment-1-native-checks.npz",
+      "bytes": 22320648,
+      "sha256": "22553213223b931b14d7baac2eb36383e644fa068da03e725144301a16e2c563"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/1.7B/assessment-1.npz",
+      "bytes": 14051291,
+      "sha256": "86191d8a45c1b6eb8da08668380d3f32c8a63aaad3a725527486ddb11900d9ec"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/1.7B/checkpoint.json",
+      "bytes": 239,
+      "sha256": "a364a03c714dfed072b12dea64bcbbed045b44e412979a1059ed1036eed6029b"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/1.7B/inherited-sealed.json",
+      "bytes": 8465,
+      "sha256": "8cf2b2b81410ace2d45a6a2c2cb48e8994164187b97858bfaf7341fcda57fac0"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/1.7B/model-summary.json",
+      "bytes": 9188,
+      "sha256": "dcbd9832d2b04dc290f49ab5768fd9904c00d43d081833432a3921da9a618378"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/1.7B/scores.json",
+      "bytes": 983841,
+      "sha256": "b16a84c1112f5d575d91cb51a8668a3ced3192328bb43703a83a7b7f95e971e8"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/protocol.json",
+      "bytes": 5381,
+      "sha256": "6d2c01eee72e1185dbd0ba9b97adcd9a13c69020f435294bc2a0e09dec901968"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/runner_snapshot.py",
+      "bytes": 6909,
+      "sha256": "e9c68b55cb272b0a37dbee5ab89ffddb3b6a29c807cfaf2fea6271da9dc13859"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/runs.jsonl",
+      "bytes": 4479994,
+      "sha256": "7f48b53f6640053e863f310f3686c4b548053fd7ac728e7055a14fe485640649"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/selections-sealed.json",
+      "bytes": 342,
+      "sha256": "59dcc7cfa68d587af927aa9a772a2f385ae458178fd2822904e95d46f4eb13e6"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/selections.json",
+      "bytes": 15211,
+      "sha256": "0568bd02859394aac4f8cd95bfb226d6b8040c25e26404214bf8d8c16fce730a"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/summary.json",
+      "bytes": 2178080,
+      "sha256": "2928f5a3fd883e518bfa117069d72bd2abc610815190444b95cede5ddcd9937e"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/verification-0.6B-native.jsonl",
+      "bytes": 6768,
+      "sha256": "107c91b47f9ebef35d89ba215a04fc717c27c1b1951509797c336ed531bc6660"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/verification-1.7B-native.jsonl",
+      "bytes": 6768,
+      "sha256": "107c91b47f9ebef35d89ba215a04fc717c27c1b1951509797c336ed531bc6660"
+    },
+    {
+      "path": "paper/BUILD.txt",
+      "bytes": 338,
+      "sha256": "7e8b15fcce0616ee6c4dfbbf70f01173116abb9cd153833998e9730e91d1fbe9"
+    },
+    {
+      "path": "paper/shaping-gap-benchmark-iv.pdf",
+      "bytes": 242459,
+      "sha256": "e871aff210986350d3e1849eacedb7acde3b1d5f73455471f431a4ac76b192eb"
+    },
+    {
+      "path": "paper/source/aggregate-table.tex",
+      "bytes": 813,
+      "sha256": "bc34b2a2ed10db6296c0220135a14b464b05dd1b8f16c964f206a243e36f4fb7"
+    },
+    {
+      "path": "paper/source/all-contexts.png",
+      "bytes": 73855,
+      "sha256": "d918531b195d71d59b6ad57cc867c56c4861098c65d031b041f673ff46f6afff"
+    },
+    {
+      "path": "paper/source/cases-table.tex",
+      "bytes": 780,
+      "sha256": "2292b829150539e2bdac7565d6748db690a67ede2c37e21786f844d658785777"
+    },
+    {
+      "path": "paper/source/checkpoint-overview.png",
+      "bytes": 91403,
+      "sha256": "b6c3e61edb9910109de4a1807024f9d2114ff9ad13e327cb82b549d9e8eac943"
+    },
+    {
+      "path": "paper/source/cost-table.tex",
+      "bytes": 280,
+      "sha256": "f108e66d09146736b3d061c1a055da41b55437b104f413b10ab78e7285b22974"
+    },
+    {
+      "path": "paper/source/main.tex",
+      "bytes": 28355,
+      "sha256": "ad393ff950bd0fe4ab4735022d96df6a9d1f5793bd9ed1f1b355c6054618c799"
+    },
+    {
+      "path": "paper/source/transfer-table.tex",
+      "bytes": 258,
+      "sha256": "95f93d43f1b461514509204087bfdfb9f90249d472bf962011abee9155b73046"
+    },
+    {
+      "path": "protocols/P61.json",
+      "bytes": 7422,
+      "sha256": "d05bbe3ff7a6cfb9b0c7bd49a95022709617921f7754a33d5150316ef2b19128"
+    },
+    {
+      "path": "protocols/P62.json",
+      "bytes": 5381,
+      "sha256": "6d2c01eee72e1185dbd0ba9b97adcd9a13c69020f435294bc2a0e09dec901968"
+    },
+    {
+      "path": "protocols/local-registration/000379-9d5b9141c4.json",
+      "bytes": 7118,
+      "sha256": "846d073854e4f46799154d8c51434b6984d07bffa74fc1562f7459d132ced663"
+    },
+    {
+      "path": "protocols/local-registration/000380-46559455ef.json",
+      "bytes": 5453,
+      "sha256": "cd67358ca3b9d5ba742d37da59df95a64994db36597e4fc13f61382a89628418"
+    },
+    {
+      "path": "protocols/nonvacuous-contract-clarification.txt",
+      "bytes": 1214,
+      "sha256": "079f5a7b00caf130a67340da4322fe230f28de3569c91f99db63224df16210ce"
+    },
+    {
+      "path": "requirements-analysis.txt",
+      "bytes": 27,
+      "sha256": "6b8269444f689e47d7069d07d58374c6f45c2c41d505446a8cd896c504b541a0"
+    },
+    {
+      "path": "requirements-native.txt",
+      "bytes": 56,
+      "sha256": "3ca96de911b451537ad5b43ad303cf4a6f7822eb9e8e9dc2fecd64850ad24f69"
+    },
+    {
+      "path": "results/analysis.json",
+      "bytes": 122291,
+      "sha256": "cc2b6d0ae14c50b1bd4e4708213f13d8438927123508368348c34b1cc1ab676d"
+    },
+    {
+      "path": "results/cost-ledger.json",
+      "bytes": 46036,
+      "sha256": "e821a69e46900934910dfe291dd646444cf3826fb80f1026500051fc88b77832"
+    },
+    {
+      "path": "results/feedback-analysis.json",
+      "bytes": 121669,
+      "sha256": "f6ec5faf1c095f9e5b34902056a01bcaa0cd723446ef860e717ef17ad0305260"
+    },
+    {
+      "path": "results/feedback-comparison.png",
+      "bytes": 40709,
+      "sha256": "40abe5efa09cbd514abfffc71a0b8f67122704ee1f36ae69537cb626ddf6d2ee"
+    },
+    {
+      "path": "results/feedback-native-verification.json",
+      "bytes": 973,
+      "sha256": "8253d08d0bec4c18d64167045612a17ace34ad08db518448c2c744d9ced616b0"
+    },
+    {
+      "path": "results/feedback-offline-verification.json",
+      "bytes": 210,
+      "sha256": "e759606e94b185df95ff9c4a28435556f0fb5b427ea5b14c0b999620d9a64d8f"
+    },
+    {
+      "path": "results/feedback-transfer.png",
+      "bytes": 111710,
+      "sha256": "b8affd373f1539b90e9a469a344c9e96f749ff04f9e36a93843c8ff9abd91453"
+    },
+    {
+      "path": "results/native-verification.json",
+      "bytes": 1051,
+      "sha256": "0a465c486016a6b1510abb630af74d45b7b3fd1ce1844d5b80a10fc04db59818"
+    },
+    {
+      "path": "results/offline-verification.json",
+      "bytes": 251,
+      "sha256": "dab35cc3a781bf218210e2dfeecffdc17b128e98c609cdc2b510c9f9808dee80"
+    },
+    {
+      "path": "results/policy-comparison.png",
+      "bytes": 47659,
+      "sha256": "5128281bedd225d8de5afdf96e8a7b91ea4994a234440dd4184f638a1a4744ff"
+    },
+    {
+      "path": "results/policy-transfer.png",
+      "bytes": 111216,
+      "sha256": "2f4b66987524a75efebdf1f8ec607f51698888e712f4c4ddc7f4efa855630432"
+    },
+    {
+      "path": "results/public-entrypoint-verification/feedback-native-verification.json",
+      "bytes": 974,
+      "sha256": "948cebb23cdb7a7ddbdfccbf296fad7d6a3bfe514af9d2dfd659472bf51d7b26"
+    },
+    {
+      "path": "results/public-entrypoint-verification/native-verification.json",
+      "bytes": 1051,
+      "sha256": "1643d6df8bed793cda90c85c0108faaee03965ac5fe5147a78d4a1eee2b5c8bf"
+    },
+    {
+      "path": "results/public-entrypoint-verification/summary.json",
+      "bytes": 365,
+      "sha256": "88ee49de48f535bc1418b035936ff0facc7ef0a5b39d24406db07dbc69c8922c"
+    },
+    {
+      "path": "results/report/FEEDBACK-RESULTS.txt",
+      "bytes": 3932,
+      "sha256": "a8dd0c126050db6b619a3931cbcd725d57d4626674b8f4549312a49f2f673aa4"
+    },
+    {
+      "path": "results/report/RESULTS.txt",
+      "bytes": 3704,
+      "sha256": "969528207bdecdb369e6adbcc2959213be677fa3727ac6979006c61ef10fa9b6"
+    },
+    {
+      "path": "results/report/all-contexts.png",
+      "bytes": 73855,
+      "sha256": "d918531b195d71d59b6ad57cc867c56c4861098c65d031b041f673ff46f6afff"
+    },
+    {
+      "path": "results/report/analysis.json",
+      "bytes": 122291,
+      "sha256": "cc2b6d0ae14c50b1bd4e4708213f13d8438927123508368348c34b1cc1ab676d"
+    },
+    {
+      "path": "results/report/checkpoint-overview.png",
+      "bytes": 91403,
+      "sha256": "b6c3e61edb9910109de4a1807024f9d2114ff9ad13e327cb82b549d9e8eac943"
+    },
+    {
+      "path": "results/report/cost-ledger.json",
+      "bytes": 46036,
+      "sha256": "e821a69e46900934910dfe291dd646444cf3826fb80f1026500051fc88b77832"
+    },
+    {
+      "path": "results/report/feedback-analysis.json",
+      "bytes": 121669,
+      "sha256": "f6ec5faf1c095f9e5b34902056a01bcaa0cd723446ef860e717ef17ad0305260"
+    }
+  ]
+}

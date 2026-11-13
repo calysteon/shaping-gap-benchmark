@@ -1,0 +1,1810 @@
+{
+  "historical_training_parent": "p59-preserved-return-augmentation-001",
+  "historical_native_work": "P59/P60 and inherited P55/P56 costs are inherited and recorded in Checkpoint03 results/cost-ledger.json; no historical costs erased.",
+  "policy_training": {
+    "training_charts": 12,
+    "training_candidates": 48,
+    "feature_names": [
+      "fraction",
+      "absolute_fraction",
+      "base_state_rank",
+      "state_rank_change",
+      "base_observation_rank",
+      "observation_rank_change",
+      "state_variance_logratio",
+      "increment_power_logratio",
+      "trajectory_cosine",
+      "transport_holdout_logerror",
+      "transport_identity_logdistance",
+      "transport_logcondition",
+      "transport_error_drift",
+      "linear_history_readability_change",
+      "nonlinear_history_readability_change",
+      "base_linear_readability",
+      "base_nonlinear_readability",
+      "state_autocorrelation_change",
+      "observation_skew_change",
+      "observation_kurtosis_change"
+    ],
+    "hyperparameter_grid": [
+      {
+        "bandwidth": 0.5,
+        "ridge": 0.001,
+        "grouped_cv_loss": 1.3375121992778274
+      },
+      {
+        "bandwidth": 0.5,
+        "ridge": 0.01,
+        "grouped_cv_loss": 1.1268866713747256
+      },
+      {
+        "bandwidth": 0.5,
+        "ridge": 0.1,
+        "grouped_cv_loss": 1.0505118854088125
+      },
+      {
+        "bandwidth": 0.5,
+        "ridge": 1.0,
+        "grouped_cv_loss": 1.070051347939918
+      },
+      {
+        "bandwidth": 1.0,
+        "ridge": 0.001,
+        "grouped_cv_loss": 1.307966815303655
+      },
+      {
+        "bandwidth": 1.0,
+        "ridge": 0.01,
+        "grouped_cv_loss": 1.0220422464342045
+      },
+      {
+        "bandwidth": 1.0,
+        "ridge": 0.1,
+        "grouped_cv_loss": 1.012680787009324
+      },
+      {
+        "bandwidth": 1.0,
+        "ridge": 1.0,
+        "grouped_cv_loss": 1.0572162387213029
+      },
+      {
+        "bandwidth": 2.0,
+        "ridge": 0.001,
+        "grouped_cv_loss": 0.793109626153301
+      },
+      {
+        "bandwidth": 2.0,
+        "ridge": 0.01,
+        "grouped_cv_loss": 0.7754856768648155
+      },
+      {
+        "bandwidth": 2.0,
+        "ridge": 0.1,
+        "grouped_cv_loss": 0.9717186154030566
+      },
+      {
+        "bandwidth": 2.0,
+        "ridge": 1.0,
+        "grouped_cv_loss": 1.064119304102286
+      }
+    ],
+    "selected_hyperparameters": {
+      "bandwidth": 2.0,
+      "ridge": 0.01,
+      "grouped_cv_loss": 0.7754856768648155
+    },
+    "grouped_cv_selections": [
+      {
+        "model": "0.6B",
+        "case": 0,
+        "selected_slot": 0,
+        "selected_fraction": 0.0,
+        "observed_target": [
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "model": "0.6B",
+        "case": 1,
+        "selected_slot": 3,
+        "selected_fraction": 0.02,
+        "observed_target": [
+          0.11638097661167732,
+          1.0
+        ]
+      },
+      {
+        "model": "0.6B",
+        "case": 2,
+        "selected_slot": 0,
+        "selected_fraction": 0.0,
+        "observed_target": [
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "model": "0.6B",
+        "case": 3,
+        "selected_slot": 0,
+        "selected_fraction": 0.0,
+        "observed_target": [
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "model": "0.6B",
+        "case": 4,
+        "selected_slot": 0,
+        "selected_fraction": 0.0,
+        "observed_target": [
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "model": "0.6B",
+        "case": 5,
+        "selected_slot": 0,
+        "selected_fraction": 0.0,
+        "observed_target": [
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "model": "1.7B",
+        "case": 0,
+        "selected_slot": 0,
+        "selected_fraction": 0.0,
+        "observed_target": [
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "model": "1.7B",
+        "case": 1,
+        "selected_slot": 4,
+        "selected_fraction": 0.05,
+        "observed_target": [
+          0.4175547581241035,
+          1.0
+        ]
+      },
+      {
+        "model": "1.7B",
+        "case": 2,
+        "selected_slot": 0,
+        "selected_fraction": 0.0,
+        "observed_target": [
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "model": "1.7B",
+        "case": 3,
+        "selected_slot": 4,
+        "selected_fraction": 0.05,
+        "observed_target": [
+          0.06667527700816005,
+          1.0
+        ]
+      },
+      {
+        "model": "1.7B",
+        "case": 4,
+        "selected_slot": 0,
+        "selected_fraction": 0.0,
+        "observed_target": [
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "model": "1.7B",
+        "case": 5,
+        "selected_slot": 0,
+        "selected_fraction": 0.0,
+        "observed_target": [
+          0.0,
+          1.0
+        ]
+      }
+    ],
+    "retained_policy_coefficients": 1101,
+    "retained_policy_array_bytes": 8808,
+    "training_cpu_seconds": 0.9880401671398431,
+    "information": "Historical target feedback only. New charts, new source and new assessment not yet acquired."
+  },
+  "models": [
+    {
+      "model": "0.6B",
+      "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+      "stored_parameter_bytes": 316747776,
+      "weights_unchanged": true,
+      "chart_acquisition_work": {
+        "batches": 6252,
+        "sequences": 168534,
+        "tokens": 337068,
+        "attention_block_tokens": 9437904,
+        "mlp_block_tokens": 9437904
+      },
+      "chart_acquisition_seconds": 70.31394879100844,
+      "calibration_work": {
+        "batches": 515,
+        "sequences": 16480,
+        "tokens": 32960,
+        "attention_block_tokens": 922880,
+        "mlp_block_tokens": 922880
+      },
+      "calibration_seconds": 6.615550999995321,
+      "source_work": {
+        "batches": 4608,
+        "sequences": 147456,
+        "tokens": 294912,
+        "attention_block_tokens": 8257536,
+        "mlp_block_tokens": 8257536
+      },
+      "source_seconds": 62.85075145796873,
+      "source_policy_interface_fit_seconds": 0.20519966701976955,
+      "readout_fit_seconds": 0.06376062496565282,
+      "assessment_work": [
+        {
+          "batches": 4608,
+          "sequences": 147456,
+          "tokens": 294912,
+          "attention_block_tokens": 8257536,
+          "mlp_block_tokens": 8257536
+        },
+        {
+          "batches": 4608,
+          "sequences": 147456,
+          "tokens": 294912,
+          "attention_block_tokens": 8257536,
+          "mlp_block_tokens": 8257536
+        }
+      ],
+      "assessment_seconds": [
+        102.19156716694124,
+        83.11082058399916
+      ],
+      "native_work": {
+        "batches": 20591,
+        "sequences": 627382,
+        "tokens": 1254764,
+        "attention_block_tokens": 35133392,
+        "mlp_block_tokens": 35133392
+      },
+      "native_seconds": 310.14466202282347,
+      "wall_seconds": 329.63952045794576,
+      "process_peak_rss_bytes": 720912384,
+      "mlx_peak_bytes": 581072072,
+      "return_shape": [
+        8,
+        2048
+      ],
+      "retained_selected_interface_bytes": 14080,
+      "decisions": [
+        {
+          "case": 0,
+          "seed": 111001,
+          "selected_slot": 0,
+          "fraction": 0.0,
+          "predictions": [
+            [
+              -0.11352588011723895,
+              0.6735736366878754
+            ],
+            [
+              -0.05456226268741303,
+              0.8408924601333737
+            ],
+            [
+              -0.051684494998660485,
+              0.8248308126925756
+            ],
+            [
+              -0.08056826786193959,
+              0.6589697501833867
+            ]
+          ],
+          "source_bounded": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "case": 1,
+          "seed": 111002,
+          "selected_slot": 0,
+          "fraction": 0.0,
+          "predictions": [
+            [
+              -0.15146445679318318,
+              0.6076806068469847
+            ],
+            [
+              -0.05690397576304465,
+              0.8077824748292703
+            ],
+            [
+              -0.05128782469865137,
+              0.794680230324796
+            ],
+            [
+              -0.1011807286767516,
+              0.6098381855742926
+            ]
+          ],
+          "source_bounded": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "case": 2,
+          "seed": 111003,
+          "selected_slot": 1,
+          "fraction": -0.05,
+          "predictions": [
+            [
+              0.028749319230489623,
+              0.8518037102503656
+            ],
+            [
+              -0.021014971481565864,
+              0.9212788706356776
+            ],
+            [
+              -0.09118129156971547,
+              0.8468820721730922
+            ],
+            [
+              -0.4577864992866847,
+              0.414450730778831
+            ]
+          ],
+          "source_bounded": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "case": 3,
+          "seed": 111004,
+          "selected_slot": 0,
+          "fraction": 0.0,
+          "predictions": [
+            [
+              -0.2842258382290862,
+              0.47661552198430607
+            ],
+            [
+              -0.3421814650399328,
+              0.5360853283684747
+            ],
+            [
+              -0.3044402303402789,
+              0.555163153830667
+            ],
+            [
+              -0.294372638850363,
+              0.46072101050166936
+            ]
+          ],
+          "source_bounded": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "case": 4,
+          "seed": 111005,
+          "selected_slot": 4,
+          "fraction": 0.05,
+          "predictions": [
+            [
+              -0.0607629634676245,
+              0.5344436487287287
+            ],
+            [
+              -0.01557909267749949,
+              0.6923584961519669
+            ],
+            [
+              0.021878938923620472,
+              0.711120256200849
+            ],
+            [
+              0.035646700134876724,
+              0.5873529546587681
+            ]
+          ],
+          "source_bounded": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "case": 5,
+          "seed": 111006,
+          "selected_slot": 0,
+          "fraction": 0.0,
+          "predictions": [
+            [
+              -0.060471308755290915,
+              0.7049926354087919
+            ],
+            [
+              -0.05035743333992436,
+              0.8269641022026537
+            ],
+            [
+              -0.05311619651190275,
+              0.8053435651846459
+            ],
+            [
+              -0.07270186235079096,
+              0.6474184967538152
+            ]
+          ],
+          "source_bounded": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    },
+    {
+      "model": "1.7B",
+      "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7",
+      "stored_parameter_bytes": 914237440,
+      "weights_unchanged": true,
+      "chart_acquisition_work": {
+        "batches": 6252,
+        "sequences": 168534,
+        "tokens": 337068,
+        "attention_block_tokens": 9437904,
+        "mlp_block_tokens": 9437904
+      },
+      "chart_acquisition_seconds": 216.1427693751175,
+      "calibration_work": {
+        "batches": 515,
+        "sequences": 16480,
+        "tokens": 32960,
+        "attention_block_tokens": 922880,
+        "mlp_block_tokens": 922880
+      },
+      "calibration_seconds": 20.31246504187584,
+      "source_work": {
+        "batches": 4608,
+        "sequences": 147456,
+        "tokens": 294912,
+        "attention_block_tokens": 8257536,
+        "mlp_block_tokens": 8257536
+      },
+      "source_seconds": 184.71587470802478,
+      "source_policy_interface_fit_seconds": 0.20442104199901223,
+      "readout_fit_seconds": 0.06728591700084507,
+      "assessment_work": [
+        {
+          "batches": 4608,
+          "sequences": 147456,
+          "tokens": 294912,
+          "attention_block_tokens": 8257536,
+          "mlp_block_tokens": 8257536
+        },
+        {
+          "batches": 4608,
+          "sequences": 147456,
+          "tokens": 294912,
+          "attention_block_tokens": 8257536,
+          "mlp_block_tokens": 8257536
+        }
+      ],
+      "assessment_seconds": [
+        184.42290729214437,
+        185.4772959589027
+      ],
+      "native_work": {
+        "batches": 20591,
+        "sequences": 627382,
+        "tokens": 1254764,
+        "attention_block_tokens": 35133392,
+        "mlp_block_tokens": 35133392
+      },
+      "native_seconds": 762.6126677973662,
+      "wall_seconds": 795.6454451249447,
+      "process_peak_rss_bytes": 1503576064,
+      "mlx_peak_bytes": 1213865152,
+      "return_shape": [
+        8,
+        4096
+      ],
+      "retained_selected_interface_bytes": 14080,
+      "decisions": [
+        {
+          "case": 0,
+          "seed": 111001,
+          "selected_slot": 0,
+          "fraction": 0.0,
+          "predictions": [
+            [
+              -0.2899792328643205,
+              0.5436885590316228
+            ],
+            [
+              -0.09984025269979487,
+              0.8144505838351243
+            ],
+            [
+              -0.8633159216326193,
+              0.12986603175189204
+            ],
+            [
+              -0.6546369022247092,
+              0.2538323312348095
+            ]
+          ],
+          "source_bounded": [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "case": 1,
+          "seed": 111002,
+          "selected_slot": 0,
+          "fraction": 0.0,
+          "predictions": [
+            [
+              -0.0892252267589922,
+              0.6979425009789705
+            ],
+            [
+              -0.09624425454689946,
+              0.8044716056160084
+            ],
+            [
+              -0.08596470723862171,
+              0.7958152409396773
+            ],
+            [
+              -0.08805460688605629,
+              0.6557742840813927
+            ]
+          ],
+          "source_bounded": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "case": 2,
+          "seed": 111003,
+          "selected_slot": 0,
+          "fraction": 0.0,
+          "predictions": [
+            [
+              -0.02091804495645805,
+              0.5714145535904732
+            ],
+            [
+              -0.011294898626455468,
+              0.6976943029228291
+            ],
+            [
+              -0.0066269517285093005,
+              0.6902735262013291
+            ],
+            [
+              -0.01196761134220789,
+              0.5536558316936272
+            ]
+          ],
+          "source_bounded": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "case": 3,
+          "seed": 111004,
+          "selected_slot": 0,
+          "fraction": 0.0,
+          "predictions": [
+            [
+              -0.7758931485152607,
+              0.06989473415826897
+            ],
+            [
+              -0.09547150403648852,
+              0.757674417826592
+            ],
+            [
+              -0.019005907109782214,
+              0.8051926537022033
+            ],
+            [
+              -0.022243865596437498,
+              0.6606326293875315
+            ]
+          ],
+          "source_bounded": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "case": 4,
+          "seed": 111005,
+          "selected_slot": 4,
+          "fraction": 0.05,
+          "predictions": [
+            [
+              -0.015512514873991495,
+              0.5888558217234522
+            ],
+            [
+              -0.0030587423413580006,
+              0.7215553609899643
+            ],
+            [
+              0.010402411858371485,
+              0.7204652145920535
+            ],
+            [
+              0.013117791167223447,
+              0.58382802102847
+            ]
+          ],
+          "source_bounded": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "case": 5,
+          "seed": 111006,
+          "selected_slot": 0,
+          "fraction": 0.0,
+          "predictions": [
+            [
+              0.08032302202289127,
+              0.6946436026033973
+            ],
+            [
+              0.07026527649028749,
+              0.7870579831236411
+            ],
+            [
+              0.07987691244215694,
+              0.7902315826363258
+            ],
+            [
+              0.1050313819625937,
+              0.7040676584119313
+            ]
+          ],
+          "source_bounded": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  ],
+  "new_native_sequences": 1254764,
+  "selected_interface_bytes": 14080,
+  "retained_policy_bytes": 8808,
+  "deployment_native_calls_per_step": 1,
+  "energy": "not measured",
+  "accounting": "All fresh chart acquisition, trials, source trajectories, unused candidates, controls and padding are charged. Independent native verification is added separately. Fixed+2 minimal acquisition uses one candidate while the selector source-measures four; matched experimental exposure is not a claim of equal minimal deployment acquisition cost.",
+  "explicit_runtime_and_readout_arrays": [
+    {
+      "model": "0.6B",
+      "one_143_program_library_array_bytes": 47544,
+      "readout_library_fields": {
+        "feature_mean": {
+          "shape": [
+            40
+          ],
+          "bytes": 320
+        },
+        "feature_scale": {
+          "shape": [
+            40
+          ],
+          "bytes": 320
+        },
+        "readout": {
+          "shape": [
+            40,
+            143
+          ],
+          "bytes": 45760
+        },
+        "target_mean": {
+          "shape": [
+            143
+          ],
+          "bytes": 1144
+        }
+      },
+      "one_return_matrix_array_bytes": 131072,
+      "one_retained_chart_array_bytes": 1015872,
+      "assessment_libraries_per_chart": 7,
+      "scope": "Baseline and candidate readouts are charged assessment programs. Reusing old programs retains their arrays; deploying new decoded outputs also retains the new readout vectors and normalization. Chart constants are inherited native-access structure and separately counted."
+    },
+    {
+      "model": "1.7B",
+      "one_143_program_library_array_bytes": 47544,
+      "readout_library_fields": {
+        "feature_mean": {
+          "shape": [
+            40
+          ],
+          "bytes": 320
+        },
+        "feature_scale": {
+          "shape": [
+            40
+          ],
+          "bytes": 320
+        },
+        "readout": {
+          "shape": [
+            40,
+            143
+          ],
+          "bytes": 45760
+        },
+        "target_mean": {
+          "shape": [
+            143
+          ],
+          "bytes": 1144
+        }
+      },
+      "one_return_matrix_array_bytes": 262144,
+      "one_retained_chart_array_bytes": 2031680,
+      "assessment_libraries_per_chart": 7,
+      "scope": "Baseline and candidate readouts are charged assessment programs. Reusing old programs retains their arrays; deploying new decoded outputs also retains the new readout vectors and normalization. Chart constants are inherited native-access structure and separately counted."
+    }
+  ],
+  "p62_additional_native_sequences": 589824,
+  "p62_models": [
+    {
+      "model": "0.6B",
+      "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+      "weights_unchanged": true,
+      "native_work": {
+        "batches": 9216,
+        "sequences": 294912,
+        "tokens": 589824,
+        "attention_block_tokens": 16515072,
+        "mlp_block_tokens": 16515072
+      },
+      "native_seconds": 141.71793992235325,
+      "assessment_work": [
+        {
+          "batches": 4608,
+          "sequences": 147456,
+          "tokens": 294912,
+          "attention_block_tokens": 8257536,
+          "mlp_block_tokens": 8257536
+        },
+        {
+          "batches": 4608,
+          "sequences": 147456,
+          "tokens": 294912,
+          "attention_block_tokens": 8257536,
+          "mlp_block_tokens": 8257536
+        }
+      ],
+      "assessment_seconds": [
+        73.91185316606425,
+        76.17128450004384
+      ],
+      "wall_seconds": 153.07739687501453,
+      "process_peak_rss_bytes": 676855808,
+      "mlx_peak_bytes": 581063880,
+      "choices": [
+        {
+          "model": "0.6B",
+          "case": 0,
+          "seed": 111001,
+          "selected_slot": 0,
+          "fraction": 0.0,
+          "prior_old_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            16,
+            17,
+            18,
+            24,
+            25,
+            26,
+            27,
+            31,
+            32,
+            33,
+            37
+          ],
+          "candidate_feedback": [
+            {
+              "slot": 1,
+              "fraction": -0.05,
+              "relative_delta": [
+                -0.15886875779940562,
+                -0.12392091173049115
+              ],
+              "prior_old": 17,
+              "retained": 14,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 2,
+              "fraction": -0.02,
+              "relative_delta": [
+                -0.038724325365463795,
+                -0.03607710761091717
+              ],
+              "prior_old": 17,
+              "retained": 17,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 3,
+              "fraction": 0.02,
+              "relative_delta": [
+                0.012317462897936535,
+                0.008898351924244813
+              ],
+              "prior_old": 17,
+              "retained": 17,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 4,
+              "fraction": 0.05,
+              "relative_delta": [
+                0.00333842624305697,
+                0.000124112428824169
+              ],
+              "prior_old": 17,
+              "retained": 17,
+              "feedback_admissible": false
+            }
+          ]
+        },
+        {
+          "model": "0.6B",
+          "case": 1,
+          "seed": 111002,
+          "selected_slot": 0,
+          "fraction": 0.0,
+          "prior_old_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            16,
+            17,
+            24,
+            25,
+            26,
+            31,
+            32,
+            37
+          ],
+          "candidate_feedback": [
+            {
+              "slot": 1,
+              "fraction": -0.05,
+              "relative_delta": [
+                -0.12743373886578155,
+                -0.01047257773483396
+              ],
+              "prior_old": 13,
+              "retained": 12,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 2,
+              "fraction": -0.02,
+              "relative_delta": [
+                -0.0059095868584064385,
+                -0.008322545285592595
+              ],
+              "prior_old": 13,
+              "retained": 13,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 3,
+              "fraction": 0.02,
+              "relative_delta": [
+                0.00017741428385382158,
+                0.01426139641833623
+              ],
+              "prior_old": 13,
+              "retained": 13,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 4,
+              "fraction": 0.05,
+              "relative_delta": [
+                -0.0013314223522914693,
+                0.03690073632888333
+              ],
+              "prior_old": 13,
+              "retained": 13,
+              "feedback_admissible": false
+            }
+          ]
+        },
+        {
+          "model": "0.6B",
+          "case": 2,
+          "seed": 111003,
+          "selected_slot": 0,
+          "fraction": 0.0,
+          "prior_old_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            16,
+            24,
+            25,
+            26,
+            27,
+            32
+          ],
+          "candidate_feedback": [
+            {
+              "slot": 1,
+              "fraction": -0.05,
+              "relative_delta": [
+                -0.04306191305162167,
+                -0.1256489860730798
+              ],
+              "prior_old": 11,
+              "retained": 9,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 2,
+              "fraction": -0.02,
+              "relative_delta": [
+                -0.009528681093420187,
+                -0.013544856486720084
+              ],
+              "prior_old": 11,
+              "retained": 10,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 3,
+              "fraction": 0.02,
+              "relative_delta": [
+                -0.0032428465579484585,
+                -0.002876006013751029
+              ],
+              "prior_old": 11,
+              "retained": 11,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 4,
+              "fraction": 0.05,
+              "relative_delta": [
+                -0.2496905228168997,
+                -0.17734210978089265
+              ],
+              "prior_old": 11,
+              "retained": 9,
+              "feedback_admissible": false
+            }
+          ]
+        },
+        {
+          "model": "0.6B",
+          "case": 3,
+          "seed": 111004,
+          "selected_slot": 4,
+          "fraction": 0.05,
+          "prior_old_ids": [
+            0,
+            1,
+            16
+          ],
+          "candidate_feedback": [
+            {
+              "slot": 1,
+              "fraction": -0.05,
+              "relative_delta": [
+                0.19655113347951272,
+                -0.20025944541788293
+              ],
+              "prior_old": 3,
+              "retained": 3,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 2,
+              "fraction": -0.02,
+              "relative_delta": [
+                -0.30933721698230243,
+                -0.5565395121622556
+              ],
+              "prior_old": 3,
+              "retained": 2,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 3,
+              "fraction": 0.02,
+              "relative_delta": [
+                0.07872423428953303,
+                0.8715752596717249
+              ],
+              "prior_old": 3,
+              "retained": 3,
+              "feedback_admissible": true
+            },
+            {
+              "slot": 4,
+              "fraction": 0.05,
+              "relative_delta": [
+                1.012790704345106,
+                0.3837693586651979
+              ],
+              "prior_old": 3,
+              "retained": 3,
+              "feedback_admissible": true
+            }
+          ]
+        },
+        {
+          "model": "0.6B",
+          "case": 4,
+          "seed": 111005,
+          "selected_slot": 3,
+          "fraction": 0.02,
+          "prior_old_ids": [
+            0,
+            1,
+            2,
+            3,
+            16,
+            17,
+            24,
+            25,
+            26,
+            31,
+            32,
+            52,
+            58
+          ],
+          "candidate_feedback": [
+            {
+              "slot": 1,
+              "fraction": -0.05,
+              "relative_delta": [
+                -0.10478593090663753,
+                -0.06426086171928933
+              ],
+              "prior_old": 13,
+              "retained": 13,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 2,
+              "fraction": -0.02,
+              "relative_delta": [
+                -0.05582549538032798,
+                -0.030190852909985754
+              ],
+              "prior_old": 13,
+              "retained": 13,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 3,
+              "fraction": 0.02,
+              "relative_delta": [
+                0.05594427754406617,
+                0.032765150353683624
+              ],
+              "prior_old": 13,
+              "retained": 13,
+              "feedback_admissible": true
+            },
+            {
+              "slot": 4,
+              "fraction": 0.05,
+              "relative_delta": [
+                0.12292315465278864,
+                0.07963060216491522
+              ],
+              "prior_old": 13,
+              "retained": 12,
+              "feedback_admissible": false
+            }
+          ]
+        },
+        {
+          "model": "0.6B",
+          "case": 5,
+          "seed": 111006,
+          "selected_slot": 0,
+          "fraction": 0.0,
+          "prior_old_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            16,
+            17,
+            18,
+            24,
+            25,
+            26,
+            31,
+            32,
+            37
+          ],
+          "candidate_feedback": [
+            {
+              "slot": 1,
+              "fraction": -0.05,
+              "relative_delta": [
+                -0.0058258906646574465,
+                -0.011536933561278172
+              ],
+              "prior_old": 14,
+              "retained": 14,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 2,
+              "fraction": -0.02,
+              "relative_delta": [
+                -0.0011318735228423597,
+                -0.0016675009586513518
+              ],
+              "prior_old": 14,
+              "retained": 14,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 3,
+              "fraction": 0.02,
+              "relative_delta": [
+                -0.002620827061815996,
+                -0.0037709068488323465
+              ],
+              "prior_old": 14,
+              "retained": 14,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 4,
+              "fraction": 0.05,
+              "relative_delta": [
+                -0.01737786660498159,
+                -0.02072074132274441
+              ],
+              "prior_old": 14,
+              "retained": 13,
+              "feedback_admissible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "1.7B",
+      "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7",
+      "weights_unchanged": true,
+      "native_work": {
+        "batches": 9216,
+        "sequences": 294912,
+        "tokens": 589824,
+        "attention_block_tokens": 16515072,
+        "mlp_block_tokens": 16515072
+      },
+      "native_seconds": 357.64900231407955,
+      "assessment_work": [
+        {
+          "batches": 4608,
+          "sequences": 147456,
+          "tokens": 294912,
+          "attention_block_tokens": 8257536,
+          "mlp_block_tokens": 8257536
+        },
+        {
+          "batches": 4608,
+          "sequences": 147456,
+          "tokens": 294912,
+          "attention_block_tokens": 8257536,
+          "mlp_block_tokens": 8257536
+        }
+      ],
+      "assessment_seconds": [
+        188.87279091589153,
+        184.84781883400865
+      ],
+      "wall_seconds": 376.85218487493694,
+      "process_peak_rss_bytes": 1454227456,
+      "mlx_peak_bytes": 1213848768,
+      "choices": [
+        {
+          "model": "1.7B",
+          "case": 0,
+          "seed": 111001,
+          "selected_slot": 0,
+          "fraction": 0.0,
+          "prior_old_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            16,
+            24,
+            25,
+            26,
+            27,
+            31,
+            32,
+            33,
+            37
+          ],
+          "candidate_feedback": [
+            {
+              "slot": 1,
+              "fraction": -0.05,
+              "relative_delta": [
+                -1.0,
+                -0.06738716587875765
+              ],
+              "prior_old": 15,
+              "retained": 0,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 2,
+              "fraction": -0.02,
+              "relative_delta": [
+                0.04608308408299677,
+                0.053947872113831216
+              ],
+              "prior_old": 15,
+              "retained": 14,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 3,
+              "fraction": 0.02,
+              "relative_delta": [
+                -1.0,
+                -1.0
+              ],
+              "prior_old": 15,
+              "retained": 0,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 4,
+              "fraction": 0.05,
+              "relative_delta": [
+                -1.0,
+                -1.0
+              ],
+              "prior_old": 15,
+              "retained": 0,
+              "feedback_admissible": false
+            }
+          ]
+        },
+        {
+          "model": "1.7B",
+          "case": 1,
+          "seed": 111002,
+          "selected_slot": 3,
+          "fraction": 0.02,
+          "prior_old_ids": [
+            0,
+            1,
+            2,
+            3,
+            16,
+            17,
+            24,
+            25,
+            26,
+            31
+          ],
+          "candidate_feedback": [
+            {
+              "slot": 1,
+              "fraction": -0.05,
+              "relative_delta": [
+                0.010223015341725188,
+                -0.004021657862300133
+              ],
+              "prior_old": 10,
+              "retained": 10,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 2,
+              "fraction": -0.02,
+              "relative_delta": [
+                0.0012567124676887544,
+                0.01318205569669911
+              ],
+              "prior_old": 10,
+              "retained": 10,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 3,
+              "fraction": 0.02,
+              "relative_delta": [
+                0.017212887083963405,
+                0.012158703468236075
+              ],
+              "prior_old": 10,
+              "retained": 10,
+              "feedback_admissible": true
+            },
+            {
+              "slot": 4,
+              "fraction": 0.05,
+              "relative_delta": [
+                -0.0007682425919314933,
+                0.011411309134957382
+              ],
+              "prior_old": 10,
+              "retained": 10,
+              "feedback_admissible": false
+            }
+          ]
+        },
+        {
+          "model": "1.7B",
+          "case": 2,
+          "seed": 111003,
+          "selected_slot": 0,
+          "fraction": 0.0,
+          "prior_old_ids": [
+            0,
+            1,
+            2,
+            3,
+            16,
+            17,
+            24,
+            25,
+            26,
+            31,
+            52,
+            58
+          ],
+          "candidate_feedback": [
+            {
+              "slot": 1,
+              "fraction": -0.05,
+              "relative_delta": [
+                -0.013868554189060227,
+                -0.023272756117011083
+              ],
+              "prior_old": 12,
+              "retained": 11,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 2,
+              "fraction": -0.02,
+              "relative_delta": [
+                0.012309164034206786,
+                0.012048764696067648
+              ],
+              "prior_old": 12,
+              "retained": 11,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 3,
+              "fraction": 0.02,
+              "relative_delta": [
+                -0.008913109809179864,
+                0.004253986491123789
+              ],
+              "prior_old": 12,
+              "retained": 11,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 4,
+              "fraction": 0.05,
+              "relative_delta": [
+                -0.07490194140770927,
+                -0.06518708354079147
+              ],
+              "prior_old": 12,
+              "retained": 11,
+              "feedback_admissible": false
+            }
+          ]
+        },
+        {
+          "model": "1.7B",
+          "case": 3,
+          "seed": 111004,
+          "selected_slot": 4,
+          "fraction": 0.05,
+          "prior_old_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            16,
+            17,
+            18,
+            24,
+            25,
+            26,
+            27,
+            31,
+            32,
+            33,
+            37,
+            38
+          ],
+          "candidate_feedback": [
+            {
+              "slot": 1,
+              "fraction": -0.05,
+              "relative_delta": [
+                -0.957773356284061,
+                -0.983795396260573
+              ],
+              "prior_old": 18,
+              "retained": 3,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 2,
+              "fraction": -0.02,
+              "relative_delta": [
+                -0.07956752921977014,
+                -0.1071468222632476
+              ],
+              "prior_old": 18,
+              "retained": 18,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 3,
+              "fraction": 0.02,
+              "relative_delta": [
+                0.045088821643740826,
+                0.050745209671258465
+              ],
+              "prior_old": 18,
+              "retained": 18,
+              "feedback_admissible": true
+            },
+            {
+              "slot": 4,
+              "fraction": 0.05,
+              "relative_delta": [
+                0.05910551754396476,
+                0.06822618607524181
+              ],
+              "prior_old": 18,
+              "retained": 18,
+              "feedback_admissible": true
+            }
+          ]
+        },
+        {
+          "model": "1.7B",
+          "case": 4,
+          "seed": 111005,
+          "selected_slot": 4,
+          "fraction": 0.05,
+          "prior_old_ids": [
+            0,
+            1,
+            2,
+            3,
+            16,
+            17,
+            24,
+            25,
+            26,
+            31,
+            37,
+            52,
+            58,
+            63,
+            88
+          ],
+          "candidate_feedback": [
+            {
+              "slot": 1,
+              "fraction": -0.05,
+              "relative_delta": [
+                0.024703321980496774,
+                -0.016727631129858478
+              ],
+              "prior_old": 15,
+              "retained": 15,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 2,
+              "fraction": -0.02,
+              "relative_delta": [
+                -0.0001359029404807966,
+                -0.007644795090463831
+              ],
+              "prior_old": 15,
+              "retained": 15,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 3,
+              "fraction": 0.02,
+              "relative_delta": [
+                0.023794581756283403,
+                0.00889731152336216
+              ],
+              "prior_old": 15,
+              "retained": 15,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 4,
+              "fraction": 0.05,
+              "relative_delta": [
+                0.07372662758813364,
+                0.01705300382494098
+              ],
+              "prior_old": 15,
+              "retained": 15,
+              "feedback_admissible": true
+            }
+          ]
+        },
+        {
+          "model": "1.7B",
+          "case": 5,
+          "seed": 111006,
+          "selected_slot": 0,
+          "fraction": 0.0,
+          "prior_old_ids": [],
+          "candidate_feedback": [
+            {
+              "slot": 1,
+              "fraction": -0.05,
+              "relative_delta": [
+                0.0,
+                0.0
+              ],
+              "prior_old": 0,
+              "retained": 0,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 2,
+              "fraction": -0.02,
+              "relative_delta": [
+                0.0,
+                0.0
+              ],
+              "prior_old": 0,
+              "retained": 0,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 3,
+              "fraction": 0.02,
+              "relative_delta": [
+                0.0,
+                0.0
+              ],
+              "prior_old": 0,
+              "retained": 0,
+              "feedback_admissible": false
+            },
+            {
+              "slot": 4,
+              "fraction": 0.05,
+              "relative_delta": [
+                0.0,
+                0.0
+              ],
+              "prior_old": 0,
+              "retained": 0,
+              "feedback_admissible": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "p62_choice_seconds": 0.0008970419876277447,
+  "p61_p62_new_native_sequences_before_verification": 1844588,
+  "independent_native_verification": [
+    {
+      "score_vectors_reproduced": 504,
+      "max_r2_error": 6.984919309616089e-10,
+      "transport_refit_max_error": 0.0,
+      "sealed_files_verified": 204,
+      "source_only_decisions_reproduced": 12,
+      "policy_refit_max_error": 0.0,
+      "native": [
+        {
+          "model": "0.6B",
+          "saved_outputs_bitexact": 1512,
+          "native_work": {
+            "batches": 72,
+            "sequences": 2304,
+            "tokens": 4608,
+            "attention_block_tokens": 129024,
+            "mlp_block_tokens": 129024
+          },
+          "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+          "weights_unchanged": true
+        },
+        {
+          "model": "1.7B",
+          "saved_outputs_bitexact": 1512,
+          "native_work": {
+            "batches": 72,
+            "sequences": 2304,
+            "tokens": 4608,
+            "attention_block_tokens": 129024,
+            "mlp_block_tokens": 129024
+          },
+          "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7",
+          "weights_unchanged": true
+        }
+      ],
+      "verification_seconds": 6.860646249959245
+    },
+    {
+      "score_vectors_reproduced": 504,
+      "max_r2_error": 4.656612873077393e-10,
+      "sealed_files_verified": 183,
+      "feedback_choices_reproduced": 12,
+      "native": [
+        {
+          "model": "0.6B",
+          "saved_outputs_bitexact": 1008,
+          "native_work": {
+            "batches": 48,
+            "sequences": 1536,
+            "tokens": 3072,
+            "attention_block_tokens": 86016,
+            "mlp_block_tokens": 86016
+          },
+          "weights_unchanged": true,
+          "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798"
+        },
+        {
+          "model": "1.7B",
+          "saved_outputs_bitexact": 1008,
+          "native_work": {
+            "batches": 48,
+            "sequences": 1536,
+            "tokens": 3072,
+            "attention_block_tokens": 86016,
+            "mlp_block_tokens": 86016
+          },
+          "weights_unchanged": true,
+          "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7"
+        }
+      ],
+      "verification_seconds": 4.255480916937813
+    }
+  ],
+  "verification_native_sequences": 7680,
+  "all_new_native_sequences_including_verification": 1852268,
+  "saved_native_outputs_bitexact": 5040,
+  "engineering_attempt": {
+    "stage": "sandbox MLX import",
+    "native_sequences": 0,
+    "result": "No Metal device; failed launch retained; identical frozen policy retried with native GPU access."
+  },
+  "publication_quality_assurance": {
+    "historical_training_policy_array_max_error": 0.0,
+    "public_entrypoint_native_sequences": 7680,
+    "public_entrypoint_saved_outputs_bitexact": 5040,
+    "numeric_score_vectors_reproduced": 1008,
+    "scope": "Publication QA repeats checks through the new portable entrypoint; these are the same saved outputs, not additional independent scientific observations."
+  },
+  "experimental_plus_publication_validation_native_sequences": 1859948
+}

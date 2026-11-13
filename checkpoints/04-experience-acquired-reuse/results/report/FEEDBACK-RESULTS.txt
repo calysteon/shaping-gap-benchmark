@@ -1,0 +1,38 @@
+P62: feedback-acquired execution/interface reuse
+
+Prespecified positive acquisition/reuse criterion met: True
+
+0.6B: 6 contexts, 3 fresh joint-success opportunities
+  feedback: updates=2; delta=[0.08201180004283322, -0.02884258703107125]; joint=1; retained=70/71; prior-unfiltered=70/71; new reliable nonlinear instances=0
+  cross_chart: updates=2; delta=[0.09702322625929878, 0.1014810672742487]; joint=0; retained=67/71; prior-unfiltered=67/71; new reliable nonlinear instances=0
+  fixed: updates=6; delta=[0.25887103718430365, 0.12870627992388484]; joint=1; retained=70/71; prior-unfiltered=70/71; new reliable nonlinear instances=0
+  random: updates=6; delta=[0.0883894360793913, 0.04007416471230205]; joint=3; retained=69/71; prior-unfiltered=69/71; new reliable nonlinear instances=1
+  oracle: updates=3; delta=[0.24940474537136578, 0.14582676997329197]; joint=3; retained=71/71; prior-unfiltered=71/71; new reliable nonlinear instances=0
+1.7B: 6 contexts, 1 fresh joint-success opportunities
+  feedback: updates=3; delta=[0.145969616553554, 0.18073607485557566]; joint=1; retained=70/70; prior-unfiltered=70/70; new reliable nonlinear instances=0
+  cross_chart: updates=1; delta=[0.0075372667963244195, 0.03555874244245594]; joint=0; retained=70/70; prior-unfiltered=70/70; new reliable nonlinear instances=0
+  fixed: updates=6; delta=[-1.9149745140392744, -1.8334549571104353]; joint=1; retained=54/70; prior-unfiltered=54/70; new reliable nonlinear instances=0
+  random: updates=6; delta=[-0.9598451145745718, -0.8634553269572637]; joint=0; retained=59/70; prior-unfiltered=59/70; new reliable nonlinear instances=0
+  oracle: updates=1; delta=[0.1343177047234191, 0.132378107901402]; joint=1; retained=70/70; prior-unfiltered=70/70; new reliable nonlinear instances=0
+pooled: 12 contexts, 4 fresh joint-success opportunities
+  feedback: updates=5; delta=[0.11399070829819362, 0.07594674391225222]; joint=2; retained=140/141; prior-unfiltered=140/141; new reliable nonlinear instances=0
+  cross_chart: updates=3; delta=[0.0522802465278116, 0.06851990485835231]; joint=0; retained=137/141; prior-unfiltered=137/141; new reliable nonlinear instances=0
+  fixed: updates=12; delta=[-0.8280517384274854, -0.8523743385932753]; joint=2; retained=124/141; prior-unfiltered=124/141; new reliable nonlinear instances=0
+  random: updates=12; delta=[-0.4357278392475903, -0.41169058112248086]; joint=3; retained=128/141; prior-unfiltered=128/141; new reliable nonlinear instances=1
+  oracle: updates=4; delta=[0.19186122504739245, 0.13910243893734697]; joint=4; retained=141/141; prior-unfiltered=141/141; new reliable nonlinear instances=0
+
+All feedback-acquired choices:
+  0.6B seed111001: +0%; delta=[0.0, 0.0]; retained=17/17; joint=False
+  0.6B seed111002: +0%; delta=[0.0, 0.0]; retained=13/13; joint=False
+  0.6B seed111003: +0%; delta=[0.0, 0.0]; retained=11/11; joint=False
+  0.6B seed111004: +5%; delta=[0.05220838455316379, -0.6279090455263766]; retained=2/3; joint=False
+  0.6B seed111005: +2%; delta=[0.43986241570383555, 0.4548535233399491]; retained=13/13; joint=True
+  0.6B seed111006: +0%; delta=[0.0, 0.0]; retained=14/14; joint=False
+  1.7B seed111001: +0%; delta=[0.0, 0.0]; retained=15/15; joint=False
+  1.7B seed111002: +2%; delta=[0.024687870202862783, 0.07679534707030644]; retained=10/10; joint=False
+  1.7B seed111003: +0%; delta=[0.0, 0.0]; retained=12/12; joint=False
+  1.7B seed111004: +5%; delta=[0.8059062283405147, 0.794268647408412]; retained=18/18; joint=True
+  1.7B seed111005: +5%; delta=[0.045223600777946515, 0.21335245465473562]; retained=15/15; joint=False
+  1.7B seed111006: +0%; delta=[0.0, 0.0]; retained=0/0; joint=False
+
+Choices learned from P61 feedback on these same twelve runtime contexts, then sealed before two untouched P62 streams. Original model weights, source-fitted interfaces and readout programs stay fixed. This is input-stream reuse, distinct from unseen-chart P61 transfer.

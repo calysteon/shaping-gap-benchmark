@@ -1,0 +1,4698 @@
+{
+  "question": "Can own experiential feedback acquire a retained execution/interface pair for later input experience?",
+  "criterion_met": true,
+  "aggregate": [
+    {
+      "model": "0.6B",
+      "charts": 6,
+      "oracle_opportunity_charts": 3,
+      "arms": {
+        "feedback": {
+          "updates": 2,
+          "mean_delta": [
+            0.08201180004283322,
+            -0.02884258703107125
+          ],
+          "mean_relative_delta": [
+            0.01354705432493556,
+            -0.1308677840290613
+          ],
+          "joint_successes": 1,
+          "complete_retention_cases": 5,
+          "nonempty_reference_cases": 6,
+          "eligible_old": 71,
+          "retained_old": 70,
+          "prior_old": 71,
+          "prior_retained_unfiltered": 70,
+          "direct_retained_old": 65,
+          "new_reliable_nonlinear_instances": 0
+        },
+        "cross_chart": {
+          "updates": 2,
+          "mean_delta": [
+            0.09702322625929878,
+            0.1014810672742487
+          ],
+          "mean_relative_delta": [
+            0.00889598815731592,
+            0.009738546418042402
+          ],
+          "joint_successes": 0,
+          "complete_retention_cases": 4,
+          "nonempty_reference_cases": 6,
+          "eligible_old": 71,
+          "retained_old": 67,
+          "prior_old": 71,
+          "prior_retained_unfiltered": 67,
+          "direct_retained_old": 60,
+          "new_reliable_nonlinear_instances": 0
+        },
+        "fixed": {
+          "updates": 6,
+          "mean_delta": [
+            0.25887103718430365,
+            0.12870627992388484
+          ],
+          "mean_relative_delta": [
+            0.11795812704117185,
+            0.026260684535364672
+          ],
+          "joint_successes": 1,
+          "complete_retention_cases": 5,
+          "nonempty_reference_cases": 6,
+          "eligible_old": 71,
+          "retained_old": 70,
+          "prior_old": 71,
+          "prior_retained_unfiltered": 70,
+          "direct_retained_old": 65,
+          "new_reliable_nonlinear_instances": 0
+        },
+        "random": {
+          "updates": 6,
+          "mean_delta": [
+            0.0883894360793913,
+            0.04007416471230205
+          ],
+          "mean_relative_delta": [
+            -0.02711280608795122,
+            -0.03511460292912375
+          ],
+          "joint_successes": 3,
+          "complete_retention_cases": 5,
+          "nonempty_reference_cases": 6,
+          "eligible_old": 71,
+          "retained_old": 69,
+          "prior_old": 71,
+          "prior_retained_unfiltered": 69,
+          "direct_retained_old": 64,
+          "new_reliable_nonlinear_instances": 1
+        },
+        "oracle": {
+          "updates": 3,
+          "mean_delta": [
+            0.24940474537136578,
+            0.14582676997329197
+          ],
+          "mean_relative_delta": [
+            0.05675644763147857,
+            0.0518335124184961
+          ],
+          "joint_successes": 3,
+          "complete_retention_cases": 6,
+          "nonempty_reference_cases": 6,
+          "eligible_old": 71,
+          "retained_old": 71,
+          "prior_old": 71,
+          "prior_retained_unfiltered": 71,
+          "direct_retained_old": 65,
+          "new_reliable_nonlinear_instances": 0
+        }
+      }
+    },
+    {
+      "model": "1.7B",
+      "charts": 6,
+      "oracle_opportunity_charts": 1,
+      "arms": {
+        "feedback": {
+          "updates": 3,
+          "mean_delta": [
+            0.145969616553554,
+            0.18073607485557566
+          ],
+          "mean_relative_delta": [
+            0.009659067431831895,
+            0.012717162900099681
+          ],
+          "joint_successes": 1,
+          "complete_retention_cases": 5,
+          "nonempty_reference_cases": 5,
+          "eligible_old": 70,
+          "retained_old": 70,
+          "prior_old": 70,
+          "prior_retained_unfiltered": 70,
+          "direct_retained_old": 51,
+          "new_reliable_nonlinear_instances": 0
+        },
+        "cross_chart": {
+          "updates": 1,
+          "mean_delta": [
+            0.0075372667963244195,
+            0.03555874244245594
+          ],
+          "mean_relative_delta": [
+            0.0005675380246677879,
+            0.0024647309811023934
+          ],
+          "joint_successes": 0,
+          "complete_retention_cases": 5,
+          "nonempty_reference_cases": 5,
+          "eligible_old": 70,
+          "retained_old": 70,
+          "prior_old": 70,
+          "prior_retained_unfiltered": 70,
+          "direct_retained_old": 59,
+          "new_reliable_nonlinear_instances": 0
+        },
+        "fixed": {
+          "updates": 6,
+          "mean_delta": [
+            -1.9149745140392744,
+            -1.8334549571104353
+          ],
+          "mean_relative_delta": [
+            -0.15912552247662196,
+            -0.1585639226329564
+          ],
+          "joint_successes": 1,
+          "complete_retention_cases": 3,
+          "nonempty_reference_cases": 5,
+          "eligible_old": 70,
+          "retained_old": 54,
+          "prior_old": 70,
+          "prior_retained_unfiltered": 54,
+          "direct_retained_old": 45,
+          "new_reliable_nonlinear_instances": 0
+        },
+        "random": {
+          "updates": 6,
+          "mean_delta": [
+            -0.9598451145745718,
+            -0.8634553269572637
+          ],
+          "mean_relative_delta": [
+            -0.08018586360268759,
+            -0.0757852806974982
+          ],
+          "joint_successes": 0,
+          "complete_retention_cases": 3,
+          "nonempty_reference_cases": 5,
+          "eligible_old": 70,
+          "retained_old": 59,
+          "prior_old": 70,
+          "prior_retained_unfiltered": 59,
+          "direct_retained_old": 51,
+          "new_reliable_nonlinear_instances": 0
+        },
+        "oracle": {
+          "updates": 1,
+          "mean_delta": [
+            0.1343177047234191,
+            0.132378107901402
+          ],
+          "mean_relative_delta": [
+            0.008486467372302964,
+            0.00826534882058434
+          ],
+          "joint_successes": 1,
+          "complete_retention_cases": 5,
+          "nonempty_reference_cases": 5,
+          "eligible_old": 70,
+          "retained_old": 70,
+          "prior_old": 70,
+          "prior_retained_unfiltered": 70,
+          "direct_retained_old": 62,
+          "new_reliable_nonlinear_instances": 0
+        }
+      }
+    },
+    {
+      "model": "pooled",
+      "charts": 12,
+      "oracle_opportunity_charts": 4,
+      "arms": {
+        "feedback": {
+          "updates": 5,
+          "mean_delta": [
+            0.11399070829819362,
+            0.07594674391225222
+          ],
+          "mean_relative_delta": [
+            0.011603060878383727,
+            -0.05907531056448081
+          ],
+          "joint_successes": 2,
+          "complete_retention_cases": 10,
+          "nonempty_reference_cases": 11,
+          "eligible_old": 141,
+          "retained_old": 140,
+          "prior_old": 141,
+          "prior_retained_unfiltered": 140,
+          "direct_retained_old": 116,
+          "new_reliable_nonlinear_instances": 0
+        },
+        "cross_chart": {
+          "updates": 3,
+          "mean_delta": [
+            0.0522802465278116,
+            0.06851990485835231
+          ],
+          "mean_relative_delta": [
+            0.004731763090991854,
+            0.006101638699572397
+          ],
+          "joint_successes": 0,
+          "complete_retention_cases": 9,
+          "nonempty_reference_cases": 11,
+          "eligible_old": 141,
+          "retained_old": 137,
+          "prior_old": 141,
+          "prior_retained_unfiltered": 137,
+          "direct_retained_old": 119,
+          "new_reliable_nonlinear_instances": 0
+        },
+        "fixed": {
+          "updates": 12,
+          "mean_delta": [
+            -0.8280517384274854,
+            -0.8523743385932753
+          ],
+          "mean_relative_delta": [
+            -0.020583697717725065,
+            -0.06615161904879586
+          ],
+          "joint_successes": 2,
+          "complete_retention_cases": 8,
+          "nonempty_reference_cases": 11,
+          "eligible_old": 141,
+          "retained_old": 124,
+          "prior_old": 141,
+          "prior_retained_unfiltered": 124,
+          "direct_retained_old": 110,
+          "new_reliable_nonlinear_instances": 0
+        },
+        "random": {
+          "updates": 12,
+          "mean_delta": [
+            -0.4357278392475903,
+            -0.41169058112248086
+          ],
+          "mean_relative_delta": [
+            -0.0536493348453194,
+            -0.05544994181331097
+          ],
+          "joint_successes": 3,
+          "complete_retention_cases": 8,
+          "nonempty_reference_cases": 11,
+          "eligible_old": 141,
+          "retained_old": 128,
+          "prior_old": 141,
+          "prior_retained_unfiltered": 128,
+          "direct_retained_old": 115,
+          "new_reliable_nonlinear_instances": 1
+        },
+        "oracle": {
+          "updates": 4,
+          "mean_delta": [
+            0.19186122504739245,
+            0.13910243893734697
+          ],
+          "mean_relative_delta": [
+            0.032621457501890765,
+            0.030049430619540216
+          ],
+          "joint_successes": 4,
+          "complete_retention_cases": 11,
+          "nonempty_reference_cases": 11,
+          "eligible_old": 141,
+          "retained_old": 141,
+          "prior_old": 141,
+          "prior_retained_unfiltered": 141,
+          "direct_retained_old": 127,
+          "new_reliable_nonlinear_instances": 0
+        }
+      }
+    }
+  ],
+  "cases": [
+    {
+      "model": "0.6B",
+      "case": 0,
+      "seed": 111001,
+      "selected_slot": 0,
+      "baseline_capacity": [
+        17.356650342367146,
+        17.475017193367776
+      ],
+      "feedback": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          17.356650342367146,
+          17.475017193367776
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 17,
+        "prior_old": 17,
+        "baseline_prior_retained": 17,
+        "retained_old": 17,
+        "prior_retained_unfiltered": 17,
+        "direct_retained_old": 17,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "cross_chart": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          17.356650342367146,
+          17.475017193367776
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 17,
+        "prior_old": 17,
+        "baseline_prior_retained": 17,
+        "retained_old": 17,
+        "prior_retained_unfiltered": 17,
+        "direct_retained_old": 17,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "fixed": {
+        "slot": 3,
+        "kind": "acquired",
+        "fraction": 0.02,
+        "capacity": [
+          17.502308457097964,
+          17.71738769554193
+        ],
+        "delta": [
+          0.1456581147308178,
+          0.242370502174154
+        ],
+        "relative_delta": [
+          0.00839206366768074,
+          0.01386954298769674
+        ],
+        "eligible_old": 17,
+        "prior_old": 17,
+        "baseline_prior_retained": 17,
+        "retained_old": 17,
+        "prior_retained_unfiltered": 17,
+        "direct_retained_old": 15,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "random": {
+        "slot": 5,
+        "kind": "random_same_action",
+        "fraction": 0.02,
+        "capacity": [
+          16.837976508516157,
+          17.102895334202305
+        ],
+        "delta": [
+          -0.5186738338509898,
+          -0.37212185916547114
+        ],
+        "relative_delta": [
+          -0.02988329105097658,
+          -0.021294506039553487
+        ],
+        "eligible_old": 17,
+        "prior_old": 17,
+        "baseline_prior_retained": 17,
+        "retained_old": 17,
+        "prior_retained_unfiltered": 17,
+        "direct_retained_old": 16,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          17.356650342367146,
+          17.475017193367776
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 17,
+        "prior_old": 17,
+        "baseline_prior_retained": 17,
+        "retained_old": 17,
+        "prior_retained_unfiltered": 17,
+        "direct_retained_old": 17,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle_available": false,
+      "candidates": [
+        {
+          "slot": 0,
+          "kind": "baseline",
+          "fraction": 0.0,
+          "capacity": [
+            17.356650342367146,
+            17.475017193367776
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 17,
+          "prior_old": 17,
+          "baseline_prior_retained": 17,
+          "retained_old": 17,
+          "prior_retained_unfiltered": 17,
+          "direct_retained_old": 17,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 1,
+          "kind": "acquired",
+          "fraction": -0.05,
+          "capacity": [
+            15.477000486741977,
+            15.481683841912046
+          ],
+          "delta": [
+            -1.8796498556251695,
+            -1.99333335145573
+          ],
+          "relative_delta": [
+            -0.10829565720045599,
+            -0.11406760459224337
+          ],
+          "eligible_old": 17,
+          "prior_old": 17,
+          "baseline_prior_retained": 17,
+          "retained_old": 16,
+          "prior_retained_unfiltered": 16,
+          "direct_retained_old": 7,
+          "lost_ids": [
+            27
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 2,
+          "kind": "acquired",
+          "fraction": -0.02,
+          "capacity": [
+            16.805173393973938,
+            16.87909340222626
+          ],
+          "delta": [
+            -0.5514769483932085,
+            -0.5959237911415158
+          ],
+          "relative_delta": [
+            -0.03177323605160537,
+            -0.03410147094834816
+          ],
+          "eligible_old": 17,
+          "prior_old": 17,
+          "baseline_prior_retained": 17,
+          "retained_old": 17,
+          "prior_retained_unfiltered": 17,
+          "direct_retained_old": 15,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 3,
+          "kind": "acquired",
+          "fraction": 0.02,
+          "capacity": [
+            17.502308457097964,
+            17.71738769554193
+          ],
+          "delta": [
+            0.1456581147308178,
+            0.242370502174154
+          ],
+          "relative_delta": [
+            0.00839206366768074,
+            0.01386954298769674
+          ],
+          "eligible_old": 17,
+          "prior_old": 17,
+          "baseline_prior_retained": 17,
+          "retained_old": 17,
+          "prior_retained_unfiltered": 17,
+          "direct_retained_old": 15,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 4,
+          "kind": "acquired",
+          "fraction": 0.05,
+          "capacity": [
+            17.239886425931545,
+            17.58791585551598
+          ],
+          "delta": [
+            -0.1167639164356018,
+            0.11289866214820421
+          ],
+          "relative_delta": [
+            -0.006727330108770125,
+            0.006460575168478357
+          ],
+          "eligible_old": 17,
+          "prior_old": 17,
+          "baseline_prior_retained": 17,
+          "retained_old": 17,
+          "prior_retained_unfiltered": 17,
+          "direct_retained_old": 10,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [
+            28
+          ],
+          "bounded": true
+        },
+        {
+          "slot": 5,
+          "kind": "random_same_action",
+          "fraction": 0.02,
+          "capacity": [
+            16.837976508516157,
+            17.102895334202305
+          ],
+          "delta": [
+            -0.5186738338509898,
+            -0.37212185916547114
+          ],
+          "relative_delta": [
+            -0.02988329105097658,
+            -0.021294506039553487
+          ],
+          "eligible_old": 17,
+          "prior_old": 17,
+          "baseline_prior_retained": 17,
+          "retained_old": 17,
+          "prior_retained_unfiltered": 17,
+          "direct_retained_old": 16,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 6,
+          "kind": "baseline_clone",
+          "fraction": 0.0,
+          "capacity": [
+            17.356650342367146,
+            17.475017193367776
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 17,
+          "prior_old": 17,
+          "baseline_prior_retained": 17,
+          "retained_old": 17,
+          "prior_retained_unfiltered": 17,
+          "direct_retained_old": 17,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        }
+      ]
+    },
+    {
+      "model": "0.6B",
+      "case": 1,
+      "seed": 111002,
+      "selected_slot": 0,
+      "baseline_capacity": [
+        13.681428180821543,
+        13.992788990947973
+      ],
+      "feedback": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          13.681428180821543,
+          13.992788990947973
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 13,
+        "prior_old": 13,
+        "baseline_prior_retained": 13,
+        "retained_old": 13,
+        "prior_retained_unfiltered": 13,
+        "direct_retained_old": 13,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "cross_chart": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          13.681428180821543,
+          13.992788990947973
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 13,
+        "prior_old": 13,
+        "baseline_prior_retained": 13,
+        "retained_old": 13,
+        "prior_retained_unfiltered": 13,
+        "direct_retained_old": 13,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "fixed": {
+        "slot": 3,
+        "kind": "acquired",
+        "fraction": 0.02,
+        "capacity": [
+          14.147759701507935,
+          14.09959465981682
+        ],
+        "delta": [
+          0.46633152068639205,
+          0.10680566886884613
+        ],
+        "relative_delta": [
+          0.03408500300722185,
+          0.007632907845458072
+        ],
+        "eligible_old": 13,
+        "prior_old": 13,
+        "baseline_prior_retained": 13,
+        "retained_old": 13,
+        "prior_retained_unfiltered": 13,
+        "direct_retained_old": 13,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "random": {
+        "slot": 5,
+        "kind": "random_same_action",
+        "fraction": 0.02,
+        "capacity": [
+          13.883047263753005,
+          13.653533625238026
+        ],
+        "delta": [
+          0.2016190829314617,
+          -0.3392553657099473
+        ],
+        "relative_delta": [
+          0.014736698557105963,
+          -0.02424501405183869
+        ],
+        "eligible_old": 13,
+        "prior_old": 13,
+        "baseline_prior_retained": 13,
+        "retained_old": 13,
+        "prior_retained_unfiltered": 13,
+        "direct_retained_old": 13,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle": {
+        "slot": 4,
+        "kind": "acquired",
+        "fraction": 0.05,
+        "capacity": [
+          14.429968999594355,
+          14.223087269682583
+        ],
+        "delta": [
+          0.7485408187728115,
+          0.23029827873460995
+        ],
+        "relative_delta": [
+          0.05471218420180042,
+          0.01645835429117036
+        ],
+        "eligible_old": 13,
+        "prior_old": 13,
+        "baseline_prior_retained": 13,
+        "retained_old": 13,
+        "prior_retained_unfiltered": 13,
+        "direct_retained_old": 11,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": true,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle_available": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "kind": "baseline",
+          "fraction": 0.0,
+          "capacity": [
+            13.681428180821543,
+            13.992788990947973
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 13,
+          "prior_old": 13,
+          "baseline_prior_retained": 13,
+          "retained_old": 13,
+          "prior_retained_unfiltered": 13,
+          "direct_retained_old": 13,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 1,
+          "kind": "acquired",
+          "fraction": -0.05,
+          "capacity": [
+            0.0,
+            13.882765713475823
+          ],
+          "delta": [
+            -13.681428180821543,
+            -0.11002327747215013
+          ],
+          "relative_delta": [
+            -1.0,
+            -0.007862855471009025
+          ],
+          "eligible_old": 13,
+          "prior_old": 13,
+          "baseline_prior_retained": 13,
+          "retained_old": 0,
+          "prior_retained_unfiltered": 0,
+          "direct_retained_old": 0,
+          "lost_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            16,
+            17,
+            24,
+            25,
+            26,
+            31,
+            32,
+            37
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 2,
+          "kind": "acquired",
+          "fraction": -0.02,
+          "capacity": [
+            11.568652554726832,
+            13.924963219476462
+          ],
+          "delta": [
+            -2.1127756260947113,
+            -0.06782577147151159
+          ],
+          "relative_delta": [
+            -0.15442654072155815,
+            -0.004847194616840755
+          ],
+          "eligible_old": 13,
+          "prior_old": 13,
+          "baseline_prior_retained": 13,
+          "retained_old": 13,
+          "prior_retained_unfiltered": 13,
+          "direct_retained_old": 13,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 3,
+          "kind": "acquired",
+          "fraction": 0.02,
+          "capacity": [
+            14.147759701507935,
+            14.09959465981682
+          ],
+          "delta": [
+            0.46633152068639205,
+            0.10680566886884613
+          ],
+          "relative_delta": [
+            0.03408500300722185,
+            0.007632907845458072
+          ],
+          "eligible_old": 13,
+          "prior_old": 13,
+          "baseline_prior_retained": 13,
+          "retained_old": 13,
+          "prior_retained_unfiltered": 13,
+          "direct_retained_old": 13,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 4,
+          "kind": "acquired",
+          "fraction": 0.05,
+          "capacity": [
+            14.429968999594355,
+            14.223087269682583
+          ],
+          "delta": [
+            0.7485408187728115,
+            0.23029827873460995
+          ],
+          "relative_delta": [
+            0.05471218420180042,
+            0.01645835429117036
+          ],
+          "eligible_old": 13,
+          "prior_old": 13,
+          "baseline_prior_retained": 13,
+          "retained_old": 13,
+          "prior_retained_unfiltered": 13,
+          "direct_retained_old": 11,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": true,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 5,
+          "kind": "random_same_action",
+          "fraction": 0.02,
+          "capacity": [
+            13.883047263753005,
+            13.653533625238026
+          ],
+          "delta": [
+            0.2016190829314617,
+            -0.3392553657099473
+          ],
+          "relative_delta": [
+            0.014736698557105963,
+            -0.02424501405183869
+          ],
+          "eligible_old": 13,
+          "prior_old": 13,
+          "baseline_prior_retained": 13,
+          "retained_old": 13,
+          "prior_retained_unfiltered": 13,
+          "direct_retained_old": 13,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 6,
+          "kind": "baseline_clone",
+          "fraction": 0.0,
+          "capacity": [
+            13.681428180821543,
+            13.992788990947973
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 13,
+          "prior_old": 13,
+          "baseline_prior_retained": 13,
+          "retained_old": 13,
+          "prior_retained_unfiltered": 13,
+          "direct_retained_old": 13,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        }
+      ]
+    },
+    {
+      "model": "0.6B",
+      "case": 2,
+      "seed": 111003,
+      "selected_slot": 0,
+      "baseline_capacity": [
+        11.38913312003909,
+        10.27003223209747
+      ],
+      "feedback": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          11.38913312003909,
+          10.27003223209747
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 11,
+        "prior_old": 11,
+        "baseline_prior_retained": 11,
+        "retained_old": 11,
+        "prior_retained_unfiltered": 11,
+        "direct_retained_old": 11,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "cross_chart": {
+        "slot": 1,
+        "kind": "acquired",
+        "fraction": -0.05,
+        "capacity": [
+          10.88571020103183,
+          9.84922983901705
+        ],
+        "delta": [
+          -0.5034229190072601,
+          -0.4208023930804199
+        ],
+        "relative_delta": [
+          -0.04420204011150694,
+          -0.04097381425593428
+        ],
+        "eligible_old": 11,
+        "prior_old": 11,
+        "baseline_prior_retained": 11,
+        "retained_old": 9,
+        "prior_retained_unfiltered": 9,
+        "direct_retained_old": 8,
+        "lost_ids": [
+          27,
+          32
+        ],
+        "all_old_retained": false,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "fixed": {
+        "slot": 3,
+        "kind": "acquired",
+        "fraction": 0.02,
+        "capacity": [
+          11.179407972102723,
+          10.22870285548694
+        ],
+        "delta": [
+          -0.20972514793636776,
+          -0.04132937661053049
+        ],
+        "relative_delta": [
+          -0.01841449614522092,
+          -0.004024269415763041
+        ],
+        "eligible_old": 11,
+        "prior_old": 11,
+        "baseline_prior_retained": 11,
+        "retained_old": 11,
+        "prior_retained_unfiltered": 11,
+        "direct_retained_old": 11,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "random": {
+        "slot": 5,
+        "kind": "random_same_action",
+        "fraction": 0.02,
+        "capacity": [
+          11.521124942855074,
+          10.44001216677563
+        ],
+        "delta": [
+          0.13199182281598354,
+          0.16997993467815853
+        ],
+        "relative_delta": [
+          0.011589277377375189,
+          0.016551061460830796
+        ],
+        "eligible_old": 11,
+        "prior_old": 11,
+        "baseline_prior_retained": 11,
+        "retained_old": 11,
+        "prior_retained_unfiltered": 11,
+        "direct_retained_old": 11,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": true,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          11.38913312003909,
+          10.27003223209747
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 11,
+        "prior_old": 11,
+        "baseline_prior_retained": 11,
+        "retained_old": 11,
+        "prior_retained_unfiltered": 11,
+        "direct_retained_old": 11,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle_available": false,
+      "candidates": [
+        {
+          "slot": 0,
+          "kind": "baseline",
+          "fraction": 0.0,
+          "capacity": [
+            11.38913312003909,
+            10.27003223209747
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 11,
+          "prior_old": 11,
+          "baseline_prior_retained": 11,
+          "retained_old": 11,
+          "prior_retained_unfiltered": 11,
+          "direct_retained_old": 11,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 1,
+          "kind": "acquired",
+          "fraction": -0.05,
+          "capacity": [
+            10.88571020103183,
+            9.84922983901705
+          ],
+          "delta": [
+            -0.5034229190072601,
+            -0.4208023930804199
+          ],
+          "relative_delta": [
+            -0.04420204011150694,
+            -0.04097381425593428
+          ],
+          "eligible_old": 11,
+          "prior_old": 11,
+          "baseline_prior_retained": 11,
+          "retained_old": 9,
+          "prior_retained_unfiltered": 9,
+          "direct_retained_old": 8,
+          "lost_ids": [
+            27,
+            32
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 2,
+          "kind": "acquired",
+          "fraction": -0.02,
+          "capacity": [
+            11.367762596253257,
+            9.987219779455057
+          ],
+          "delta": [
+            -0.021370523785833484,
+            -0.28281245264241406
+          ],
+          "relative_delta": [
+            -0.0018763959961300492,
+            -0.027537640218744927
+          ],
+          "eligible_old": 11,
+          "prior_old": 11,
+          "baseline_prior_retained": 11,
+          "retained_old": 10,
+          "prior_retained_unfiltered": 10,
+          "direct_retained_old": 10,
+          "lost_ids": [
+            32
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 3,
+          "kind": "acquired",
+          "fraction": 0.02,
+          "capacity": [
+            11.179407972102723,
+            10.22870285548694
+          ],
+          "delta": [
+            -0.20972514793636776,
+            -0.04132937661053049
+          ],
+          "relative_delta": [
+            -0.01841449614522092,
+            -0.004024269415763041
+          ],
+          "eligible_old": 11,
+          "prior_old": 11,
+          "baseline_prior_retained": 11,
+          "retained_old": 11,
+          "prior_retained_unfiltered": 11,
+          "direct_retained_old": 11,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 4,
+          "kind": "acquired",
+          "fraction": 0.05,
+          "capacity": [
+            8.946146863193993,
+            8.740379672097458
+          ],
+          "delta": [
+            -2.4429862568450975,
+            -1.529652560000013
+          ],
+          "relative_delta": [
+            -0.21450151043951557,
+            -0.14894330664506678
+          ],
+          "eligible_old": 11,
+          "prior_old": 11,
+          "baseline_prior_retained": 11,
+          "retained_old": 9,
+          "prior_retained_unfiltered": 9,
+          "direct_retained_old": 8,
+          "lost_ids": [
+            27,
+            32
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 5,
+          "kind": "random_same_action",
+          "fraction": 0.02,
+          "capacity": [
+            11.521124942855074,
+            10.44001216677563
+          ],
+          "delta": [
+            0.13199182281598354,
+            0.16997993467815853
+          ],
+          "relative_delta": [
+            0.011589277377375189,
+            0.016551061460830796
+          ],
+          "eligible_old": 11,
+          "prior_old": 11,
+          "baseline_prior_retained": 11,
+          "retained_old": 11,
+          "prior_retained_unfiltered": 11,
+          "direct_retained_old": 11,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": true,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 6,
+          "kind": "baseline_clone",
+          "fraction": 0.0,
+          "capacity": [
+            11.38913312003909,
+            10.27003223209747
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 11,
+          "prior_old": 11,
+          "baseline_prior_retained": 11,
+          "retained_old": 11,
+          "prior_retained_unfiltered": 11,
+          "direct_retained_old": 11,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        }
+      ]
+    },
+    {
+      "model": "0.6B",
+      "case": 3,
+      "seed": 111004,
+      "selected_slot": 4,
+      "baseline_capacity": [
+        1.2506679909175409,
+        0.7573218793336006
+      ],
+      "feedback": {
+        "slot": 4,
+        "kind": "acquired",
+        "fraction": 0.05,
+        "capacity": [
+          1.3028763754707047,
+          0.12941283380722401
+        ],
+        "delta": [
+          0.05220838455316379,
+          -0.6279090455263766
+        ],
+        "relative_delta": [
+          0.041744399738624156,
+          -0.8291177934525016
+        ],
+        "eligible_old": 3,
+        "prior_old": 3,
+        "baseline_prior_retained": 3,
+        "retained_old": 2,
+        "prior_retained_unfiltered": 2,
+        "direct_retained_old": 1,
+        "lost_ids": [
+          1
+        ],
+        "all_old_retained": false,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "cross_chart": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          1.2506679909175409,
+          0.7573218793336006
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 3,
+        "prior_old": 3,
+        "baseline_prior_retained": 3,
+        "retained_old": 3,
+        "prior_retained_unfiltered": 3,
+        "direct_retained_old": 3,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "fixed": {
+        "slot": 3,
+        "kind": "acquired",
+        "fraction": 0.02,
+        "capacity": [
+          2.0674465948572736,
+          0.8343233241574254
+        ],
+        "delta": [
+          0.8167786039397327,
+          0.07700144482382476
+        ],
+        "relative_delta": [
+          0.6530738852127419,
+          0.10167598074887467
+        ],
+        "eligible_old": 3,
+        "prior_old": 3,
+        "baseline_prior_retained": 3,
+        "retained_old": 2,
+        "prior_retained_unfiltered": 2,
+        "direct_retained_old": 3,
+        "lost_ids": [
+          1
+        ],
+        "all_old_retained": false,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "random": {
+        "slot": 5,
+        "kind": "random_same_action",
+        "fraction": 0.02,
+        "capacity": [
+          0.9379203509585613,
+          0.5505123695707299
+        ],
+        "delta": [
+          -0.3127476399589796,
+          -0.2068095097628707
+        ],
+        "relative_delta": [
+          -0.250064479326392,
+          -0.273080067282423
+        ],
+        "eligible_old": 3,
+        "prior_old": 3,
+        "baseline_prior_retained": 3,
+        "retained_old": 1,
+        "prior_retained_unfiltered": 1,
+        "direct_retained_old": 1,
+        "lost_ids": [
+          1,
+          16
+        ],
+        "all_old_retained": false,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle": {
+        "slot": 2,
+        "kind": "acquired",
+        "fraction": -0.02,
+        "capacity": [
+          1.5586932286690884,
+          0.9471306970987934
+        ],
+        "delta": [
+          0.30802523775154755,
+          0.18980881776519276
+        ],
+        "relative_delta": [
+          0.2462885753760818,
+          0.2506316309416724
+        ],
+        "eligible_old": 3,
+        "prior_old": 3,
+        "baseline_prior_retained": 3,
+        "retained_old": 3,
+        "prior_retained_unfiltered": 3,
+        "direct_retained_old": 3,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": true,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle_available": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "kind": "baseline",
+          "fraction": 0.0,
+          "capacity": [
+            1.2506679909175409,
+            0.7573218793336006
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 3,
+          "prior_old": 3,
+          "baseline_prior_retained": 3,
+          "retained_old": 3,
+          "prior_retained_unfiltered": 3,
+          "direct_retained_old": 3,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 1,
+          "kind": "acquired",
+          "fraction": -0.05,
+          "capacity": [
+            1.1409646649899734,
+            0.4997887318429638
+          ],
+          "delta": [
+            -0.10970332592756749,
+            -0.2575331474906368
+          ],
+          "relative_delta": [
+            -0.08771578606332178,
+            -0.3400577145839905
+          ],
+          "eligible_old": 3,
+          "prior_old": 3,
+          "baseline_prior_retained": 3,
+          "retained_old": 2,
+          "prior_retained_unfiltered": 2,
+          "direct_retained_old": 1,
+          "lost_ids": [
+            1
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 2,
+          "kind": "acquired",
+          "fraction": -0.02,
+          "capacity": [
+            1.5586932286690884,
+            0.9471306970987934
+          ],
+          "delta": [
+            0.30802523775154755,
+            0.18980881776519276
+          ],
+          "relative_delta": [
+            0.2462885753760818,
+            0.2506316309416724
+          ],
+          "eligible_old": 3,
+          "prior_old": 3,
+          "baseline_prior_retained": 3,
+          "retained_old": 3,
+          "prior_retained_unfiltered": 3,
+          "direct_retained_old": 3,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": true,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 3,
+          "kind": "acquired",
+          "fraction": 0.02,
+          "capacity": [
+            2.0674465948572736,
+            0.8343233241574254
+          ],
+          "delta": [
+            0.8167786039397327,
+            0.07700144482382476
+          ],
+          "relative_delta": [
+            0.6530738852127419,
+            0.10167598074887467
+          ],
+          "eligible_old": 3,
+          "prior_old": 3,
+          "baseline_prior_retained": 3,
+          "retained_old": 2,
+          "prior_retained_unfiltered": 2,
+          "direct_retained_old": 3,
+          "lost_ids": [
+            1
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 4,
+          "kind": "acquired",
+          "fraction": 0.05,
+          "capacity": [
+            1.3028763754707047,
+            0.12941283380722401
+          ],
+          "delta": [
+            0.05220838455316379,
+            -0.6279090455263766
+          ],
+          "relative_delta": [
+            0.041744399738624156,
+            -0.8291177934525016
+          ],
+          "eligible_old": 3,
+          "prior_old": 3,
+          "baseline_prior_retained": 3,
+          "retained_old": 2,
+          "prior_retained_unfiltered": 2,
+          "direct_retained_old": 1,
+          "lost_ids": [
+            1
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 5,
+          "kind": "random_same_action",
+          "fraction": 0.02,
+          "capacity": [
+            0.9379203509585613,
+            0.5505123695707299
+          ],
+          "delta": [
+            -0.3127476399589796,
+            -0.2068095097628707
+          ],
+          "relative_delta": [
+            -0.250064479326392,
+            -0.273080067282423
+          ],
+          "eligible_old": 3,
+          "prior_old": 3,
+          "baseline_prior_retained": 3,
+          "retained_old": 1,
+          "prior_retained_unfiltered": 1,
+          "direct_retained_old": 1,
+          "lost_ids": [
+            1,
+            16
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 6,
+          "kind": "baseline_clone",
+          "fraction": 0.0,
+          "capacity": [
+            1.2506679909175409,
+            0.7573218793336006
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 3,
+          "prior_old": 3,
+          "baseline_prior_retained": 3,
+          "retained_old": 3,
+          "prior_retained_unfiltered": 3,
+          "direct_retained_old": 3,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        }
+      ]
+    },
+    {
+      "model": "0.6B",
+      "case": 4,
+      "seed": 111005,
+      "selected_slot": 3,
+      "baseline_capacity": [
+        11.12507553776505,
+        10.358511501705111
+      ],
+      "feedback": {
+        "slot": 3,
+        "kind": "acquired",
+        "fraction": 0.02,
+        "capacity": [
+          11.564937953468885,
+          10.81336502504506
+        ],
+        "delta": [
+          0.43986241570383555,
+          0.4548535233399491
+        ],
+        "relative_delta": [
+          0.039537926210989206,
+          0.043911089278133815
+        ],
+        "eligible_old": 13,
+        "prior_old": 13,
+        "baseline_prior_retained": 13,
+        "retained_old": 13,
+        "prior_retained_unfiltered": 13,
+        "direct_retained_old": 9,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": true,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "cross_chart": {
+        "slot": 4,
+        "kind": "acquired",
+        "fraction": 0.05,
+        "capacity": [
+          12.210637814328102,
+          11.388200298431023
+        ],
+        "delta": [
+          1.0855622765630528,
+          1.029688796725912
+        ],
+        "relative_delta": [
+          0.09757796905540246,
+          0.09940509276418869
+        ],
+        "eligible_old": 13,
+        "prior_old": 13,
+        "baseline_prior_retained": 13,
+        "retained_old": 11,
+        "prior_retained_unfiltered": 11,
+        "direct_retained_old": 5,
+        "lost_ids": [
+          26,
+          32
+        ],
+        "all_old_retained": false,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "fixed": {
+        "slot": 3,
+        "kind": "acquired",
+        "fraction": 0.02,
+        "capacity": [
+          11.564937953468885,
+          10.81336502504506
+        ],
+        "delta": [
+          0.43986241570383555,
+          0.4548535233399491
+        ],
+        "relative_delta": [
+          0.039537926210989206,
+          0.043911089278133815
+        ],
+        "eligible_old": 13,
+        "prior_old": 13,
+        "baseline_prior_retained": 13,
+        "retained_old": 13,
+        "prior_retained_unfiltered": 13,
+        "direct_retained_old": 9,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": true,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "random": {
+        "slot": 5,
+        "kind": "random_same_action",
+        "fraction": 0.02,
+        "capacity": [
+          11.881987084891247,
+          11.076277468664292
+        ],
+        "delta": [
+          0.7569115471261973,
+          0.7177659669591812
+        ],
+        "relative_delta": [
+          0.06803653103808549,
+          0.06929238499576218
+        ],
+        "eligible_old": 13,
+        "prior_old": 13,
+        "baseline_prior_retained": 13,
+        "retained_old": 13,
+        "prior_retained_unfiltered": 13,
+        "direct_retained_old": 9,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": true,
+        "new_reliable_nonlinear_ids": [
+          37
+        ],
+        "bounded": true
+      },
+      "oracle": {
+        "slot": 3,
+        "kind": "acquired",
+        "fraction": 0.02,
+        "capacity": [
+          11.564937953468885,
+          10.81336502504506
+        ],
+        "delta": [
+          0.43986241570383555,
+          0.4548535233399491
+        ],
+        "relative_delta": [
+          0.039537926210989206,
+          0.043911089278133815
+        ],
+        "eligible_old": 13,
+        "prior_old": 13,
+        "baseline_prior_retained": 13,
+        "retained_old": 13,
+        "prior_retained_unfiltered": 13,
+        "direct_retained_old": 9,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": true,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle_available": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "kind": "baseline",
+          "fraction": 0.0,
+          "capacity": [
+            11.12507553776505,
+            10.358511501705111
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 13,
+          "prior_old": 13,
+          "baseline_prior_retained": 13,
+          "retained_old": 13,
+          "prior_retained_unfiltered": 13,
+          "direct_retained_old": 13,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 1,
+          "kind": "acquired",
+          "fraction": -0.05,
+          "capacity": [
+            10.383387560443198,
+            9.605484142497762
+          ],
+          "delta": [
+            -0.7416879773218508,
+            -0.7530273592073495
+          ],
+          "relative_delta": [
+            -0.06666812956048034,
+            -0.07269648337827245
+          ],
+          "eligible_old": 13,
+          "prior_old": 13,
+          "baseline_prior_retained": 13,
+          "retained_old": 13,
+          "prior_retained_unfiltered": 13,
+          "direct_retained_old": 4,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [
+            37
+          ],
+          "bounded": true
+        },
+        {
+          "slot": 2,
+          "kind": "acquired",
+          "fraction": -0.02,
+          "capacity": [
+            10.698166655086236,
+            9.938246584213998
+          ],
+          "delta": [
+            -0.4269088826788128,
+            -0.4202649174911137
+          ],
+          "relative_delta": [
+            -0.03837357159775077,
+            -0.04057194099962471
+          ],
+          "eligible_old": 13,
+          "prior_old": 13,
+          "baseline_prior_retained": 13,
+          "retained_old": 13,
+          "prior_retained_unfiltered": 13,
+          "direct_retained_old": 8,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 3,
+          "kind": "acquired",
+          "fraction": 0.02,
+          "capacity": [
+            11.564937953468885,
+            10.81336502504506
+          ],
+          "delta": [
+            0.43986241570383555,
+            0.4548535233399491
+          ],
+          "relative_delta": [
+            0.039537926210989206,
+            0.043911089278133815
+          ],
+          "eligible_old": 13,
+          "prior_old": 13,
+          "baseline_prior_retained": 13,
+          "retained_old": 13,
+          "prior_retained_unfiltered": 13,
+          "direct_retained_old": 9,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": true,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 4,
+          "kind": "acquired",
+          "fraction": 0.05,
+          "capacity": [
+            12.210637814328102,
+            11.388200298431023
+          ],
+          "delta": [
+            1.0855622765630528,
+            1.029688796725912
+          ],
+          "relative_delta": [
+            0.09757796905540246,
+            0.09940509276418869
+          ],
+          "eligible_old": 13,
+          "prior_old": 13,
+          "baseline_prior_retained": 13,
+          "retained_old": 11,
+          "prior_retained_unfiltered": 11,
+          "direct_retained_old": 5,
+          "lost_ids": [
+            26,
+            32
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 5,
+          "kind": "random_same_action",
+          "fraction": 0.02,
+          "capacity": [
+            11.881987084891247,
+            11.076277468664292
+          ],
+          "delta": [
+            0.7569115471261973,
+            0.7177659669591812
+          ],
+          "relative_delta": [
+            0.06803653103808549,
+            0.06929238499576218
+          ],
+          "eligible_old": 13,
+          "prior_old": 13,
+          "baseline_prior_retained": 13,
+          "retained_old": 13,
+          "prior_retained_unfiltered": 13,
+          "direct_retained_old": 9,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": true,
+          "new_reliable_nonlinear_ids": [
+            37
+          ],
+          "bounded": true
+        },
+        {
+          "slot": 6,
+          "kind": "baseline_clone",
+          "fraction": 0.0,
+          "capacity": [
+            11.12507553776505,
+            10.358511501705111
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 13,
+          "prior_old": 13,
+          "baseline_prior_retained": 13,
+          "retained_old": 13,
+          "prior_retained_unfiltered": 13,
+          "direct_retained_old": 13,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        }
+      ]
+    },
+    {
+      "model": "0.6B",
+      "case": 5,
+      "seed": 111006,
+      "selected_slot": 0,
+      "baseline_capacity": [
+        11.83999402786904,
+        12.263645562662207
+      ],
+      "feedback": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          11.83999402786904,
+          12.263645562662207
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 14,
+        "prior_old": 14,
+        "baseline_prior_retained": 14,
+        "retained_old": 14,
+        "prior_retained_unfiltered": 14,
+        "direct_retained_old": 14,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "cross_chart": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          11.83999402786904,
+          12.263645562662207
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 14,
+        "prior_old": 14,
+        "baseline_prior_retained": 14,
+        "retained_old": 14,
+        "prior_retained_unfiltered": 14,
+        "direct_retained_old": 14,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "fixed": {
+        "slot": 3,
+        "kind": "acquired",
+        "fraction": 0.02,
+        "capacity": [
+          11.734314743850451,
+          12.196181479609272
+        ],
+        "delta": [
+          -0.1056792840185885,
+          -0.0674640830529345
+        ],
+        "relative_delta": [
+          -0.008925619706381612,
+          -0.0055011442322122454
+        ],
+        "eligible_old": 14,
+        "prior_old": 14,
+        "baseline_prior_retained": 14,
+        "retained_old": 14,
+        "prior_retained_unfiltered": 14,
+        "direct_retained_old": 14,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "random": {
+        "slot": 5,
+        "kind": "random_same_action",
+        "fraction": 0.02,
+        "capacity": [
+          12.111229665281714,
+          12.534531383936969
+        ],
+        "delta": [
+          0.27123563741267454,
+          0.2708858212747618
+        ],
+        "relative_delta": [
+          0.02290842687709459,
+          0.022088523342479703
+        ],
+        "eligible_old": 14,
+        "prior_old": 14,
+        "baseline_prior_retained": 14,
+        "retained_old": 14,
+        "prior_retained_unfiltered": 14,
+        "direct_retained_old": 14,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": true,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          11.83999402786904,
+          12.263645562662207
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 14,
+        "prior_old": 14,
+        "baseline_prior_retained": 14,
+        "retained_old": 14,
+        "prior_retained_unfiltered": 14,
+        "direct_retained_old": 14,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle_available": false,
+      "candidates": [
+        {
+          "slot": 0,
+          "kind": "baseline",
+          "fraction": 0.0,
+          "capacity": [
+            11.83999402786904,
+            12.263645562662207
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 14,
+          "prior_old": 14,
+          "baseline_prior_retained": 14,
+          "retained_old": 14,
+          "prior_retained_unfiltered": 14,
+          "direct_retained_old": 14,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 1,
+          "kind": "acquired",
+          "fraction": -0.05,
+          "capacity": [
+            11.816417578188881,
+            12.175198533493402
+          ],
+          "delta": [
+            -0.023576449680158262,
+            -0.08844702916880465
+          ],
+          "relative_delta": [
+            -0.0019912552003543155,
+            -0.00721213188336833
+          ],
+          "eligible_old": 14,
+          "prior_old": 14,
+          "baseline_prior_retained": 14,
+          "retained_old": 14,
+          "prior_retained_unfiltered": 14,
+          "direct_retained_old": 12,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 2,
+          "kind": "acquired",
+          "fraction": -0.02,
+          "capacity": [
+            11.865541810045247,
+            12.261783837023883
+          ],
+          "delta": [
+            0.02554778217620779,
+            -0.0018617256383244296
+          ],
+          "relative_delta": [
+            0.002157752961367488,
+            -0.00015180850007542814
+          ],
+          "eligible_old": 14,
+          "prior_old": 14,
+          "baseline_prior_retained": 14,
+          "retained_old": 14,
+          "prior_retained_unfiltered": 14,
+          "direct_retained_old": 14,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 3,
+          "kind": "acquired",
+          "fraction": 0.02,
+          "capacity": [
+            11.734314743850451,
+            12.196181479609272
+          ],
+          "delta": [
+            -0.1056792840185885,
+            -0.0674640830529345
+          ],
+          "relative_delta": [
+            -0.008925619706381612,
+            -0.0055011442322122454
+          ],
+          "eligible_old": 14,
+          "prior_old": 14,
+          "baseline_prior_retained": 14,
+          "retained_old": 14,
+          "prior_retained_unfiltered": 14,
+          "direct_retained_old": 14,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 4,
+          "kind": "acquired",
+          "fraction": 0.05,
+          "capacity": [
+            11.342000453319987,
+            11.917263156395338
+          ],
+          "delta": [
+            -0.4979935745490529,
+            -0.3463824062668692
+          ],
+          "relative_delta": [
+            -0.04206028933603117,
+            -0.028244652415710888
+          ],
+          "eligible_old": 14,
+          "prior_old": 14,
+          "baseline_prior_retained": 14,
+          "retained_old": 14,
+          "prior_retained_unfiltered": 14,
+          "direct_retained_old": 10,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 5,
+          "kind": "random_same_action",
+          "fraction": 0.02,
+          "capacity": [
+            12.111229665281714,
+            12.534531383936969
+          ],
+          "delta": [
+            0.27123563741267454,
+            0.2708858212747618
+          ],
+          "relative_delta": [
+            0.02290842687709459,
+            0.022088523342479703
+          ],
+          "eligible_old": 14,
+          "prior_old": 14,
+          "baseline_prior_retained": 14,
+          "retained_old": 14,
+          "prior_retained_unfiltered": 14,
+          "direct_retained_old": 14,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": true,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 6,
+          "kind": "baseline_clone",
+          "fraction": 0.0,
+          "capacity": [
+            11.83999402786904,
+            12.263645562662207
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 14,
+          "prior_old": 14,
+          "baseline_prior_retained": 14,
+          "retained_old": 14,
+          "prior_retained_unfiltered": 14,
+          "direct_retained_old": 14,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        }
+      ]
+    },
+    {
+      "model": "1.7B",
+      "case": 0,
+      "seed": 111001,
+      "selected_slot": 0,
+      "baseline_capacity": [
+        12.15361138526961,
+        11.741912253454036
+      ],
+      "feedback": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          12.15361138526961,
+          11.741912253454036
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 15,
+        "prior_old": 15,
+        "baseline_prior_retained": 15,
+        "retained_old": 15,
+        "prior_retained_unfiltered": 15,
+        "direct_retained_old": 15,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "cross_chart": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          12.15361138526961,
+          11.741912253454036
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 15,
+        "prior_old": 15,
+        "baseline_prior_retained": 15,
+        "retained_old": 15,
+        "prior_retained_unfiltered": 15,
+        "direct_retained_old": 15,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "fixed": {
+        "slot": 3,
+        "kind": "acquired",
+        "fraction": 0.02,
+        "capacity": [
+          0.0,
+          0.0
+        ],
+        "delta": [
+          -12.15361138526961,
+          -11.741912253454036
+        ],
+        "relative_delta": [
+          -1.0,
+          -1.0
+        ],
+        "eligible_old": 15,
+        "prior_old": 15,
+        "baseline_prior_retained": 15,
+        "retained_old": 0,
+        "prior_retained_unfiltered": 0,
+        "direct_retained_old": 0,
+        "lost_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          16,
+          24,
+          25,
+          26,
+          27,
+          31,
+          32,
+          33,
+          37
+        ],
+        "all_old_retained": false,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": false
+      },
+      "random": {
+        "slot": 5,
+        "kind": "random_same_action",
+        "fraction": 0.02,
+        "capacity": [
+          6.5456636746759145,
+          6.238593094538043
+        ],
+        "delta": [
+          -5.607947710593695,
+          -5.503319158915993
+        ],
+        "relative_delta": [
+          -0.46142233224526386,
+          -0.46869019629210057
+        ],
+        "eligible_old": 15,
+        "prior_old": 15,
+        "baseline_prior_retained": 15,
+        "retained_old": 5,
+        "prior_retained_unfiltered": 5,
+        "direct_retained_old": 6,
+        "lost_ids": [
+          5,
+          16,
+          24,
+          25,
+          26,
+          27,
+          31,
+          32,
+          33,
+          37
+        ],
+        "all_old_retained": false,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          12.15361138526961,
+          11.741912253454036
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 15,
+        "prior_old": 15,
+        "baseline_prior_retained": 15,
+        "retained_old": 15,
+        "prior_retained_unfiltered": 15,
+        "direct_retained_old": 15,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle_available": false,
+      "candidates": [
+        {
+          "slot": 0,
+          "kind": "baseline",
+          "fraction": 0.0,
+          "capacity": [
+            12.15361138526961,
+            11.741912253454036
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 15,
+          "prior_old": 15,
+          "baseline_prior_retained": 15,
+          "retained_old": 15,
+          "prior_retained_unfiltered": 15,
+          "direct_retained_old": 15,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 1,
+          "kind": "acquired",
+          "fraction": -0.05,
+          "capacity": [
+            0.0,
+            0.0
+          ],
+          "delta": [
+            -12.15361138526961,
+            -11.741912253454036
+          ],
+          "relative_delta": [
+            -1.0,
+            -1.0
+          ],
+          "eligible_old": 15,
+          "prior_old": 15,
+          "baseline_prior_retained": 15,
+          "retained_old": 0,
+          "prior_retained_unfiltered": 0,
+          "direct_retained_old": 0,
+          "lost_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            16,
+            24,
+            25,
+            26,
+            27,
+            31,
+            32,
+            33,
+            37
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": false
+        },
+        {
+          "slot": 2,
+          "kind": "acquired",
+          "fraction": -0.02,
+          "capacity": [
+            12.598623766215958,
+            12.193883389442394
+          ],
+          "delta": [
+            0.44501238094634843,
+            0.4519711359883587
+          ],
+          "relative_delta": [
+            0.036615650018702366,
+            0.038492123449091996
+          ],
+          "eligible_old": 15,
+          "prior_old": 15,
+          "baseline_prior_retained": 15,
+          "retained_old": 14,
+          "prior_retained_unfiltered": 14,
+          "direct_retained_old": 11,
+          "lost_ids": [
+            33
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [
+            34
+          ],
+          "bounded": true
+        },
+        {
+          "slot": 3,
+          "kind": "acquired",
+          "fraction": 0.02,
+          "capacity": [
+            0.0,
+            0.0
+          ],
+          "delta": [
+            -12.15361138526961,
+            -11.741912253454036
+          ],
+          "relative_delta": [
+            -1.0,
+            -1.0
+          ],
+          "eligible_old": 15,
+          "prior_old": 15,
+          "baseline_prior_retained": 15,
+          "retained_old": 0,
+          "prior_retained_unfiltered": 0,
+          "direct_retained_old": 0,
+          "lost_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            16,
+            24,
+            25,
+            26,
+            27,
+            31,
+            32,
+            33,
+            37
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": false
+        },
+        {
+          "slot": 4,
+          "kind": "acquired",
+          "fraction": 0.05,
+          "capacity": [
+            0.0,
+            0.0
+          ],
+          "delta": [
+            -12.15361138526961,
+            -11.741912253454036
+          ],
+          "relative_delta": [
+            -1.0,
+            -1.0
+          ],
+          "eligible_old": 15,
+          "prior_old": 15,
+          "baseline_prior_retained": 15,
+          "retained_old": 0,
+          "prior_retained_unfiltered": 0,
+          "direct_retained_old": 0,
+          "lost_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            16,
+            24,
+            25,
+            26,
+            27,
+            31,
+            32,
+            33,
+            37
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": false
+        },
+        {
+          "slot": 5,
+          "kind": "random_same_action",
+          "fraction": 0.02,
+          "capacity": [
+            6.5456636746759145,
+            6.238593094538043
+          ],
+          "delta": [
+            -5.607947710593695,
+            -5.503319158915993
+          ],
+          "relative_delta": [
+            -0.46142233224526386,
+            -0.46869019629210057
+          ],
+          "eligible_old": 15,
+          "prior_old": 15,
+          "baseline_prior_retained": 15,
+          "retained_old": 5,
+          "prior_retained_unfiltered": 5,
+          "direct_retained_old": 6,
+          "lost_ids": [
+            5,
+            16,
+            24,
+            25,
+            26,
+            27,
+            31,
+            32,
+            33,
+            37
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 6,
+          "kind": "baseline_clone",
+          "fraction": 0.0,
+          "capacity": [
+            12.15361138526961,
+            11.741912253454036
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 15,
+          "prior_old": 15,
+          "baseline_prior_retained": 15,
+          "retained_old": 15,
+          "prior_retained_unfiltered": 15,
+          "direct_retained_old": 15,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        }
+      ]
+    },
+    {
+      "model": "1.7B",
+      "case": 1,
+      "seed": 111002,
+      "selected_slot": 3,
+      "baseline_capacity": [
+        6.800368882431603,
+        6.441212509904731
+      ],
+      "feedback": {
+        "slot": 3,
+        "kind": "acquired",
+        "fraction": 0.02,
+        "capacity": [
+          6.825056752634466,
+          6.5180078569750375
+        ],
+        "delta": [
+          0.024687870202862783,
+          0.07679534707030644
+        ],
+        "relative_delta": [
+          0.003630372209166859,
+          0.011922498590477693
+        ],
+        "eligible_old": 10,
+        "prior_old": 10,
+        "baseline_prior_retained": 10,
+        "retained_old": 10,
+        "prior_retained_unfiltered": 10,
+        "direct_retained_old": 10,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "cross_chart": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          6.800368882431603,
+          6.441212509904731
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 10,
+        "prior_old": 10,
+        "baseline_prior_retained": 10,
+        "retained_old": 10,
+        "prior_retained_unfiltered": 10,
+        "direct_retained_old": 10,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "fixed": {
+        "slot": 3,
+        "kind": "acquired",
+        "fraction": 0.02,
+        "capacity": [
+          6.825056752634466,
+          6.5180078569750375
+        ],
+        "delta": [
+          0.024687870202862783,
+          0.07679534707030644
+        ],
+        "relative_delta": [
+          0.003630372209166859,
+          0.011922498590477693
+        ],
+        "eligible_old": 10,
+        "prior_old": 10,
+        "baseline_prior_retained": 10,
+        "retained_old": 10,
+        "prior_retained_unfiltered": 10,
+        "direct_retained_old": 10,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "random": {
+        "slot": 5,
+        "kind": "random_same_action",
+        "fraction": 0.02,
+        "capacity": [
+          6.748043915392014,
+          6.4074975224548725
+        ],
+        "delta": [
+          -0.05232496703958933,
+          -0.03371498744985857
+        ],
+        "relative_delta": [
+          -0.007694430691071501,
+          -0.005234261002569721
+        ],
+        "eligible_old": 10,
+        "prior_old": 10,
+        "baseline_prior_retained": 10,
+        "retained_old": 10,
+        "prior_retained_unfiltered": 10,
+        "direct_retained_old": 10,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          6.800368882431603,
+          6.441212509904731
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 10,
+        "prior_old": 10,
+        "baseline_prior_retained": 10,
+        "retained_old": 10,
+        "prior_retained_unfiltered": 10,
+        "direct_retained_old": 10,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle_available": false,
+      "candidates": [
+        {
+          "slot": 0,
+          "kind": "baseline",
+          "fraction": 0.0,
+          "capacity": [
+            6.800368882431603,
+            6.441212509904731
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 10,
+          "prior_old": 10,
+          "baseline_prior_retained": 10,
+          "retained_old": 10,
+          "prior_retained_unfiltered": 10,
+          "direct_retained_old": 10,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 1,
+          "kind": "acquired",
+          "fraction": -0.05,
+          "capacity": [
+            6.804883560473385,
+            6.464640178998392
+          ],
+          "delta": [
+            0.004514678041782183,
+            0.02342766909366123
+          ],
+          "relative_delta": [
+            0.0006638872272716877,
+            0.0036371520203123584
+          ],
+          "eligible_old": 10,
+          "prior_old": 10,
+          "baseline_prior_retained": 10,
+          "retained_old": 10,
+          "prior_retained_unfiltered": 10,
+          "direct_retained_old": 8,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 2,
+          "kind": "acquired",
+          "fraction": -0.02,
+          "capacity": [
+            6.764382814071036,
+            6.465117334869211
+          ],
+          "delta": [
+            -0.03598606836056728,
+            0.023904824964479765
+          ],
+          "relative_delta": [
+            -0.005291781811062544,
+            0.003711230599475025
+          ],
+          "eligible_old": 10,
+          "prior_old": 10,
+          "baseline_prior_retained": 10,
+          "retained_old": 10,
+          "prior_retained_unfiltered": 10,
+          "direct_retained_old": 10,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 3,
+          "kind": "acquired",
+          "fraction": 0.02,
+          "capacity": [
+            6.825056752634466,
+            6.5180078569750375
+          ],
+          "delta": [
+            0.024687870202862783,
+            0.07679534707030644
+          ],
+          "relative_delta": [
+            0.003630372209166859,
+            0.011922498590477693
+          ],
+          "eligible_old": 10,
+          "prior_old": 10,
+          "baseline_prior_retained": 10,
+          "retained_old": 10,
+          "prior_retained_unfiltered": 10,
+          "direct_retained_old": 10,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 4,
+          "kind": "acquired",
+          "fraction": 0.05,
+          "capacity": [
+            6.850813721346412,
+            6.569693975978723
+          ],
+          "delta": [
+            0.05044483891480933,
+            0.1284814660739917
+          ],
+          "relative_delta": [
+            0.00741795625898044,
+            0.019946782671185614
+          ],
+          "eligible_old": 10,
+          "prior_old": 10,
+          "baseline_prior_retained": 10,
+          "retained_old": 10,
+          "prior_retained_unfiltered": 10,
+          "direct_retained_old": 8,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 5,
+          "kind": "random_same_action",
+          "fraction": 0.02,
+          "capacity": [
+            6.748043915392014,
+            6.4074975224548725
+          ],
+          "delta": [
+            -0.05232496703958933,
+            -0.03371498744985857
+          ],
+          "relative_delta": [
+            -0.007694430691071501,
+            -0.005234261002569721
+          ],
+          "eligible_old": 10,
+          "prior_old": 10,
+          "baseline_prior_retained": 10,
+          "retained_old": 10,
+          "prior_retained_unfiltered": 10,
+          "direct_retained_old": 10,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 6,
+          "kind": "baseline_clone",
+          "fraction": 0.0,
+          "capacity": [
+            6.800368882431603,
+            6.441212509904731
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 10,
+          "prior_old": 10,
+          "baseline_prior_retained": 10,
+          "retained_old": 10,
+          "prior_retained_unfiltered": 10,
+          "direct_retained_old": 10,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        }
+      ]
+    },
+    {
+      "model": "1.7B",
+      "case": 2,
+      "seed": 111003,
+      "selected_slot": 0,
+      "baseline_capacity": [
+        8.177704963663452,
+        7.716661033013383
+      ],
+      "feedback": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          8.177704963663452,
+          7.716661033013383
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 12,
+        "prior_old": 12,
+        "baseline_prior_retained": 12,
+        "retained_old": 12,
+        "prior_retained_unfiltered": 12,
+        "direct_retained_old": 12,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "cross_chart": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          8.177704963663452,
+          7.716661033013383
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 12,
+        "prior_old": 12,
+        "baseline_prior_retained": 12,
+        "retained_old": 12,
+        "prior_retained_unfiltered": 12,
+        "direct_retained_old": 12,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "fixed": {
+        "slot": 3,
+        "kind": "acquired",
+        "fraction": 0.02,
+        "capacity": [
+          8.192675338551007,
+          7.632901532353953
+        ],
+        "delta": [
+          0.014970374887555593,
+          -0.08375950065943005
+        ],
+        "relative_delta": [
+          0.0018306327941732393,
+          -0.010854370860802431
+        ],
+        "eligible_old": 12,
+        "prior_old": 12,
+        "baseline_prior_retained": 12,
+        "retained_old": 11,
+        "prior_retained_unfiltered": 11,
+        "direct_retained_old": 10,
+        "lost_ids": [
+          58
+        ],
+        "all_old_retained": false,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "random": {
+        "slot": 5,
+        "kind": "random_same_action",
+        "fraction": 0.02,
+        "capacity": [
+          8.114804478701446,
+          7.6561286025236255
+        ],
+        "delta": [
+          -0.06290048496200562,
+          -0.06053243048975787
+        ],
+        "relative_delta": [
+          -0.007691703875536669,
+          -0.00784438116833023
+        ],
+        "eligible_old": 12,
+        "prior_old": 12,
+        "baseline_prior_retained": 12,
+        "retained_old": 11,
+        "prior_retained_unfiltered": 11,
+        "direct_retained_old": 10,
+        "lost_ids": [
+          58
+        ],
+        "all_old_retained": false,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          8.177704963663452,
+          7.716661033013383
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 12,
+        "prior_old": 12,
+        "baseline_prior_retained": 12,
+        "retained_old": 12,
+        "prior_retained_unfiltered": 12,
+        "direct_retained_old": 12,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle_available": false,
+      "candidates": [
+        {
+          "slot": 0,
+          "kind": "baseline",
+          "fraction": 0.0,
+          "capacity": [
+            8.177704963663452,
+            7.716661033013383
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 12,
+          "prior_old": 12,
+          "baseline_prior_retained": 12,
+          "retained_old": 12,
+          "prior_retained_unfiltered": 12,
+          "direct_retained_old": 12,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 1,
+          "kind": "acquired",
+          "fraction": -0.05,
+          "capacity": [
+            8.026767955712678,
+            7.615820631048118
+          ],
+          "delta": [
+            -0.15093700795077325,
+            -0.10084040196526534
+          ],
+          "relative_delta": [
+            -0.01845713542142225,
+            -0.0130678802054218
+          ],
+          "eligible_old": 12,
+          "prior_old": 12,
+          "baseline_prior_retained": 12,
+          "retained_old": 11,
+          "prior_retained_unfiltered": 11,
+          "direct_retained_old": 8,
+          "lost_ids": [
+            58
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [
+            63
+          ],
+          "bounded": true
+        },
+        {
+          "slot": 2,
+          "kind": "acquired",
+          "fraction": -0.02,
+          "capacity": [
+            8.317219014842811,
+            7.8219535016348924
+          ],
+          "delta": [
+            0.13951405117935956,
+            0.1052924686215091
+          ],
+          "relative_delta": [
+            0.017060294031060273,
+            0.013644822309940446
+          ],
+          "eligible_old": 12,
+          "prior_old": 12,
+          "baseline_prior_retained": 12,
+          "retained_old": 11,
+          "prior_retained_unfiltered": 11,
+          "direct_retained_old": 10,
+          "lost_ids": [
+            58
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 3,
+          "kind": "acquired",
+          "fraction": 0.02,
+          "capacity": [
+            8.192675338551007,
+            7.632901532353953
+          ],
+          "delta": [
+            0.014970374887555593,
+            -0.08375950065943005
+          ],
+          "relative_delta": [
+            0.0018306327941732393,
+            -0.010854370860802431
+          ],
+          "eligible_old": 12,
+          "prior_old": 12,
+          "baseline_prior_retained": 12,
+          "retained_old": 11,
+          "prior_retained_unfiltered": 11,
+          "direct_retained_old": 10,
+          "lost_ids": [
+            58
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 4,
+          "kind": "acquired",
+          "fraction": 0.05,
+          "capacity": [
+            7.658429040839953,
+            7.302741525178986
+          ],
+          "delta": [
+            -0.5192759228234989,
+            -0.41391950783439757
+          ],
+          "relative_delta": [
+            -0.06349897986425686,
+            -0.05363971620155
+          ],
+          "eligible_old": 12,
+          "prior_old": 12,
+          "baseline_prior_retained": 12,
+          "retained_old": 11,
+          "prior_retained_unfiltered": 11,
+          "direct_retained_old": 8,
+          "lost_ids": [
+            58
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 5,
+          "kind": "random_same_action",
+          "fraction": 0.02,
+          "capacity": [
+            8.114804478701446,
+            7.6561286025236255
+          ],
+          "delta": [
+            -0.06290048496200562,
+            -0.06053243048975787
+          ],
+          "relative_delta": [
+            -0.007691703875536669,
+            -0.00784438116833023
+          ],
+          "eligible_old": 12,
+          "prior_old": 12,
+          "baseline_prior_retained": 12,
+          "retained_old": 11,
+          "prior_retained_unfiltered": 11,
+          "direct_retained_old": 10,
+          "lost_ids": [
+            58
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 6,
+          "kind": "baseline_clone",
+          "fraction": 0.0,
+          "capacity": [
+            8.177704963663452,
+            7.716661033013383
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 12,
+          "prior_old": 12,
+          "baseline_prior_retained": 12,
+          "retained_old": 12,
+          "prior_retained_unfiltered": 12,
+          "direct_retained_old": 12,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        }
+      ]
+    },
+    {
+      "model": "1.7B",
+      "case": 3,
+      "seed": 111004,
+      "selected_slot": 4,
+      "baseline_capacity": [
+        15.827281108955642,
+        16.016034020454466
+      ],
+      "feedback": {
+        "slot": 4,
+        "kind": "acquired",
+        "fraction": 0.05,
+        "capacity": [
+          16.633187337296157,
+          16.810302667862878
+        ],
+        "delta": [
+          0.8059062283405147,
+          0.794268647408412
+        ],
+        "relative_delta": [
+          0.05091880423381778,
+          0.04959209292350604
+        ],
+        "eligible_old": 18,
+        "prior_old": 18,
+        "baseline_prior_retained": 18,
+        "retained_old": 18,
+        "prior_retained_unfiltered": 18,
+        "direct_retained_old": 10,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": true,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "cross_chart": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          15.827281108955642,
+          16.016034020454466
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 18,
+        "prior_old": 18,
+        "baseline_prior_retained": 18,
+        "retained_old": 18,
+        "prior_retained_unfiltered": 18,
+        "direct_retained_old": 18,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "fixed": {
+        "slot": 3,
+        "kind": "acquired",
+        "fraction": 0.02,
+        "capacity": [
+          16.422204594283542,
+          16.642617241274834
+        ],
+        "delta": [
+          0.5949234853279002,
+          0.6265832208203683
+        ],
+        "relative_delta": [
+          0.03758848290065886,
+          0.03912224587061589
+        ],
+        "eligible_old": 18,
+        "prior_old": 18,
+        "baseline_prior_retained": 18,
+        "retained_old": 18,
+        "prior_retained_unfiltered": 18,
+        "direct_retained_old": 13,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": true,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "random": {
+        "slot": 5,
+        "kind": "random_same_action",
+        "fraction": 0.02,
+        "capacity": [
+          15.959649715471448,
+          16.282936280933914
+        ],
+        "delta": [
+          0.13236860651580606,
+          0.26690226047944776
+        ],
+        "relative_delta": [
+          0.008363319360070452,
+          0.016664691155037534
+        ],
+        "eligible_old": 18,
+        "prior_old": 18,
+        "baseline_prior_retained": 18,
+        "retained_old": 18,
+        "prior_retained_unfiltered": 18,
+        "direct_retained_old": 13,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle": {
+        "slot": 4,
+        "kind": "acquired",
+        "fraction": 0.05,
+        "capacity": [
+          16.633187337296157,
+          16.810302667862878
+        ],
+        "delta": [
+          0.8059062283405147,
+          0.794268647408412
+        ],
+        "relative_delta": [
+          0.05091880423381778,
+          0.04959209292350604
+        ],
+        "eligible_old": 18,
+        "prior_old": 18,
+        "baseline_prior_retained": 18,
+        "retained_old": 18,
+        "prior_retained_unfiltered": 18,
+        "direct_retained_old": 10,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": true,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle_available": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "kind": "baseline",
+          "fraction": 0.0,
+          "capacity": [
+            15.827281108955642,
+            16.016034020454466
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 18,
+          "prior_old": 18,
+          "baseline_prior_retained": 18,
+          "retained_old": 18,
+          "prior_retained_unfiltered": 18,
+          "direct_retained_old": 18,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 1,
+          "kind": "acquired",
+          "fraction": -0.05,
+          "capacity": [
+            0.3087351595663067,
+            1.9546057170359412
+          ],
+          "delta": [
+            -15.518545949389335,
+            -14.061428303418525
+          ],
+          "relative_delta": [
+            -0.9804934810065632,
+            -0.8779594427347204
+          ],
+          "eligible_old": 18,
+          "prior_old": 18,
+          "baseline_prior_retained": 18,
+          "retained_old": 2,
+          "prior_retained_unfiltered": 2,
+          "direct_retained_old": 0,
+          "lost_ids": [
+            2,
+            3,
+            4,
+            5,
+            16,
+            17,
+            18,
+            24,
+            25,
+            26,
+            27,
+            31,
+            32,
+            33,
+            37,
+            38
+          ],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 2,
+          "kind": "acquired",
+          "fraction": -0.02,
+          "capacity": [
+            14.850034247715723,
+            15.012405959180073
+          ],
+          "delta": [
+            -0.9772468612399194,
+            -1.0036280612743926
+          ],
+          "relative_delta": [
+            -0.061744455949983616,
+            -0.06266395663199983
+          ],
+          "eligible_old": 18,
+          "prior_old": 18,
+          "baseline_prior_retained": 18,
+          "retained_old": 18,
+          "prior_retained_unfiltered": 18,
+          "direct_retained_old": 13,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 3,
+          "kind": "acquired",
+          "fraction": 0.02,
+          "capacity": [
+            16.422204594283542,
+            16.642617241274834
+          ],
+          "delta": [
+            0.5949234853279002,
+            0.6265832208203683
+          ],
+          "relative_delta": [
+            0.03758848290065886,
+            0.03912224587061589
+          ],
+          "eligible_old": 18,
+          "prior_old": 18,
+          "baseline_prior_retained": 18,
+          "retained_old": 18,
+          "prior_retained_unfiltered": 18,
+          "direct_retained_old": 13,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": true,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 4,
+          "kind": "acquired",
+          "fraction": 0.05,
+          "capacity": [
+            16.633187337296157,
+            16.810302667862878
+          ],
+          "delta": [
+            0.8059062283405147,
+            0.794268647408412
+          ],
+          "relative_delta": [
+            0.05091880423381778,
+            0.04959209292350604
+          ],
+          "eligible_old": 18,
+          "prior_old": 18,
+          "baseline_prior_retained": 18,
+          "retained_old": 18,
+          "prior_retained_unfiltered": 18,
+          "direct_retained_old": 10,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": true,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 5,
+          "kind": "random_same_action",
+          "fraction": 0.02,
+          "capacity": [
+            15.959649715471448,
+            16.282936280933914
+          ],
+          "delta": [
+            0.13236860651580606,
+            0.26690226047944776
+          ],
+          "relative_delta": [
+            0.008363319360070452,
+            0.016664691155037534
+          ],
+          "eligible_old": 18,
+          "prior_old": 18,
+          "baseline_prior_retained": 18,
+          "retained_old": 18,
+          "prior_retained_unfiltered": 18,
+          "direct_retained_old": 13,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 6,
+          "kind": "baseline_clone",
+          "fraction": 0.0,
+          "capacity": [
+            15.827281108955642,
+            16.016034020454466
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 18,
+          "prior_old": 18,
+          "baseline_prior_retained": 18,
+          "retained_old": 18,
+          "prior_retained_unfiltered": 18,
+          "direct_retained_old": 18,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        }
+      ]
+    },
+    {
+      "model": "1.7B",
+      "case": 4,
+      "seed": 111005,
+      "selected_slot": 4,
+      "baseline_capacity": [
+        13.280637540958438,
+        14.427027823763419
+      ],
+      "feedback": {
+        "slot": 4,
+        "kind": "acquired",
+        "fraction": 0.05,
+        "capacity": [
+          13.325861141736384,
+          14.640380278418155
+        ],
+        "delta": [
+          0.045223600777946515,
+          0.21335245465473562
+        ],
+        "relative_delta": [
+          0.0034052281480067273,
+          0.01478838588661436
+        ],
+        "eligible_old": 15,
+        "prior_old": 15,
+        "baseline_prior_retained": 15,
+        "retained_old": 15,
+        "prior_retained_unfiltered": 15,
+        "direct_retained_old": 4,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "cross_chart": {
+        "slot": 4,
+        "kind": "acquired",
+        "fraction": 0.05,
+        "capacity": [
+          13.325861141736384,
+          14.640380278418155
+        ],
+        "delta": [
+          0.045223600777946515,
+          0.21335245465473562
+        ],
+        "relative_delta": [
+          0.0034052281480067273,
+          0.01478838588661436
+        ],
+        "eligible_old": 15,
+        "prior_old": 15,
+        "baseline_prior_retained": 15,
+        "retained_old": 15,
+        "prior_retained_unfiltered": 15,
+        "direct_retained_old": 4,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "fixed": {
+        "slot": 3,
+        "kind": "acquired",
+        "fraction": 0.02,
+        "capacity": [
+          13.309820111574082,
+          14.548591267323598
+        ],
+        "delta": [
+          0.02918257061564411,
+          0.1215634435601789
+        ],
+        "relative_delta": [
+          0.0021973772362691903,
+          0.008426090601970432
+        ],
+        "eligible_old": 15,
+        "prior_old": 15,
+        "baseline_prior_retained": 15,
+        "retained_old": 15,
+        "prior_retained_unfiltered": 15,
+        "direct_retained_old": 12,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "random": {
+        "slot": 5,
+        "kind": "random_same_action",
+        "fraction": 0.02,
+        "capacity": [
+          13.11237140959049,
+          14.576960178395998
+        ],
+        "delta": [
+          -0.16826613136794677,
+          0.14993235463257903
+        ],
+        "relative_delta": [
+          -0.01267003416432396,
+          0.010392463122973851
+        ],
+        "eligible_old": 15,
+        "prior_old": 15,
+        "baseline_prior_retained": 15,
+        "retained_old": 15,
+        "prior_retained_unfiltered": 15,
+        "direct_retained_old": 12,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          13.280637540958438,
+          14.427027823763419
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 15,
+        "prior_old": 15,
+        "baseline_prior_retained": 15,
+        "retained_old": 15,
+        "prior_retained_unfiltered": 15,
+        "direct_retained_old": 15,
+        "lost_ids": [],
+        "all_old_retained": true,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle_available": false,
+      "candidates": [
+        {
+          "slot": 0,
+          "kind": "baseline",
+          "fraction": 0.0,
+          "capacity": [
+            13.280637540958438,
+            14.427027823763419
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 15,
+          "prior_old": 15,
+          "baseline_prior_retained": 15,
+          "retained_old": 15,
+          "prior_retained_unfiltered": 15,
+          "direct_retained_old": 15,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 1,
+          "kind": "acquired",
+          "fraction": -0.05,
+          "capacity": [
+            13.259402248343987,
+            14.159441743582718
+          ],
+          "delta": [
+            -0.021235292614450785,
+            -0.26758608018070085
+          ],
+          "relative_delta": [
+            -0.0015989663560171431,
+            -0.018547554177441007
+          ],
+          "eligible_old": 15,
+          "prior_old": 15,
+          "baseline_prior_retained": 15,
+          "retained_old": 15,
+          "prior_retained_unfiltered": 15,
+          "direct_retained_old": 4,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 2,
+          "kind": "acquired",
+          "fraction": -0.02,
+          "capacity": [
+            13.283316395629212,
+            14.307928635236973
+          ],
+          "delta": [
+            0.0026788546707745553,
+            -0.1190991885264463
+          ],
+          "relative_delta": [
+            0.0002017113005691764,
+            -0.008255282375644452
+          ],
+          "eligible_old": 15,
+          "prior_old": 15,
+          "baseline_prior_retained": 15,
+          "retained_old": 15,
+          "prior_retained_unfiltered": 15,
+          "direct_retained_old": 12,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 3,
+          "kind": "acquired",
+          "fraction": 0.02,
+          "capacity": [
+            13.309820111574082,
+            14.548591267323598
+          ],
+          "delta": [
+            0.02918257061564411,
+            0.1215634435601789
+          ],
+          "relative_delta": [
+            0.0021973772362691903,
+            0.008426090601970432
+          ],
+          "eligible_old": 15,
+          "prior_old": 15,
+          "baseline_prior_retained": 15,
+          "retained_old": 15,
+          "prior_retained_unfiltered": 15,
+          "direct_retained_old": 12,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 4,
+          "kind": "acquired",
+          "fraction": 0.05,
+          "capacity": [
+            13.325861141736384,
+            14.640380278418155
+          ],
+          "delta": [
+            0.045223600777946515,
+            0.21335245465473562
+          ],
+          "relative_delta": [
+            0.0034052281480067273,
+            0.01478838588661436
+          ],
+          "eligible_old": 15,
+          "prior_old": 15,
+          "baseline_prior_retained": 15,
+          "retained_old": 15,
+          "prior_retained_unfiltered": 15,
+          "direct_retained_old": 4,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 5,
+          "kind": "random_same_action",
+          "fraction": 0.02,
+          "capacity": [
+            13.11237140959049,
+            14.576960178395998
+          ],
+          "delta": [
+            -0.16826613136794677,
+            0.14993235463257903
+          ],
+          "relative_delta": [
+            -0.01267003416432396,
+            0.010392463122973851
+          ],
+          "eligible_old": 15,
+          "prior_old": 15,
+          "baseline_prior_retained": 15,
+          "retained_old": 15,
+          "prior_retained_unfiltered": 15,
+          "direct_retained_old": 12,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 6,
+          "kind": "baseline_clone",
+          "fraction": 0.0,
+          "capacity": [
+            13.280637540958438,
+            14.427027823763419
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 15,
+          "prior_old": 15,
+          "baseline_prior_retained": 15,
+          "retained_old": 15,
+          "prior_retained_unfiltered": 15,
+          "direct_retained_old": 15,
+          "lost_ids": [],
+          "all_old_retained": true,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        }
+      ]
+    },
+    {
+      "model": "1.7B",
+      "case": 5,
+      "seed": 111006,
+      "selected_slot": 0,
+      "baseline_capacity": [
+        0.7879131254445914,
+        0.14888625322191562
+      ],
+      "feedback": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          0.7879131254445914,
+          0.14888625322191562
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 0,
+        "prior_old": 0,
+        "baseline_prior_retained": 0,
+        "retained_old": 0,
+        "prior_retained_unfiltered": 0,
+        "direct_retained_old": 0,
+        "lost_ids": [],
+        "all_old_retained": false,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "cross_chart": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          0.7879131254445914,
+          0.14888625322191562
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 0,
+        "prior_old": 0,
+        "baseline_prior_retained": 0,
+        "retained_old": 0,
+        "prior_retained_unfiltered": 0,
+        "direct_retained_old": 0,
+        "lost_ids": [],
+        "all_old_retained": false,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "fixed": {
+        "slot": 3,
+        "kind": "acquired",
+        "fraction": 0.02,
+        "capacity": [
+          0.7879131254445914,
+          0.14888625322191562
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 0,
+        "prior_old": 0,
+        "baseline_prior_retained": 0,
+        "retained_old": 0,
+        "prior_retained_unfiltered": 0,
+        "direct_retained_old": 0,
+        "lost_ids": [],
+        "all_old_retained": false,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "random": {
+        "slot": 5,
+        "kind": "random_same_action",
+        "fraction": 0.02,
+        "capacity": [
+          0.7879131254445914,
+          0.14888625322191562
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 0,
+        "prior_old": 0,
+        "baseline_prior_retained": 0,
+        "retained_old": 0,
+        "prior_retained_unfiltered": 0,
+        "direct_retained_old": 0,
+        "lost_ids": [],
+        "all_old_retained": false,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle": {
+        "slot": 0,
+        "kind": "baseline",
+        "fraction": 0.0,
+        "capacity": [
+          0.7879131254445914,
+          0.14888625322191562
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "eligible_old": 0,
+        "prior_old": 0,
+        "baseline_prior_retained": 0,
+        "retained_old": 0,
+        "prior_retained_unfiltered": 0,
+        "direct_retained_old": 0,
+        "lost_ids": [],
+        "all_old_retained": false,
+        "joint_success": false,
+        "new_reliable_nonlinear_ids": [],
+        "bounded": true
+      },
+      "oracle_available": false,
+      "candidates": [
+        {
+          "slot": 0,
+          "kind": "baseline",
+          "fraction": 0.0,
+          "capacity": [
+            0.7879131254445914,
+            0.14888625322191562
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 0,
+          "prior_old": 0,
+          "baseline_prior_retained": 0,
+          "retained_old": 0,
+          "prior_retained_unfiltered": 0,
+          "direct_retained_old": 0,
+          "lost_ids": [],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 1,
+          "kind": "acquired",
+          "fraction": -0.05,
+          "capacity": [
+            0.7879131254445914,
+            0.14888625322191562
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 0,
+          "prior_old": 0,
+          "baseline_prior_retained": 0,
+          "retained_old": 0,
+          "prior_retained_unfiltered": 0,
+          "direct_retained_old": 0,
+          "lost_ids": [],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 2,
+          "kind": "acquired",
+          "fraction": -0.02,
+          "capacity": [
+            0.7879131254445914,
+            0.14888625322191562
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 0,
+          "prior_old": 0,
+          "baseline_prior_retained": 0,
+          "retained_old": 0,
+          "prior_retained_unfiltered": 0,
+          "direct_retained_old": 0,
+          "lost_ids": [],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 3,
+          "kind": "acquired",
+          "fraction": 0.02,
+          "capacity": [
+            0.7879131254445914,
+            0.14888625322191562
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 0,
+          "prior_old": 0,
+          "baseline_prior_retained": 0,
+          "retained_old": 0,
+          "prior_retained_unfiltered": 0,
+          "direct_retained_old": 0,
+          "lost_ids": [],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 4,
+          "kind": "acquired",
+          "fraction": 0.05,
+          "capacity": [
+            0.7879131254445914,
+            0.14888625322191562
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 0,
+          "prior_old": 0,
+          "baseline_prior_retained": 0,
+          "retained_old": 0,
+          "prior_retained_unfiltered": 0,
+          "direct_retained_old": 0,
+          "lost_ids": [],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 5,
+          "kind": "random_same_action",
+          "fraction": 0.02,
+          "capacity": [
+            0.7879131254445914,
+            0.14888625322191562
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 0,
+          "prior_old": 0,
+          "baseline_prior_retained": 0,
+          "retained_old": 0,
+          "prior_retained_unfiltered": 0,
+          "direct_retained_old": 0,
+          "lost_ids": [],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        },
+        {
+          "slot": 6,
+          "kind": "baseline_clone",
+          "fraction": 0.0,
+          "capacity": [
+            0.7879131254445914,
+            0.14888625322191562
+          ],
+          "delta": [
+            0.0,
+            0.0
+          ],
+          "relative_delta": [
+            0.0,
+            0.0
+          ],
+          "eligible_old": 0,
+          "prior_old": 0,
+          "baseline_prior_retained": 0,
+          "retained_old": 0,
+          "prior_retained_unfiltered": 0,
+          "direct_retained_old": 0,
+          "lost_ids": [],
+          "all_old_retained": false,
+          "joint_success": false,
+          "new_reliable_nonlinear_ids": [],
+          "bounded": true
+        }
+      ]
+    }
+  ],
+  "scope": "Choices learned from P61 feedback on these same twelve runtime contexts, then sealed before two untouched P62 streams. Original model weights, source-fitted interfaces and readout programs stay fixed. This is input-stream reuse, distinct from unseen-chart P61 transfer."
+}

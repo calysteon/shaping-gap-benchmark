@@ -1,0 +1,268 @@
+{
+  "model": "1.7B",
+  "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7",
+  "stored_parameter_bytes": 914237440,
+  "weights_unchanged": true,
+  "chart_acquisition_work": {
+    "batches": 6252,
+    "sequences": 168534,
+    "tokens": 337068,
+    "attention_block_tokens": 9437904,
+    "mlp_block_tokens": 9437904
+  },
+  "chart_acquisition_seconds": 216.1427693751175,
+  "calibration_work": {
+    "batches": 515,
+    "sequences": 16480,
+    "tokens": 32960,
+    "attention_block_tokens": 922880,
+    "mlp_block_tokens": 922880
+  },
+  "calibration_seconds": 20.31246504187584,
+  "source_work": {
+    "batches": 4608,
+    "sequences": 147456,
+    "tokens": 294912,
+    "attention_block_tokens": 8257536,
+    "mlp_block_tokens": 8257536
+  },
+  "source_seconds": 184.71587470802478,
+  "source_policy_interface_fit_seconds": 0.20442104199901223,
+  "readout_fit_seconds": 0.06728591700084507,
+  "assessment_work": [
+    {
+      "batches": 4608,
+      "sequences": 147456,
+      "tokens": 294912,
+      "attention_block_tokens": 8257536,
+      "mlp_block_tokens": 8257536
+    },
+    {
+      "batches": 4608,
+      "sequences": 147456,
+      "tokens": 294912,
+      "attention_block_tokens": 8257536,
+      "mlp_block_tokens": 8257536
+    }
+  ],
+  "assessment_seconds": [
+    184.42290729214437,
+    185.4772959589027
+  ],
+  "native_work": {
+    "batches": 20591,
+    "sequences": 627382,
+    "tokens": 1254764,
+    "attention_block_tokens": 35133392,
+    "mlp_block_tokens": 35133392
+  },
+  "native_seconds": 762.6126677973662,
+  "wall_seconds": 795.6454451249447,
+  "process_peak_rss_bytes": 1503576064,
+  "mlx_peak_bytes": 1213865152,
+  "return_shape": [
+    8,
+    4096
+  ],
+  "retained_selected_interface_bytes": 14080,
+  "decisions": [
+    {
+      "case": 0,
+      "seed": 111001,
+      "selected_slot": 0,
+      "fraction": 0.0,
+      "predictions": [
+        [
+          -0.2899792328643205,
+          0.5436885590316228
+        ],
+        [
+          -0.09984025269979487,
+          0.8144505838351243
+        ],
+        [
+          -0.8633159216326193,
+          0.12986603175189204
+        ],
+        [
+          -0.6546369022247092,
+          0.2538323312348095
+        ]
+      ],
+      "source_bounded": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "case": 1,
+      "seed": 111002,
+      "selected_slot": 0,
+      "fraction": 0.0,
+      "predictions": [
+        [
+          -0.0892252267589922,
+          0.6979425009789705
+        ],
+        [
+          -0.09624425454689946,
+          0.8044716056160084
+        ],
+        [
+          -0.08596470723862171,
+          0.7958152409396773
+        ],
+        [
+          -0.08805460688605629,
+          0.6557742840813927
+        ]
+      ],
+      "source_bounded": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "case": 2,
+      "seed": 111003,
+      "selected_slot": 0,
+      "fraction": 0.0,
+      "predictions": [
+        [
+          -0.02091804495645805,
+          0.5714145535904732
+        ],
+        [
+          -0.011294898626455468,
+          0.6976943029228291
+        ],
+        [
+          -0.0066269517285093005,
+          0.6902735262013291
+        ],
+        [
+          -0.01196761134220789,
+          0.5536558316936272
+        ]
+      ],
+      "source_bounded": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "case": 3,
+      "seed": 111004,
+      "selected_slot": 0,
+      "fraction": 0.0,
+      "predictions": [
+        [
+          -0.7758931485152607,
+          0.06989473415826897
+        ],
+        [
+          -0.09547150403648852,
+          0.757674417826592
+        ],
+        [
+          -0.019005907109782214,
+          0.8051926537022033
+        ],
+        [
+          -0.022243865596437498,
+          0.6606326293875315
+        ]
+      ],
+      "source_bounded": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "case": 4,
+      "seed": 111005,
+      "selected_slot": 4,
+      "fraction": 0.05,
+      "predictions": [
+        [
+          -0.015512514873991495,
+          0.5888558217234522
+        ],
+        [
+          -0.0030587423413580006,
+          0.7215553609899643
+        ],
+        [
+          0.010402411858371485,
+          0.7204652145920535
+        ],
+        [
+          0.013117791167223447,
+          0.58382802102847
+        ]
+      ],
+      "source_bounded": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "case": 5,
+      "seed": 111006,
+      "selected_slot": 0,
+      "fraction": 0.0,
+      "predictions": [
+        [
+          0.08032302202289127,
+          0.6946436026033973
+        ],
+        [
+          0.07026527649028749,
+          0.7870579831236411
+        ],
+        [
+          0.07987691244215694,
+          0.7902315826363258
+        ],
+        [
+          0.1050313819625937,
+          0.7040676584119313
+        ]
+      ],
+      "source_bounded": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

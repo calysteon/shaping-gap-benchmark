@@ -1,0 +1,92 @@
+[
+  {
+    "case": 0,
+    "seed": 111001,
+    "source_bounded": true,
+    "source_ready": true,
+    "parent_action_rms": 0.09322439879179001,
+    "acquired_signal_rms": 0.03344317312816552,
+    "random_signal_rms": 0.00098541133057868,
+    "v_rms": 0.3535533905932736,
+    "even_orientation_measurements": [
+      -1.2806665227502774,
+      0.025187599698645674
+    ],
+    "replica_disagreement_rms": 3.665967597044073e-05
+  },
+  {
+    "case": 1,
+    "seed": 111002,
+    "source_bounded": true,
+    "source_ready": true,
+    "parent_action_rms": 0.10379871726036072,
+    "acquired_signal_rms": 0.6512484639012281,
+    "random_signal_rms": 0.02512011538185858,
+    "v_rms": 0.35355339059327373,
+    "even_orientation_measurements": [
+      -35.73668896402803,
+      1.5136286646211938
+    ],
+    "replica_disagreement_rms": 9.905021215672605e-06
+  },
+  {
+    "case": 2,
+    "seed": 111003,
+    "source_bounded": true,
+    "source_ready": true,
+    "parent_action_rms": 0.10997150093317032,
+    "acquired_signal_rms": 0.49062652797603074,
+    "random_signal_rms": 0.041435484446247714,
+    "v_rms": 0.35355339059327373,
+    "even_orientation_measurements": [
+      -91.23406430964415,
+      0.06362718972896653
+    ],
+    "replica_disagreement_rms": 9.83094832918141e-06
+  },
+  {
+    "case": 3,
+    "seed": 111004,
+    "source_bounded": true,
+    "source_ready": true,
+    "parent_action_rms": 0.06256147474050522,
+    "acquired_signal_rms": 1.3927487849099214,
+    "random_signal_rms": 0.05156497974469061,
+    "v_rms": 0.3535533905932738,
+    "even_orientation_measurements": [
+      -536.393370666912,
+      -17.786424470013543
+    ],
+    "replica_disagreement_rms": 5.761700958828442e-05
+  },
+  {
+    "case": 4,
+    "seed": 111005,
+    "source_bounded": true,
+    "source_ready": true,
+    "parent_action_rms": 0.03525633364915848,
+    "acquired_signal_rms": 0.15603947599330678,
+    "random_signal_rms": 0.003591439811302724,
+    "v_rms": 0.3535533905932736,
+    "even_orientation_measurements": [
+      -105.6801969756102,
+      -2.896842999398869
+    ],
+    "replica_disagreement_rms": 5.402901933848625e-06
+  },
+  {
+    "case": 5,
+    "seed": 111006,
+    "source_bounded": true,
+    "source_ready": true,
+    "parent_action_rms": 0.09965682029724121,
+    "acquired_signal_rms": 0.31221422740050153,
+    "random_signal_rms": 0.015217166058448714,
+    "v_rms": 0.3535533905932737,
+    "even_orientation_measurements": [
+      -44.32801698615886,
+      -1.3845743649784878
+    ],
+    "replica_disagreement_rms": 1.54731678776443e-05
+  }
+]

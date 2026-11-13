@@ -1,0 +1,78 @@
+{
+  "plan_id": "P61-LEARNED-UPDATE-COMPATIBILITY-001",
+  "config": {
+    "training_parent": "p59-preserved-return-augmentation-001",
+    "models": [
+      "0.6B",
+      "1.7B"
+    ],
+    "fresh_seeds": [
+      111001,
+      111002,
+      111003,
+      111004,
+      111005,
+      111006
+    ],
+    "baseline_source_config": "p55-neural-stimulus-capacity-002",
+    "source_seed": 112001,
+    "source_steps": 2304,
+    "source_washout": 256,
+    "calibration_seed": 112101,
+    "assessment_seeds": [
+      113001,
+      114001
+    ],
+    "assessment_washout": 256,
+    "assessment_steps": 2048,
+    "readout_ridge": 0.0001,
+    "transport_ridge": 0.001,
+    "state_dimension": 8,
+    "observable_dimension": 32,
+    "input_gain": 0.2,
+    "state_limit": 10.0,
+    "native_batch_size": 32,
+    "signed_action_fractions": [
+      -0.05,
+      -0.02,
+      0.02,
+      0.05
+    ],
+    "primary_action_fraction": 0.02,
+    "calibration_steps": 512,
+    "calibration_burn": 128,
+    "sign_probe_steps": [
+      0.1,
+      0.2
+    ],
+    "random_seed": 115001,
+    "verification_seed": 116001,
+    "verification_steps": 12,
+    "feature_seed": 117001,
+    "kernel_bandwidth_factors": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "kernel_ridge_grid": [
+      0.001,
+      0.01,
+      0.1,
+      1.0
+    ],
+    "quality_acceptance": 0.01,
+    "retention_acceptance": 0.5,
+    "policy_max_retained_coefficients": 4096
+  },
+  "created_utc": "2026-11-13T18:26:58.529285+00:00",
+  "source_sha256": "d09cad8acf131719c474afe3dd10bd61fef5e922ef40379f18ca197f0c8ac07d",
+  "helper_sha256": {
+    "augmentation.py": "22cb17784dc5908772e0c8964593d5ebe83ef1736f11f09e60f927c620c1bb2c",
+    "policy.py": "aa395ef22162d9c8aff3e61c71115d9a6ec4eab576500a0432721cbfce21730f",
+    "native.py": "d1e1925eca01f66325c1c8e63da8c37521c8335c8854304f0d51819ba2b5976e",
+    "stimulus.py": "7b918a4b7b0d381b87963605ba300a3d24b5cd6e246a9c1f9536b3643afd1452",
+    "capacity_engine.py": "486427011c2fba46a29f05024f9ede84cac18dde0d734944e62d1f79cff964ea"
+  },
+  "sealed_policy_sha256": "c181ae8b88fe56811479ca042270509cecafbf1a26e3ac416ada64e02f674afb",
+  "policy_seal_sha256": "6dacd384e43915b3545b9b37a82cb49d1fb0c54ecdd8ade68250c2ab7dcaf2d0"
+}

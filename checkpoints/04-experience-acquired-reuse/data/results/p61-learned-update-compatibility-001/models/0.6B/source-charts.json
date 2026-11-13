@@ -1,0 +1,110 @@
+[
+  {
+    "seed": 111001,
+    "selected_index": 2,
+    "source_admissible": true,
+    "selected_record": {
+      "kind": "unaligned",
+      "epsilon": 0.0005,
+      "rho": 0.85,
+      "orientation": 1,
+      "gamma": 0.0,
+      "geometry": 0,
+      "index": 2,
+      "valid": true,
+      "state_variance": 0.00911475597067802,
+      "echo_ratio": 0.0003891655135668561,
+      "intrinsic_effective_rank": 2.6555569383999234
+    }
+  },
+  {
+    "seed": 111002,
+    "selected_index": 47,
+    "source_admissible": true,
+    "selected_record": {
+      "kind": "unaligned",
+      "epsilon": 0.008,
+      "rho": 0.95,
+      "orientation": 1,
+      "gamma": 0.0,
+      "geometry": 2,
+      "index": 47,
+      "valid": true,
+      "state_variance": 0.010275708826088876,
+      "echo_ratio": 7.577385569353131e-05,
+      "intrinsic_effective_rank": 2.5843807843055915
+    }
+  },
+  {
+    "seed": 111003,
+    "selected_index": 49,
+    "source_admissible": true,
+    "selected_record": {
+      "kind": "unaligned",
+      "epsilon": 0.008,
+      "rho": 0.95,
+      "orientation": 2,
+      "gamma": 0.0,
+      "geometry": 2,
+      "index": 49,
+      "valid": true,
+      "state_variance": 0.00854889978562228,
+      "echo_ratio": 0.0001231073021025032,
+      "intrinsic_effective_rank": 3.679906440730048
+    }
+  },
+  {
+    "seed": 111004,
+    "selected_index": 49,
+    "source_admissible": true,
+    "selected_record": {
+      "kind": "unaligned",
+      "epsilon": 0.008,
+      "rho": 0.95,
+      "orientation": 2,
+      "gamma": 0.0,
+      "geometry": 2,
+      "index": 49,
+      "valid": true,
+      "state_variance": 0.003156489127761176,
+      "echo_ratio": 8.558491980712651e-05,
+      "intrinsic_effective_rank": 2.836630446574231
+    }
+  },
+  {
+    "seed": 111005,
+    "selected_index": 29,
+    "source_admissible": true,
+    "selected_record": {
+      "kind": "unaligned",
+      "epsilon": 0.002,
+      "rho": 0.95,
+      "orientation": 1,
+      "gamma": 0.0,
+      "geometry": 1,
+      "index": 29,
+      "valid": true,
+      "state_variance": 0.0009014894293892445,
+      "echo_ratio": 0.00012761612242925447,
+      "intrinsic_effective_rank": 1.4839799018617597
+    }
+  },
+  {
+    "seed": 111006,
+    "selected_index": 40,
+    "source_admissible": true,
+    "selected_record": {
+      "kind": "unaligned",
+      "epsilon": 0.008,
+      "rho": 0.85,
+      "orientation": 2,
+      "gamma": 0.0,
+      "geometry": 2,
+      "index": 40,
+      "valid": true,
+      "state_variance": 0.007746550889515409,
+      "echo_ratio": 0.00016707069777582888,
+      "intrinsic_effective_rank": 2.704670731918331
+    }
+  }
+]

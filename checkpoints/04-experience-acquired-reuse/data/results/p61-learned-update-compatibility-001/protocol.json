@@ -1,0 +1,98 @@
+{
+  "id": "P61-LEARNED-UPDATE-COMPATIBILITY-001",
+  "kind": "experiment",
+  "claim_ids": [
+    "SN5",
+    "SN6",
+    "MG1",
+    "MG2",
+    "MG3"
+  ],
+  "question": "Can an outcome-trained policy transfer neural-trajectory distinctions to twelve new frozen-model runtimes, choosing an acquired execution update and shared compatibility interface that improves quality while preserving existing programs?",
+  "design": "Train one RBF ridge policy on all four acquired signed doses in the twelve recorded P59 charts. Features use only source neural trajectories, stimulus history and candidate fraction; target feedback uses historical held-out quality and unchanged-program retention. Group hyperparameter validation holds out each seed across both sizes. Freeze the policy before acquiring any fresh chart. Build six fresh source-selected unaligned charts per size with the unchanged P55 apparatus. Source-execute baseline and four acquired updates plus a primary same-action random control and exact clone. For every candidate fit source-only shared transport and diagnostics. Choose among four acquired updates or baseline before fresh assessment. Fit supervised assessment heads only after the policy choice is sealed, then freeze them. Evaluate two independent fresh streams and all candidate arms; report the oracle opportunity separately from deployable selection.",
+  "information_access": "Historical functional feedback trains the meta-policy; no new-chart functional target labels enter policy features, transport or selection. New source is an unlabeled numerical stimulus/trajectory stream. Readout programs are supervised assessment instruments fitted after selection and fixed before evaluation. One compatibility map per candidate serves every unchanged baseline readout. A fixed candidate family supplies four signed amplitudes, but response directions and calibrated coefficients are acquired from native geometry. Policy selection is learned, not an outcome-tuned new-chart threshold.",
+  "baselines": "Unchanged runtime; fixed acquired+2percent rule; random same-source-action+2percent update; all four acquired signed doses and exact baseline clone. Baseline fallback is counted as zero quality gain, never as acquisition success. All candidates receive equal source and assessment opportunity. The retrospective all-candidate oracle is an upper-bound diagnostic, not a learner.",
+  "resource_accounting": "Charge historical P59/P60/inherited acquisition separately, fresh chart construction, failed/unused candidates, source sign/action calibration, all source trajectories and transport fits, meta-training/validation CPU, native assessment including padding, independent native verification, retained policy/interface arrays and process peaks. Production keeps original transformer and return shape. Retain only the selected interface per runtime; training experience and candidate traces are archived measurement state. Compare minimal acquisition work for fixed+2 with the four-candidate selector as well as matched experimental exposure.",
+  "primary_outcomes": "Across twelve fresh charts, report selected update frequency; mean/minimum nonlinear temporal score change per fresh block including fallback zeros; joint-success count requiring at least1percent relative score gain in BOTH fresh blocks and retention of every old program reliable under baseline in BOTH blocks; all old-program retained/eligible counts and identities. Contrast fixed+2, unchanged and primary random control. Report oracle available joint successes and policy capture fraction. Report newly reliable nonlinear targets separately and use paired chart as unit, not target rows.",
+  "interpretation_rules": "A constructive positive transfer result requires nonzero accepted updates, positive pooled mean quality change in both fresh blocks, and joint successes on new charts with unchanged-program retention. Counts and paired differences are reported irrespective of this criterion; no tuning on fresh outcomes. All rejections, losses, numerical failures and oracle misses are retained. A policy that rejects everything demonstrates no capability acquisition. Fresh charts test unseen runtime geometry within the same two model checkpoints, not cross-architecture transfer or repeated compounding.",
+  "limitations": [
+    "Historical development is twelve charts with six seed groups across two frozen sizes. Candidate construction family and functional assessment suite are supplied.",
+    "The experiment tests one transferred selection cycle. Continued acquisition and model-scale substitution remain later questions."
+  ],
+  "planned_config": {
+    "plan_id": "P61-LEARNED-UPDATE-COMPATIBILITY-001",
+    "config": {
+      "training_parent": "p59-preserved-return-augmentation-001",
+      "models": [
+        "0.6B",
+        "1.7B"
+      ],
+      "fresh_seeds": [
+        111001,
+        111002,
+        111003,
+        111004,
+        111005,
+        111006
+      ],
+      "baseline_source_config": "p55-neural-stimulus-capacity-002",
+      "source_seed": 112001,
+      "source_steps": 2304,
+      "source_washout": 256,
+      "calibration_seed": 112101,
+      "assessment_seeds": [
+        113001,
+        114001
+      ],
+      "assessment_washout": 256,
+      "assessment_steps": 2048,
+      "readout_ridge": 0.0001,
+      "transport_ridge": 0.001,
+      "state_dimension": 8,
+      "observable_dimension": 32,
+      "input_gain": 0.2,
+      "state_limit": 10.0,
+      "native_batch_size": 32,
+      "signed_action_fractions": [
+        -0.05,
+        -0.02,
+        0.02,
+        0.05
+      ],
+      "primary_action_fraction": 0.02,
+      "calibration_steps": 512,
+      "calibration_burn": 128,
+      "sign_probe_steps": [
+        0.1,
+        0.2
+      ],
+      "random_seed": 115001,
+      "verification_seed": 116001,
+      "verification_steps": 12,
+      "feature_seed": 117001,
+      "kernel_bandwidth_factors": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "kernel_ridge_grid": [
+        0.001,
+        0.01,
+        0.1,
+        1.0
+      ],
+      "quality_acceptance": 0.01,
+      "retention_acceptance": 0.5,
+      "policy_max_retained_coefficients": 4096
+    }
+  },
+  "stopping_rule": "Run both sizes and all six declared fresh seeds, all source/candidate arms and both fresh streams. Halt on implementation/parameter-integrity failure and retain diagnostics before prospective correction. Never replace seeds or pick a dose using fresh outcomes.",
+  "governing_unknowns": [
+    "MG1: acquire a reusable neural diagnostic-to-update distinction from feedback",
+    "MG2: choose an executable update with a compatibility obligation on a new chart",
+    "MG3: transfer acquired selection knowledge into later acquisition; repeated compounding is outside this cycle"
+  ],
+  "endogenous_structure": "Source-derived response directions, calibrated return additions, per-candidate shared observation transports, and a feedback-trained cross-chart selection policy.",
+  "human_supplied_structure": "Eight-dimensional recurrent apparatus, chart construction grammar, four signed action fractions, finite assessment family, policy representation and declared decision rule.",
+  "prior_art_role": "Existing reservoir measurement, ridge alignment and kernel regression are machinery; the discriminating test is source-only selection of a retained execution/interface pair on unseen acquired runtimes."
+}

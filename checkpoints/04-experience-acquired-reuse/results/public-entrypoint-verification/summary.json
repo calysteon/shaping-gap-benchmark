@@ -1,0 +1,7 @@
+{
+  "historical_training_policy_array_max_error": 0.0,
+  "public_entrypoint_native_sequences": 7680,
+  "public_entrypoint_saved_outputs_bitexact": 5040,
+  "numeric_score_vectors_reproduced": 1008,
+  "scope": "Publication QA repeats checks through the new portable entrypoint; these are the same saved outputs, not additional independent scientific observations."
+}

@@ -1,0 +1,802 @@
+[
+  {
+    "model": "0.6B",
+    "case": 0,
+    "seed": 111001,
+    "selected_slot": 0,
+    "fraction": 0.0,
+    "prior_old_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      16,
+      17,
+      18,
+      24,
+      25,
+      26,
+      27,
+      31,
+      32,
+      33,
+      37
+    ],
+    "candidate_feedback": [
+      {
+        "slot": 1,
+        "fraction": -0.05,
+        "relative_delta": [
+          -0.15886875779940562,
+          -0.12392091173049115
+        ],
+        "prior_old": 17,
+        "retained": 14,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 2,
+        "fraction": -0.02,
+        "relative_delta": [
+          -0.038724325365463795,
+          -0.03607710761091717
+        ],
+        "prior_old": 17,
+        "retained": 17,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 3,
+        "fraction": 0.02,
+        "relative_delta": [
+          0.012317462897936535,
+          0.008898351924244813
+        ],
+        "prior_old": 17,
+        "retained": 17,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 4,
+        "fraction": 0.05,
+        "relative_delta": [
+          0.00333842624305697,
+          0.000124112428824169
+        ],
+        "prior_old": 17,
+        "retained": 17,
+        "feedback_admissible": false
+      }
+    ]
+  },
+  {
+    "model": "0.6B",
+    "case": 1,
+    "seed": 111002,
+    "selected_slot": 0,
+    "fraction": 0.0,
+    "prior_old_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      16,
+      17,
+      24,
+      25,
+      26,
+      31,
+      32,
+      37
+    ],
+    "candidate_feedback": [
+      {
+        "slot": 1,
+        "fraction": -0.05,
+        "relative_delta": [
+          -0.12743373886578155,
+          -0.01047257773483396
+        ],
+        "prior_old": 13,
+        "retained": 12,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 2,
+        "fraction": -0.02,
+        "relative_delta": [
+          -0.0059095868584064385,
+          -0.008322545285592595
+        ],
+        "prior_old": 13,
+        "retained": 13,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 3,
+        "fraction": 0.02,
+        "relative_delta": [
+          0.00017741428385382158,
+          0.01426139641833623
+        ],
+        "prior_old": 13,
+        "retained": 13,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 4,
+        "fraction": 0.05,
+        "relative_delta": [
+          -0.0013314223522914693,
+          0.03690073632888333
+        ],
+        "prior_old": 13,
+        "retained": 13,
+        "feedback_admissible": false
+      }
+    ]
+  },
+  {
+    "model": "0.6B",
+    "case": 2,
+    "seed": 111003,
+    "selected_slot": 0,
+    "fraction": 0.0,
+    "prior_old_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      16,
+      24,
+      25,
+      26,
+      27,
+      32
+    ],
+    "candidate_feedback": [
+      {
+        "slot": 1,
+        "fraction": -0.05,
+        "relative_delta": [
+          -0.04306191305162167,
+          -0.1256489860730798
+        ],
+        "prior_old": 11,
+        "retained": 9,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 2,
+        "fraction": -0.02,
+        "relative_delta": [
+          -0.009528681093420187,
+          -0.013544856486720084
+        ],
+        "prior_old": 11,
+        "retained": 10,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 3,
+        "fraction": 0.02,
+        "relative_delta": [
+          -0.0032428465579484585,
+          -0.002876006013751029
+        ],
+        "prior_old": 11,
+        "retained": 11,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 4,
+        "fraction": 0.05,
+        "relative_delta": [
+          -0.2496905228168997,
+          -0.17734210978089265
+        ],
+        "prior_old": 11,
+        "retained": 9,
+        "feedback_admissible": false
+      }
+    ]
+  },
+  {
+    "model": "0.6B",
+    "case": 3,
+    "seed": 111004,
+    "selected_slot": 4,
+    "fraction": 0.05,
+    "prior_old_ids": [
+      0,
+      1,
+      16
+    ],
+    "candidate_feedback": [
+      {
+        "slot": 1,
+        "fraction": -0.05,
+        "relative_delta": [
+          0.19655113347951272,
+          -0.20025944541788293
+        ],
+        "prior_old": 3,
+        "retained": 3,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 2,
+        "fraction": -0.02,
+        "relative_delta": [
+          -0.30933721698230243,
+          -0.5565395121622556
+        ],
+        "prior_old": 3,
+        "retained": 2,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 3,
+        "fraction": 0.02,
+        "relative_delta": [
+          0.07872423428953303,
+          0.8715752596717249
+        ],
+        "prior_old": 3,
+        "retained": 3,
+        "feedback_admissible": true
+      },
+      {
+        "slot": 4,
+        "fraction": 0.05,
+        "relative_delta": [
+          1.012790704345106,
+          0.3837693586651979
+        ],
+        "prior_old": 3,
+        "retained": 3,
+        "feedback_admissible": true
+      }
+    ]
+  },
+  {
+    "model": "0.6B",
+    "case": 4,
+    "seed": 111005,
+    "selected_slot": 3,
+    "fraction": 0.02,
+    "prior_old_ids": [
+      0,
+      1,
+      2,
+      3,
+      16,
+      17,
+      24,
+      25,
+      26,
+      31,
+      32,
+      52,
+      58
+    ],
+    "candidate_feedback": [
+      {
+        "slot": 1,
+        "fraction": -0.05,
+        "relative_delta": [
+          -0.10478593090663753,
+          -0.06426086171928933
+        ],
+        "prior_old": 13,
+        "retained": 13,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 2,
+        "fraction": -0.02,
+        "relative_delta": [
+          -0.05582549538032798,
+          -0.030190852909985754
+        ],
+        "prior_old": 13,
+        "retained": 13,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 3,
+        "fraction": 0.02,
+        "relative_delta": [
+          0.05594427754406617,
+          0.032765150353683624
+        ],
+        "prior_old": 13,
+        "retained": 13,
+        "feedback_admissible": true
+      },
+      {
+        "slot": 4,
+        "fraction": 0.05,
+        "relative_delta": [
+          0.12292315465278864,
+          0.07963060216491522
+        ],
+        "prior_old": 13,
+        "retained": 12,
+        "feedback_admissible": false
+      }
+    ]
+  },
+  {
+    "model": "0.6B",
+    "case": 5,
+    "seed": 111006,
+    "selected_slot": 0,
+    "fraction": 0.0,
+    "prior_old_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      16,
+      17,
+      18,
+      24,
+      25,
+      26,
+      31,
+      32,
+      37
+    ],
+    "candidate_feedback": [
+      {
+        "slot": 1,
+        "fraction": -0.05,
+        "relative_delta": [
+          -0.0058258906646574465,
+          -0.011536933561278172
+        ],
+        "prior_old": 14,
+        "retained": 14,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 2,
+        "fraction": -0.02,
+        "relative_delta": [
+          -0.0011318735228423597,
+          -0.0016675009586513518
+        ],
+        "prior_old": 14,
+        "retained": 14,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 3,
+        "fraction": 0.02,
+        "relative_delta": [
+          -0.002620827061815996,
+          -0.0037709068488323465
+        ],
+        "prior_old": 14,
+        "retained": 14,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 4,
+        "fraction": 0.05,
+        "relative_delta": [
+          -0.01737786660498159,
+          -0.02072074132274441
+        ],
+        "prior_old": 14,
+        "retained": 13,
+        "feedback_admissible": false
+      }
+    ]
+  },
+  {
+    "model": "1.7B",
+    "case": 0,
+    "seed": 111001,
+    "selected_slot": 0,
+    "fraction": 0.0,
+    "prior_old_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      16,
+      24,
+      25,
+      26,
+      27,
+      31,
+      32,
+      33,
+      37
+    ],
+    "candidate_feedback": [
+      {
+        "slot": 1,
+        "fraction": -0.05,
+        "relative_delta": [
+          -1.0,
+          -0.06738716587875765
+        ],
+        "prior_old": 15,
+        "retained": 0,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 2,
+        "fraction": -0.02,
+        "relative_delta": [
+          0.04608308408299677,
+          0.053947872113831216
+        ],
+        "prior_old": 15,
+        "retained": 14,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 3,
+        "fraction": 0.02,
+        "relative_delta": [
+          -1.0,
+          -1.0
+        ],
+        "prior_old": 15,
+        "retained": 0,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 4,
+        "fraction": 0.05,
+        "relative_delta": [
+          -1.0,
+          -1.0
+        ],
+        "prior_old": 15,
+        "retained": 0,
+        "feedback_admissible": false
+      }
+    ]
+  },
+  {
+    "model": "1.7B",
+    "case": 1,
+    "seed": 111002,
+    "selected_slot": 3,
+    "fraction": 0.02,
+    "prior_old_ids": [
+      0,
+      1,
+      2,
+      3,
+      16,
+      17,
+      24,
+      25,
+      26,
+      31
+    ],
+    "candidate_feedback": [
+      {
+        "slot": 1,
+        "fraction": -0.05,
+        "relative_delta": [
+          0.010223015341725188,
+          -0.004021657862300133
+        ],
+        "prior_old": 10,
+        "retained": 10,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 2,
+        "fraction": -0.02,
+        "relative_delta": [
+          0.0012567124676887544,
+          0.01318205569669911
+        ],
+        "prior_old": 10,
+        "retained": 10,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 3,
+        "fraction": 0.02,
+        "relative_delta": [
+          0.017212887083963405,
+          0.012158703468236075
+        ],
+        "prior_old": 10,
+        "retained": 10,
+        "feedback_admissible": true
+      },
+      {
+        "slot": 4,
+        "fraction": 0.05,
+        "relative_delta": [
+          -0.0007682425919314933,
+          0.011411309134957382
+        ],
+        "prior_old": 10,
+        "retained": 10,
+        "feedback_admissible": false
+      }
+    ]
+  },
+  {
+    "model": "1.7B",
+    "case": 2,
+    "seed": 111003,
+    "selected_slot": 0,
+    "fraction": 0.0,
+    "prior_old_ids": [
+      0,
+      1,
+      2,
+      3,
+      16,
+      17,
+      24,
+      25,
+      26,
+      31,
+      52,
+      58
+    ],
+    "candidate_feedback": [
+      {
+        "slot": 1,
+        "fraction": -0.05,
+        "relative_delta": [
+          -0.013868554189060227,
+          -0.023272756117011083
+        ],
+        "prior_old": 12,
+        "retained": 11,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 2,
+        "fraction": -0.02,
+        "relative_delta": [
+          0.012309164034206786,
+          0.012048764696067648
+        ],
+        "prior_old": 12,
+        "retained": 11,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 3,
+        "fraction": 0.02,
+        "relative_delta": [
+          -0.008913109809179864,
+          0.004253986491123789
+        ],
+        "prior_old": 12,
+        "retained": 11,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 4,
+        "fraction": 0.05,
+        "relative_delta": [
+          -0.07490194140770927,
+          -0.06518708354079147
+        ],
+        "prior_old": 12,
+        "retained": 11,
+        "feedback_admissible": false
+      }
+    ]
+  },
+  {
+    "model": "1.7B",
+    "case": 3,
+    "seed": 111004,
+    "selected_slot": 4,
+    "fraction": 0.05,
+    "prior_old_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      16,
+      17,
+      18,
+      24,
+      25,
+      26,
+      27,
+      31,
+      32,
+      33,
+      37,
+      38
+    ],
+    "candidate_feedback": [
+      {
+        "slot": 1,
+        "fraction": -0.05,
+        "relative_delta": [
+          -0.957773356284061,
+          -0.983795396260573
+        ],
+        "prior_old": 18,
+        "retained": 3,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 2,
+        "fraction": -0.02,
+        "relative_delta": [
+          -0.07956752921977014,
+          -0.1071468222632476
+        ],
+        "prior_old": 18,
+        "retained": 18,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 3,
+        "fraction": 0.02,
+        "relative_delta": [
+          0.045088821643740826,
+          0.050745209671258465
+        ],
+        "prior_old": 18,
+        "retained": 18,
+        "feedback_admissible": true
+      },
+      {
+        "slot": 4,
+        "fraction": 0.05,
+        "relative_delta": [
+          0.05910551754396476,
+          0.06822618607524181
+        ],
+        "prior_old": 18,
+        "retained": 18,
+        "feedback_admissible": true
+      }
+    ]
+  },
+  {
+    "model": "1.7B",
+    "case": 4,
+    "seed": 111005,
+    "selected_slot": 4,
+    "fraction": 0.05,
+    "prior_old_ids": [
+      0,
+      1,
+      2,
+      3,
+      16,
+      17,
+      24,
+      25,
+      26,
+      31,
+      37,
+      52,
+      58,
+      63,
+      88
+    ],
+    "candidate_feedback": [
+      {
+        "slot": 1,
+        "fraction": -0.05,
+        "relative_delta": [
+          0.024703321980496774,
+          -0.016727631129858478
+        ],
+        "prior_old": 15,
+        "retained": 15,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 2,
+        "fraction": -0.02,
+        "relative_delta": [
+          -0.0001359029404807966,
+          -0.007644795090463831
+        ],
+        "prior_old": 15,
+        "retained": 15,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 3,
+        "fraction": 0.02,
+        "relative_delta": [
+          0.023794581756283403,
+          0.00889731152336216
+        ],
+        "prior_old": 15,
+        "retained": 15,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 4,
+        "fraction": 0.05,
+        "relative_delta": [
+          0.07372662758813364,
+          0.01705300382494098
+        ],
+        "prior_old": 15,
+        "retained": 15,
+        "feedback_admissible": true
+      }
+    ]
+  },
+  {
+    "model": "1.7B",
+    "case": 5,
+    "seed": 111006,
+    "selected_slot": 0,
+    "fraction": 0.0,
+    "prior_old_ids": [],
+    "candidate_feedback": [
+      {
+        "slot": 1,
+        "fraction": -0.05,
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "prior_old": 0,
+        "retained": 0,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 2,
+        "fraction": -0.02,
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "prior_old": 0,
+        "retained": 0,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 3,
+        "fraction": 0.02,
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "prior_old": 0,
+        "retained": 0,
+        "feedback_admissible": false
+      },
+      {
+        "slot": 4,
+        "fraction": 0.05,
+        "relative_delta": [
+          0.0,
+          0.0
+        ],
+        "prior_old": 0,
+        "retained": 0,
+        "feedback_admissible": false
+      }
+    ]
+  }
+]

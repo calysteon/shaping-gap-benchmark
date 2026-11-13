@@ -1,0 +1,219 @@
+{
+  "training_charts": 12,
+  "training_candidates": 48,
+  "feature_names": [
+    "fraction",
+    "absolute_fraction",
+    "base_state_rank",
+    "state_rank_change",
+    "base_observation_rank",
+    "observation_rank_change",
+    "state_variance_logratio",
+    "increment_power_logratio",
+    "trajectory_cosine",
+    "transport_holdout_logerror",
+    "transport_identity_logdistance",
+    "transport_logcondition",
+    "transport_error_drift",
+    "linear_history_readability_change",
+    "nonlinear_history_readability_change",
+    "base_linear_readability",
+    "base_nonlinear_readability",
+    "state_autocorrelation_change",
+    "observation_skew_change",
+    "observation_kurtosis_change"
+  ],
+  "hyperparameter_grid": [
+    {
+      "bandwidth": 0.5,
+      "ridge": 0.001,
+      "grouped_cv_loss": 1.3375121992778274
+    },
+    {
+      "bandwidth": 0.5,
+      "ridge": 0.01,
+      "grouped_cv_loss": 1.1268866713747256
+    },
+    {
+      "bandwidth": 0.5,
+      "ridge": 0.1,
+      "grouped_cv_loss": 1.0505118854088125
+    },
+    {
+      "bandwidth": 0.5,
+      "ridge": 1.0,
+      "grouped_cv_loss": 1.070051347939918
+    },
+    {
+      "bandwidth": 1.0,
+      "ridge": 0.001,
+      "grouped_cv_loss": 1.307966815303655
+    },
+    {
+      "bandwidth": 1.0,
+      "ridge": 0.01,
+      "grouped_cv_loss": 1.0220422464342045
+    },
+    {
+      "bandwidth": 1.0,
+      "ridge": 0.1,
+      "grouped_cv_loss": 1.012680787009324
+    },
+    {
+      "bandwidth": 1.0,
+      "ridge": 1.0,
+      "grouped_cv_loss": 1.0572162387213029
+    },
+    {
+      "bandwidth": 2.0,
+      "ridge": 0.001,
+      "grouped_cv_loss": 0.793109626153301
+    },
+    {
+      "bandwidth": 2.0,
+      "ridge": 0.01,
+      "grouped_cv_loss": 0.7754856768648155
+    },
+    {
+      "bandwidth": 2.0,
+      "ridge": 0.1,
+      "grouped_cv_loss": 0.9717186154030566
+    },
+    {
+      "bandwidth": 2.0,
+      "ridge": 1.0,
+      "grouped_cv_loss": 1.064119304102286
+    }
+  ],
+  "selected_hyperparameters": {
+    "bandwidth": 2.0,
+    "ridge": 0.01,
+    "grouped_cv_loss": 0.7754856768648155
+  },
+  "grouped_cv_selections": [
+    {
+      "model": "0.6B",
+      "case": 0,
+      "selected_slot": 0,
+      "selected_fraction": 0.0,
+      "observed_target": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "model": "0.6B",
+      "case": 1,
+      "selected_slot": 3,
+      "selected_fraction": 0.02,
+      "observed_target": [
+        0.11638097661167732,
+        1.0
+      ]
+    },
+    {
+      "model": "0.6B",
+      "case": 2,
+      "selected_slot": 0,
+      "selected_fraction": 0.0,
+      "observed_target": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "model": "0.6B",
+      "case": 3,
+      "selected_slot": 0,
+      "selected_fraction": 0.0,
+      "observed_target": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "model": "0.6B",
+      "case": 4,
+      "selected_slot": 0,
+      "selected_fraction": 0.0,
+      "observed_target": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "model": "0.6B",
+      "case": 5,
+      "selected_slot": 0,
+      "selected_fraction": 0.0,
+      "observed_target": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "model": "1.7B",
+      "case": 0,
+      "selected_slot": 0,
+      "selected_fraction": 0.0,
+      "observed_target": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "model": "1.7B",
+      "case": 1,
+      "selected_slot": 4,
+      "selected_fraction": 0.05,
+      "observed_target": [
+        0.4175547581241035,
+        1.0
+      ]
+    },
+    {
+      "model": "1.7B",
+      "case": 2,
+      "selected_slot": 0,
+      "selected_fraction": 0.0,
+      "observed_target": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "model": "1.7B",
+      "case": 3,
+      "selected_slot": 4,
+      "selected_fraction": 0.05,
+      "observed_target": [
+        0.06667527700816005,
+        1.0
+      ]
+    },
+    {
+      "model": "1.7B",
+      "case": 4,
+      "selected_slot": 0,
+      "selected_fraction": 0.0,
+      "observed_target": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "model": "1.7B",
+      "case": 5,
+      "selected_slot": 0,
+      "selected_fraction": 0.0,
+      "observed_target": [
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "retained_policy_coefficients": 1101,
+  "retained_policy_array_bytes": 8808,
+  "training_cpu_seconds": 0.9880401671398431,
+  "information": "Historical target feedback only. New charts, new source and new assessment not yet acquired."
+}

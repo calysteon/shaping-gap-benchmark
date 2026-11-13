@@ -1,0 +1,6 @@
+!data/
+!data/**
+/runs/
+/models/
+__pycache__/
+*.pyc

@@ -1,0 +1,35 @@
+{
+  "score_vectors_reproduced": 504,
+  "max_r2_error": 4.656612873077393e-10,
+  "sealed_files_verified": 183,
+  "feedback_choices_reproduced": 12,
+  "native": [
+    {
+      "model": "0.6B",
+      "saved_outputs_bitexact": 1008,
+      "native_work": {
+        "batches": 48,
+        "sequences": 1536,
+        "tokens": 3072,
+        "attention_block_tokens": 86016,
+        "mlp_block_tokens": 86016
+      },
+      "weights_unchanged": true,
+      "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798"
+    },
+    {
+      "model": "1.7B",
+      "saved_outputs_bitexact": 1008,
+      "native_work": {
+        "batches": 48,
+        "sequences": 1536,
+        "tokens": 3072,
+        "attention_block_tokens": 86016,
+        "mlp_block_tokens": 86016
+      },
+      "weights_unchanged": true,
+      "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7"
+    }
+  ],
+  "verification_seconds": 3.6514221248216927
+}

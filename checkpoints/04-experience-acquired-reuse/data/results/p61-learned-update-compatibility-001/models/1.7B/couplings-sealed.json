@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-11-13T18:36:25.771493+00:00",
+  "files": {
+    "case-0.npz": "8ff0f895a5015a8f14ded446d5e7397f2e069e365ae7d6bdf3b062bc4fd183e8",
+    "case-1.npz": "8273fb0634be43419b65ee751f7e36434b65213485e3f4aca245d6f594d3db63",
+    "case-3.npz": "5c08ade3935d222da57cf1e455a688e4873536ec72281f6ae195c5891bbfc0b7",
+    "case-2.npz": "886a7caeefc4822e500d5cd6f72c382a73287d17e77040f9d623270234daa89f",
+    "chart-111002-source.npz": "d233c2c495aa3f6120a911c49c93398fbe343f2049dfe840f2cf6b3a85a78fa9",
+    "returns.npz": "3bbd7ef5876a25d96788f9ffd351b0838745fbdb2dae0bb434e8695902251955",
+    "case-5.npz": "5ba92bc9e3e6a32aa05db669c8fbacf67f7a35957d42a24a745e798096bde912",
+    "case-4.npz": "1a6495df761502103ed966f43eede8d2eeb7117e4d73df3f78a9a062bcb7ebae",
+    "chart-111005-source.npz": "8cf2a3f10c58d6f18938f9f4214a12673d028731a6da800173e8c660d91558eb",
+    "chart-111006-source.npz": "3084d91d0031556dc2099a77a0057525cf0c8bcb2772ff45080358b747f8ea89",
+    "chart-111003-source.npz": "933297f477f590f051258f7a870e684bfb72e1c1dcacf2d153ba9a75bf3dff3d",
+    "chart-111004-source.npz": "3415777bddd9f9731f40e5380c45ca7fa40a74b47a2ee4af90abc03adca50301",
+    "chart-111001-source.npz": "348cfd2371412c30d63912406c7d7ebc7cdf7d2b8ae9e2a564f73e38321632b9",
+    "calibration.npz": "00c6480b7c5f2fd16aae1e339d5f2f7d48282ce7e1ace8a3aa8f8873edda54ac"
+  },
+  "source_trajectory_started": false,
+  "assessment_labels_exposed": false
+}

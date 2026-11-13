@@ -1,0 +1,6 @@
+{
+  "repo": "Qwen/Qwen3-1.7B-MLX-4bit",
+  "revision": "21457c6f51ed54a7c16e988c0844db973815c137",
+  "local_path": "models/Qwen3-1.7B-MLX-4bit",
+  "purpose": "Local frozen-weight comparison; no hosted inference or remote code execution."
+}

@@ -1,3 +1,13 @@
+Checkpoint 04 — November 13, 2026
+================================
+
+Make experience-acquired execution and compatibility reuse the central result.
+Publish Paper IV, complete P61/P62 records, native acquisition/replay entrypoints,
+all-context analyses and lifecycle costs. Two strict fresh reuse successes retain
+13/13 and18/18 old programs with roughly4–5percent gains; all twelve contexts
+retain140/141, with one regression included. Preserve the separate negative
+aggregate unseen-context transfer result and every prior checkpoint asset.
+
 Checkpoint 03 — November 13, 2026
 ================================
 

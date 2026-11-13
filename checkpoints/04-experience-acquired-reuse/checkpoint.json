@@ -1,0 +1,26 @@
+{
+  "id": "04-experience-acquired-reuse",
+  "number": 4,
+  "date": "2026-11-13",
+  "title": "Shaping Gap Benchmark IV: Experience-Acquired Execution and Compatibility Reuse",
+  "authors": [
+    "Nathaniel Oh",
+    "Paul Attie"
+  ],
+  "paper": "checkpoints/04-experience-acquired-reuse/paper/shaping-gap-benchmark-iv.pdf",
+  "guide": "checkpoints/04-experience-acquired-reuse/README.rst",
+  "publication_revision": "The commit introducing this checkpoint.json; resolve with git log --diff-filter=A -1 --format=%H -- checkpoints/04-experience-acquired-reuse/checkpoint.json",
+  "predecessor": "03-preserved-neural-augmentation",
+  "status": "published-in-repository",
+  "observed_advances": [
+    "Own-experience feedback selects and locks five execution/interface pairs before untouched reuse streams; four improve quality in both with full old-program retention, two meet the strict1percent joint criterion.",
+    "Two strict contexts gain3.95/4.39percent and5.09/4.96percent, retaining13/13 and18/18 old programs versus9/13 and10/18 direct.",
+    "All twelve contexts have positive pooled quality changes+0.11399/+0.07595 and140/141 retained old instances; one selected update regresses.",
+    "Independent verification reproduces5040 native outputs bit exactly and1008 score vectors;1852268 new native sequences including verification are charged."
+  ],
+  "research_scope": [
+    "Within-context experiential learning/reuse. The separate unseen-runtime predictor misses its aggregate criterion.",
+    "Finite nonlinear temporal-processing score; no selected newly reliable nonlinear target across all four feedback/validation blocks.",
+    "Two quantized frozen sizes, supplied construction family and feedback contract, with all trials and lifecycle costs included."
+  ]
+}

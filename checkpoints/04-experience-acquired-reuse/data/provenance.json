@@ -1,0 +1,32 @@
+{
+  "source": "Complete P61/P62 numeric records and frozen source snapshots.",
+  "publication_transformations": [
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/0.6B/checkpoint.json",
+      "change": "Replace machine-local checkpoint path with a portable relative model path.",
+      "original_sha256": "af40f05ac2611607200507a88cbc6440eb6226af6b14fa8857ac05aba2a622b9",
+      "published_sha256": "43a78cfcf91834b67889ced176454a16be125bdc425c79d9c10e7b3e251ca829"
+    },
+    {
+      "path": "data/results/p61-learned-update-compatibility-001/models/1.7B/checkpoint.json",
+      "change": "Replace machine-local checkpoint path with a portable relative model path.",
+      "original_sha256": "f93d5e4bdb2a040e53069b6e2473751c746a077b7e87b5f9753872e433f07cb0",
+      "published_sha256": "a364a03c714dfed072b12dea64bcbbed045b44e412979a1059ed1036eed6029b"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/0.6B/checkpoint.json",
+      "change": "Replace machine-local checkpoint path with a portable relative model path.",
+      "original_sha256": "af40f05ac2611607200507a88cbc6440eb6226af6b14fa8857ac05aba2a622b9",
+      "published_sha256": "43a78cfcf91834b67889ced176454a16be125bdc425c79d9c10e7b3e251ca829"
+    },
+    {
+      "path": "data/results/p62-feedback-acquired-update-reuse-001/models/1.7B/checkpoint.json",
+      "change": "Replace machine-local checkpoint path with a portable relative model path.",
+      "original_sha256": "f93d5e4bdb2a040e53069b6e2473751c746a077b7e87b5f9753872e433f07cb0",
+      "published_sha256": "a364a03c714dfed072b12dea64bcbbed045b44e412979a1059ed1036eed6029b"
+    }
+  ],
+  "numeric_arrays": "All original NPZ files unchanged.",
+  "historical_acquisition": "P55/P56 fixtures and complete P59 records are linked from preserved Checkpoint03, not duplicated.",
+  "registration": "Local prospective records, not external preregistration or an independently anchored timestamp."
+}

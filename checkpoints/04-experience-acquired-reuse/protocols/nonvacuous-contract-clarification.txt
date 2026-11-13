@@ -1,0 +1,18 @@
+P61/P62 non-vacuous working-program contract clarification
+
+Recorded after the smaller P61 outcomes and larger source numerical-admissibility
+progress, before inspecting any larger P61 functional outcome and before P62
+validation. Ten of42 larger source arms have failed the declared numerical bound.
+All conditions remain recorded. A failed baseline or an empty old-program set
+must not become a spurious joint-success acquisition through vacuous retention.
+
+For joint success additionally require that the unchanged baseline and selected
+candidate are bounded in both evaluation blocks, and at least one baseline
+program satisfies the declared reliability reference. For complete-retention
+case counts require a nonempty eligible set, and report that denominator as
+well as the full twelve charts. Aggregate quality changes still include every
+chart and fallback zero; no seeds are removed and no score vector is changed.
+The literal all-eligible-program retention fraction is still fully reported.
+This clarifies the functioning-runtime/keeping-existing-programs interpretation;
+record it explicitly as an analysis clarification rather than changing a plan
+or replacing the declared numerical-failure outcomes.

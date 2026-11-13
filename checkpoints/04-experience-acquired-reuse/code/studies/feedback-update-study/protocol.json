@@ -1,0 +1,52 @@
+{
+  "id": "P62-FEEDBACK-ACQUIRED-UPDATE-REUSE-001",
+  "kind": "experiment",
+  "claim_ids": [
+    "SN5",
+    "SN6",
+    "MG2",
+    "MG3"
+  ],
+  "question": "After experiencing candidate execution changes on its own runtime, can the system acquire and reuse one update/interface pair that improves fresh processing quality while preserving the existing frozen programs?",
+  "design": "Close the P61 experience loop without changing its transfer endpoint. Once all P61 feedback is recorded, select per chart the acquired signed update with greatest minimum relative quality gain across its two feedback blocks, provided gain>=1percent and all baseline programs reliable in both feedback blocks are retained through its shared interface. Otherwise retain the unchanged baseline. Seal these acquired context-specific choices before any P62 native input stream is generated. Reuse the exact P61 return matrices, shared interfaces and readout programs without refitting; validate baseline, all four acquired updates, primary random control and clone on two untouched streams.",
+  "information_access": "P61 both-block outcomes are explicit acquisition feedback in this study, never called held-out P62 evidence. P59-trained zero-shot P61 policy results remain separate. The learned object here is context-specific execution/interface choice acquired from the runtime own experience, not a claim of unseen-chart transfer. Existing readout programs and source-fitted interfaces are fixed. Fresh target labels are used only after native validation for assessment.",
+  "baselines": "Unchanged; fixed+2percent; P61 frozen cross-chart selector; same-action random+2percent. Retrospective best P62 candidate is reported separately from locked feedback-acquired selection. Every P61 trial and unsuccessful update is included in acquisition cost.",
+  "resource_accounting": "P61 chart acquisition, source native trajectories, all exploratory feedback, training and interfaces are inherited acquisition costs and remain charged. P62 adds choice computation, all fresh native validation including unselected controls and padding, independent checks and per-context selected interface retention. Original model size, return shape and readouts stay fixed. Baseline fallback is zero gain; record all chart-level regressions and losses. Energy is unmeasured.",
+  "primary_outcomes": "Twelve contexts, two new input streams. Mean selected quality change in each fresh block; number of nonzero accepted choices; joint successes with>=1percent relative quality gain in both and all prior-old programs retained where unchanged baseline remains reliable in both fresh streams; unfiltered prior-old retention also reported. Count new reliable nonlinear targets separately, with baseline below0.5 in both feedback and fresh blocks, treatment above0.5 in all four. Compare fixed+2, frozen P61 selector and random control. An all-baseline policy is no acquisition success.",
+  "interpretation_rules": "Report P61 new-chart transfer and P62 feedback-conditioned reuse as distinct claims. Do not relabel development-oracle outcomes as confirmation; only fresh P62 streams supply reuse confirmation. A positive feedback-acquisition result requires nonzero updates, positive pooled average quality change in both fresh blocks, and at least one fresh joint success. Report all twelve contexts even if the criterion fails; no outcome-guided new choices on P62 data.",
+  "limitations": [
+    "This is learning and reuse within twelve known runtime contexts, not transfer to new geometry.",
+    "Two fresh streams test retained processing and existing readouts over the finite143-function assay; repeated higher-level acquisition and scale substitution remain separate."
+  ],
+  "planned_config": {
+    "plan_id": "P62-FEEDBACK-ACQUIRED-UPDATE-REUSE-001",
+    "config": {
+      "parent": "p61-learned-update-compatibility-001",
+      "models": [
+        "0.6B",
+        "1.7B"
+      ],
+      "assessment_seeds": [
+        121001,
+        122001
+      ],
+      "assessment_washout": 256,
+      "assessment_steps": 2048,
+      "native_batch_size": 32,
+      "quality_acceptance": 0.01,
+      "state_dimension": 8,
+      "input_gain": 0.2,
+      "state_limit": 10.0,
+      "verification_steps": 12,
+      "verification_seed": 123001
+    }
+  },
+  "stopping_rule": "Run both sizes, all existing twelve contexts and all seven arms on both new streams. No choice changes after seal. Preserve numeric failures and all endpoints. Stop only for implementation or parameter-integrity failure, record before prospective correction.",
+  "governing_unknowns": [
+    "MG2: acquire a useful executable change subject to prior-program obligations",
+    "MG3: let acquired experiential feedback determine a retained construction for later input experience"
+  ],
+  "endogenous_structure": "A context-specific retained execution update and shared observation interface chosen from the system native acquired response directions and measured outcomes.",
+  "human_supplied_structure": "Four signed source-action fractions, a quality/reliability contract, context identity and the finite functional measurement family.",
+  "prior_art_role": "Contextual action selection and held-out reuse supply standard machinery; this experiment tests the jointly acquired frozen-neural execution and compatibility pair under full acquisition accounting."
+}

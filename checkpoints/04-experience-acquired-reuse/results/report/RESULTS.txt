@@ -1,0 +1,35 @@
+P61: learned execution-update and compatibility selection
+
+Prespecified positive-transfer criterion met: False
+
+0.6B: 6 fresh charts; 2 contain a joint-success acquired update
+  policy: updates=2, mean score changes=[0.13753047998345677, -0.06736470491991102], joint successes=0, old programs=68/71, complete cases=4/6
+  fixed: updates=6, mean score changes=[0.13824209337606455, 0.25717907333968193], joint successes=2, old programs=71/71, complete cases=6/6
+  random: updates=6, mean score changes=[-0.055125122358741306, -0.005065232817051957], joint successes=2, old programs=69/71, complete cases=5/6
+  oracle: updates=2, mean score changes=[0.32054576796854456, 0.12645002171611497], joint successes=2, old programs=71/71, complete cases=6/6
+1.7B: 6 fresh charts; 3 contain a joint-success acquired update
+  policy: updates=1, mean score changes=[0.14860666530890101, 0.03777885829673829], joint successes=1, old programs=70/70, complete cases=5/6
+  fixed: updates=6, mean score changes=[-1.8016997538032162, -1.7769920942966235], joint successes=2, old programs=54/70, complete cases=3/6
+  random: updates=6, mean score changes=[-0.876394296569209, -1.888018300102969], joint successes=0, old programs=54/70, complete cases=3/6
+  oracle: updates=3, mean score changes=[0.3247697262947666, 0.22196247172762482], joint successes=3, old programs=70/70, complete cases=5/6
+pooled: 12 fresh charts; 5 contain a joint-success acquired update
+  policy: updates=3, mean score changes=[0.1430685726461789, -0.014792923311586362], joint successes=1, old programs=138/141, complete cases=9/12
+  fixed: updates=12, mean score changes=[-0.8317288302135757, -0.7599065104784707], joint successes=4, old programs=125/141, complete cases=9/12
+  random: updates=12, mean score changes=[-0.4657597094639751, -0.9465417664600104], joint successes=2, old programs=123/141, complete cases=8/12
+  oracle: updates=5, mean score changes=[0.32265774713165557, 0.1742062467218699], joint successes=5, old programs=141/141, complete cases=11/12
+
+All-case policy outcomes:
+  0.6B seed111001: fraction=+0.00, delta=[0.0, 0.0], retention=17/17, joint=False, oracle_available=False
+  0.6B seed111002: fraction=+0.00, delta=[0.0, 0.0], retention=13/13, joint=False, oracle_available=False
+  0.6B seed111003: fraction=-0.05, delta=[-0.4533045962812263, -1.2497256243564792], retention=9/11, joint=False, oracle_available=False
+  0.6B seed111004: fraction=+0.00, delta=[0.0, 0.0], retention=3/3, joint=False, oracle_available=True
+  0.6B seed111005: fraction=+0.05, delta=[1.278487476181967, 0.8455373948370131], retention=12/13, joint=False, oracle_available=True
+  0.6B seed111006: fraction=+0.00, delta=[0.0, 0.0], retention=14/14, joint=False, oracle_available=False
+  1.7B seed111001: fraction=+0.00, delta=[0.0, 0.0], retention=15/15, joint=False, oracle_available=False
+  1.7B seed111002: fraction=+0.00, delta=[0.0, 0.0], retention=10/10, joint=False, oracle_available=True
+  1.7B seed111003: fraction=+0.00, delta=[0.0, 0.0], retention=12/12, joint=False, oracle_available=False
+  1.7B seed111004: fraction=+0.00, delta=[0.0, 0.0], retention=18/18, joint=False, oracle_available=True
+  1.7B seed111005: fraction=+0.05, delta=[0.8916399918534061, 0.22667314978042974], retention=15/15, joint=True, oracle_available=True
+  1.7B seed111006: fraction=+0.00, delta=[0.0, 0.0], retention=0/0, joint=False, oracle_available=False
+
+Twelve new runtime charts over two existing model checkpoints; one transferred acquisition cycle. Historical functional feedback trains selection; new-chart target labels are withheld until decisions are sealed. Oracle outcomes are retrospective opportunities, not choices available to the policy.

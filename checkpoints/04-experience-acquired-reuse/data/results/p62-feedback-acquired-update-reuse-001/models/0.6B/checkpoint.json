@@ -1,0 +1,10 @@
+{
+  "repo": "Qwen/Qwen3-0.6B-MLX-4bit",
+  "revision": "173234aa840d113125e9f2271100ddbaf16c9620",
+  "local_path": "models/Qwen3-0.6B-MLX-4bit",
+  "method": "Public checkpoint, provided 4-bit quantization, frozen for experiments; no conversion or model training.",
+  "sources": [
+    "https://huggingface.co/Qwen/Qwen3-0.6B-MLX-4bit",
+    "https://github.com/ml-explore/mlx-lm"
+  ]
+}
