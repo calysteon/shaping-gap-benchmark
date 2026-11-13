@@ -1,0 +1,1911 @@
+{
+  "id": "P46-KEYSTONE-EK-001",
+  "kind": "central_acquisition_and_compositional_execution_study",
+  "claim_ids": [
+    "MG1",
+    "MG2",
+    "MG3"
+  ],
+  "question": "Can acquired accumulated-effect/context-sensitivity interfaces improve later compositional native construction after acquisition and lifecycle cost, relative to the same search with endpoint-only interfaces, equal-acquisition-work endpoint data, local native sensitivity and architecture-aware structure?",
+  "design": "Three fixed local domains on the pinned ordinary frozen pretrained model;22 native units and their measured output span define a reachable coordinate system. Each domain has a different Gaussian anchor scale and native consumer layer;12 readout coordinates are chosen from anchor activities. Acquire32 source contexts with actual amplitudes, total effects E and all22 directional context partials K D. Fit a generic quadratic interface for each native component: amplitude and12 effects; fit with value and native derivative labels. Its derivative and directional integral are computed consistently from its retained coefficients. Source derivatives include the native live-producer activity derivative. Seal all models before288 fresh contexts/requirements, with increasing target increments in four fixed cohorts. The same beam search ranks component combinations via a dynamic predecessor/successor compatibility graph. Native execution checks every real branch and graph deployment.",
+  "information_access": "The learner observes numerical native source behavior and derivatives, original physical unit boundaries and measured output directions. Reachable coordinates/finite domain, polynomial family and live residual graph grammar are supplied. No English, teacher program, labels of useful producers or authored semantic operation menu. Source validation is diagnostic only; does not select ridge/features/domains or alter planning. All three component interface families have identical parameterization. The analytic reference receives an explicit known RMSNorm/SwiGLU structural formula and calibrates its actual native projection rows; this extra architecture knowledge is documented. Original model parameters stay fixed.",
+  "baselines": "Native local sensitivity with exact current amplitudes; endpoint-only quadratic on identical32 contexts; endpoint-only quadratic with its context count set by measured equal native acquisition LPE budget (same first32 plus fresh predetermined contexts); full differential paired guidance; same differential model one-step only; same differential present effects with conditioning terms removed; permuted conditioning directions with present effects preserved; restored differential model; architecture-aware compiled paired reference. Generic models share the same paired compatibility scoring and execution engine. Dynamic successor classes are derived from acquired conditional response, not arbitrary k-means coverage.",
+  "resource_accounting": "LPE budget512 per search condition, counting initial readout, all forward projections and transpose-projection equivalents for native VJPs (two reverse projections for a producer activity gradient). Norm/scalar operations are logged separately. All primitives have fixed original dense dimensions; LPE is a transparent native-query metric, not hardware FLOPs or energy. Check the cap from actual primitive counts, not number of accepted writes. Also report all source acquisition and fitting, source validation, planning CPU, complete search/deployment active wall, retention and native verification. Primary lifecycle curves include acquisition at the origin and every later success/failure; show LPE and active wall separately and matched-quality cost. Research-only derivative validation is separately charged. Full native and process memory reported alongside8MiB controller payload and1MiB activity cache.",
+  "primary_outcomes": "Held-out value and K accuracy in each scope; solved native contracts by method/domain/demand; cumulative solved count versus cumulative acquisition+search+deployment LPE and active wall; discrete matched-quality cost and observed break-even; loss of influence/quality under operator removal/corruption and exact restoration; actual multi-step graph and parameter fidelity. Published claims should follow these measured comparisons.",
+  "interpretation_rules": "Separate predictive interface quality, actual composition benefit and lifecycle return. Compare the differential method against equal-data, acquisition-work-matched and architecture-aware controls. Report stronger-reference outcomes and mixed/negative domains. Classification benefit means better actual compositions/cost, not just changed labels. Equal online query budget is distinct from full lifecycle cost. All numerical successes require exact native interval checks; same difficulty/order/physical syntax across arms. One source acquisition followed by reuse measures amortization; repeated acquisition cycles are a separate future question.",
+  "limitations": [
+    "Controlled22-dimensional local activation domains and supplied native numerical readouts on one pinned checkpoint; external semantic meaning and pretraining-specific advantage are not isolated.",
+    "Generic quadratic applicability is confined to declared domains. Exact architectural formulas are supplied only to the reference.",
+    "The physical inventory and coordinate syntax are supplied; the learned object is its component amplitude/effect/context-response interface.",
+    "LPE is a native matrix-query proxy; wall time, scalar planning and memory remain separate axes. Finite numerical held-out errors do not certify uniform approximation bounds.",
+    "Three anchors/readout layers share one substrate and22-unit inventory. Source/validation operator coordinates and repeated controls are correlated.",
+    "Repeated future tasks reuse sealed models; no interface updating occurs during later evaluation."
+  ],
+  "planned_config": {
+    "plan_id": "P46-KEYSTONE-EK-001",
+    "config": {
+      "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+      "source_units": [
+        [
+          6,
+          2069
+        ],
+        [
+          10,
+          211
+        ],
+        [
+          13,
+          573
+        ],
+        [
+          16,
+          2273
+        ],
+        [
+          18,
+          74
+        ],
+        [
+          18,
+          804
+        ],
+        [
+          18,
+          1234
+        ],
+        [
+          18,
+          1741
+        ],
+        [
+          18,
+          1839
+        ],
+        [
+          18,
+          2230
+        ],
+        [
+          18,
+          2465
+        ],
+        [
+          18,
+          2490
+        ],
+        [
+          18,
+          2599
+        ],
+        [
+          19,
+          622
+        ],
+        [
+          19,
+          2864
+        ],
+        [
+          20,
+          2602
+        ],
+        [
+          21,
+          2259
+        ],
+        [
+          21,
+          2386
+        ],
+        [
+          23,
+          1226
+        ],
+        [
+          23,
+          2031
+        ],
+        [
+          24,
+          1914
+        ],
+        [
+          24,
+          2701
+        ]
+      ],
+      "scopes": [
+        {
+          "anchor_seed": 61001,
+          "anchor_rms": 0.12,
+          "consumer_layer": 14,
+          "readout_seed": 61501,
+          "source_seed": 62001,
+          "validation_seed": 63001
+        },
+        {
+          "anchor_seed": 61002,
+          "anchor_rms": 0.25,
+          "consumer_layer": 20,
+          "readout_seed": 61502,
+          "source_seed": 62002,
+          "validation_seed": 63002
+        },
+        {
+          "anchor_seed": 61003,
+          "anchor_rms": 0.6,
+          "consumer_layer": 25,
+          "readout_seed": 61503,
+          "source_seed": 62003,
+          "validation_seed": 63003
+        }
+      ],
+      "readout_size": 12,
+      "coordinate_min_value": 0.05,
+      "coordinate_max_value": 2.0,
+      "domain_radius": 1.5,
+      "initial_radius": 0.5,
+      "source_contexts": 32,
+      "max_endpoint_source_contexts": 512,
+      "validation_contexts": 8,
+      "ridge": 1e-06,
+      "gradient_weight": 1.0,
+      "later_conditions": [
+        {
+          "scope": 0,
+          "seed": 64001,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64002,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64003,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64004,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64005,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64006,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64007,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64008,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64009,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64010,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64011,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64012,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64013,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64014,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64015,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64016,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64017,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64018,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64019,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64020,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64021,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64022,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64023,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64024,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64025,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64026,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64027,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64028,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64029,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64030,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64031,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64032,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64033,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64034,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64035,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64036,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64037,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64038,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64039,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64040,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64041,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64042,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64043,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64044,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64045,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64046,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64047,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64048,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64049,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64050,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64051,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64052,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64053,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64054,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64055,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64056,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64057,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64058,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64059,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64060,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64061,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64062,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64063,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64064,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64065,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64066,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64067,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64068,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64069,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64070,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 64071,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 64072,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 64073,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64074,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64075,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64076,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64077,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64078,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64079,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64080,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64081,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64082,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64083,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64084,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64085,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64086,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64087,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64088,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64089,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64090,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64091,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64092,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64093,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64094,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64095,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64096,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64097,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64098,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64099,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64100,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64101,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64102,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64103,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64104,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64105,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64106,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64107,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64108,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64109,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64110,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64111,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64112,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64113,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64114,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64115,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64116,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64117,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64118,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64119,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64120,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64121,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64122,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64123,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64124,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64125,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64126,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64127,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64128,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64129,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64130,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64131,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64132,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64133,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64134,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64135,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64136,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64137,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64138,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64139,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64140,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64141,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64142,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 64143,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 64144,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 64145,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64146,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64147,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64148,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64149,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64150,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64151,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64152,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64153,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64154,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64155,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64156,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64157,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64158,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64159,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64160,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64161,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64162,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64163,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64164,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64165,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64166,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64167,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64168,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64169,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64170,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64171,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64172,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64173,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64174,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64175,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64176,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64177,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64178,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64179,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64180,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64181,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64182,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64183,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64184,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64185,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64186,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64187,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64188,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64189,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64190,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64191,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64192,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64193,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64194,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64195,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64196,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64197,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64198,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64199,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64200,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64201,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64202,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64203,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64204,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64205,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64206,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64207,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64208,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64209,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64210,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64211,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64212,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64213,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64214,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 64215,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 64216,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 64217,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64218,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64219,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64220,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64221,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64222,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64223,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64224,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64225,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64226,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64227,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64228,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64229,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64230,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64231,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64232,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64233,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64234,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64235,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64236,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64237,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64238,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64239,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64240,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64241,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64242,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64243,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64244,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64245,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64246,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64247,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64248,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64249,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64250,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64251,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64252,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64253,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64254,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64255,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64256,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64257,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64258,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64259,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64260,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64261,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64262,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64263,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64264,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64265,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64266,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64267,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64268,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64269,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64270,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64271,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64272,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64273,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64274,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64275,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64276,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64277,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64278,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64279,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64280,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64281,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64282,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64283,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64284,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64285,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 64286,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 64287,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 64288,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        }
+      ],
+      "methods": [
+        "native_local",
+        "value_same_pair",
+        "value_budget_pair",
+        "differential_pair",
+        "differential_one",
+        "differential_no_conditioning",
+        "differential_corrupt",
+        "differential_restored",
+        "analytic_pair"
+      ],
+      "corruption_seed": 65001,
+      "query_budget_lpe": 512,
+      "max_depth": 6,
+      "beam_width": 4,
+      "children_per_parent": 6,
+      "contract_size": 6,
+      "target_count": 3,
+      "protected_tolerance": 0.05,
+      "max_atom_amplitude": 2.0,
+      "max_write_rms": 0.15,
+      "max_live_rms": 2.0,
+      "controller_payload_cap_bytes": 8388608,
+      "activity_workspace_cap_bytes": 1048576
+    }
+  },
+  "stopping_rule": "One complete fixed study.32 E/K source contexts per scope; endpoint-only work-matched sample count determined solely by actual native query counts, bounded by512 source points.8 source-validation contexts per scope are diagnostic. All models/source hashes sealed before288 later outcomes. Each of9 arms uses the same6-depth,4-width,6-child engine with512-LPE search allowance; actual goal, empty frontier, depth or query limit stops an arm. Keep every case and failed branch; no later-outcome-driven tuning, threshold changes or exclusions. Engineering exceptions preserve source snapshots, raw partial data and failure receipt before a documented new run."
+}

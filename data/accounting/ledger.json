@@ -1,0 +1,15 @@
+{
+  "historical_inventory_discovery": {
+    "producer_norm": 1129,
+    "producer_gate_projection": 1129,
+    "producer_up_projection": 1129,
+    "fidelity_masked_down": 3,
+    "atom_down_projection": 111,
+    "consumer_norm": 261,
+    "consumer_gate_projection": 261,
+    "consumer_vjp": 74,
+    "selector_down_adjoint": 476,
+    "interface_basis_probe": 16
+  },
+  "original_sha256": "f35fb17df08ffb514cc8c56acb23b248d74974464ce79fc11536486251c8afa6"
+}

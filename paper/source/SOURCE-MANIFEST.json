@@ -1,0 +1,72 @@
+[
+  {
+    "path": "main.tex",
+    "bytes": 47474,
+    "sha256": "18d47b473a001585f5d92a0fcdbddd4b312eaf6706422f9d76bb75bddf538bf0"
+  },
+  {
+    "path": "references.bib",
+    "bytes": 8096,
+    "sha256": "041cadaf8800595abf0c4930d299cca97611e4ae5b8d4c7ee41a5c59759e25cc"
+  },
+  {
+    "path": "numbers.tex",
+    "bytes": 497,
+    "sha256": "d5127aaba56e60d6dec3bf3089d2acb3801dc62e24fe6f4d7ef7c11938077622"
+  },
+  {
+    "path": "draw_architecture.py",
+    "bytes": 2824,
+    "sha256": "bdfb399c5c0d5a51d018dd7a12646a1e8ba75b79f6cc27441d2c599a22c4b989"
+  },
+  {
+    "path": "make_validation_table.py",
+    "bytes": 1284,
+    "sha256": "acb8ef925ccae4e97b740b0ac2b85d633b024717a8c166e02e5393741e70acb4"
+  },
+  {
+    "path": "validation-data.json",
+    "bytes": 2671,
+    "sha256": "a66d26fce38a01edd5cfc9e0e98ef2ed32ebcdd66224b497865738be0ddad992"
+  },
+  {
+    "path": "main.bbl",
+    "bytes": 8603,
+    "sha256": "bf591a13537bb031ddfcbc39d7f1784013118c3c3308bf13ddc85a90c354ba7f"
+  },
+  {
+    "path": "tables/domains.tex",
+    "bytes": 469,
+    "sha256": "e9ce1a26c1f5d4f99660357dd0f16af9cd39b75593ecc638bccd47ded3015d92"
+  },
+  {
+    "path": "tables/main.tex",
+    "bytes": 618,
+    "sha256": "abd0bc3a4ed72ed4d04e61f8b6bc76f109777d885bc3d38ea7de54c2ab51ba27"
+  },
+  {
+    "path": "tables/positioning.tex",
+    "bytes": 845,
+    "sha256": "23d2a0ec1459949ec2b886c7e6374313271552f0a6f6fc938a79e192a277d4f9"
+  },
+  {
+    "path": "tables/validation.tex",
+    "bytes": 602,
+    "sha256": "cf230be2a59dfca7437d9dad616b1e6a832db77c7a0053254ace8e4fdc9123fb"
+  },
+  {
+    "path": "figures/interface-runtime.pdf",
+    "bytes": 24368,
+    "sha256": "4f80f008bceef4aadc46bd0c5acb9c79dee2ff4e009a136f43990827c189d198"
+  },
+  {
+    "path": "figures/lifecycle.pdf",
+    "bytes": 34818,
+    "sha256": "a6ea7bd00cfe3a952ab280ff3470504551bc4372e74e4e6d4cfb202f10755788"
+  },
+  {
+    "path": "figures/outcomes.pdf",
+    "bytes": 19685,
+    "sha256": "f09cd6b77996729e092d48f46a47a240bd561bb019e8a5f872619dbcddda6e53"
+  }
+]

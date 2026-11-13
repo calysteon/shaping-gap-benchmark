@@ -1,0 +1,78 @@
+{
+  "source": "P47 final summary; existing held-out source validation",
+  "source_sha256": "7e725f85a5206b4f029a1110a5afb097d61799b76c30f5bfe84f39c8e8858e01",
+  "validation": [
+    {
+      "differential": {
+        "amplitude_rmse": 2.607503997598597,
+        "effect_rmse": 0.3572931464859275,
+        "effect_derivative_rmse": 0.1163538787681778,
+        "effect_derivative_rms": 0.12902703935974436
+      },
+      "value_same": {
+        "amplitude_rmse": 3.3468031488529335,
+        "effect_rmse": 0.36049433878871395,
+        "effect_derivative_rmse": 0.12417394628777391,
+        "effect_derivative_rms": 0.12902703935974436
+      },
+      "value_budget": {
+        "amplitude_rmse": 2.1324527329002008,
+        "effect_rmse": 0.33585919143125237,
+        "effect_derivative_rmse": 0.141632661237029,
+        "effect_derivative_rms": 0.12902703935974436
+      },
+      "analytic": {
+        "amplitude_rmse": 1.5950755158982124e-06,
+        "effect_rmse": 4.726986164260633e-07
+      }
+    },
+    {
+      "differential": {
+        "amplitude_rmse": 0.41139937693166034,
+        "effect_rmse": 0.18005788095738273,
+        "effect_derivative_rmse": 0.05316147699680675,
+        "effect_derivative_rms": 0.06795996836191184
+      },
+      "value_same": {
+        "amplitude_rmse": 2.5528258746336587,
+        "effect_rmse": 0.24858420929046493,
+        "effect_derivative_rmse": 0.06346510810149864,
+        "effect_derivative_rms": 0.06795996836191184
+      },
+      "value_budget": {
+        "amplitude_rmse": 0.540516276120416,
+        "effect_rmse": 0.1619747669380768,
+        "effect_derivative_rmse": 0.060572594741332336,
+        "effect_derivative_rms": 0.06795996836191184
+      },
+      "analytic": {
+        "amplitude_rmse": 2.110857199322889e-06,
+        "effect_rmse": 5.653360238230598e-07
+      }
+    },
+    {
+      "differential": {
+        "amplitude_rmse": 0.08217684230969137,
+        "effect_rmse": 0.0068229161335455375,
+        "effect_derivative_rmse": 0.0023087209656331856,
+        "effect_derivative_rms": 0.014511313076646394
+      },
+      "value_same": {
+        "amplitude_rmse": 0.49037313917249503,
+        "effect_rmse": 0.04174266504170885,
+        "effect_derivative_rmse": 0.011964269840956332,
+        "effect_derivative_rms": 0.014511313076646394
+      },
+      "value_budget": {
+        "amplitude_rmse": 0.07560985156164525,
+        "effect_rmse": 0.006529258261974578,
+        "effect_derivative_rmse": 0.0026971781473816812,
+        "effect_derivative_rms": 0.014511313076646394
+      },
+      "analytic": {
+        "amplitude_rmse": 1.3766963843114725e-06,
+        "effect_rmse": 7.392017428903389e-07
+      }
+    }
+  ]
+}

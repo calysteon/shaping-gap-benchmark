@@ -1,0 +1,34 @@
+{
+  "checkpoint": {
+    "repo": "Qwen/Qwen3-0.6B-MLX-4bit",
+    "revision": "173234aa840d113125e9f2271100ddbaf16c9620",
+    "method": "Public checkpoint, provided 4-bit quantization, frozen for experiments; no conversion or model training.",
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3-0.6B-MLX-4bit",
+      "https://github.com/ml-explore/mlx-lm"
+    ]
+  },
+  "original_source_summary_sha256": "b0aad644799bc33c44b1e977d44a23718fe97d56703efea3a60958160996f4a4",
+  "original_final_summary_sha256": "7e725f85a5206b4f029a1110a5afb097d61799b76c30f5bfe84f39c8e8858e01",
+  "original_source_trace_sha256": "3ad3893874ce9bff4699f735b9ccc784b67b5e9c98a9ab9ff7c8d1ff81c5e1f4",
+  "original_final_trace_sha256": "95f637fcea3ecfe395083ab75ed0355e10db612e92f5e779cc627385eecebd61",
+  "execution_kernels": {
+    "substrate.py": {
+      "original_sha256": "2ea65a2217dce0dcc42445390f7c7e59e06509521e59575fbd51017742bae4ad",
+      "release_sha256": "2ea65a2217dce0dcc42445390f7c7e59e06509521e59575fbd51017742bae4ad"
+    },
+    "interfaces.py": {
+      "original_sha256": "45f4c4723c50bebd6ea34df90e6b6314412ad0d244f74301a32e74769deb9f35",
+      "release_sha256": "45f4c4723c50bebd6ea34df90e6b6314412ad0d244f74301a32e74769deb9f35"
+    },
+    "native.py": {
+      "original_sha256": "dda56fb1f938c13ce9e7bf0a71e7f05d4a80f4ccd8478252e92b68fbd309f076",
+      "release_sha256": "dda56fb1f938c13ce9e7bf0a71e7f05d4a80f4ccd8478252e92b68fbd309f076"
+    },
+    "planner.py": {
+      "original_sha256": "bdc522a779d4102ff3d362123e12d59d18d4ab517ffe61de5ab1c95ff7e1a238",
+      "release_sha256": "bdc522a779d4102ff3d362123e12d59d18d4ab517ffe61de5ab1c95ff7e1a238"
+    }
+  },
+  "packaging": "Portable entry points; measured learning/search/native kernels unchanged. Geometry class copied verbatim; unused earlier audit entry point removed. Full checkpoint and internal research history excluded."
+}

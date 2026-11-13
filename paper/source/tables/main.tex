@@ -1,0 +1,15 @@
+\begin{tabular}{lrrrr}
+\toprule
+Method & Solved & Source LPE & Lifecycle LPE & Active s\\
+\midrule
+Native local & 80 & 0 & 130,416 & 26.55 \\
+Endpoint, 32 contexts & 100 & 6,240 & 109,865 & 27.94 \\
+Endpoint, query-matched & 105 & 67,665 & 173,739 & 39.77 \\
+Differential interfaces & 104 & 67,680 & 173,016 & 34.54 \\
+Differential, one-step & 102 & 67,680 & 173,487 & 33.95 \\
+Conditioning removed & 105 & 67,680 & 172,401 & 34.18 \\
+Conditioning permuted & 108 & 67,680 & 172,497 & 34.26 \\
+Restored & 104 & 67,680 & 173,016 & 34.50 \\
+Structured reference & 129 & 339 & 102,519 & 27.38 \\
+\bottomrule
+\end{tabular}

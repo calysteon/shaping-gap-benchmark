@@ -1,0 +1,24 @@
+{
+  "differential": {
+    "amplitude_rmse": 0.08217684230969137,
+    "effect_rmse": 0.0068229161335455375,
+    "effect_derivative_rmse": 0.0023087209656331856,
+    "effect_derivative_rms": 0.014511313076646394
+  },
+  "value_same": {
+    "amplitude_rmse": 0.49037313917249503,
+    "effect_rmse": 0.04174266504170885,
+    "effect_derivative_rmse": 0.011964269840956332,
+    "effect_derivative_rms": 0.014511313076646394
+  },
+  "value_budget": {
+    "amplitude_rmse": 0.07560985156164525,
+    "effect_rmse": 0.006529258261974578,
+    "effect_derivative_rmse": 0.0026971781473816812,
+    "effect_derivative_rms": 0.014511313076646394
+  },
+  "analytic": {
+    "amplitude_rmse": 1.3766963843114725e-06,
+    "effect_rmse": 7.392017428903389e-07
+  }
+}

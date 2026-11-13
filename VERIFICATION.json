@@ -1,0 +1,123 @@
+{
+  "paper_pages": 17,
+  "source_reacquisition": {
+    "source_arrays_reacquired_exact": 24,
+    "physical_coordinates_exact": true,
+    "validation_metrics_exact": true,
+    "weights_unchanged": true,
+    "model_hashes": [
+      {
+        "path": "scopes/0/E-source-budget.npz",
+        "sha256": "2fd8c20cf080527f6ee68a0528ad3334eea67e7309db9542b0c9670a1d4d4ab0"
+      },
+      {
+        "path": "scopes/0/EK-source.npz",
+        "sha256": "bdf0d7de291d52e9baf186ed75a587497b706d13ea2f6a24c063edba6837e116"
+      },
+      {
+        "path": "scopes/0/analytic.npz",
+        "sha256": "ff2ed70106ab195bec1ff3cfd4a14b7077fea9f2a99455082243d53afd6b5767"
+      },
+      {
+        "path": "scopes/0/differential.npz",
+        "sha256": "149308301307fca2048a22f3d683c6b65ce9e63b764bfae0c04dda9057b1259d"
+      },
+      {
+        "path": "scopes/0/domain.npz",
+        "sha256": "c907ed9ecba15b6bb426a95d9cf48104793dabfbb25bf42fad9daf70f7d2a645"
+      },
+      {
+        "path": "scopes/0/validation.npz",
+        "sha256": "911fa6dd7134cd387dc5bb58560781c7f4527d83f0e070b67586a01952367cbd"
+      },
+      {
+        "path": "scopes/0/value_budget.npz",
+        "sha256": "8d861c39004d471a04055ff2715e640a443076e592359b81c2669e6756fde9b5"
+      },
+      {
+        "path": "scopes/0/value_same.npz",
+        "sha256": "3484a6e8b41f52e096741fa3b107c51193f7cce3c3af31c933f6df4bb97bfb90"
+      },
+      {
+        "path": "scopes/1/E-source-budget.npz",
+        "sha256": "a224b4e003be3218a79bbfdf009e965d8a638fe73eb7565a656e7edc7b1556dc"
+      },
+      {
+        "path": "scopes/1/EK-source.npz",
+        "sha256": "db09255054d862743415b891d3e0069094ce41d5f2a05a33b50a6c0093d6a4db"
+      },
+      {
+        "path": "scopes/1/analytic.npz",
+        "sha256": "7c739c2324a757adc6eaa09bb7625786800382be06218fbee603e15403028e72"
+      },
+      {
+        "path": "scopes/1/differential.npz",
+        "sha256": "9dacdf208b1ffcf37c93742ceb2908b9f4470656ea669000725024c18fffa9cf"
+      },
+      {
+        "path": "scopes/1/domain.npz",
+        "sha256": "e6f145ad9231d08fd965a074c0a707ac0282e5f0c2e5d75f7c5398062ed42919"
+      },
+      {
+        "path": "scopes/1/validation.npz",
+        "sha256": "b0fae561731f1d9278eec5ed17b3a1cb4223b403e2d73c84d28754fd729b6727"
+      },
+      {
+        "path": "scopes/1/value_budget.npz",
+        "sha256": "c6f12aadca74bbc54493f635d6861b9d9373d052e12a8fe4739a7129c7f01a6f"
+      },
+      {
+        "path": "scopes/1/value_same.npz",
+        "sha256": "2d447bc18aa58af00e595bca9989ea820e5aabe832557ee384a62164c80e998a"
+      },
+      {
+        "path": "scopes/2/E-source-budget.npz",
+        "sha256": "71965f1542c4fd838d9665e49aef614692f5ddeb130fa2b364a95b547462677e"
+      },
+      {
+        "path": "scopes/2/EK-source.npz",
+        "sha256": "cfac501b3496a814a00623e12fa2cff62d082782d72b8c15bd1117d66ada94d3"
+      },
+      {
+        "path": "scopes/2/analytic.npz",
+        "sha256": "b437fa4e9bff989f32a2dcccdedea8e4039f35ec577c508db7695909184e7381"
+      },
+      {
+        "path": "scopes/2/differential.npz",
+        "sha256": "f4d90bcc0e4b20478e4b540eb5c4340b82abd448c7f0d2d431899e341c12a6a3"
+      },
+      {
+        "path": "scopes/2/domain.npz",
+        "sha256": "144913a4f9d6141dd1e7b90222838d87632ec08a78bf3c7450fdbe6bf8f25521"
+      },
+      {
+        "path": "scopes/2/validation.npz",
+        "sha256": "3ab5d622c34a57949f0a749898edf31ccd7b0c55e4cdf497ae8fc394582a850f"
+      },
+      {
+        "path": "scopes/2/value_budget.npz",
+        "sha256": "4813cd65e78f1aed019a4420f1e6e54438a8042dce427287d5d8fe3aca1ec749"
+      },
+      {
+        "path": "scopes/2/value_same.npz",
+        "sha256": "2d76b7004dcd958cb7eff71f1e906d4b613ab219c26dfb304f076b378ab713ad"
+      }
+    ]
+  },
+  "complete_native_run": {
+    "conditions": 288,
+    "methods": 9,
+    "programs": 2592,
+    "all_graphs_states_readouts_quality_and_work_exact": true,
+    "weight_bytes_unchanged": true,
+    "original_measurements_preserved": true
+  },
+  "selected_graphs_native_bit_exact": 2592,
+  "sampled_branches": 512,
+  "source_ad_checks": 24,
+  "numpy_replay_contract_agreement": 2592,
+  "report_lifecycle_ledgers_exact": 9,
+  "portable_source_build_text_identical": true,
+  "original_paper_results_changed": false,
+  "scope": "Engineering reproduction of the existing paper experiment; no new scientific trial or pooled outcomes."
+}

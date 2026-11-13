@@ -1,0 +1,57 @@
+{
+  "scope": "Component timing replay of the endpoint-only32-context arm; no source refit or later outcome changes.",
+  "timings": [
+    {
+      "scope": 0,
+      "seconds": 0.43250779202207923,
+      "native_work": {
+        "atom_down_projection": 704,
+        "consumer_gate_projection": 736,
+        "consumer_norm": 736,
+        "producer_gate_projection": 320,
+        "producer_norm": 320,
+        "producer_up_projection": 320
+      },
+      "lpe": 2080,
+      "source_effects_bit_exact": true
+    },
+    {
+      "scope": 1,
+      "seconds": 0.39696245919913054,
+      "native_work": {
+        "atom_down_projection": 704,
+        "consumer_gate_projection": 736,
+        "consumer_norm": 736,
+        "producer_gate_projection": 320,
+        "producer_norm": 320,
+        "producer_up_projection": 320
+      },
+      "lpe": 2080,
+      "source_effects_bit_exact": true
+    },
+    {
+      "scope": 2,
+      "seconds": 0.38133408315479755,
+      "native_work": {
+        "atom_down_projection": 704,
+        "consumer_gate_projection": 736,
+        "consumer_norm": 736,
+        "producer_gate_projection": 320,
+        "producer_norm": 320,
+        "producer_up_projection": 320
+      },
+      "lpe": 2080,
+      "source_effects_bit_exact": true
+    }
+  ],
+  "weights_unchanged": true,
+  "native_work_total": {
+    "consumer_norm": 2208,
+    "consumer_gate_projection": 2208,
+    "producer_norm": 960,
+    "producer_gate_projection": 960,
+    "producer_up_projection": 960,
+    "atom_down_projection": 2112
+  },
+  "note": "Measured separately after final evaluation to avoid contaminating the primary arm timing; original source and solver timings retained."
+}

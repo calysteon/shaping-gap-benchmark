@@ -1,0 +1,27 @@
+{
+  "readout": {
+    "layer": 14,
+    "indices": [
+      2841,
+      253,
+      289,
+      1869,
+      1513,
+      464,
+      628,
+      305,
+      374,
+      2955,
+      231,
+      1058
+    ]
+  },
+  "definition": {
+    "anchor_seed": 61001,
+    "anchor_rms": 0.12,
+    "consumer_layer": 14,
+    "readout_seed": 61501,
+    "source_seed": 62001,
+    "validation_seed": 63001
+  }
+}

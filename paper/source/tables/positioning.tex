@@ -1,0 +1,11 @@
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.23\linewidth}>{\raggedright\arraybackslash}p{0.31\linewidth}>{\raggedright\arraybackslash}p{0.38\linewidth}@{}}
+\toprule
+Method & Reusable object & Execution decision\\
+\midrule
+PoLar \citep{polar} & Input-to-program predictor & Skip, keep or repeat layer segments\\[0.35em]
+Module recomposition \citep{recomposition} & Learned class-subnetwork masks & Combine classifier modules\\[0.35em]
+Activation-LQR \citep{alqr} & Control gains from local neural dynamics & Steer activations during layerwise inference\\[0.35em]
+HOUDINI \citep{houdini} & Typed neural-function library & Synthesize and train a neural program\\[0.35em]
+Our runtime & Native amplitude, accumulated effect and context partial & Forecast and construct a native program against a readout contract\\
+\bottomrule
+\end{tabular}

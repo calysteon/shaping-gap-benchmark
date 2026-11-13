@@ -1,0 +1,185 @@
+\begin{thebibliography}{24}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bansal et~al.(2021)Bansal, Nakkiran, and Barak]{stitching}
+Yamini Bansal, Preetum Nakkiran, and Boaz Barak.
+\newblock Revisiting model stitching to compare neural representations, 2021.
+\newblock URL \url{https://arxiv.org/abs/2106.07682}.
+
+\bibitem[Conmy et~al.(2023)Conmy, Mavor-Parker, Lynch, Heimersheim, and
+  Garriga-Alonso]{acdc}
+Arthur Conmy, Augustine~N. Mavor-Parker, Aengus Lynch, Stefan Heimersheim, and
+  Adri{\`a} Garriga-Alonso.
+\newblock Towards automated circuit discovery for mechanistic interpretability.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~36, 2023.
+\newblock URL \url{https://arxiv.org/abs/2304.14997}.
+
+\bibitem[Czarnecki et~al.(2017)Czarnecki, Osindero, Jaderberg, Swirszcz, and
+  Pascanu]{sobolev}
+Wojciech~M. Czarnecki, Simon Osindero, Max Jaderberg, Grzegorz Swirszcz, and
+  Razvan Pascanu.
+\newblock Sobolev training for neural networks.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2017.
+\newblock URL
+  \url{https://papers.nips.cc/paper_files/paper/2017/hash/758a06618c69880a6cee5314ee42d52f-Abstract.html}.
+
+\bibitem[Ellis et~al.(2020)Ellis, Wong, Nye, Sable-Meyer, Cary, Morales,
+  Hewitt, Solar-Lezama, and Tenenbaum]{dreamcoder}
+Kevin Ellis, Catherine Wong, Maxwell Nye, Mathias Sable-Meyer, Luc Cary, Lucas
+  Morales, Luke Hewitt, Armando Solar-Lezama, and Joshua~B. Tenenbaum.
+\newblock Dreamcoder: Growing generalizable, interpretable knowledge with
+  wake-sleep {Bayesian} program learning, 2020.
+\newblock URL \url{https://arxiv.org/abs/2006.08381}.
+
+\bibitem[Fumero et~al.(2024)Fumero, Pegoraro, Maiorca, Locatello, and
+  Rodol{\`a}]{lfm}
+Marco Fumero, Marco Pegoraro, Valentino Maiorca, Francesco Locatello, and
+  Emanuele Rodol{\`a}.
+\newblock Latent functional maps: A spectral framework for representation
+  alignment.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~37, pages 66178--66203, 2024.
+\newblock URL \url{https://arxiv.org/abs/2406.14183}.
+
+\bibitem[Grand et~al.(2024)Grand, Wong, Bowers, Olausson, Liu, Tenenbaum, and
+  Andreas]{lilo}
+Gabriel Grand, Lionel Wong, Maddy Bowers, Theo~X. Olausson, Muxin Liu,
+  Joshua~B. Tenenbaum, and Jacob Andreas.
+\newblock {LILO}: Learning interpretable libraries by compressing and
+  documenting code.
+\newblock In \emph{International Conference on Learning Representations}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2310.19791}.
+
+\bibitem[Janizek et~al.(2021)Janizek, Sturmfels, and Lee]{ih}
+Joseph~D. Janizek, Pascal Sturmfels, and Su-In Lee.
+\newblock Explaining explanations: Axiomatic feature interactions for deep
+  networks.
+\newblock \emph{Journal of Machine Learning Research}, 22\penalty0
+  (104):\penalty0 1--54, 2021.
+\newblock URL \url{https://jmlr.csail.mit.edu/beta/papers/v22/20-1223.html}.
+
+\bibitem[Kingetsu et~al.(2021)Kingetsu, Kobayashi, and Suzuki]{recomposition}
+Hiroaki Kingetsu, Kenichi Kobayashi, and Taiji Suzuki.
+\newblock Neural network module decomposition and recomposition, 2021.
+\newblock URL \url{https://arxiv.org/abs/2112.13208}.
+
+\bibitem[Konidaris et~al.(2018)Konidaris, Kaelbling, and
+  Lozano-P{\'e}rez]{skills}
+George Konidaris, Leslie~Pack Kaelbling, and Tom{\'a}s Lozano-P{\'e}rez.
+\newblock From skills to symbols: Learning symbolic representations for
+  abstract high-level planning.
+\newblock \emph{Journal of Artificial Intelligence Research}, 61:\penalty0
+  215--289, 2018.
+\newblock URL \url{https://cs.brown.edu/people/gdk/pubs/orig_sym_jair.pdf}.
+
+\bibitem[Li et~al.(2025)Li, Li, and Zhou]{cola}
+Ziyue Li, Yang Li, and Tianyi Zhou.
+\newblock Skip a layer or loop it? test-time depth adaptation of pretrained
+  {LLM}s, 2025.
+\newblock URL \url{https://arxiv.org/abs/2507.07996}.
+
+\bibitem[Li et~al.(2026)Li, Li, and Zhou]{polar}
+Ziyue Li, Yang Li, and Tianyi Zhou.
+\newblock Skip a layer or loop it? learning program-of-layers in {LLM}s, 2026.
+\newblock URL \url{https://arxiv.org/abs/2606.06574}.
+\newblock Version 2, August 2026.
+
+\bibitem[Liu et~al.(2023)Liu, Wang, Dao, Zhou, Yuan, Song, Shrivastava, Zhang,
+  Tian, Re, and Chen]{dejavu}
+Zichang Liu, Jue Wang, Tri Dao, Tianyi Zhou, Binhang Yuan, Zhao Song, Anshumali
+  Shrivastava, Ce~Zhang, Yuandong Tian, Christopher Re, and Beidi Chen.
+\newblock Deja vu: Contextual sparsity for efficient {LLM}s at inference time.
+\newblock In \emph{Proceedings of the 40th International Conference on Machine
+  Learning}, volume 202 of \emph{Proceedings of Machine Learning Research},
+  pages 22137--22176, 2023.
+\newblock URL \url{https://proceedings.mlr.press/v202/liu23am.html}.
+
+\bibitem[{MLX LM Contributors}(2026)]{mlx}
+{MLX LM Contributors}.
+\newblock {MLX LM}, 2026.
+\newblock URL \url{https://github.com/ml-explore/mlx-lm}.
+\newblock Version 0.32.2; experiments use MLX 0.32.4.
+
+\bibitem[{Qwen Team}(2025)]{checkpoint}
+{Qwen Team}.
+\newblock {Qwen3-0.6B-MLX-4bit}, 2025.
+\newblock URL \url{https://huggingface.co/Qwen/Qwen3-0.6B-MLX-4bit}.
+\newblock Checkpoint revision 173234aa840d113125e9f2271100ddbaf16c9620.
+
+\bibitem[Rahaman et~al.(2021)Rahaman, Gondal, Joshi, Gehler, Bengio, Locatello,
+  and Sch{\"o}lkopf]{interpreters}
+Nasim Rahaman, Muhammad~Waleed Gondal, Shruti Joshi, Peter Gehler, Yoshua
+  Bengio, Francesco Locatello, and Bernhard Sch{\"o}lkopf.
+\newblock Dynamic inference with neural interpreters.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2021.
+\newblock URL \url{https://arxiv.org/abs/2110.06399}.
+
+\bibitem[Rosenbaum et~al.(2017)Rosenbaum, Klinger, and Riemer]{routing}
+Clemens Rosenbaum, Tim Klinger, and Matthew Riemer.
+\newblock Routing networks: Adaptive selection of non-linear functions for
+  multi-task learning, 2017.
+\newblock URL \url{https://arxiv.org/abs/1711.01239}.
+
+\bibitem[Shazeer(2020)]{swiglu}
+Noam Shazeer.
+\newblock {GLU} variants improve transformer, 2020.
+\newblock URL \url{https://arxiv.org/abs/2002.05202}.
+
+\bibitem[Silver et~al.(2023)Silver, Athalye, Tenenbaum, Lozano-P{\'e}rez, and
+  Kaelbling]{neuroskills}
+Tom Silver, Ashay Athalye, Joshua~B. Tenenbaum, Tom{\'a}s Lozano-P{\'e}rez, and
+  Leslie~Pack Kaelbling.
+\newblock Learning neuro-symbolic skills for bilevel planning.
+\newblock In \emph{Proceedings of the 6th Conference on Robot Learning}, volume
+  205 of \emph{Proceedings of Machine Learning Research}, pages 701--714, 2023.
+\newblock URL \url{https://proceedings.mlr.press/v205/silver23a.html}.
+
+\bibitem[Skifstad et~al.(2026)Skifstad, Yang, and Chou]{alqr}
+Julian Skifstad, Xinyue~Annie Yang, and Glen Chou.
+\newblock Local linearity of {LLM}s enables activation steering via model-based
+  linear optimal control, 2026.
+\newblock URL \url{https://arxiv.org/abs/2604.19018}.
+
+\bibitem[Sundararajan et~al.(2017)Sundararajan, Taly, and Yan]{ig}
+Mukund Sundararajan, Ankur Taly, and Qiqi Yan.
+\newblock Axiomatic attribution for deep networks.
+\newblock In \emph{Proceedings of the International Conference on Machine
+  Learning}, pages 3319--3328, 2017.
+\newblock URL \url{https://proceedings.mlr.press/v70/sundararajan17a.html}.
+
+\bibitem[Valkov et~al.(2018)Valkov, Chaudhari, Srivastava, Sutton, and
+  Chaudhuri]{houdini}
+Lazar Valkov, Dipak Chaudhari, Akash Srivastava, Charles Sutton, and Swarat
+  Chaudhuri.
+\newblock {HOUDINI}: Lifelong learning as program synthesis.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~31, 2018.
+\newblock URL \url{https://arxiv.org/abs/1804.00218}.
+
+\bibitem[Weiss et~al.(2022)Weiss, Rahaman, Locatello, Pal, Bengio,
+  Sch{\"o}lkopf, Li, and Ballas]{nac}
+Martin Weiss, Nasim Rahaman, Francesco Locatello, Chris Pal, Yoshua Bengio,
+  Bernhard Sch{\"o}lkopf, Li~Erran Li, and Nicolas Ballas.
+\newblock Neural attentive circuits.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2022.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2022/hash/32f227c41a0b4e36f65bebb4aeda94a2-Abstract-Conference.html}.
+
+\bibitem[Yang et~al.(2025)]{qwen3}
+An~Yang et~al.
+\newblock {Qwen3} technical report, 2025.
+\newblock URL \url{https://arxiv.org/abs/2505.09388}.
+
+\bibitem[Zhang and Sennrich(2019)]{rmsnorm}
+Biao Zhang and Rico Sennrich.
+\newblock Root mean square layer normalization.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~32, 2019.
+\newblock URL \url{https://arxiv.org/abs/1910.07467}.
+
+\end{thebibliography}

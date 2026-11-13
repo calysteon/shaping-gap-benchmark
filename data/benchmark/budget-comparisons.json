@@ -1,0 +1,30 @@
+{
+  "lpe": {
+    "common_completed_budget": 102519,
+    "successes": {
+      "native_local": 73,
+      "value_same_pair": 96,
+      "value_budget_pair": 58,
+      "differential_pair": 56,
+      "differential_one": 56,
+      "differential_no_conditioning": 58,
+      "differential_corrupt": 57,
+      "differential_restored": 56,
+      "analytic_pair": 129
+    }
+  },
+  "seconds": {
+    "common_completed_budget": 26.551218048203737,
+    "successes": {
+      "native_local": 80,
+      "value_same_pair": 96,
+      "value_budget_pair": 72,
+      "differential_pair": 87,
+      "differential_one": 90,
+      "differential_no_conditioning": 90,
+      "differential_corrupt": 89,
+      "differential_restored": 87,
+      "analytic_pair": 124
+    }
+  }
+}

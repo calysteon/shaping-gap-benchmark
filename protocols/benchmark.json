@@ -1,0 +1,1939 @@
+{
+  "id": "P47-KEYSTONE-STOP-AWARE-001",
+  "kind": "fresh_central_validation_after_planner_correction",
+  "claim_ids": [
+    "MG1",
+    "MG2",
+    "MG3"
+  ],
+  "question": "Can acquired accumulated-effect/context-sensitivity interfaces improve later compositional native construction after acquisition and lifecycle cost, relative to the same search with endpoint-only interfaces, equal-acquisition-work endpoint data, local native sensitivity and architecture-aware structure?",
+  "design": "Reuse every frozen source model/domain/acquisition receipt from P46. Apply a symmetric stop-aware ranking correction to all paired controls: select one-step completion or best compatible continuation, and use one-step guidance at the final allowed depth or insufficient remaining query allowance. Evaluate288 fresh contexts/masks with the same increasing-demand schedule. No refitting. Three fixed local domains on the pinned ordinary frozen pretrained model;22 native units and their measured output span define a reachable coordinate system. Each domain has a different Gaussian anchor scale and native consumer layer;12 readout coordinates are chosen from anchor activities. Acquire32 source contexts with actual amplitudes, total effects E and all22 directional context partials K D. Fit a generic quadratic interface for each native component: amplitude and12 effects; fit with value and native derivative labels. Its derivative and directional integral are computed consistently from its retained coefficients. Source derivatives include the native live-producer activity derivative. Seal all models before288 fresh contexts/requirements, with increasing target increments in four fixed cohorts. The same beam search ranks component combinations via a dynamic predecessor/successor compatibility graph. Native execution checks every real branch and graph deployment.",
+  "information_access": "The learner observes numerical native source behavior and derivatives, original physical unit boundaries and measured output directions. Reachable coordinates/finite domain, polynomial family and live residual graph grammar are supplied. No English, teacher program, labels of useful producers or authored semantic operation menu. Source validation is diagnostic only; does not select ridge/features/domains or alter planning. All three component interface families have identical parameterization. The analytic reference receives an explicit known RMSNorm/SwiGLU structural formula and calibrates its actual native projection rows; this extra architecture knowledge is documented. Original model parameters stay fixed.",
+  "baselines": "Native local sensitivity with exact current amplitudes; endpoint-only quadratic on identical32 contexts; endpoint-only quadratic with its context count set by measured equal native acquisition LPE budget (same first32 plus fresh predetermined contexts); full differential paired guidance; same differential model one-step only; same differential present effects with conditioning terms removed; permuted conditioning directions with present effects preserved; restored differential model; architecture-aware compiled paired reference. Generic models share the same paired compatibility scoring and execution engine. Dynamic successor classes are derived from acquired conditional response, not arbitrary k-means coverage.",
+  "resource_accounting": "LPE budget512 per search condition, counting initial readout, all forward projections and transpose-projection equivalents for native VJPs (two reverse projections for a producer activity gradient). Norm/scalar operations are logged separately. All primitives have fixed original dense dimensions; LPE is a transparent native-query metric, not hardware FLOPs or energy. Check the cap from actual primitive counts, not number of accepted writes. Also report all source acquisition and fitting, source validation, planning CPU, complete search/deployment active wall, retention and native verification. Primary lifecycle curves include acquisition at the origin and every later success/failure; show LPE and active wall separately and matched-quality cost. Research-only derivative validation is separately charged. Full native and process memory reported alongside8MiB controller payload and1MiB activity cache.",
+  "primary_outcomes": "Held-out value and K accuracy in each scope; solved native contracts by method/domain/demand; cumulative solved count versus cumulative acquisition+search+deployment LPE and active wall; discrete matched-quality cost and observed break-even; loss of influence/quality under operator removal/corruption and exact restoration; actual multi-step graph and parameter fidelity. Published claims should follow these measured comparisons.",
+  "interpretation_rules": "Separate predictive interface quality, actual composition benefit and lifecycle return. Compare the differential method against equal-data, acquisition-work-matched and architecture-aware controls. Report stronger-reference outcomes and mixed/negative domains. Classification benefit means better actual compositions/cost, not just changed labels. Equal online query budget is distinct from full lifecycle cost. All numerical successes require exact native interval checks; same difficulty/order/physical syntax across arms. One source acquisition followed by reuse measures amortization; repeated acquisition cycles are a separate future question.",
+  "limitations": [
+    "Controlled22-dimensional local activation domains and supplied native numerical readouts on one pinned checkpoint; external semantic meaning and pretraining-specific advantage are not isolated.",
+    "Generic quadratic applicability is confined to declared domains. Exact architectural formulas are supplied only to the reference.",
+    "The physical inventory and coordinate syntax are supplied; the learned object is its component amplitude/effect/context-response interface.",
+    "LPE is a native matrix-query proxy; wall time, scalar planning and memory remain separate axes. Finite numerical held-out errors do not certify uniform approximation bounds.",
+    "Three anchors/readout layers share one substrate and22-unit inventory. Source/validation operator coordinates and repeated controls are correlated.",
+    "Repeated future tasks reuse sealed models; no interface updating occurs during later evaluation.",
+    "Planner correction followed P46 code review; P47 has fresh contexts in the same domain family and reuses the sealed sources."
+  ],
+  "planned_config": {
+    "plan_id": "P47-KEYSTONE-STOP-AWARE-001",
+    "config": {
+      "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+      "source_units": [
+        [
+          6,
+          2069
+        ],
+        [
+          10,
+          211
+        ],
+        [
+          13,
+          573
+        ],
+        [
+          16,
+          2273
+        ],
+        [
+          18,
+          74
+        ],
+        [
+          18,
+          804
+        ],
+        [
+          18,
+          1234
+        ],
+        [
+          18,
+          1741
+        ],
+        [
+          18,
+          1839
+        ],
+        [
+          18,
+          2230
+        ],
+        [
+          18,
+          2465
+        ],
+        [
+          18,
+          2490
+        ],
+        [
+          18,
+          2599
+        ],
+        [
+          19,
+          622
+        ],
+        [
+          19,
+          2864
+        ],
+        [
+          20,
+          2602
+        ],
+        [
+          21,
+          2259
+        ],
+        [
+          21,
+          2386
+        ],
+        [
+          23,
+          1226
+        ],
+        [
+          23,
+          2031
+        ],
+        [
+          24,
+          1914
+        ],
+        [
+          24,
+          2701
+        ]
+      ],
+      "scopes": [
+        {
+          "anchor_seed": 61001,
+          "anchor_rms": 0.12,
+          "consumer_layer": 14,
+          "readout_seed": 61501,
+          "source_seed": 62001,
+          "validation_seed": 63001
+        },
+        {
+          "anchor_seed": 61002,
+          "anchor_rms": 0.25,
+          "consumer_layer": 20,
+          "readout_seed": 61502,
+          "source_seed": 62002,
+          "validation_seed": 63002
+        },
+        {
+          "anchor_seed": 61003,
+          "anchor_rms": 0.6,
+          "consumer_layer": 25,
+          "readout_seed": 61503,
+          "source_seed": 62003,
+          "validation_seed": 63003
+        }
+      ],
+      "readout_size": 12,
+      "coordinate_min_value": 0.05,
+      "coordinate_max_value": 2.0,
+      "domain_radius": 1.5,
+      "initial_radius": 0.5,
+      "source_contexts": 32,
+      "max_endpoint_source_contexts": 512,
+      "validation_contexts": 8,
+      "ridge": 1e-06,
+      "gradient_weight": 1.0,
+      "later_conditions": [
+        {
+          "scope": 0,
+          "seed": 66001,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66002,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66003,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66004,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66005,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66006,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66007,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66008,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66009,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66010,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66011,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66012,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66013,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66014,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66015,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66016,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66017,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66018,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66019,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66020,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66021,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66022,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66023,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66024,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66025,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66026,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66027,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66028,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66029,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66030,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66031,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66032,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66033,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66034,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66035,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66036,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66037,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66038,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66039,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66040,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66041,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66042,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66043,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66044,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66045,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66046,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66047,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66048,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66049,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66050,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66051,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66052,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66053,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66054,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66055,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66056,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66057,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66058,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66059,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66060,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66061,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66062,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66063,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66064,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66065,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66066,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66067,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66068,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66069,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66070,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 1,
+          "seed": 66071,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 2,
+          "seed": 66072,
+          "target_increment": 0.025,
+          "demand_cohort": 0
+        },
+        {
+          "scope": 0,
+          "seed": 66073,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66074,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66075,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66076,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66077,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66078,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66079,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66080,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66081,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66082,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66083,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66084,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66085,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66086,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66087,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66088,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66089,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66090,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66091,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66092,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66093,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66094,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66095,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66096,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66097,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66098,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66099,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66100,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66101,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66102,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66103,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66104,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66105,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66106,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66107,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66108,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66109,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66110,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66111,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66112,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66113,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66114,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66115,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66116,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66117,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66118,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66119,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66120,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66121,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66122,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66123,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66124,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66125,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66126,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66127,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66128,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66129,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66130,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66131,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66132,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66133,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66134,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66135,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66136,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66137,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66138,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66139,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66140,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66141,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66142,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 1,
+          "seed": 66143,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 2,
+          "seed": 66144,
+          "target_increment": 0.05,
+          "demand_cohort": 1
+        },
+        {
+          "scope": 0,
+          "seed": 66145,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66146,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66147,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66148,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66149,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66150,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66151,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66152,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66153,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66154,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66155,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66156,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66157,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66158,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66159,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66160,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66161,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66162,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66163,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66164,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66165,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66166,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66167,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66168,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66169,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66170,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66171,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66172,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66173,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66174,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66175,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66176,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66177,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66178,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66179,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66180,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66181,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66182,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66183,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66184,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66185,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66186,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66187,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66188,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66189,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66190,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66191,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66192,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66193,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66194,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66195,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66196,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66197,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66198,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66199,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66200,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66201,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66202,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66203,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66204,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66205,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66206,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66207,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66208,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66209,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66210,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66211,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66212,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66213,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66214,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 1,
+          "seed": 66215,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 2,
+          "seed": 66216,
+          "target_increment": 0.075,
+          "demand_cohort": 2
+        },
+        {
+          "scope": 0,
+          "seed": 66217,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66218,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66219,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66220,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66221,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66222,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66223,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66224,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66225,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66226,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66227,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66228,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66229,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66230,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66231,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66232,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66233,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66234,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66235,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66236,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66237,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66238,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66239,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66240,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66241,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66242,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66243,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66244,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66245,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66246,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66247,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66248,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66249,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66250,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66251,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66252,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66253,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66254,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66255,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66256,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66257,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66258,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66259,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66260,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66261,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66262,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66263,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66264,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66265,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66266,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66267,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66268,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66269,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66270,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66271,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66272,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66273,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66274,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66275,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66276,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66277,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66278,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66279,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66280,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66281,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66282,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66283,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66284,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66285,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 0,
+          "seed": 66286,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 1,
+          "seed": 66287,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        },
+        {
+          "scope": 2,
+          "seed": 66288,
+          "target_increment": 0.1,
+          "demand_cohort": 3
+        }
+      ],
+      "methods": [
+        "native_local",
+        "value_same_pair",
+        "value_budget_pair",
+        "differential_pair",
+        "differential_one",
+        "differential_no_conditioning",
+        "differential_corrupt",
+        "differential_restored",
+        "analytic_pair"
+      ],
+      "corruption_seed": 65001,
+      "query_budget_lpe": 512,
+      "max_depth": 6,
+      "beam_width": 4,
+      "children_per_parent": 6,
+      "contract_size": 6,
+      "target_count": 3,
+      "protected_tolerance": 0.05,
+      "max_atom_amplitude": 2.0,
+      "max_write_rms": 0.15,
+      "max_live_rms": 2.0,
+      "controller_payload_cap_bytes": 8388608,
+      "activity_workspace_cap_bytes": 1048576,
+      "source_summary_sha256": "b0aad644799bc33c44b1e977d44a23718fe97d56703efea3a60958160996f4a4",
+      "inherited_model_sha256": {
+        "scopes/0/E-source-budget.npz": "2fd8c20cf080527f6ee68a0528ad3334eea67e7309db9542b0c9670a1d4d4ab0",
+        "scopes/0/EK-source.npz": "bdf0d7de291d52e9baf186ed75a587497b706d13ea2f6a24c063edba6837e116",
+        "scopes/0/analytic.npz": "ff2ed70106ab195bec1ff3cfd4a14b7077fea9f2a99455082243d53afd6b5767",
+        "scopes/0/differential.npz": "149308301307fca2048a22f3d683c6b65ce9e63b764bfae0c04dda9057b1259d",
+        "scopes/0/domain.npz": "c907ed9ecba15b6bb426a95d9cf48104793dabfbb25bf42fad9daf70f7d2a645",
+        "scopes/0/validation.npz": "911fa6dd7134cd387dc5bb58560781c7f4527d83f0e070b67586a01952367cbd",
+        "scopes/0/value_budget.npz": "8d861c39004d471a04055ff2715e640a443076e592359b81c2669e6756fde9b5",
+        "scopes/0/value_same.npz": "3484a6e8b41f52e096741fa3b107c51193f7cce3c3af31c933f6df4bb97bfb90",
+        "scopes/1/E-source-budget.npz": "a224b4e003be3218a79bbfdf009e965d8a638fe73eb7565a656e7edc7b1556dc",
+        "scopes/1/EK-source.npz": "db09255054d862743415b891d3e0069094ce41d5f2a05a33b50a6c0093d6a4db",
+        "scopes/1/analytic.npz": "7c739c2324a757adc6eaa09bb7625786800382be06218fbee603e15403028e72",
+        "scopes/1/differential.npz": "9dacdf208b1ffcf37c93742ceb2908b9f4470656ea669000725024c18fffa9cf",
+        "scopes/1/domain.npz": "e6f145ad9231d08fd965a074c0a707ac0282e5f0c2e5d75f7c5398062ed42919",
+        "scopes/1/validation.npz": "b0fae561731f1d9278eec5ed17b3a1cb4223b403e2d73c84d28754fd729b6727",
+        "scopes/1/value_budget.npz": "c6f12aadca74bbc54493f635d6861b9d9373d052e12a8fe4739a7129c7f01a6f",
+        "scopes/1/value_same.npz": "2d447bc18aa58af00e595bca9989ea820e5aabe832557ee384a62164c80e998a",
+        "scopes/2/E-source-budget.npz": "71965f1542c4fd838d9665e49aef614692f5ddeb130fa2b364a95b547462677e",
+        "scopes/2/EK-source.npz": "cfac501b3496a814a00623e12fa2cff62d082782d72b8c15bd1117d66ada94d3",
+        "scopes/2/analytic.npz": "b437fa4e9bff989f32a2dcccdedea8e4039f35ec577c508db7695909184e7381",
+        "scopes/2/differential.npz": "f4d90bcc0e4b20478e4b540eb5c4340b82abd448c7f0d2d431899e341c12a6a3",
+        "scopes/2/domain.npz": "144913a4f9d6141dd1e7b90222838d87632ec08a78bf3c7450fdbe6bf8f25521",
+        "scopes/2/validation.npz": "3ab5d622c34a57949f0a749898edf31ccd7b0c55e4cdf497ae8fc394582a850f",
+        "scopes/2/value_budget.npz": "4813cd65e78f1aed019a4420f1e6e54438a8042dce427287d5d8fe3aca1ec749",
+        "scopes/2/value_same.npz": "2d76b7004dcd958cb7eff71f1e906d4b613ab219c26dfb304f076b378ab713ad"
+      }
+    }
+  },
+  "stopping_rule": "One fixed fresh288-case run using inherited sealed models. All9 controls and512-LPE envelopes unchanged. No source refitting or later-driven tuning. P46 preserved as development; P47 masks/roots are new. One complete fixed study.32 E/K source contexts per scope; endpoint-only work-matched sample count determined solely by actual native query counts, bounded by512 source points.8 source-validation contexts per scope are diagnostic. All models/source hashes sealed before288 later outcomes. Each of9 arms uses the same6-depth,4-width,6-child engine with512-LPE search allowance; actual goal, empty frontier, depth or query limit stops an arm. Keep every case and failed branch; no later-outcome-driven tuning, threshold changes or exclusions. Engineering exceptions preserve source snapshots, raw partial data and failure receipt before a documented new run."
+}

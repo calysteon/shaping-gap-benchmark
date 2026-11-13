@@ -1,0 +1,127 @@
+{
+  "domain": {
+    "native_work": {
+      "analytic_pre_norm": 0,
+      "analytic_pre_projection": 0,
+      "analytic_pre_vjp": 0,
+      "atom_down_projection": 0,
+      "consumer_gate_projection": 1,
+      "consumer_norm": 1,
+      "geometry_consumer_coordinate_vjp": 0,
+      "geometry_producer_coordinate_vjp": 0,
+      "geometry_producer_gate": 0,
+      "geometry_producer_norm": 0,
+      "geometry_producer_up": 0,
+      "interface_basis_probe": 0,
+      "producer_gate_projection": 0,
+      "producer_norm": 0,
+      "producer_up_projection": 0
+    },
+    "seconds": 0.0012819590047001839
+  },
+  "EK_source": {
+    "native_work": {
+      "analytic_pre_norm": 0,
+      "analytic_pre_projection": 0,
+      "analytic_pre_vjp": 0,
+      "atom_down_projection": 704,
+      "consumer_gate_projection": 9568,
+      "consumer_norm": 9568,
+      "geometry_consumer_coordinate_vjp": 8832,
+      "geometry_producer_coordinate_vjp": 704,
+      "geometry_producer_gate": 704,
+      "geometry_producer_norm": 704,
+      "geometry_producer_up": 704,
+      "interface_basis_probe": 0,
+      "producer_gate_projection": 320,
+      "producer_norm": 320,
+      "producer_up_projection": 320
+    },
+    "lpe": 22560,
+    "seconds": 2.431676415959373
+  },
+  "endpoint_source": {
+    "native_work": {
+      "analytic_pre_norm": 0,
+      "analytic_pre_vjp": 0,
+      "geometry_consumer_coordinate_vjp": 0,
+      "geometry_producer_up": 0,
+      "analytic_pre_projection": 0,
+      "geometry_producer_norm": 0,
+      "consumer_norm": 7981,
+      "producer_gate_projection": 3470,
+      "producer_norm": 3470,
+      "interface_basis_probe": 0,
+      "producer_up_projection": 3470,
+      "geometry_producer_gate": 0,
+      "geometry_producer_coordinate_vjp": 0,
+      "atom_down_projection": 7634,
+      "consumer_gate_projection": 7981
+    },
+    "lpe": 22555,
+    "contexts": 347,
+    "seconds": 4.331295292126015,
+    "per_context_work": {
+      "analytic_pre_norm": 0,
+      "analytic_pre_projection": 0,
+      "analytic_pre_vjp": 0,
+      "atom_down_projection": 22,
+      "consumer_gate_projection": 23,
+      "consumer_norm": 23,
+      "geometry_consumer_coordinate_vjp": 0,
+      "geometry_producer_coordinate_vjp": 0,
+      "geometry_producer_gate": 0,
+      "geometry_producer_norm": 0,
+      "geometry_producer_up": 0,
+      "interface_basis_probe": 0,
+      "producer_gate_projection": 10,
+      "producer_norm": 10,
+      "producer_up_projection": 10
+    }
+  },
+  "fitting_seconds": {
+    "differential": 0.001873166998848319,
+    "value_same": 0.001150874886661768,
+    "value_budget": 0.0015277501661330462
+  },
+  "analytic": {
+    "native_work": {
+      "analytic_pre_norm": 44,
+      "analytic_pre_projection": 44,
+      "analytic_pre_vjp": 44,
+      "atom_down_projection": 0,
+      "consumer_gate_projection": 13,
+      "consumer_norm": 13,
+      "geometry_consumer_coordinate_vjp": 12,
+      "geometry_producer_coordinate_vjp": 0,
+      "geometry_producer_gate": 0,
+      "geometry_producer_norm": 0,
+      "geometry_producer_up": 0,
+      "interface_basis_probe": 0,
+      "producer_gate_projection": 0,
+      "producer_norm": 0,
+      "producer_up_projection": 0
+    },
+    "seconds": 0.02024725009687245
+  },
+  "validation": {
+    "native_work": {
+      "analytic_pre_norm": 0,
+      "analytic_pre_projection": 0,
+      "analytic_pre_vjp": 0,
+      "atom_down_projection": 176,
+      "consumer_gate_projection": 2392,
+      "consumer_norm": 2392,
+      "geometry_consumer_coordinate_vjp": 2208,
+      "geometry_producer_coordinate_vjp": 176,
+      "geometry_producer_gate": 176,
+      "geometry_producer_norm": 176,
+      "geometry_producer_up": 176,
+      "interface_basis_probe": 0,
+      "producer_gate_projection": 80,
+      "producer_norm": 80,
+      "producer_up_projection": 80
+    },
+    "seconds": 0.6138911668676883
+  }
+}
