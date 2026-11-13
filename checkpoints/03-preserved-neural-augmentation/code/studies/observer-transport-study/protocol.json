@@ -1,0 +1,42 @@
+{
+  "id": "P60-SHARED-OBSERVER-TRANSPORT-001",
+  "kind": "experiment",
+  "claim_ids": [
+    "SN1",
+    "SN2",
+    "SN4"
+  ],
+  "question": "Can a single source-learned observation interface preserve existing frozen readout programs across an acquired neural return addition, while the augmented runtime retains its newly available processing?",
+  "design": "Fit an identity-regularized40x40 affine coordinate transport from paired baseline/candidate P59 training trajectories, using only neural features. Preserve every original baseline readout coefficient and target mean. Apply the same transport to all143 existing programs. Keep P59 source-calibrated+2percent return constructions fixed, with unchanged, same-norm random, same-action random and exact-clone controls. Freeze transports before running a fresh native2048-step validation block after256washout. Candidate capability heads from P59 also stay fixed.",
+  "information_access": "The 0.6B P59 outcomes motivated the adapter after observing capacity improvement alongside observer-coordinate drift. The larger P59 run is still producing native trajectories and has generated no function-capacity outcomes at registration. P60 transport fitting uses the first2048 P59 training feature pairs and their feature normalization only; it receives no ground-truth function labels. Existing task-trained baseline/candidate observers are inherited programs, not refitted in P60. A fresh validation stream provides new confirmation for both sizes.",
+  "baselines": "Compare each frozen old observer applied directly to new features versus through the shared learned interface. Use unchanged baseline, source-acquired+2percent, matched-coefficient random, matched-source-action random and exact baseline clone. Source calibration and all observation dimensions remain fixed.",
+  "primary_outcomes": "At the fresh validation block, exact old-target retention sets with unchanged observers, gains in retained-target count through transport, complete-regression-free cases relative to functions reliable in both P59 blocks and the fresh baseline, and all prior-target outcomes. Evaluate inherited candidate capability observers on the same fresh block and record new nonlinear functions reliable across all three held-out blocks. Preserve per-target scores, clone fidelity, original weights, source-fit errors, transport size and full costs.",
+  "interpretation_rules": "P60 extends the preserved-return construction with an acquired reusable coordinate interface. The initial0.6B findings are development evidence; the new validation stream is sealed confirmation. Every prespecified primary case/control is reported. One transport serves all old readout functions without target labels. The body return map, pretrained parameters and task readout coefficients remain fixed.",
+  "resource_accounting": "Charge inherited P59 experience separately from incremental40x40 transport fitting and fresh native validation. Record1640 transport/normalization values as appropriate from actual serialized arrays, all native padding, state, observation, model storage, peak process memory and wall time. Source fitting uses already available feature pairs; a standalone implementation would pay for collecting those pairs.",
+  "limitations": [
+    "Defined scope: two frozen sizes, six inherited baseline charts per size, a shared linear coordinate interface and the fixed143-function numerical assay.",
+    "Fresh validation measures retained programs and capability under a source-fixed construction; recurrent acquisition beyond this cycle is the following development stage."
+  ],
+  "planned_config": {
+    "plan_id": "P60-SHARED-OBSERVER-TRANSPORT-001",
+    "config": {
+      "parent": "p59-preserved-return-augmentation-001",
+      "primary_action_fraction": 0.02,
+      "families": [
+        "baseline",
+        "acquired",
+        "random_same_norm",
+        "random_same_action",
+        "baseline_clone"
+      ],
+      "transport_ridge": 0.001,
+      "assessment_seed": 105001,
+      "washout": 256,
+      "test_steps": 2048,
+      "native_batch_size": 32,
+      "verification_steps": 16,
+      "verification_seed": 106001
+    }
+  },
+  "stopping_rule": "Wait for P59 completion, fit every declared interface using training features only, seal all transforms, then run both models on the fresh declared stream. Preserve every case and stop on implementation or original-weight integrity failure."
+}

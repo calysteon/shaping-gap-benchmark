@@ -1,0 +1,13 @@
+{
+  "files": {
+    "case-0.npz": "1e0ed1ec40c26eb83237bc59886de00a4a862e75cbe23cb70007fb9deb21db6c",
+    "case-1.npz": "61b200bbedf30e5f74864e49f75415807885f07c7e816b63934694d68b8ba176",
+    "case-3.npz": "a319d7f15455850937c8e27c9118510359c570fdbb33d2d96d97c1e023654149",
+    "case-2.npz": "d777f560f081b717d058fe0e92858d5ec27301a903c5c3e71f8db7c69ca018f2",
+    "returns.npz": "5bd3f300068ce945ce0c2e8980cf8d09ac56e7c7fc613d687187bfdc32dbfe34",
+    "case-5.npz": "d43c6ec5e0160ec458c3568f1e9912cf75a55fbf5175da1babb19270c6111688",
+    "case-4.npz": "b36a5a7ae26810d6af359e0d1272f57533a4f6a0e83795ac66828c535650ba97",
+    "source-calibration.npz": "c6530ab6addeeaa2b3d97c81e6db2ead1045307f6c1409b2fab641ce9bc9f461"
+  },
+  "assessment_labels_exposed": false
+}

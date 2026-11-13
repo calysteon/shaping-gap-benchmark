@@ -1,0 +1,24 @@
+{
+  "model": "0.6B",
+  "weights_unchanged": true,
+  "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+  "source_fit_seconds": 0.03872449998743832,
+  "native_work": {
+    "batches": 2304,
+    "sequences": 73728,
+    "tokens": 147456,
+    "attention_block_tokens": 4128768,
+    "mlp_block_tokens": 4128768
+  },
+  "native_seconds": 34.6419479008764,
+  "validation_seconds": 37.37331595784053,
+  "wall_seconds": 39.62454333296046,
+  "transport_shape": [
+    40,
+    40
+  ],
+  "transport_matrix_bytes": 12800,
+  "source_normalization_values_per_interface": 160,
+  "source_normalization_bytes_per_interface": 1280,
+  "process_peak_rss_bytes": 775421952
+}

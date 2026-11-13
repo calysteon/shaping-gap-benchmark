@@ -1,0 +1,10 @@
+Build Paper III from paper/source/main.tex with a standard TeX installation
+including geometry, Latin Modern, AMS packages, booktabs, graphicx, microtype
+and hyperref. For example, from paper/source:
+
+  latexmk -pdf main.tex
+
+The recorded PDF was compiled with Tectonic 0.17.0. Generated table and figure
+inputs are included; regenerate them with code/report.py --paper-assets
+/path/to/paper/source. The explicit Latin Modern font declarations accommodate
+the recorded minimal cached TeX bundle. They also use standard TeX font names.

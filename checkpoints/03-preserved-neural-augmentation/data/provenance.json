@@ -1,0 +1,44 @@
+{
+  "source": "Frozen P59/P60 native records and inherited source-selected P55/P56 interfaces.",
+  "publication_transformations": [
+    {
+      "path": "data/results/p55-neural-stimulus-capacity-002/models/0.6B/checkpoint.json",
+      "change": "Replace machine-local checkpoint path with a portable relative model path.",
+      "original_sha256": "af40f05ac2611607200507a88cbc6440eb6226af6b14fa8857ac05aba2a622b9",
+      "published_sha256": "43a78cfcf91834b67889ced176454a16be125bdc425c79d9c10e7b3e251ca829"
+    },
+    {
+      "path": "data/results/p55-neural-stimulus-capacity-002/models/1.7B/checkpoint.json",
+      "change": "Replace machine-local checkpoint path with a portable relative model path.",
+      "original_sha256": "f93d5e4bdb2a040e53069b6e2473751c746a077b7e87b5f9753872e433f07cb0",
+      "published_sha256": "a364a03c714dfed072b12dea64bcbbed045b44e412979a1059ed1036eed6029b"
+    },
+    {
+      "path": "data/results/p56-nonlinear-stimulus-development-001/models/0.6B/checkpoint.json",
+      "change": "Replace machine-local checkpoint path with a portable relative model path.",
+      "original_sha256": "af40f05ac2611607200507a88cbc6440eb6226af6b14fa8857ac05aba2a622b9",
+      "published_sha256": "43a78cfcf91834b67889ced176454a16be125bdc425c79d9c10e7b3e251ca829"
+    },
+    {
+      "path": "data/results/p56-nonlinear-stimulus-development-001/models/1.7B/checkpoint.json",
+      "change": "Replace machine-local checkpoint path with a portable relative model path.",
+      "original_sha256": "f93d5e4bdb2a040e53069b6e2473751c746a077b7e87b5f9753872e433f07cb0",
+      "published_sha256": "a364a03c714dfed072b12dea64bcbbed045b44e412979a1059ed1036eed6029b"
+    },
+    {
+      "path": "data/results/p59-preserved-return-augmentation-001/models/0.6B/checkpoint.json",
+      "change": "Replace machine-local checkpoint path with a portable relative model path.",
+      "original_sha256": "af40f05ac2611607200507a88cbc6440eb6226af6b14fa8857ac05aba2a622b9",
+      "published_sha256": "43a78cfcf91834b67889ced176454a16be125bdc425c79d9c10e7b3e251ca829"
+    },
+    {
+      "path": "data/results/p59-preserved-return-augmentation-001/models/1.7B/checkpoint.json",
+      "change": "Replace machine-local checkpoint path with a portable relative model path.",
+      "original_sha256": "f93d5e4bdb2a040e53069b6e2473751c746a077b7e87b5f9753872e433f07cb0",
+      "published_sha256": "a364a03c714dfed072b12dea64bcbbed045b44e412979a1059ed1036eed6029b"
+    }
+  ],
+  "numerical_arrays": "Unchanged original NPZ payloads. No model weight files are included.",
+  "inherited_assets": "P55/P56 fixture subset contains only the source-selected unaligned programs and their acquired geometry; acquisition runners/protocols/helpers and the original summaries are retained.",
+  "native_verification": "Independent original-checkpoint replay is in p59-p60-native-verification."
+}

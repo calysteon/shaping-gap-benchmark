@@ -1,0 +1,63 @@
+{
+  "id": "P59-PRESERVED-RETURN-AUGMENTATION-001",
+  "kind": "experiment",
+  "claim_ids": [
+    "SN0",
+    "SN1",
+    "SN2",
+    "SN3",
+    "SN4"
+  ],
+  "question": "Can an acquired nonlinear response direction produce a repeatable, retention-preserving computational gain when added to a functioning frozen-model runtime at fixed deployed return-matrix dimensions?",
+  "design": "Preserve each of the12 source-selected primary unaligned baselines from P55/P56 (six reference/actuator charts per size). For each use its own exact frame, actuator, amplitude, observer, base reference and identified transport. Reuse q and v acquired at that same amplitude from the corresponding unlabeled geometry. Orient v toward the baseline drive response; orient each q by its measured even native response along v. A fresh512-step baseline source trajectory calibrates addition strength as a fraction of parent return-action RMS. Add rank-one acquired response to the untouched parent return. Four signed fractions give a dose-response, with+2percent declared primary. Preserve input chart and observer across every paired condition. Merge each addition into the existing8xn return matrix.",
+  "information_access": "Inherited pretrained checkpoints and acquired numerical interfaces are supplied equally to paired arms. Fresh native sign and source-action calibration supplies coefficient orientation and magnitude. Source receives no assessment function labels or evaluation stream. Couplings and metadata are sealed before assessment. This tests a source-calibrated construction rule; the dose grid is a declared intervention curve, not retrospective controller selection.",
+  "baselines": "Per case: unchanged return; acquired additions at-5,-2,+2,+5percent source-action RMS; same-coefficient-norm scrambled directions at those four fractions; same-source-action-RMS scrambled directions at those fractions; one scored exact baseline clone. Two further baseline padding clones per case keep every native batch at32 sequences. All control directions are projected orthogonal to the same identified transport. The same-norm and same-action controls isolate direction from coefficient size and actuation magnitude respectively.",
+  "primary_outcomes": "For+2percent acquired addition, count nonlinear temporal targets reliable atR2>=0.5 on BOTH fresh2048-step test blocks while baseline is below0.5 on BOTH. Measure retention of every previously reliable target across all143 functions, all gained/lost target identities, capacity per block, matched-control contrasts, baseline-clone fidelity, original-weight integrity and first-order transport preservation. Secondary robustness uses baseline<=0.45 and treatment>=0.55 in both blocks. Every declared dose/control is reported.",
+  "interpretation_rules": "Report accomplishments at acquisition, actuation, retention-preserving capability gain and control comparison separately. Use the prespecified+2percent condition for the primary aggregate; retain all dose-response data. A repeatable gain means improvement across both held-out input blocks with the same trained linear observer. Existing P55/P56 geometry and P58 diagnostics motivate this new construction; fresh outcomes begin here. Mathematical invariance is with respect to identified J; native geometry is measured, and complete trajectory retention is evaluated.",
+  "resource_accounting": "Production keeps the same8xn fused return matrix,8-coordinate state, fixed pretrained model and40-observable measurement opportunity. Count inherited source work separately from incremental sign/RMS calibration, all native assessment including padding/clones, observer fitting, original-weight checks, recorded-array bytes and process/MLX peaks. Experimental batching and trace storage are explicitly separate from one deployed runtime. Additions have no extra native transformer calls per deployment step. Pretraining is inherited; energy is unmeasured.",
+  "planned_config": {
+    "plan_id": "P59-PRESERVED-RETURN-AUGMENTATION-001",
+    "config": {
+      "parents": [
+        "p55-neural-stimulus-capacity-002",
+        "p56-nonlinear-stimulus-development-001"
+      ],
+      "parent_kind": "unaligned",
+      "source_steps": 512,
+      "source_burn": 128,
+      "source_seed": 101001,
+      "assessment_seed": 102001,
+      "native_batch_size": 32,
+      "state_dimension": 8,
+      "observable_dimension": 32,
+      "input_gain": 0.2,
+      "state_limit": 10.0,
+      "signed_action_fractions": [
+        -0.05,
+        -0.02,
+        0.02,
+        0.05
+      ],
+      "primary_action_fraction": 0.02,
+      "sign_probe_steps": [
+        0.1,
+        0.2
+      ],
+      "random_seed": 103001,
+      "evaluation_washout": 256,
+      "evaluation_training": 2048,
+      "evaluation_test": 2048,
+      "test_blocks": 2,
+      "readout_ridge": 0.0001,
+      "conditions_per_case": 14,
+      "padded_conditions_per_case": 16,
+      "verification_steps": 16,
+      "verification_seed": 104001
+    }
+  },
+  "stopping_rule": "Run both sizes, all inherited primary baseline charts and all declared conditions. Preserve source inadmissibility, numerical failures and every endpoint. Stop for implementation or weight-integrity failure, record it, and prospectively correct the run. Baseline clone mismatch triggers a numerical-fidelity investigation before an efficacy interpretation.",
+  "limitations": [
+    "The defined scope is source-calibrated rank-one augmentation of12 inherited baseline charts over two frozen sizes, assessed through fixed40-dimensional observations.",
+    "Two held-out blocks provide repeated input evidence with one trained linear readout; the declared dose curve supports mechanism development and the+2percent arm supplies the primary comparison."
+  ]
+}

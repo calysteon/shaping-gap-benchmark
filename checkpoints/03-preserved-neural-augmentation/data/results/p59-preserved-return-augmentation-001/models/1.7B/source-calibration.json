@@ -1,0 +1,92 @@
+[
+  {
+    "case": 0,
+    "seed": 92001,
+    "source_bounded": true,
+    "source_ready": true,
+    "parent_action_rms": 0.06642219424247742,
+    "acquired_signal_rms": 0.018090877779935382,
+    "random_signal_rms": 0.0002902373982103901,
+    "v_rms": 0.35355339059327356,
+    "even_orientation_measurements": [
+      -1.7975542176149375,
+      -0.014543584175818861
+    ],
+    "replica_disagreement_rms": 2.3988341126823798e-05
+  },
+  {
+    "case": 1,
+    "seed": 92002,
+    "source_bounded": true,
+    "source_ready": true,
+    "parent_action_rms": 0.09275687485933304,
+    "acquired_signal_rms": 0.2648730265442154,
+    "random_signal_rms": 0.003730587673598808,
+    "v_rms": 0.35355339059327373,
+    "even_orientation_measurements": [
+      -36.64396664478861,
+      0.5570248811948587
+    ],
+    "replica_disagreement_rms": 1.6923455405049026e-05
+  },
+  {
+    "case": 2,
+    "seed": 92003,
+    "source_bounded": true,
+    "source_ready": true,
+    "parent_action_rms": 0.08028829842805862,
+    "acquired_signal_rms": 0.008096117427107339,
+    "random_signal_rms": 0.00024553155809604405,
+    "v_rms": 0.3535533905932739,
+    "even_orientation_measurements": [
+      -1.195586771402878,
+      0.025225405977775953
+    ],
+    "replica_disagreement_rms": 0.00010475782619323581
+  },
+  {
+    "case": 3,
+    "seed": 96001,
+    "source_bounded": true,
+    "source_ready": true,
+    "parent_action_rms": 0.3922865688800812,
+    "acquired_signal_rms": 3.7896628343468146,
+    "random_signal_rms": 0.23235205556064328,
+    "v_rms": 0.3535533905932738,
+    "even_orientation_measurements": [
+      -37.178816110924984,
+      0.3663441167899929
+    ],
+    "replica_disagreement_rms": 1.494399293733295e-05
+  },
+  {
+    "case": 4,
+    "seed": 96002,
+    "source_bounded": true,
+    "source_ready": true,
+    "parent_action_rms": 0.11136576533317566,
+    "acquired_signal_rms": 0.30830310701009445,
+    "random_signal_rms": 0.008066824967834228,
+    "v_rms": 0.35355339059327373,
+    "even_orientation_measurements": [
+      -13.740484074320927,
+      -0.07027603429400626
+    ],
+    "replica_disagreement_rms": 1.608243655937258e-05
+  },
+  {
+    "case": 5,
+    "seed": 96003,
+    "source_bounded": true,
+    "source_ready": true,
+    "parent_action_rms": 0.2090977281332016,
+    "acquired_signal_rms": 1.4437044689623935,
+    "random_signal_rms": 0.05318257058585291,
+    "v_rms": 0.35355339059327384,
+    "even_orientation_measurements": [
+      -61.11607792177689,
+      0.9082859464669917
+    ],
+    "replica_disagreement_rms": 0.0009167301468551159
+  }
+]

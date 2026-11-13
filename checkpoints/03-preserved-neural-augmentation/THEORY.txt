@@ -1,0 +1,25 @@
+Execution update and reusable interface contracts
+=================================================
+
+Let C be an existing return matrix, J the identified native response map, and
+C' = C + alpha v q^T. Then
+
+  ||(C' - C) J|| <= |alpha| ||v|| ||q^T J||.
+
+Exact orthogonality preserves the identified first-order map. This is local to
+the acquired J; recurrent trajectory quality and program retention are measured
+separately on held-out experience.
+
+Let X and Y be updated and baseline standardized observation rows, paired under
+one source stream. The shared interface solves
+
+  min_T ||X T - Y||_F^2 + lambda ||T-I||_F^2.
+
+For any fixed old readout b, |(xT-y)b| <= ||xT-y||_2 ||b||_2.
+For a readout collection B, ||(XT-Y)B||_F <= ||XT-Y||_F ||B||_2.
+
+The estimator and inequalities are standard. Their role is an executable
+compatibility obligation for a changed recurrent runtime, shared across old
+programs. Source fit alone does not certify fresh retention. The published
+experiment seals each T before fresh validation, preserves the original B,
+and separately reports processing quality, reliability, costs and every case.

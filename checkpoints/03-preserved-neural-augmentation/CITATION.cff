@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the paper for the research checkpoint you use; see CHECKPOINTS.json."
+title: "Shaping Gap Benchmark"
+type: software
+authors:
+  - family-names: Oh
+    given-names: Nathaniel
+  - family-names: Attie
+    given-names: Paul
+repository-code: "https://github.com/calysteon/shaping-gap-benchmark"
+preferred-citation:
+  type: article
+  title: "Shaping Gap Benchmark III: Preserved Neural Augmentation and Reusable Observation Interfaces"
+  authors:
+    - family-names: Oh
+      given-names: Nathaniel
+    - family-names: Attie
+      given-names: Paul
+  year: 2026
+  url: "https://github.com/calysteon/shaping-gap-benchmark/blob/main/checkpoints/03-preserved-neural-augmentation/paper/shaping-gap-benchmark-iii.pdf"

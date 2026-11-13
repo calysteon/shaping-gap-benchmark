@@ -1,0 +1,137 @@
+[
+  {
+    "kind": "unaligned",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 45,
+    "seed": 92001,
+    "array_file": "selected-92001-0.npz"
+  },
+  {
+    "kind": "aligned",
+    "epsilon": 0.002,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 30,
+    "seed": 92001,
+    "array_file": "selected-92001-1.npz"
+  },
+  {
+    "kind": "curvature",
+    "epsilon": 0.0005,
+    "rho": 0.95,
+    "gamma": -0.1,
+    "source_index": 15,
+    "seed": 92001,
+    "array_file": "selected-92001-2.npz"
+  },
+  {
+    "kind": "curvature_removed",
+    "epsilon": 0.0005,
+    "rho": 0.95,
+    "gamma": -0.1,
+    "source_index": 15,
+    "seed": 92001,
+    "array_file": "selected-92001-3.npz"
+  },
+  {
+    "kind": "curvature_scrambled",
+    "epsilon": 0.0005,
+    "rho": 0.95,
+    "gamma": -0.1,
+    "source_index": 15,
+    "seed": 92001,
+    "array_file": "selected-92001-4.npz"
+  },
+  {
+    "kind": "unaligned",
+    "epsilon": 0.002,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 27,
+    "seed": 92002,
+    "array_file": "selected-92002-0.npz"
+  },
+  {
+    "kind": "aligned",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 46,
+    "seed": 92002,
+    "array_file": "selected-92002-1.npz"
+  },
+  {
+    "kind": "curvature",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": -0.1,
+    "source_index": 51,
+    "seed": 92002,
+    "array_file": "selected-92002-2.npz"
+  },
+  {
+    "kind": "curvature_removed",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": -0.1,
+    "source_index": 51,
+    "seed": 92002,
+    "array_file": "selected-92002-3.npz"
+  },
+  {
+    "kind": "curvature_scrambled",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": -0.1,
+    "source_index": 51,
+    "seed": 92002,
+    "array_file": "selected-92002-4.npz"
+  },
+  {
+    "kind": "unaligned",
+    "epsilon": 0.0005,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 13,
+    "seed": 92003,
+    "array_file": "selected-92003-0.npz"
+  },
+  {
+    "kind": "aligned",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 48,
+    "seed": 92003,
+    "array_file": "selected-92003-1.npz"
+  },
+  {
+    "kind": "curvature",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": -0.1,
+    "source_index": 51,
+    "seed": 92003,
+    "array_file": "selected-92003-2.npz"
+  },
+  {
+    "kind": "curvature_removed",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": -0.1,
+    "source_index": 51,
+    "seed": 92003,
+    "array_file": "selected-92003-3.npz"
+  },
+  {
+    "kind": "curvature_scrambled",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": -0.1,
+    "source_index": 51,
+    "seed": 92003,
+    "array_file": "selected-92003-4.npz"
+  }
+]

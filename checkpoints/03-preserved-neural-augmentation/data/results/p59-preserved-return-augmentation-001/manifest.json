@@ -1,0 +1,47 @@
+{
+  "plan_id": "P59-PRESERVED-RETURN-AUGMENTATION-001",
+  "config": {
+    "parents": [
+      "p55-neural-stimulus-capacity-002",
+      "p56-nonlinear-stimulus-development-001"
+    ],
+    "parent_kind": "unaligned",
+    "source_steps": 512,
+    "source_burn": 128,
+    "source_seed": 101001,
+    "assessment_seed": 102001,
+    "native_batch_size": 32,
+    "state_dimension": 8,
+    "observable_dimension": 32,
+    "input_gain": 0.2,
+    "state_limit": 10.0,
+    "signed_action_fractions": [
+      -0.05,
+      -0.02,
+      0.02,
+      0.05
+    ],
+    "primary_action_fraction": 0.02,
+    "sign_probe_steps": [
+      0.1,
+      0.2
+    ],
+    "random_seed": 103001,
+    "evaluation_washout": 256,
+    "evaluation_training": 2048,
+    "evaluation_test": 2048,
+    "test_blocks": 2,
+    "readout_ridge": 0.0001,
+    "conditions_per_case": 14,
+    "padded_conditions_per_case": 16,
+    "verification_steps": 16,
+    "verification_seed": 104001
+  },
+  "created_utc": "2026-11-13T16:37:54.677476+00:00",
+  "source_sha256": "22cb17784dc5908772e0c8964593d5ebe83ef1736f11f09e60f927c620c1bb2c",
+  "helper_sha256": {
+    "native.py": "d1e1925eca01f66325c1c8e63da8c37521c8335c8854304f0d51819ba2b5976e",
+    "capacity_engine.py": "486427011c2fba46a29f05024f9ede84cac18dde0d734944e62d1f79cff964ea",
+    "stimulus.py": "7b918a4b7b0d381b87963605ba300a3d24b5cd6e246a9c1f9536b3643afd1452"
+  }
+}

@@ -21,3 +21,12 @@ vendor those libraries. Their project sources are:
 
 The manuscript bibliography identifies the research building blocks used by the
 method. Its reference implementation was written for this research project.
+
+Checkpoint 03 model substrate
+-----------------------------
+
+Qwen/Qwen3-1.7B-MLX-4bit, revision
+21457c6f51ed54a7c16e988c0844db973815c137, is additionally used in Checkpoint 03.
+The upstream model card identifies Apache-2.0. The existing Qwen license copy
+is retained at third-party/QWEN-LICENSE. Model weights are downloaded separately.
+Checkpoint 03 also uses Qwen/Qwen3-0.6B-MLX-4bit at its recorded pinned revision.

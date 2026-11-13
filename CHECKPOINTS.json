@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "latest": "02-scaling-and-functions",
+  "latest": "03-preserved-neural-augmentation",
   "checkpoints": [
     {
       "id": "01-effect-interfaces",
@@ -42,6 +42,32 @@
         "Finite2/3-bit synthesis with all inputs available; no random-weight substrate control.",
         "Controller-array bound differs from whole-process memory.",
         "No retained program-interface acquisition or continual maintenance in these studies."
+      ]
+    },
+    {
+      "id": "03-preserved-neural-augmentation",
+      "number": 3,
+      "date": "2026-11-13",
+      "title": "Shaping Gap Benchmark III: Preserved Neural Augmentation and Reusable Observation Interfaces",
+      "authors": [
+        "Nathaniel Oh",
+        "Paul Attie"
+      ],
+      "paper": "checkpoints/03-preserved-neural-augmentation/paper/shaping-gap-benchmark-iii.pdf",
+      "guide": "checkpoints/03-preserved-neural-augmentation/README.rst",
+      "publication_revision": "The commit introducing this checkpoint.json; resolve with git log --diff-filter=A -1 --format=%H -- checkpoints/03-preserved-neural-augmentation/checkpoint.json",
+      "predecessor": "02-scaling-and-functions",
+      "status": "published-in-repository",
+      "observed_advances": [
+        "Shared acquired observation transport retains113/131 fresh-reference-reliable old program instances versus90/131 direct reuse;11/12 charts retain all.",
+        "Two primary updates have processing-quality gains across all three evaluation blocks with old-program retention; one1.7B chart exceeds both matched controls in all three.",
+        "All twelve primary cases and four signed doses are released; mean primary quality effects are negative.",
+        "Independent native execution reproduces4032 saved outputs bit exactly;1413312 incremental native sequences including verification are charged."
+      ],
+      "research_scope": [
+        "Two frozen quantized pretrained sizes; inherited source-selected charts and directions are supplied with acquisition provenance.",
+        "Task-label-free shared transport; supervised assessment readouts are frozen before fresh validation.",
+        "Finite nonlinear temporal processing-quality suite; context-scoped update selection is the next research question."
       ]
     }
   ]

@@ -1,0 +1,7 @@
+!data/
+!data/**
+/runs/
+/models/
+/native-workspace/
+__pycache__/
+*.pyc

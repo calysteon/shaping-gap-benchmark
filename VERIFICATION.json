@@ -1,8 +1,10 @@
 {
   "checkpoints": {
     "01-effect-interfaces": "checkpoints/01-effect-interfaces/VERIFICATION.json",
-    "02-scaling-and-functions": "checkpoints/02-scaling-and-functions/VERIFICATION.json"
+    "02-scaling-and-functions": "checkpoints/02-scaling-and-functions/VERIFICATION.json",
+    "03-preserved-neural-augmentation": "checkpoints/03-preserved-neural-augmentation/VERIFICATION.json"
   },
   "first_paper_protected_files_unchanged": 368,
-  "latest_checkpoint": "02-scaling-and-functions"
+  "latest_checkpoint": "03-preserved-neural-augmentation",
+  "preexisting_protected_files_unchanged": 554
 }

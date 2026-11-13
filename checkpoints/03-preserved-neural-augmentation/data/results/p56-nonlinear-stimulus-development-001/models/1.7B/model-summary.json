@@ -1,0 +1,90 @@
+{
+  "model": "1.7B",
+  "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7",
+  "stored_parameter_bytes": 914237440,
+  "width": 2048,
+  "layers": 28,
+  "source_records": [
+    {
+      "seed": 96001,
+      "seconds": 149.72101254109293,
+      "native_work": {
+        "batches": 4114,
+        "sequences": 111033,
+        "tokens": 222066,
+        "attention_block_tokens": 6217848,
+        "mlp_block_tokens": 6217848
+      },
+      "selection": {
+        "unaligned": 47,
+        "aligned": 50,
+        "curvature": 53,
+        "unaligned_rank": 47
+      },
+      "unstable_candidates": 2,
+      "candidates": 54,
+      "controller_array_bound_bytes": 44367872
+    },
+    {
+      "seed": 96002,
+      "seconds": 139.52929008286446,
+      "native_work": {
+        "batches": 4114,
+        "sequences": 111033,
+        "tokens": 222066,
+        "attention_block_tokens": 6217848,
+        "mlp_block_tokens": 6217848
+      },
+      "selection": {
+        "unaligned": 49,
+        "aligned": 48,
+        "curvature": 51,
+        "unaligned_rank": 36
+      },
+      "unstable_candidates": 2,
+      "candidates": 54,
+      "controller_array_bound_bytes": 44367872
+    },
+    {
+      "seed": 96003,
+      "seconds": 140.9114339579828,
+      "native_work": {
+        "batches": 4114,
+        "sequences": 111033,
+        "tokens": 222066,
+        "attention_block_tokens": 6217848,
+        "mlp_block_tokens": 6217848
+      },
+      "selection": {
+        "unaligned": 45,
+        "aligned": 48,
+        "curvature": 51,
+        "unaligned_rank": 49
+      },
+      "unstable_candidates": 1,
+      "candidates": 54,
+      "controller_array_bound_bytes": 44367872
+    }
+  ],
+  "native_work": {
+    "batches": 16694,
+    "sequences": 411435,
+    "tokens": 822870,
+    "attention_block_tokens": 23040360,
+    "mlp_block_tokens": 23040360
+  },
+  "native_seconds": 574.16448163311,
+  "assessment_seconds": 159.21244216687046,
+  "assessment_native_work": {
+    "batches": 4352,
+    "sequences": 78336,
+    "tokens": 156672,
+    "attention_block_tokens": 4386816,
+    "mlp_block_tokens": 4386816
+  },
+  "assessment_controller_array_bound_bytes": 55869440,
+  "wall_seconds": 591.5821058750153,
+  "weights_unchanged": true,
+  "mlx_peak_bytes": 1213865152,
+  "process_peak_rss_bytes": 1531232256
+}

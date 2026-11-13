@@ -1,0 +1,212 @@
+[
+  {
+    "case": 0,
+    "kind": "baseline",
+    "parent_slot": 0,
+    "source_relative_mse": 2.72901533555132e-30,
+    "transport_identity_distance": 1.5586302586782107e-13
+  },
+  {
+    "case": 0,
+    "kind": "acquired",
+    "parent_slot": 3,
+    "source_relative_mse": 0.406628853783492,
+    "transport_identity_distance": 6.895651467674459
+  },
+  {
+    "case": 0,
+    "kind": "random_same_norm",
+    "parent_slot": 7,
+    "source_relative_mse": 0.033768817846482724,
+    "transport_identity_distance": 1.711139119196095
+  },
+  {
+    "case": 0,
+    "kind": "random_same_action",
+    "parent_slot": 11,
+    "source_relative_mse": 0.36086793331855516,
+    "transport_identity_distance": 5.917853322167045
+  },
+  {
+    "case": 0,
+    "kind": "baseline_clone",
+    "parent_slot": 13,
+    "source_relative_mse": 2.72901533555132e-30,
+    "transport_identity_distance": 1.5586302586782107e-13
+  },
+  {
+    "case": 1,
+    "kind": "baseline",
+    "parent_slot": 0,
+    "source_relative_mse": 6.411503775371364e-30,
+    "transport_identity_distance": 8.760832066472113e-13
+  },
+  {
+    "case": 1,
+    "kind": "acquired",
+    "parent_slot": 3,
+    "source_relative_mse": 0.12932598272926285,
+    "transport_identity_distance": 7.933964793969883
+  },
+  {
+    "case": 1,
+    "kind": "random_same_norm",
+    "parent_slot": 7,
+    "source_relative_mse": 0.00023400270435698216,
+    "transport_identity_distance": 0.29433985897029996
+  },
+  {
+    "case": 1,
+    "kind": "random_same_action",
+    "parent_slot": 11,
+    "source_relative_mse": 0.028649232965828837,
+    "transport_identity_distance": 4.253922311818376
+  },
+  {
+    "case": 1,
+    "kind": "baseline_clone",
+    "parent_slot": 13,
+    "source_relative_mse": 6.411503775371364e-30,
+    "transport_identity_distance": 8.760832066472113e-13
+  },
+  {
+    "case": 2,
+    "kind": "baseline",
+    "parent_slot": 0,
+    "source_relative_mse": 7.882859384981611e-30,
+    "transport_identity_distance": 6.016267883132657e-13
+  },
+  {
+    "case": 2,
+    "kind": "acquired",
+    "parent_slot": 3,
+    "source_relative_mse": 0.011524672544281852,
+    "transport_identity_distance": 3.013116062228596
+  },
+  {
+    "case": 2,
+    "kind": "random_same_norm",
+    "parent_slot": 7,
+    "source_relative_mse": 0.0024850777418531683,
+    "transport_identity_distance": 1.255702525907627
+  },
+  {
+    "case": 2,
+    "kind": "random_same_action",
+    "parent_slot": 11,
+    "source_relative_mse": 0.015523780162033676,
+    "transport_identity_distance": 3.6043152049178495
+  },
+  {
+    "case": 2,
+    "kind": "baseline_clone",
+    "parent_slot": 13,
+    "source_relative_mse": 7.882859384981611e-30,
+    "transport_identity_distance": 6.016267883132657e-13
+  },
+  {
+    "case": 3,
+    "kind": "baseline",
+    "parent_slot": 0,
+    "source_relative_mse": 6.767029410551102e-30,
+    "transport_identity_distance": 1.577819145522845e-12
+  },
+  {
+    "case": 3,
+    "kind": "acquired",
+    "parent_slot": 3,
+    "source_relative_mse": 0.001001791562543085,
+    "transport_identity_distance": 2.174994152998672
+  },
+  {
+    "case": 3,
+    "kind": "random_same_norm",
+    "parent_slot": 7,
+    "source_relative_mse": 2.0346877399125585e-07,
+    "transport_identity_distance": 0.028500252966669307
+  },
+  {
+    "case": 3,
+    "kind": "random_same_action",
+    "parent_slot": 11,
+    "source_relative_mse": 0.0013631662184681067,
+    "transport_identity_distance": 2.3117447908748443
+  },
+  {
+    "case": 3,
+    "kind": "baseline_clone",
+    "parent_slot": 13,
+    "source_relative_mse": 6.767029410551102e-30,
+    "transport_identity_distance": 1.577819145522845e-12
+  },
+  {
+    "case": 4,
+    "kind": "baseline",
+    "parent_slot": 0,
+    "source_relative_mse": 4.311239852294288e-30,
+    "transport_identity_distance": 4.080560276967702e-13
+  },
+  {
+    "case": 4,
+    "kind": "acquired",
+    "parent_slot": 3,
+    "source_relative_mse": 0.0036486393894539413,
+    "transport_identity_distance": 2.3806705119773626
+  },
+  {
+    "case": 4,
+    "kind": "random_same_norm",
+    "parent_slot": 7,
+    "source_relative_mse": 3.876385289767154e-06,
+    "transport_identity_distance": 0.07297692932357369
+  },
+  {
+    "case": 4,
+    "kind": "random_same_action",
+    "parent_slot": 11,
+    "source_relative_mse": 0.005413887043561414,
+    "transport_identity_distance": 2.9017800499408453
+  },
+  {
+    "case": 4,
+    "kind": "baseline_clone",
+    "parent_slot": 13,
+    "source_relative_mse": 4.311239852294288e-30,
+    "transport_identity_distance": 4.080560276967702e-13
+  },
+  {
+    "case": 5,
+    "kind": "baseline",
+    "parent_slot": 0,
+    "source_relative_mse": 8.89185809641334e-30,
+    "transport_identity_distance": 6.574901875543462e-13
+  },
+  {
+    "case": 5,
+    "kind": "acquired",
+    "parent_slot": 3,
+    "source_relative_mse": 0.2487692918389019,
+    "transport_identity_distance": 6.158283444889002
+  },
+  {
+    "case": 5,
+    "kind": "random_same_norm",
+    "parent_slot": 7,
+    "source_relative_mse": 0.00039545667878176005,
+    "transport_identity_distance": 0.23421150509094846
+  },
+  {
+    "case": 5,
+    "kind": "random_same_action",
+    "parent_slot": 11,
+    "source_relative_mse": 0.1531522533556197,
+    "transport_identity_distance": 5.115114757803567
+  },
+  {
+    "case": 5,
+    "kind": "baseline_clone",
+    "parent_slot": 13,
+    "source_relative_mse": 8.89185809641334e-30,
+    "transport_identity_distance": 6.574901875543462e-13
+  }
+]

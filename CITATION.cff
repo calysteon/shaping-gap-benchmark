@@ -10,11 +10,11 @@ authors:
 repository-code: "https://github.com/calysteon/shaping-gap-benchmark"
 preferred-citation:
   type: article
-  title: "Shaping Gap Benchmark II: Scalable Effect-Interface Evaluation and Verified Functional Construction"
+  title: "Shaping Gap Benchmark III: Preserved Neural Augmentation and Reusable Observation Interfaces"
   authors:
     - family-names: Oh
       given-names: Nathaniel
     - family-names: Attie
       given-names: Paul
   year: 2026
-  url: "https://github.com/calysteon/shaping-gap-benchmark/blob/main/checkpoints/02-scaling-and-functions/paper/shaping-gap-benchmark-ii.pdf"
+  url: "https://github.com/calysteon/shaping-gap-benchmark/blob/main/checkpoints/03-preserved-neural-augmentation/paper/shaping-gap-benchmark-iii.pdf"

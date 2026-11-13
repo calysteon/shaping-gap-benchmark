@@ -1,0 +1,29 @@
+{
+  "plan_id": "P60-SHARED-OBSERVER-TRANSPORT-001",
+  "config": {
+    "parent": "p59-preserved-return-augmentation-001",
+    "primary_action_fraction": 0.02,
+    "families": [
+      "baseline",
+      "acquired",
+      "random_same_norm",
+      "random_same_action",
+      "baseline_clone"
+    ],
+    "transport_ridge": 0.001,
+    "assessment_seed": 105001,
+    "washout": 256,
+    "test_steps": 2048,
+    "native_batch_size": 32,
+    "verification_steps": 16,
+    "verification_seed": 106001
+  },
+  "created_utc": "2026-11-13T16:56:40.268195+00:00",
+  "source_sha256": "9bd1d633eda2b7c849ed6e5dc0658a23bc5eb092daabc37c220997a722c35389",
+  "helper_sha256": {
+    "native.py": "d1e1925eca01f66325c1c8e63da8c37521c8335c8854304f0d51819ba2b5976e",
+    "capacity_engine.py": "486427011c2fba46a29f05024f9ede84cac18dde0d734944e62d1f79cff964ea",
+    "stimulus.py": "7b918a4b7b0d381b87963605ba300a3d24b5cd6e246a9c1f9536b3643afd1452"
+  },
+  "parent_summary_sha256": "e69a57a393497af7c9e7712221d667786c362d619b34c9f4670902622be8057f"
+}

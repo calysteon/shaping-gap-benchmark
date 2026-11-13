@@ -1,0 +1,1215 @@
+{
+  "cases": [
+    {
+      "model": "0.6B",
+      "case": 0,
+      "seed": 92001,
+      "kind": "acquired",
+      "capacity": [
+        3.8155988585880682,
+        3.847234166002208,
+        3.4394442793996003
+      ],
+      "baseline_capacity": [
+        4.067170188268671,
+        3.9762069502118895,
+        4.066530319813845
+      ],
+      "delta": [
+        -0.2515713296806026,
+        -0.12897278420968172,
+        -0.6270860404142446
+      ],
+      "stable_old": 5,
+      "raw_retained": 5,
+      "transport_retained": 5,
+      "all_fresh_retained": true,
+      "prior_old": 5,
+      "raw_retained_unfiltered": 5,
+      "transport_retained_unfiltered": 5,
+      "baseline_retained_unfiltered": 5,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "0.6B",
+      "case": 0,
+      "seed": 92001,
+      "kind": "random_same_norm",
+      "capacity": [
+        4.049098920989666,
+        3.885691204802269,
+        4.16052010703001
+      ],
+      "baseline_capacity": [
+        4.067170188268671,
+        3.9762069502118895,
+        4.066530319813845
+      ],
+      "delta": [
+        -0.0180712672790051,
+        -0.0905157454096206,
+        0.0939897872161648
+      ],
+      "stable_old": 5,
+      "raw_retained": 5,
+      "transport_retained": 5,
+      "all_fresh_retained": true,
+      "prior_old": 5,
+      "raw_retained_unfiltered": 5,
+      "transport_retained_unfiltered": 5,
+      "baseline_retained_unfiltered": 5,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "0.6B",
+      "case": 0,
+      "seed": 92001,
+      "kind": "random_same_action",
+      "capacity": [
+        3.876915289013686,
+        3.8259661043385305,
+        3.455649941853608
+      ],
+      "baseline_capacity": [
+        4.067170188268671,
+        3.9762069502118895,
+        4.066530319813845
+      ],
+      "delta": [
+        -0.19025489925498462,
+        -0.15024084587335906,
+        -0.6108803779602368
+      ],
+      "stable_old": 5,
+      "raw_retained": 5,
+      "transport_retained": 5,
+      "all_fresh_retained": true,
+      "prior_old": 5,
+      "raw_retained_unfiltered": 5,
+      "transport_retained_unfiltered": 5,
+      "baseline_retained_unfiltered": 5,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "0.6B",
+      "case": 1,
+      "seed": 92002,
+      "kind": "acquired",
+      "capacity": [
+        14.406596212813582,
+        13.593887085804788,
+        11.890512126079948
+      ],
+      "baseline_capacity": [
+        12.90473101444184,
+        11.217988828258433,
+        12.677024337700509
+      ],
+      "delta": [
+        1.5018651983717426,
+        2.375898257546355,
+        -0.7865122116205612
+      ],
+      "stable_old": 18,
+      "raw_retained": 17,
+      "transport_retained": 18,
+      "all_fresh_retained": true,
+      "prior_old": 18,
+      "raw_retained_unfiltered": 17,
+      "transport_retained_unfiltered": 18,
+      "baseline_retained_unfiltered": 18,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "0.6B",
+      "case": 1,
+      "seed": 92002,
+      "kind": "random_same_norm",
+      "capacity": [
+        12.917386352266083,
+        11.249559763746477,
+        12.706647159966751
+      ],
+      "baseline_capacity": [
+        12.90473101444184,
+        11.217988828258433,
+        12.677024337700509
+      ],
+      "delta": [
+        0.012655337824243773,
+        0.03157093548804468,
+        0.029622822266242466
+      ],
+      "stable_old": 18,
+      "raw_retained": 18,
+      "transport_retained": 18,
+      "all_fresh_retained": true,
+      "prior_old": 18,
+      "raw_retained_unfiltered": 18,
+      "transport_retained_unfiltered": 18,
+      "baseline_retained_unfiltered": 18,
+      "reliable_new": [],
+      "positive_three_blocks": true
+    },
+    {
+      "model": "0.6B",
+      "case": 1,
+      "seed": 92002,
+      "kind": "random_same_action",
+      "capacity": [
+        13.132881702652476,
+        11.419597055415272,
+        12.719128137903073
+      ],
+      "baseline_capacity": [
+        12.90473101444184,
+        11.217988828258433,
+        12.677024337700509
+      ],
+      "delta": [
+        0.22815068821063633,
+        0.20160822715683935,
+        0.042103800202564656
+      ],
+      "stable_old": 18,
+      "raw_retained": 16,
+      "transport_retained": 18,
+      "all_fresh_retained": true,
+      "prior_old": 18,
+      "raw_retained_unfiltered": 16,
+      "transport_retained_unfiltered": 18,
+      "baseline_retained_unfiltered": 18,
+      "reliable_new": [],
+      "positive_three_blocks": true
+    },
+    {
+      "model": "0.6B",
+      "case": 2,
+      "seed": 92003,
+      "kind": "acquired",
+      "capacity": [
+        10.806701070583015,
+        10.67218403832435,
+        10.744255665406037
+      ],
+      "baseline_capacity": [
+        10.902213387111631,
+        10.709266723084026,
+        10.741894420917797
+      ],
+      "delta": [
+        -0.09551231652861603,
+        -0.037082684759676354,
+        0.002361244488239933
+      ],
+      "stable_old": 16,
+      "raw_retained": 15,
+      "transport_retained": 16,
+      "all_fresh_retained": true,
+      "prior_old": 16,
+      "raw_retained_unfiltered": 15,
+      "transport_retained_unfiltered": 16,
+      "baseline_retained_unfiltered": 16,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "0.6B",
+      "case": 2,
+      "seed": 92003,
+      "kind": "random_same_norm",
+      "capacity": [
+        10.952054548659474,
+        10.736930647683712,
+        10.771134488302026
+      ],
+      "baseline_capacity": [
+        10.902213387111631,
+        10.709266723084026,
+        10.741894420917797
+      ],
+      "delta": [
+        0.04984116154784246,
+        0.02766392459968614,
+        0.029240067384229462
+      ],
+      "stable_old": 16,
+      "raw_retained": 16,
+      "transport_retained": 16,
+      "all_fresh_retained": true,
+      "prior_old": 16,
+      "raw_retained_unfiltered": 16,
+      "transport_retained_unfiltered": 16,
+      "baseline_retained_unfiltered": 16,
+      "reliable_new": [],
+      "positive_three_blocks": true
+    },
+    {
+      "model": "0.6B",
+      "case": 2,
+      "seed": 92003,
+      "kind": "random_same_action",
+      "capacity": [
+        10.683087900892211,
+        10.494443383209795,
+        10.543255333014832
+      ],
+      "baseline_capacity": [
+        10.902213387111631,
+        10.709266723084026,
+        10.741894420917797
+      ],
+      "delta": [
+        -0.2191254862194203,
+        -0.21482333987423097,
+        -0.19863908790296492
+      ],
+      "stable_old": 16,
+      "raw_retained": 15,
+      "transport_retained": 16,
+      "all_fresh_retained": true,
+      "prior_old": 16,
+      "raw_retained_unfiltered": 15,
+      "transport_retained_unfiltered": 16,
+      "baseline_retained_unfiltered": 16,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "0.6B",
+      "case": 3,
+      "seed": 96001,
+      "kind": "acquired",
+      "capacity": [
+        12.723130092941673,
+        11.507744381452374,
+        11.979215967372975
+      ],
+      "baseline_capacity": [
+        13.117476915000578,
+        11.850728622425036,
+        12.376284665296172
+      ],
+      "delta": [
+        -0.39434682205890503,
+        -0.3429842409726618,
+        -0.39706869792319743
+      ],
+      "stable_old": 13,
+      "raw_retained": 4,
+      "transport_retained": 13,
+      "all_fresh_retained": true,
+      "prior_old": 13,
+      "raw_retained_unfiltered": 4,
+      "transport_retained_unfiltered": 13,
+      "baseline_retained_unfiltered": 13,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "0.6B",
+      "case": 3,
+      "seed": 96001,
+      "kind": "random_same_norm",
+      "capacity": [
+        13.120614373386523,
+        11.852600386028413,
+        12.379382597125655
+      ],
+      "baseline_capacity": [
+        13.117476915000578,
+        11.850728622425036,
+        12.376284665296172
+      ],
+      "delta": [
+        0.0031374583859449245,
+        0.0018717636033773744,
+        0.003097931829483258
+      ],
+      "stable_old": 13,
+      "raw_retained": 13,
+      "transport_retained": 13,
+      "all_fresh_retained": true,
+      "prior_old": 13,
+      "raw_retained_unfiltered": 13,
+      "transport_retained_unfiltered": 13,
+      "baseline_retained_unfiltered": 13,
+      "reliable_new": [],
+      "positive_three_blocks": true
+    },
+    {
+      "model": "0.6B",
+      "case": 3,
+      "seed": 96001,
+      "kind": "random_same_action",
+      "capacity": [
+        13.38006006995243,
+        12.03700126740621,
+        12.652078022399811
+      ],
+      "baseline_capacity": [
+        13.117476915000578,
+        11.850728622425036,
+        12.376284665296172
+      ],
+      "delta": [
+        0.2625831549518516,
+        0.18627264498117313,
+        0.2757933571036393
+      ],
+      "stable_old": 13,
+      "raw_retained": 4,
+      "transport_retained": 13,
+      "all_fresh_retained": true,
+      "prior_old": 13,
+      "raw_retained_unfiltered": 4,
+      "transport_retained_unfiltered": 13,
+      "baseline_retained_unfiltered": 13,
+      "reliable_new": [],
+      "positive_three_blocks": true
+    },
+    {
+      "model": "0.6B",
+      "case": 4,
+      "seed": 96002,
+      "kind": "acquired",
+      "capacity": [
+        7.982448400272195,
+        7.2992187362908325,
+        7.61295947561813
+      ],
+      "baseline_capacity": [
+        8.16038204120266,
+        7.4536521760600465,
+        7.769764993337454
+      ],
+      "delta": [
+        -0.1779336409304646,
+        -0.15443343976921398,
+        -0.1568055177193246
+      ],
+      "stable_old": 9,
+      "raw_retained": 7,
+      "transport_retained": 9,
+      "all_fresh_retained": true,
+      "prior_old": 9,
+      "raw_retained_unfiltered": 7,
+      "transport_retained_unfiltered": 9,
+      "baseline_retained_unfiltered": 9,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "0.6B",
+      "case": 4,
+      "seed": 96002,
+      "kind": "random_same_norm",
+      "capacity": [
+        8.152909415352294,
+        7.4456751176508575,
+        7.760517936034628
+      ],
+      "baseline_capacity": [
+        8.16038204120266,
+        7.4536521760600465,
+        7.769764993337454
+      ],
+      "delta": [
+        -0.007472625850365233,
+        -0.007977058409188942,
+        -0.009247057302826711
+      ],
+      "stable_old": 9,
+      "raw_retained": 9,
+      "transport_retained": 9,
+      "all_fresh_retained": true,
+      "prior_old": 9,
+      "raw_retained_unfiltered": 9,
+      "transport_retained_unfiltered": 9,
+      "baseline_retained_unfiltered": 9,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "0.6B",
+      "case": 4,
+      "seed": 96002,
+      "kind": "random_same_action",
+      "capacity": [
+        7.788205908227407,
+        7.055557078761525,
+        7.356867710218852
+      ],
+      "baseline_capacity": [
+        8.16038204120266,
+        7.4536521760600465,
+        7.769764993337454
+      ],
+      "delta": [
+        -0.37217613297525265,
+        -0.39809509729852177,
+        -0.4128972831186024
+      ],
+      "stable_old": 9,
+      "raw_retained": 7,
+      "transport_retained": 9,
+      "all_fresh_retained": true,
+      "prior_old": 9,
+      "raw_retained_unfiltered": 7,
+      "transport_retained_unfiltered": 9,
+      "baseline_retained_unfiltered": 9,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "0.6B",
+      "case": 5,
+      "seed": 96003,
+      "kind": "acquired",
+      "capacity": [
+        1.6584157268048663,
+        1.5704587320169818,
+        1.7496270231676494
+      ],
+      "baseline_capacity": [
+        1.4707215405826375,
+        1.4673201278572192,
+        1.4099105704838193
+      ],
+      "delta": [
+        0.18769418622222878,
+        0.10313860415976261,
+        0.3397164526838301
+      ],
+      "stable_old": 5,
+      "raw_retained": 4,
+      "transport_retained": 5,
+      "all_fresh_retained": true,
+      "prior_old": 5,
+      "raw_retained_unfiltered": 4,
+      "transport_retained_unfiltered": 5,
+      "baseline_retained_unfiltered": 5,
+      "reliable_new": [],
+      "positive_three_blocks": true
+    },
+    {
+      "model": "0.6B",
+      "case": 5,
+      "seed": 96003,
+      "kind": "random_same_norm",
+      "capacity": [
+        1.4758041088218392,
+        1.496412772760929,
+        1.4199363675857093
+      ],
+      "baseline_capacity": [
+        1.4707215405826375,
+        1.4673201278572192,
+        1.4099105704838193
+      ],
+      "delta": [
+        0.0050825682392017235,
+        0.029092644903709886,
+        0.01002579710189
+      ],
+      "stable_old": 5,
+      "raw_retained": 5,
+      "transport_retained": 5,
+      "all_fresh_retained": true,
+      "prior_old": 5,
+      "raw_retained_unfiltered": 5,
+      "transport_retained_unfiltered": 5,
+      "baseline_retained_unfiltered": 5,
+      "reliable_new": [],
+      "positive_three_blocks": true
+    },
+    {
+      "model": "0.6B",
+      "case": 5,
+      "seed": 96003,
+      "kind": "random_same_action",
+      "capacity": [
+        1.7386743799954822,
+        1.7529730382007536,
+        1.706135077548447
+      ],
+      "baseline_capacity": [
+        1.4707215405826375,
+        1.4673201278572192,
+        1.4099105704838193
+      ],
+      "delta": [
+        0.26795283941284476,
+        0.28565291034353435,
+        0.29622450706462766
+      ],
+      "stable_old": 5,
+      "raw_retained": 4,
+      "transport_retained": 5,
+      "all_fresh_retained": true,
+      "prior_old": 5,
+      "raw_retained_unfiltered": 4,
+      "transport_retained_unfiltered": 5,
+      "baseline_retained_unfiltered": 5,
+      "reliable_new": [],
+      "positive_three_blocks": true
+    },
+    {
+      "model": "1.7B",
+      "case": 0,
+      "seed": 92001,
+      "kind": "acquired",
+      "capacity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "baseline_capacity": [
+        12.65411937782067,
+        11.832804153860707,
+        9.669917402333825
+      ],
+      "delta": [
+        -12.65411937782067,
+        -11.832804153860707,
+        -9.669917402333825
+      ],
+      "stable_old": 18,
+      "raw_retained": 0,
+      "transport_retained": 0,
+      "all_fresh_retained": false,
+      "prior_old": 20,
+      "raw_retained_unfiltered": 0,
+      "transport_retained_unfiltered": 0,
+      "baseline_retained_unfiltered": 18,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "1.7B",
+      "case": 0,
+      "seed": 92001,
+      "kind": "random_same_norm",
+      "capacity": [
+        12.60842478936577,
+        11.822910700565838,
+        9.48920760620894
+      ],
+      "baseline_capacity": [
+        12.65411937782067,
+        11.832804153860707,
+        9.669917402333825
+      ],
+      "delta": [
+        -0.04569458845490004,
+        -0.009893453294868237,
+        -0.18070979612488536
+      ],
+      "stable_old": 18,
+      "raw_retained": 18,
+      "transport_retained": 18,
+      "all_fresh_retained": true,
+      "prior_old": 20,
+      "raw_retained_unfiltered": 18,
+      "transport_retained_unfiltered": 18,
+      "baseline_retained_unfiltered": 18,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "1.7B",
+      "case": 0,
+      "seed": 92001,
+      "kind": "random_same_action",
+      "capacity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "baseline_capacity": [
+        12.65411937782067,
+        11.832804153860707,
+        9.669917402333825
+      ],
+      "delta": [
+        -12.65411937782067,
+        -11.832804153860707,
+        -9.669917402333825
+      ],
+      "stable_old": 18,
+      "raw_retained": 0,
+      "transport_retained": 0,
+      "all_fresh_retained": false,
+      "prior_old": 20,
+      "raw_retained_unfiltered": 0,
+      "transport_retained_unfiltered": 0,
+      "baseline_retained_unfiltered": 18,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "1.7B",
+      "case": 1,
+      "seed": 92002,
+      "kind": "acquired",
+      "capacity": [
+        7.044501940951859,
+        6.795722145211558,
+        6.896192727972282
+      ],
+      "baseline_capacity": [
+        5.223675701226655,
+        4.558876175930891,
+        5.241535844488718
+      ],
+      "delta": [
+        1.8208262397252044,
+        2.236845969280667,
+        1.6546568834835638
+      ],
+      "stable_old": 7,
+      "raw_retained": 5,
+      "transport_retained": 7,
+      "all_fresh_retained": true,
+      "prior_old": 7,
+      "raw_retained_unfiltered": 5,
+      "transport_retained_unfiltered": 7,
+      "baseline_retained_unfiltered": 7,
+      "reliable_new": [],
+      "positive_three_blocks": true
+    },
+    {
+      "model": "1.7B",
+      "case": 1,
+      "seed": 92002,
+      "kind": "random_same_norm",
+      "capacity": [
+        5.244233888217135,
+        4.556484736959975,
+        5.261348570302204
+      ],
+      "baseline_capacity": [
+        5.223675701226655,
+        4.558876175930891,
+        5.241535844488718
+      ],
+      "delta": [
+        0.020558186990480287,
+        -0.002391438970915871,
+        0.0198127258134857
+      ],
+      "stable_old": 7,
+      "raw_retained": 7,
+      "transport_retained": 7,
+      "all_fresh_retained": true,
+      "prior_old": 7,
+      "raw_retained_unfiltered": 7,
+      "transport_retained_unfiltered": 7,
+      "baseline_retained_unfiltered": 7,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "1.7B",
+      "case": 1,
+      "seed": 92002,
+      "kind": "random_same_action",
+      "capacity": [
+        5.972403093472381,
+        5.850947590570965,
+        6.1738012652981755
+      ],
+      "baseline_capacity": [
+        5.223675701226655,
+        4.558876175930891,
+        5.241535844488718
+      ],
+      "delta": [
+        0.7487273922457263,
+        1.2920714146400742,
+        0.9322654208094576
+      ],
+      "stable_old": 7,
+      "raw_retained": 7,
+      "transport_retained": 7,
+      "all_fresh_retained": true,
+      "prior_old": 7,
+      "raw_retained_unfiltered": 7,
+      "transport_retained_unfiltered": 7,
+      "baseline_retained_unfiltered": 7,
+      "reliable_new": [],
+      "positive_three_blocks": true
+    },
+    {
+      "model": "1.7B",
+      "case": 2,
+      "seed": 92003,
+      "kind": "acquired",
+      "capacity": [
+        14.978692970139761,
+        15.164539299325117,
+        15.045759026831696
+      ],
+      "baseline_capacity": [
+        15.157082122877398,
+        15.352013814679268,
+        15.202523821403869
+      ],
+      "delta": [
+        -0.1783891527376369,
+        -0.18747451535415038,
+        -0.1567647945721724
+      ],
+      "stable_old": 19,
+      "raw_retained": 17,
+      "transport_retained": 19,
+      "all_fresh_retained": true,
+      "prior_old": 19,
+      "raw_retained_unfiltered": 17,
+      "transport_retained_unfiltered": 19,
+      "baseline_retained_unfiltered": 19,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "1.7B",
+      "case": 2,
+      "seed": 92003,
+      "kind": "random_same_norm",
+      "capacity": [
+        15.165561701295456,
+        15.363895525765471,
+        15.19341061611956
+      ],
+      "baseline_capacity": [
+        15.157082122877398,
+        15.352013814679268,
+        15.202523821403869
+      ],
+      "delta": [
+        0.008479578418057798,
+        0.01188171108620395,
+        -0.009113205284307924
+      ],
+      "stable_old": 19,
+      "raw_retained": 19,
+      "transport_retained": 19,
+      "all_fresh_retained": true,
+      "prior_old": 19,
+      "raw_retained_unfiltered": 19,
+      "transport_retained_unfiltered": 19,
+      "baseline_retained_unfiltered": 19,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "1.7B",
+      "case": 2,
+      "seed": 92003,
+      "kind": "random_same_action",
+      "capacity": [
+        14.9754016509465,
+        15.003267696898615,
+        15.035803191264646
+      ],
+      "baseline_capacity": [
+        15.157082122877398,
+        15.352013814679268,
+        15.202523821403869
+      ],
+      "delta": [
+        -0.18168047193089798,
+        -0.348746117780653,
+        -0.16672063013922234
+      ],
+      "stable_old": 19,
+      "raw_retained": 17,
+      "transport_retained": 19,
+      "all_fresh_retained": true,
+      "prior_old": 19,
+      "raw_retained_unfiltered": 17,
+      "transport_retained_unfiltered": 19,
+      "baseline_retained_unfiltered": 19,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "1.7B",
+      "case": 3,
+      "seed": 96001,
+      "kind": "acquired",
+      "capacity": [
+        9.483492040564437,
+        9.77074462281926,
+        7.3624303217919245
+      ],
+      "baseline_capacity": [
+        9.128875738615266,
+        9.47978745083608,
+        7.399208033147009
+      ],
+      "delta": [
+        0.3546163019491715,
+        0.2909571719831803,
+        -0.0367777113550849
+      ],
+      "stable_old": 6,
+      "raw_retained": 4,
+      "transport_retained": 6,
+      "all_fresh_retained": true,
+      "prior_old": 7,
+      "raw_retained_unfiltered": 4,
+      "transport_retained_unfiltered": 6,
+      "baseline_retained_unfiltered": 6,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "1.7B",
+      "case": 3,
+      "seed": 96001,
+      "kind": "random_same_norm",
+      "capacity": [
+        9.160034310739167,
+        9.503867239443869,
+        7.4113409905489975
+      ],
+      "baseline_capacity": [
+        9.128875738615266,
+        9.47978745083608,
+        7.399208033147009
+      ],
+      "delta": [
+        0.031158572123901607,
+        0.024079788607789254,
+        0.012132957401988165
+      ],
+      "stable_old": 6,
+      "raw_retained": 6,
+      "transport_retained": 6,
+      "all_fresh_retained": true,
+      "prior_old": 7,
+      "raw_retained_unfiltered": 6,
+      "transport_retained_unfiltered": 6,
+      "baseline_retained_unfiltered": 6,
+      "reliable_new": [],
+      "positive_three_blocks": true
+    },
+    {
+      "model": "1.7B",
+      "case": 3,
+      "seed": 96001,
+      "kind": "random_same_action",
+      "capacity": [
+        9.526752902177485,
+        9.821113294722792,
+        7.612942240655076
+      ],
+      "baseline_capacity": [
+        9.128875738615266,
+        9.47978745083608,
+        7.399208033147009
+      ],
+      "delta": [
+        0.39787716356221914,
+        0.34132584388671283,
+        0.21373420750806638
+      ],
+      "stable_old": 6,
+      "raw_retained": 5,
+      "transport_retained": 6,
+      "all_fresh_retained": true,
+      "prior_old": 7,
+      "raw_retained_unfiltered": 5,
+      "transport_retained_unfiltered": 7,
+      "baseline_retained_unfiltered": 6,
+      "reliable_new": [],
+      "positive_three_blocks": true
+    },
+    {
+      "model": "1.7B",
+      "case": 4,
+      "seed": 96002,
+      "kind": "acquired",
+      "capacity": [
+        8.18045907581301,
+        7.75088362517509,
+        7.437364703804622
+      ],
+      "baseline_capacity": [
+        8.338614614844868,
+        7.8915742892846,
+        7.605553554155462
+      ],
+      "delta": [
+        -0.15815553903185808,
+        -0.1406906641095098,
+        -0.1681888503508402
+      ],
+      "stable_old": 10,
+      "raw_retained": 8,
+      "transport_retained": 10,
+      "all_fresh_retained": true,
+      "prior_old": 10,
+      "raw_retained_unfiltered": 8,
+      "transport_retained_unfiltered": 10,
+      "baseline_retained_unfiltered": 10,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "1.7B",
+      "case": 4,
+      "seed": 96002,
+      "kind": "random_same_norm",
+      "capacity": [
+        8.335256037897256,
+        7.889028224491703,
+        7.601598510018417
+      ],
+      "baseline_capacity": [
+        8.338614614844868,
+        7.8915742892846,
+        7.605553554155462
+      ],
+      "delta": [
+        -0.00335857694761188,
+        -0.002546064792896985,
+        -0.003955044137045505
+      ],
+      "stable_old": 10,
+      "raw_retained": 10,
+      "transport_retained": 10,
+      "all_fresh_retained": true,
+      "prior_old": 10,
+      "raw_retained_unfiltered": 10,
+      "transport_retained_unfiltered": 10,
+      "baseline_retained_unfiltered": 10,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "1.7B",
+      "case": 4,
+      "seed": 96002,
+      "kind": "random_same_action",
+      "capacity": [
+        8.20700453455424,
+        7.801793806956867,
+        7.464553232263642
+      ],
+      "baseline_capacity": [
+        8.338614614844868,
+        7.8915742892846,
+        7.605553554155462
+      ],
+      "delta": [
+        -0.1316100802906277,
+        -0.0897804823277335,
+        -0.14100032189182077
+      ],
+      "stable_old": 10,
+      "raw_retained": 8,
+      "transport_retained": 10,
+      "all_fresh_retained": true,
+      "prior_old": 10,
+      "raw_retained_unfiltered": 8,
+      "transport_retained_unfiltered": 10,
+      "baseline_retained_unfiltered": 10,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "1.7B",
+      "case": 5,
+      "seed": 96003,
+      "kind": "acquired",
+      "capacity": [
+        4.297815315160372,
+        4.641907273757652,
+        4.854837921114331
+      ],
+      "baseline_capacity": [
+        4.273459091037103,
+        4.75740813122525,
+        4.673366878322225
+      ],
+      "delta": [
+        0.02435622412326932,
+        -0.1155008574675982,
+        0.18147104279210602
+      ],
+      "stable_old": 5,
+      "raw_retained": 4,
+      "transport_retained": 5,
+      "all_fresh_retained": true,
+      "prior_old": 5,
+      "raw_retained_unfiltered": 4,
+      "transport_retained_unfiltered": 5,
+      "baseline_retained_unfiltered": 5,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "1.7B",
+      "case": 5,
+      "seed": 96003,
+      "kind": "random_same_norm",
+      "capacity": [
+        4.27391584540595,
+        4.755884553530654,
+        4.676430952032067
+      ],
+      "baseline_capacity": [
+        4.273459091037103,
+        4.75740813122525,
+        4.673366878322225
+      ],
+      "delta": [
+        0.0004567543688471787,
+        -0.001523577694595879,
+        0.0030640737098419635
+      ],
+      "stable_old": 5,
+      "raw_retained": 5,
+      "transport_retained": 5,
+      "all_fresh_retained": true,
+      "prior_old": 5,
+      "raw_retained_unfiltered": 5,
+      "transport_retained_unfiltered": 5,
+      "baseline_retained_unfiltered": 5,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    },
+    {
+      "model": "1.7B",
+      "case": 5,
+      "seed": 96003,
+      "kind": "random_same_action",
+      "capacity": [
+        4.266458686651478,
+        4.6795838036473825,
+        4.713230112315539
+      ],
+      "baseline_capacity": [
+        4.273459091037103,
+        4.75740813122525,
+        4.673366878322225
+      ],
+      "delta": [
+        -0.007000404385625103,
+        -0.07782432757786761,
+        0.03986323399331404
+      ],
+      "stable_old": 5,
+      "raw_retained": 4,
+      "transport_retained": 5,
+      "all_fresh_retained": true,
+      "prior_old": 5,
+      "raw_retained_unfiltered": 4,
+      "transport_retained_unfiltered": 5,
+      "baseline_retained_unfiltered": 5,
+      "reliable_new": [],
+      "positive_three_blocks": false
+    }
+  ],
+  "mean_changes": [
+    {
+      "model": "0.6B",
+      "kind": "acquired",
+      "mean_delta": [
+        0.12836587923256385,
+        0.30259395199914735,
+        -0.270899128417543
+      ],
+      "positive_three": 1
+    },
+    {
+      "model": "0.6B",
+      "kind": "random_same_norm",
+      "mean_delta": [
+        0.007528772144643758,
+        -0.0013822558706652426,
+        0.026121558082530544
+      ],
+      "positive_three": 4
+    },
+    {
+      "model": "0.6B",
+      "kind": "random_same_action",
+      "mean_delta": [
+        -0.0038116393123874825,
+        -0.014937583427427495,
+        -0.10138251410182875
+      ],
+      "positive_three": 3
+    },
+    {
+      "model": "1.7B",
+      "kind": "acquired",
+      "mean_delta": [
+        -1.798477550632087,
+        -1.6247778415880196,
+        -1.3659201387227091
+      ],
+      "positive_three": 1
+    },
+    {
+      "model": "1.7B",
+      "kind": "random_same_norm",
+      "mean_delta": [
+        0.001933321083129158,
+        0.003267827490119372,
+        -0.026461381436820492
+      ],
+      "positive_three": 1
+    },
+    {
+      "model": "1.7B",
+      "kind": "random_same_action",
+      "mean_delta": [
+        -1.9713009631033127,
+        -1.7859596371700295,
+        -1.4652959153423384
+      ],
+      "positive_three": 2
+    }
+  ],
+  "retention": {
+    "0.6B": {
+      "stable_old": 66,
+      "raw_retained": 52,
+      "transport_retained": 66,
+      "prior_old": 66,
+      "raw_retained_unfiltered": 52,
+      "transport_retained_unfiltered": 66,
+      "baseline_retained_unfiltered": 66,
+      "complete_fresh_cases": 6,
+      "positive_three_cases": 1,
+      "normalization_only": 43,
+      "learned_diagonal": 46,
+      "retained_all_three": 64,
+      "complete_three_cases": 5
+    },
+    "1.7B": {
+      "stable_old": 65,
+      "raw_retained": 38,
+      "transport_retained": 47,
+      "prior_old": 68,
+      "raw_retained_unfiltered": 38,
+      "transport_retained_unfiltered": 47,
+      "baseline_retained_unfiltered": 65,
+      "complete_fresh_cases": 5,
+      "positive_three_cases": 1,
+      "normalization_only": 37,
+      "learned_diagonal": 37,
+      "retained_all_three": 46,
+      "complete_three_cases": 4
+    }
+  },
+  "scope": "Prespecified+2percent updates; twelve charts, two test blocks and fresh validation. Shared interfaces use only training feature pairs. Diagonal/normalization and three-block retention ablations are post-hoc."
+}

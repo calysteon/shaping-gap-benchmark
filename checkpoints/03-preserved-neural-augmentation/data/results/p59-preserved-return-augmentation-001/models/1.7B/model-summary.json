@@ -1,0 +1,168 @@
+{
+  "model": "1.7B",
+  "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7",
+  "stored_parameter_bytes": 914237440,
+  "weights_unchanged": true,
+  "inherited_source": [
+    {
+      "parent": "p55-neural-stimulus-capacity-002",
+      "source_records": [
+        {
+          "seed": 92001,
+          "seconds": 28.348871417110786,
+          "native_work": {
+            "batches": 1042,
+            "sequences": 28089,
+            "tokens": 56178,
+            "attention_block_tokens": 1572984,
+            "mlp_block_tokens": 1572984
+          },
+          "selection": {
+            "unaligned": 31,
+            "aligned": 14,
+            "curvature": 51
+          },
+          "unstable_candidates": 0,
+          "candidates": 54,
+          "controller_array_bound_bytes": 41713664
+        },
+        {
+          "seed": 92002,
+          "seconds": 28.212126832921058,
+          "native_work": {
+            "batches": 1042,
+            "sequences": 28089,
+            "tokens": 56178,
+            "attention_block_tokens": 1572984,
+            "mlp_block_tokens": 1572984
+          },
+          "selection": {
+            "unaligned": 45,
+            "aligned": 46,
+            "curvature": 53
+          },
+          "unstable_candidates": 0,
+          "candidates": 54,
+          "controller_array_bound_bytes": 41713664
+        },
+        {
+          "seed": 92003,
+          "seconds": 30.198784708976746,
+          "native_work": {
+            "batches": 1042,
+            "sequences": 28089,
+            "tokens": 56178,
+            "attention_block_tokens": 1572984,
+            "mlp_block_tokens": 1572984
+          },
+          "selection": {
+            "unaligned": 31,
+            "aligned": 50,
+            "curvature": 17
+          },
+          "unstable_candidates": 0,
+          "candidates": 54,
+          "controller_array_bound_bytes": 41713664
+        }
+      ]
+    },
+    {
+      "parent": "p56-nonlinear-stimulus-development-001",
+      "source_records": [
+        {
+          "seed": 96001,
+          "seconds": 149.72101254109293,
+          "native_work": {
+            "batches": 4114,
+            "sequences": 111033,
+            "tokens": 222066,
+            "attention_block_tokens": 6217848,
+            "mlp_block_tokens": 6217848
+          },
+          "selection": {
+            "unaligned": 47,
+            "aligned": 50,
+            "curvature": 53,
+            "unaligned_rank": 47
+          },
+          "unstable_candidates": 2,
+          "candidates": 54,
+          "controller_array_bound_bytes": 44367872
+        },
+        {
+          "seed": 96002,
+          "seconds": 139.52929008286446,
+          "native_work": {
+            "batches": 4114,
+            "sequences": 111033,
+            "tokens": 222066,
+            "attention_block_tokens": 6217848,
+            "mlp_block_tokens": 6217848
+          },
+          "selection": {
+            "unaligned": 49,
+            "aligned": 48,
+            "curvature": 51,
+            "unaligned_rank": 36
+          },
+          "unstable_candidates": 2,
+          "candidates": 54,
+          "controller_array_bound_bytes": 44367872
+        },
+        {
+          "seed": 96003,
+          "seconds": 140.9114339579828,
+          "native_work": {
+            "batches": 4114,
+            "sequences": 111033,
+            "tokens": 222066,
+            "attention_block_tokens": 6217848,
+            "mlp_block_tokens": 6217848
+          },
+          "selection": {
+            "unaligned": 45,
+            "aligned": 48,
+            "curvature": 51,
+            "unaligned_rank": 49
+          },
+          "unstable_candidates": 1,
+          "candidates": 54,
+          "controller_array_bound_bytes": 44367872
+        }
+      ]
+    }
+  ],
+  "source_native_work": {
+    "batches": 515,
+    "sequences": 16480,
+    "tokens": 32960,
+    "attention_block_tokens": 922880,
+    "mlp_block_tokens": 922880
+  },
+  "source_seconds": 21.30575262499042,
+  "assessment_native_work": {
+    "batches": 19200,
+    "sequences": 614400,
+    "tokens": 1228800,
+    "attention_block_tokens": 34406400,
+    "mlp_block_tokens": 34406400
+  },
+  "assessment_seconds": 773.4932745001279,
+  "native_work": {
+    "batches": 19715,
+    "sequences": 630880,
+    "tokens": 1261760,
+    "attention_block_tokens": 35329280,
+    "mlp_block_tokens": 35329280
+  },
+  "native_seconds": 749.2218713467009,
+  "wall_seconds": 801.4272802500054,
+  "baseline_clones_bitexact": true,
+  "observed_array_bytes": {
+    "returns": 25165824,
+    "states": 17203200,
+    "features": 86016000
+  },
+  "mlx_peak_bytes": 1213848768,
+  "process_peak_rss_bytes": 1595244544
+}

@@ -1,0 +1,198 @@
+{
+  "inherited_source": [
+    {
+      "model": "0.6B",
+      "native_sequences": 417366
+    },
+    {
+      "model": "1.7B",
+      "native_sequences": 417366
+    }
+  ],
+  "p59": [
+    {
+      "model": "0.6B",
+      "source_native_work": {
+        "batches": 515,
+        "sequences": 16480,
+        "tokens": 32960,
+        "attention_block_tokens": 922880,
+        "mlp_block_tokens": 922880
+      },
+      "source_seconds": 6.10349787492305,
+      "assessment_native_work": {
+        "batches": 19200,
+        "sequences": 614400,
+        "tokens": 1228800,
+        "attention_block_tokens": 34406400,
+        "mlp_block_tokens": 34406400
+      },
+      "assessment_seconds": 311.9943140000105,
+      "native_work": {
+        "batches": 19715,
+        "sequences": 630880,
+        "tokens": 1261760,
+        "attention_block_tokens": 35329280,
+        "mlp_block_tokens": 35329280
+      },
+      "wall_seconds": 323.80194925004616,
+      "observed_array_bytes": {
+        "returns": 12582912,
+        "states": 17203200,
+        "features": 86016000
+      },
+      "process_peak_rss_bytes": 792592384,
+      "weights_unchanged": true
+    },
+    {
+      "model": "1.7B",
+      "source_native_work": {
+        "batches": 515,
+        "sequences": 16480,
+        "tokens": 32960,
+        "attention_block_tokens": 922880,
+        "mlp_block_tokens": 922880
+      },
+      "source_seconds": 21.30575262499042,
+      "assessment_native_work": {
+        "batches": 19200,
+        "sequences": 614400,
+        "tokens": 1228800,
+        "attention_block_tokens": 34406400,
+        "mlp_block_tokens": 34406400
+      },
+      "assessment_seconds": 773.4932745001279,
+      "native_work": {
+        "batches": 19715,
+        "sequences": 630880,
+        "tokens": 1261760,
+        "attention_block_tokens": 35329280,
+        "mlp_block_tokens": 35329280
+      },
+      "wall_seconds": 801.4272802500054,
+      "observed_array_bytes": {
+        "returns": 25165824,
+        "states": 17203200,
+        "features": 86016000
+      },
+      "process_peak_rss_bytes": 1595244544,
+      "weights_unchanged": true
+    }
+  ],
+  "p60": [
+    {
+      "model": "0.6B",
+      "weights_unchanged": true,
+      "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+      "source_fit_seconds": 0.03872449998743832,
+      "native_work": {
+        "batches": 2304,
+        "sequences": 73728,
+        "tokens": 147456,
+        "attention_block_tokens": 4128768,
+        "mlp_block_tokens": 4128768
+      },
+      "native_seconds": 34.6419479008764,
+      "validation_seconds": 37.37331595784053,
+      "wall_seconds": 39.62454333296046,
+      "transport_shape": [
+        40,
+        40
+      ],
+      "transport_matrix_bytes": 12800,
+      "source_normalization_values_per_interface": 160,
+      "source_normalization_bytes_per_interface": 1280,
+      "process_peak_rss_bytes": 775421952
+    },
+    {
+      "model": "1.7B",
+      "weights_unchanged": true,
+      "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7",
+      "source_fit_seconds": 0.042499333154410124,
+      "native_work": {
+        "batches": 2304,
+        "sequences": 73728,
+        "tokens": 147456,
+        "attention_block_tokens": 4128768,
+        "mlp_block_tokens": 4128768
+      },
+      "native_seconds": 87.0943364656996,
+      "validation_seconds": 92.88009620900266,
+      "wall_seconds": 95.10020300000906,
+      "transport_shape": [
+        40,
+        40
+      ],
+      "transport_matrix_bytes": 12800,
+      "source_normalization_values_per_interface": 160,
+      "source_normalization_bytes_per_interface": 1280,
+      "process_peak_rss_bytes": 1684373504
+    }
+  ],
+  "production": {
+    "recurrent_state_dimension": 8,
+    "return_shape": "8 x (2 * hidden_width)",
+    "return_coefficients_0_6B": 16384,
+    "return_coefficients_1_7B": 32768,
+    "extra_shared_transport_coefficients": 1600,
+    "extra_transport_matrix_bytes": 12800,
+    "serialized_normalization_bytes": 1280
+  },
+  "accounting": "Experimental controls, clones, padding and saved trajectories are charged as measurement work. Production merges each return addition into the original matrix. Pretrained weights and inherited readout programs are fixed; transport fitting is shared and receives neural feature pairs.",
+  "native_verification": {
+    "records": [
+      {
+        "model": "0.6B",
+        "run": "p59-preserved-return-augmentation-001",
+        "native_condition_steps": 1536,
+        "native_outputs_bitexact": true
+      },
+      {
+        "model": "0.6B",
+        "run": "p60-shared-observer-transport-001",
+        "native_condition_steps": 480,
+        "native_outputs_bitexact": true
+      },
+      {
+        "model": "0.6B",
+        "weights_unchanged": true,
+        "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+        "native_work": {
+          "batches": 64,
+          "sequences": 2048,
+          "tokens": 4096,
+          "attention_block_tokens": 114688,
+          "mlp_block_tokens": 114688
+        },
+        "native_seconds": 0.7451102510094643
+      },
+      {
+        "model": "1.7B",
+        "run": "p59-preserved-return-augmentation-001",
+        "native_condition_steps": 1536,
+        "native_outputs_bitexact": true
+      },
+      {
+        "model": "1.7B",
+        "run": "p60-shared-observer-transport-001",
+        "native_condition_steps": 480,
+        "native_outputs_bitexact": true
+      },
+      {
+        "model": "1.7B",
+        "weights_unchanged": true,
+        "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7",
+        "native_work": {
+          "batches": 64,
+          "sequences": 2048,
+          "tokens": 4096,
+          "attention_block_tokens": 114688,
+          "mlp_block_tokens": 114688
+        },
+        "native_seconds": 1.6138275885023177
+      }
+    ],
+    "runner_sha256": "30d2cd36bfe2c5a933f143bf360c2c1d82c36b20e1c6d4bcc1e6aa38db337c17"
+  },
+  "incremental_native_sequences_including_verification": 1413312
+}

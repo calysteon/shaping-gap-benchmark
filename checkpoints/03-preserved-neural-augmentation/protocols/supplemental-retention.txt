@@ -1,0 +1,27 @@
+P59 SUPPLEMENTAL RETENTION ANALYSIS
+November 13, 2026
+
+Recorded while the 0.6B P59 run is at1536 of6400 native assessment steps;
+only source calibration and numerical-boundedness progress are visible.
+No P59 function-capacity outcomes have been produced or inspected.
+
+The declared P59 endpoint measures available computation using equally fitted
+linear readouts. Add a stricter supplemental retention analysis: preserve the
+baseline's trained readout unchanged, apply that same readout and normalization
+to each candidate's observed features, and evaluate both held-out test blocks.
+
+Report for each condition:
+1. Newly reliable nonlinear functions under its acquired readout, with the
+   same strict two-block and0.5 threshold definitions as the original plan.
+2. Every previously reliable baseline function retained by the original frozen
+   baseline readout, plus the exact identities and scores of losses.
+3. The0.45/0.55 robustness margins and all per-target changes.
+4. Retention-preserving acquisition where a candidate gains a reliable
+   nonlinear function and preserves every previously reliable baseline
+   function using the original frozen readout.
+
+Keep the original declared endpoints and signed dose-response unchanged.
+This supplementary analysis reuses saved features/readouts and adds no native
+calls. Record its CPU time and distinguish it from source acquisition.
+It tests persistence of existing executable observers alongside acquisition
+of additional available computation.

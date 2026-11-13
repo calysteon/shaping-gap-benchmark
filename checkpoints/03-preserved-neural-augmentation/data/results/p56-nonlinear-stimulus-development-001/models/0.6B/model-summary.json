@@ -1,0 +1,90 @@
+{
+  "model": "0.6B",
+  "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+  "stored_parameter_bytes": 316747776,
+  "width": 1024,
+  "layers": 28,
+  "source_records": [
+    {
+      "seed": 96001,
+      "seconds": 46.54829724994488,
+      "native_work": {
+        "batches": 4114,
+        "sequences": 111033,
+        "tokens": 222066,
+        "attention_block_tokens": 6217848,
+        "mlp_block_tokens": 6217848
+      },
+      "selection": {
+        "unaligned": 45,
+        "aligned": 46,
+        "curvature": 52,
+        "unaligned_rank": 11
+      },
+      "unstable_candidates": 1,
+      "candidates": 54,
+      "controller_array_bound_bytes": 28147712
+    },
+    {
+      "seed": 96002,
+      "seconds": 47.756816582987085,
+      "native_work": {
+        "batches": 4114,
+        "sequences": 111033,
+        "tokens": 222066,
+        "attention_block_tokens": 6217848,
+        "mlp_block_tokens": 6217848
+      },
+      "selection": {
+        "unaligned": 47,
+        "aligned": 50,
+        "curvature": 51,
+        "unaligned_rank": 49
+      },
+      "unstable_candidates": 1,
+      "candidates": 54,
+      "controller_array_bound_bytes": 28147712
+    },
+    {
+      "seed": 96003,
+      "seconds": 48.364923916058615,
+      "native_work": {
+        "batches": 4114,
+        "sequences": 111033,
+        "tokens": 222066,
+        "attention_block_tokens": 6217848,
+        "mlp_block_tokens": 6217848
+      },
+      "selection": {
+        "unaligned": 49,
+        "aligned": 28,
+        "curvature": 33,
+        "unaligned_rank": 27
+      },
+      "unstable_candidates": 1,
+      "candidates": 54,
+      "controller_array_bound_bytes": 28147712
+    }
+  ],
+  "native_work": {
+    "batches": 16694,
+    "sequences": 411435,
+    "tokens": 822870,
+    "attention_block_tokens": 23040360,
+    "mlp_block_tokens": 23040360
+  },
+  "native_seconds": 203.7430494693108,
+  "assessment_seconds": 69.43050145800225,
+  "assessment_native_work": {
+    "batches": 4352,
+    "sequences": 78336,
+    "tokens": 156672,
+    "attention_block_tokens": 4386816,
+    "mlp_block_tokens": 4386816
+  },
+  "assessment_controller_array_bound_bytes": 39649280,
+  "wall_seconds": 213.9873812920414,
+  "weights_unchanged": true,
+  "mlx_peak_bytes": 581072072,
+  "process_peak_rss_bytes": 715112448
+}

@@ -1,0 +1,368 @@
+[
+  [
+    {
+      "case": 0,
+      "parent": "p55-neural-stimulus-capacity-002",
+      "seed": 92001,
+      "slot": 0,
+      "epsilon": 0.008,
+      "kind": "baseline",
+      "fraction": 0.0,
+      "alpha": 0.0
+    },
+    {
+      "case": 0,
+      "parent": "p55-neural-stimulus-capacity-002",
+      "seed": 92001,
+      "slot": 3,
+      "epsilon": 0.008,
+      "kind": "acquired",
+      "fraction": 0.02,
+      "alpha": 0.0025701666326574525,
+      "addition_norm": 0.0025701666326574542,
+      "identified_transport_change": 3.02017123052949e-18,
+      "source_ready": true
+    },
+    {
+      "case": 0,
+      "parent": "p55-neural-stimulus-capacity-002",
+      "seed": 92001,
+      "slot": 7,
+      "epsilon": 0.008,
+      "kind": "random_same_norm",
+      "fraction": 0.02,
+      "alpha": 0.0025701666326574525,
+      "addition_norm": 0.0025701666326574534,
+      "identified_transport_change": 1.9120166324653244e-18,
+      "source_ready": true
+    },
+    {
+      "case": 0,
+      "parent": "p55-neural-stimulus-capacity-002",
+      "seed": 92001,
+      "slot": 11,
+      "epsilon": 0.008,
+      "kind": "random_same_action",
+      "fraction": 0.02,
+      "alpha": 0.04993787314982749,
+      "addition_norm": 0.04993787314982751,
+      "identified_transport_change": 3.4818208615823074e-17,
+      "source_ready": true
+    },
+    {
+      "case": 0,
+      "parent": "p55-neural-stimulus-capacity-002",
+      "seed": 92001,
+      "slot": 13,
+      "epsilon": 0.008,
+      "kind": "baseline_clone",
+      "fraction": 0.0,
+      "alpha": 0.0
+    }
+  ],
+  [
+    {
+      "case": 1,
+      "parent": "p55-neural-stimulus-capacity-002",
+      "seed": 92002,
+      "slot": 0,
+      "epsilon": 0.002,
+      "kind": "baseline",
+      "fraction": 0.0,
+      "alpha": 0.0
+    },
+    {
+      "case": 1,
+      "parent": "p55-neural-stimulus-capacity-002",
+      "seed": 92002,
+      "slot": 3,
+      "epsilon": 0.002,
+      "kind": "acquired",
+      "fraction": 0.02,
+      "alpha": 0.2979407189220801,
+      "addition_norm": 0.2979407189220801,
+      "identified_transport_change": 1.0242831208187865e-16,
+      "source_ready": true
+    },
+    {
+      "case": 1,
+      "parent": "p55-neural-stimulus-capacity-002",
+      "seed": 92002,
+      "slot": 7,
+      "epsilon": 0.002,
+      "kind": "random_same_norm",
+      "fraction": 0.02,
+      "alpha": 0.2979407189220801,
+      "addition_norm": 0.2979407189220801,
+      "identified_transport_change": 2.912181178041298e-17,
+      "source_ready": true
+    },
+    {
+      "case": 1,
+      "parent": "p55-neural-stimulus-capacity-002",
+      "seed": 92002,
+      "slot": 11,
+      "epsilon": 0.002,
+      "kind": "random_same_action",
+      "fraction": 0.02,
+      "alpha": 9.217239013947967,
+      "addition_norm": 9.217239013947967,
+      "identified_transport_change": 1.1706786231916547e-15,
+      "source_ready": true
+    },
+    {
+      "case": 1,
+      "parent": "p55-neural-stimulus-capacity-002",
+      "seed": 92002,
+      "slot": 13,
+      "epsilon": 0.002,
+      "kind": "baseline_clone",
+      "fraction": 0.0,
+      "alpha": 0.0
+    }
+  ],
+  [
+    {
+      "case": 2,
+      "parent": "p55-neural-stimulus-capacity-002",
+      "seed": 92003,
+      "slot": 0,
+      "epsilon": 0.0005,
+      "kind": "baseline",
+      "fraction": 0.0,
+      "alpha": 0.0
+    },
+    {
+      "case": 2,
+      "parent": "p55-neural-stimulus-capacity-002",
+      "seed": 92003,
+      "slot": 3,
+      "epsilon": 0.0005,
+      "kind": "acquired",
+      "fraction": 0.02,
+      "alpha": 3.0410048373769056,
+      "addition_norm": 3.0410048373769056,
+      "identified_transport_change": 3.3414027978254545e-16,
+      "source_ready": true
+    },
+    {
+      "case": 2,
+      "parent": "p55-neural-stimulus-capacity-002",
+      "seed": 92003,
+      "slot": 7,
+      "epsilon": 0.0005,
+      "kind": "random_same_norm",
+      "fraction": 0.02,
+      "alpha": 3.0410048373769056,
+      "addition_norm": 3.041004837376905,
+      "identified_transport_change": 1.2385218771136454e-16,
+      "source_ready": true
+    },
+    {
+      "case": 2,
+      "parent": "p55-neural-stimulus-capacity-002",
+      "seed": 92003,
+      "slot": 11,
+      "epsilon": 0.0005,
+      "kind": "random_same_action",
+      "fraction": 0.02,
+      "alpha": 65.62471423578937,
+      "addition_norm": 65.62471423578937,
+      "identified_transport_change": 3.1858213323411655e-15,
+      "source_ready": true
+    },
+    {
+      "case": 2,
+      "parent": "p55-neural-stimulus-capacity-002",
+      "seed": 92003,
+      "slot": 13,
+      "epsilon": 0.0005,
+      "kind": "baseline_clone",
+      "fraction": 0.0,
+      "alpha": 0.0
+    }
+  ],
+  [
+    {
+      "case": 3,
+      "parent": "p56-nonlinear-stimulus-development-001",
+      "seed": 96001,
+      "slot": 0,
+      "epsilon": 0.008,
+      "kind": "baseline",
+      "fraction": 0.0,
+      "alpha": 0.0
+    },
+    {
+      "case": 3,
+      "parent": "p56-nonlinear-stimulus-development-001",
+      "seed": 96001,
+      "slot": 3,
+      "epsilon": 0.008,
+      "kind": "acquired",
+      "fraction": 0.02,
+      "alpha": 0.0013742395805096458,
+      "addition_norm": 0.001374239580509646,
+      "identified_transport_change": 5.462093459581656e-18,
+      "source_ready": true
+    },
+    {
+      "case": 3,
+      "parent": "p56-nonlinear-stimulus-development-001",
+      "seed": 96001,
+      "slot": 7,
+      "epsilon": 0.008,
+      "kind": "random_same_norm",
+      "fraction": 0.02,
+      "alpha": 0.0013742395805096458,
+      "addition_norm": 0.0013742395805096458,
+      "identified_transport_change": 1.8654437927881305e-18,
+      "source_ready": true
+    },
+    {
+      "case": 3,
+      "parent": "p56-nonlinear-stimulus-development-001",
+      "seed": 96001,
+      "slot": 11,
+      "epsilon": 0.008,
+      "kind": "random_same_action",
+      "fraction": 0.02,
+      "alpha": 0.1107096465532094,
+      "addition_norm": 0.1107096465532094,
+      "identified_transport_change": 1.485879620934294e-16,
+      "source_ready": true
+    },
+    {
+      "case": 3,
+      "parent": "p56-nonlinear-stimulus-development-001",
+      "seed": 96001,
+      "slot": 13,
+      "epsilon": 0.008,
+      "kind": "baseline_clone",
+      "fraction": 0.0,
+      "alpha": 0.0
+    }
+  ],
+  [
+    {
+      "case": 4,
+      "parent": "p56-nonlinear-stimulus-development-001",
+      "seed": 96002,
+      "slot": 0,
+      "epsilon": 0.008,
+      "kind": "baseline",
+      "fraction": 0.0,
+      "alpha": 0.0
+    },
+    {
+      "case": 4,
+      "parent": "p56-nonlinear-stimulus-development-001",
+      "seed": 96002,
+      "slot": 3,
+      "epsilon": 0.008,
+      "kind": "acquired",
+      "fraction": 0.02,
+      "alpha": 0.009720211807365861,
+      "addition_norm": 0.009720211807365863,
+      "identified_transport_change": 2.123828526583432e-17,
+      "source_ready": true
+    },
+    {
+      "case": 4,
+      "parent": "p56-nonlinear-stimulus-development-001",
+      "seed": 96002,
+      "slot": 7,
+      "epsilon": 0.008,
+      "kind": "random_same_norm",
+      "fraction": 0.02,
+      "alpha": 0.009720211807365861,
+      "addition_norm": 0.009720211807365863,
+      "identified_transport_change": 7.248729742995252e-18,
+      "source_ready": true
+    },
+    {
+      "case": 4,
+      "parent": "p56-nonlinear-stimulus-development-001",
+      "seed": 96002,
+      "slot": 11,
+      "epsilon": 0.008,
+      "kind": "random_same_action",
+      "fraction": 0.02,
+      "alpha": 0.35604813682736924,
+      "addition_norm": 0.35604813682736924,
+      "identified_transport_change": 2.1393857893042414e-16,
+      "source_ready": true
+    },
+    {
+      "case": 4,
+      "parent": "p56-nonlinear-stimulus-development-001",
+      "seed": 96002,
+      "slot": 13,
+      "epsilon": 0.008,
+      "kind": "baseline_clone",
+      "fraction": 0.0,
+      "alpha": 0.0
+    }
+  ],
+  [
+    {
+      "case": 5,
+      "parent": "p56-nonlinear-stimulus-development-001",
+      "seed": 96003,
+      "slot": 0,
+      "epsilon": 0.008,
+      "kind": "baseline",
+      "fraction": 0.0,
+      "alpha": 0.0
+    },
+    {
+      "case": 5,
+      "parent": "p56-nonlinear-stimulus-development-001",
+      "seed": 96003,
+      "slot": 3,
+      "epsilon": 0.008,
+      "kind": "acquired",
+      "fraction": 0.02,
+      "alpha": 0.003777834530940835,
+      "addition_norm": 0.0037778345309408363,
+      "identified_transport_change": 1.1955576364234793e-17,
+      "source_ready": true
+    },
+    {
+      "case": 5,
+      "parent": "p56-nonlinear-stimulus-development-001",
+      "seed": 96003,
+      "slot": 7,
+      "epsilon": 0.008,
+      "kind": "random_same_norm",
+      "fraction": 0.02,
+      "alpha": 0.003777834530940835,
+      "addition_norm": 0.0037778345309408363,
+      "identified_transport_change": 2.343606277903444e-18,
+      "source_ready": true
+    },
+    {
+      "case": 5,
+      "parent": "p56-nonlinear-stimulus-development-001",
+      "seed": 96003,
+      "slot": 11,
+      "epsilon": 0.008,
+      "kind": "random_same_action",
+      "fraction": 0.02,
+      "alpha": 0.09000487275280027,
+      "addition_norm": 0.09000487275280031,
+      "identified_transport_change": 3.829067073699002e-17,
+      "source_ready": true
+    },
+    {
+      "case": 5,
+      "parent": "p56-nonlinear-stimulus-development-001",
+      "seed": 96003,
+      "slot": 13,
+      "epsilon": 0.008,
+      "kind": "baseline_clone",
+      "fraction": 0.0,
+      "alpha": 0.0
+    }
+  ]
+]

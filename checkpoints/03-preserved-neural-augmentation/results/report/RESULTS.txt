@@ -1,0 +1,98 @@
+Checkpoint 03: preserved neural augmentation and reusable observation interfaces
+
+{
+  "0.6B": {
+    "stable_old": 66,
+    "raw_retained": 52,
+    "transport_retained": 66,
+    "prior_old": 66,
+    "raw_retained_unfiltered": 52,
+    "transport_retained_unfiltered": 66,
+    "baseline_retained_unfiltered": 66,
+    "complete_fresh_cases": 6,
+    "positive_three_cases": 1,
+    "normalization_only": 43,
+    "learned_diagonal": 46,
+    "retained_all_three": 64,
+    "complete_three_cases": 5
+  },
+  "1.7B": {
+    "stable_old": 65,
+    "raw_retained": 38,
+    "transport_retained": 47,
+    "prior_old": 68,
+    "raw_retained_unfiltered": 38,
+    "transport_retained_unfiltered": 47,
+    "baseline_retained_unfiltered": 65,
+    "complete_fresh_cases": 5,
+    "positive_three_cases": 1,
+    "normalization_only": 37,
+    "learned_diagonal": 37,
+    "retained_all_three": 46,
+    "complete_three_cases": 4
+  }
+}
+
+All-model primary mean processing-capacity changes: 
+[
+  {
+    "model": "0.6B",
+    "kind": "acquired",
+    "mean_delta": [
+      0.12836587923256385,
+      0.30259395199914735,
+      -0.270899128417543
+    ],
+    "positive_three": 1
+  },
+  {
+    "model": "0.6B",
+    "kind": "random_same_norm",
+    "mean_delta": [
+      0.007528772144643758,
+      -0.0013822558706652426,
+      0.026121558082530544
+    ],
+    "positive_three": 4
+  },
+  {
+    "model": "0.6B",
+    "kind": "random_same_action",
+    "mean_delta": [
+      -0.0038116393123874825,
+      -0.014937583427427495,
+      -0.10138251410182875
+    ],
+    "positive_three": 3
+  },
+  {
+    "model": "1.7B",
+    "kind": "acquired",
+    "mean_delta": [
+      -1.798477550632087,
+      -1.6247778415880196,
+      -1.3659201387227091
+    ],
+    "positive_three": 1
+  },
+  {
+    "model": "1.7B",
+    "kind": "random_same_norm",
+    "mean_delta": [
+      0.001933321083129158,
+      0.003267827490119372,
+      -0.026461381436820492
+    ],
+    "positive_three": 1
+  },
+  {
+    "model": "1.7B",
+    "kind": "random_same_action",
+    "mean_delta": [
+      -1.9713009631033127,
+      -1.7859596371700295,
+      -1.4652959153423384
+    ],
+    "positive_three": 2
+  }
+]

@@ -1,0 +1,686 @@
+{
+  "accomplishments": [
+    "Source-calibrated response additions preserve the working return map and its residual-feedback access.",
+    "All original checkpoint arrays and cloned baseline computations are independently checked.",
+    "A shared unlabeled observation interface is acquired for existing frozen programs."
+  ],
+  "models": {
+    "0.6B": {
+      "cases": 6,
+      "mean_capacity_change_three_blocks": [
+        0.12836587923256385,
+        0.30259395199914735,
+        -0.270899128417543
+      ],
+      "positive_all_three_cases": 1,
+      "shared_interface_complete_retention_cases": 6,
+      "retention_preserving_quality_gain_cases": 1,
+      "direct_old_programs_retained": 52,
+      "transported_old_programs_retained": 66,
+      "stable_old_programs": 66,
+      "reliable_new_target_instances": 0,
+      "beats_both_controls_all_three_cases": 0
+    },
+    "1.7B": {
+      "cases": 6,
+      "mean_capacity_change_three_blocks": [
+        -1.798477550632087,
+        -1.6247778415880196,
+        -1.3659201387227091
+      ],
+      "positive_all_three_cases": 1,
+      "shared_interface_complete_retention_cases": 5,
+      "retention_preserving_quality_gain_cases": 1,
+      "direct_old_programs_retained": 38,
+      "transported_old_programs_retained": 47,
+      "stable_old_programs": 65,
+      "reliable_new_target_instances": 0,
+      "beats_both_controls_all_three_cases": 1
+    }
+  },
+  "cases": [
+    {
+      "model": "0.6B",
+      "case": 0,
+      "seed": 92001,
+      "capacity_change_three_blocks": [
+        -0.2515713296806026,
+        -0.12897278420968172,
+        -0.6270860404142446
+      ],
+      "capacity_improves_all_three": false,
+      "stable_old_programs": 5,
+      "direct_old_retained": 5,
+      "transported_old_retained": 5,
+      "shared_interface_retains_all": true,
+      "retention_preserving_quality_gain": false,
+      "reliable_new_targets_all_three": [],
+      "old_programs_recovered_by_shared_interface": 0,
+      "controls": [
+        {
+          "kind": "random_same_norm",
+          "capacity_changes": [
+            -0.0180712672790051,
+            -0.0905157454096206,
+            0.0939897872161648
+          ]
+        },
+        {
+          "kind": "random_same_action",
+          "capacity_changes": [
+            -0.19025489925498462,
+            -0.15024084587335906,
+            -0.6108803779602368
+          ]
+        }
+      ],
+      "beats_both_controls_all_three": false
+    },
+    {
+      "model": "0.6B",
+      "case": 1,
+      "seed": 92002,
+      "capacity_change_three_blocks": [
+        1.5018651983717426,
+        2.375898257546355,
+        -0.7865122116205612
+      ],
+      "capacity_improves_all_three": false,
+      "stable_old_programs": 18,
+      "direct_old_retained": 17,
+      "transported_old_retained": 18,
+      "shared_interface_retains_all": true,
+      "retention_preserving_quality_gain": false,
+      "reliable_new_targets_all_three": [],
+      "old_programs_recovered_by_shared_interface": 1,
+      "controls": [
+        {
+          "kind": "random_same_norm",
+          "capacity_changes": [
+            0.012655337824243773,
+            0.03157093548804468,
+            0.029622822266242466
+          ]
+        },
+        {
+          "kind": "random_same_action",
+          "capacity_changes": [
+            0.22815068821063633,
+            0.20160822715683935,
+            0.042103800202564656
+          ]
+        }
+      ],
+      "beats_both_controls_all_three": false
+    },
+    {
+      "model": "0.6B",
+      "case": 2,
+      "seed": 92003,
+      "capacity_change_three_blocks": [
+        -0.09551231652861603,
+        -0.037082684759676354,
+        0.002361244488239933
+      ],
+      "capacity_improves_all_three": false,
+      "stable_old_programs": 16,
+      "direct_old_retained": 15,
+      "transported_old_retained": 16,
+      "shared_interface_retains_all": true,
+      "retention_preserving_quality_gain": false,
+      "reliable_new_targets_all_three": [],
+      "old_programs_recovered_by_shared_interface": 1,
+      "controls": [
+        {
+          "kind": "random_same_norm",
+          "capacity_changes": [
+            0.04984116154784246,
+            0.02766392459968614,
+            0.029240067384229462
+          ]
+        },
+        {
+          "kind": "random_same_action",
+          "capacity_changes": [
+            -0.2191254862194203,
+            -0.21482333987423097,
+            -0.19863908790296492
+          ]
+        }
+      ],
+      "beats_both_controls_all_three": false
+    },
+    {
+      "model": "0.6B",
+      "case": 3,
+      "seed": 96001,
+      "capacity_change_three_blocks": [
+        -0.39434682205890503,
+        -0.3429842409726618,
+        -0.39706869792319743
+      ],
+      "capacity_improves_all_three": false,
+      "stable_old_programs": 13,
+      "direct_old_retained": 4,
+      "transported_old_retained": 13,
+      "shared_interface_retains_all": true,
+      "retention_preserving_quality_gain": false,
+      "reliable_new_targets_all_three": [],
+      "old_programs_recovered_by_shared_interface": 9,
+      "controls": [
+        {
+          "kind": "random_same_norm",
+          "capacity_changes": [
+            0.0031374583859449245,
+            0.0018717636033773744,
+            0.003097931829483258
+          ]
+        },
+        {
+          "kind": "random_same_action",
+          "capacity_changes": [
+            0.2625831549518516,
+            0.18627264498117313,
+            0.2757933571036393
+          ]
+        }
+      ],
+      "beats_both_controls_all_three": false
+    },
+    {
+      "model": "0.6B",
+      "case": 4,
+      "seed": 96002,
+      "capacity_change_three_blocks": [
+        -0.1779336409304646,
+        -0.15443343976921398,
+        -0.1568055177193246
+      ],
+      "capacity_improves_all_three": false,
+      "stable_old_programs": 9,
+      "direct_old_retained": 7,
+      "transported_old_retained": 9,
+      "shared_interface_retains_all": true,
+      "retention_preserving_quality_gain": false,
+      "reliable_new_targets_all_three": [],
+      "old_programs_recovered_by_shared_interface": 2,
+      "controls": [
+        {
+          "kind": "random_same_norm",
+          "capacity_changes": [
+            -0.007472625850365233,
+            -0.007977058409188942,
+            -0.009247057302826711
+          ]
+        },
+        {
+          "kind": "random_same_action",
+          "capacity_changes": [
+            -0.37217613297525265,
+            -0.39809509729852177,
+            -0.4128972831186024
+          ]
+        }
+      ],
+      "beats_both_controls_all_three": false
+    },
+    {
+      "model": "0.6B",
+      "case": 5,
+      "seed": 96003,
+      "capacity_change_three_blocks": [
+        0.18769418622222878,
+        0.10313860415976261,
+        0.3397164526838301
+      ],
+      "capacity_improves_all_three": true,
+      "stable_old_programs": 5,
+      "direct_old_retained": 4,
+      "transported_old_retained": 5,
+      "shared_interface_retains_all": true,
+      "retention_preserving_quality_gain": true,
+      "reliable_new_targets_all_three": [],
+      "old_programs_recovered_by_shared_interface": 1,
+      "controls": [
+        {
+          "kind": "random_same_norm",
+          "capacity_changes": [
+            0.0050825682392017235,
+            0.029092644903709886,
+            0.01002579710189
+          ]
+        },
+        {
+          "kind": "random_same_action",
+          "capacity_changes": [
+            0.26795283941284476,
+            0.28565291034353435,
+            0.29622450706462766
+          ]
+        }
+      ],
+      "beats_both_controls_all_three": false
+    },
+    {
+      "model": "1.7B",
+      "case": 0,
+      "seed": 92001,
+      "capacity_change_three_blocks": [
+        -12.65411937782067,
+        -11.832804153860707,
+        -9.669917402333825
+      ],
+      "capacity_improves_all_three": false,
+      "stable_old_programs": 18,
+      "direct_old_retained": 0,
+      "transported_old_retained": 0,
+      "shared_interface_retains_all": false,
+      "retention_preserving_quality_gain": false,
+      "reliable_new_targets_all_three": [],
+      "old_programs_recovered_by_shared_interface": 0,
+      "controls": [
+        {
+          "kind": "random_same_norm",
+          "capacity_changes": [
+            -0.04569458845490004,
+            -0.009893453294868237,
+            -0.18070979612488536
+          ]
+        },
+        {
+          "kind": "random_same_action",
+          "capacity_changes": [
+            -12.65411937782067,
+            -11.832804153860707,
+            -9.669917402333825
+          ]
+        }
+      ],
+      "beats_both_controls_all_three": false
+    },
+    {
+      "model": "1.7B",
+      "case": 1,
+      "seed": 92002,
+      "capacity_change_three_blocks": [
+        1.8208262397252044,
+        2.236845969280667,
+        1.6546568834835638
+      ],
+      "capacity_improves_all_three": true,
+      "stable_old_programs": 7,
+      "direct_old_retained": 5,
+      "transported_old_retained": 7,
+      "shared_interface_retains_all": true,
+      "retention_preserving_quality_gain": true,
+      "reliable_new_targets_all_three": [],
+      "old_programs_recovered_by_shared_interface": 2,
+      "controls": [
+        {
+          "kind": "random_same_norm",
+          "capacity_changes": [
+            0.020558186990480287,
+            -0.002391438970915871,
+            0.0198127258134857
+          ]
+        },
+        {
+          "kind": "random_same_action",
+          "capacity_changes": [
+            0.7487273922457263,
+            1.2920714146400742,
+            0.9322654208094576
+          ]
+        }
+      ],
+      "beats_both_controls_all_three": true
+    },
+    {
+      "model": "1.7B",
+      "case": 2,
+      "seed": 92003,
+      "capacity_change_three_blocks": [
+        -0.1783891527376369,
+        -0.18747451535415038,
+        -0.1567647945721724
+      ],
+      "capacity_improves_all_three": false,
+      "stable_old_programs": 19,
+      "direct_old_retained": 17,
+      "transported_old_retained": 19,
+      "shared_interface_retains_all": true,
+      "retention_preserving_quality_gain": false,
+      "reliable_new_targets_all_three": [],
+      "old_programs_recovered_by_shared_interface": 2,
+      "controls": [
+        {
+          "kind": "random_same_norm",
+          "capacity_changes": [
+            0.008479578418057798,
+            0.01188171108620395,
+            -0.009113205284307924
+          ]
+        },
+        {
+          "kind": "random_same_action",
+          "capacity_changes": [
+            -0.18168047193089798,
+            -0.348746117780653,
+            -0.16672063013922234
+          ]
+        }
+      ],
+      "beats_both_controls_all_three": false
+    },
+    {
+      "model": "1.7B",
+      "case": 3,
+      "seed": 96001,
+      "capacity_change_three_blocks": [
+        0.3546163019491715,
+        0.2909571719831803,
+        -0.0367777113550849
+      ],
+      "capacity_improves_all_three": false,
+      "stable_old_programs": 6,
+      "direct_old_retained": 4,
+      "transported_old_retained": 6,
+      "shared_interface_retains_all": true,
+      "retention_preserving_quality_gain": false,
+      "reliable_new_targets_all_three": [],
+      "old_programs_recovered_by_shared_interface": 2,
+      "controls": [
+        {
+          "kind": "random_same_norm",
+          "capacity_changes": [
+            0.031158572123901607,
+            0.024079788607789254,
+            0.012132957401988165
+          ]
+        },
+        {
+          "kind": "random_same_action",
+          "capacity_changes": [
+            0.39787716356221914,
+            0.34132584388671283,
+            0.21373420750806638
+          ]
+        }
+      ],
+      "beats_both_controls_all_three": false
+    },
+    {
+      "model": "1.7B",
+      "case": 4,
+      "seed": 96002,
+      "capacity_change_three_blocks": [
+        -0.15815553903185808,
+        -0.1406906641095098,
+        -0.1681888503508402
+      ],
+      "capacity_improves_all_three": false,
+      "stable_old_programs": 10,
+      "direct_old_retained": 8,
+      "transported_old_retained": 10,
+      "shared_interface_retains_all": true,
+      "retention_preserving_quality_gain": false,
+      "reliable_new_targets_all_three": [],
+      "old_programs_recovered_by_shared_interface": 2,
+      "controls": [
+        {
+          "kind": "random_same_norm",
+          "capacity_changes": [
+            -0.00335857694761188,
+            -0.002546064792896985,
+            -0.003955044137045505
+          ]
+        },
+        {
+          "kind": "random_same_action",
+          "capacity_changes": [
+            -0.1316100802906277,
+            -0.0897804823277335,
+            -0.14100032189182077
+          ]
+        }
+      ],
+      "beats_both_controls_all_three": false
+    },
+    {
+      "model": "1.7B",
+      "case": 5,
+      "seed": 96003,
+      "capacity_change_three_blocks": [
+        0.02435622412326932,
+        -0.1155008574675982,
+        0.18147104279210602
+      ],
+      "capacity_improves_all_three": false,
+      "stable_old_programs": 5,
+      "direct_old_retained": 4,
+      "transported_old_retained": 5,
+      "shared_interface_retains_all": true,
+      "retention_preserving_quality_gain": false,
+      "reliable_new_targets_all_three": [],
+      "old_programs_recovered_by_shared_interface": 1,
+      "controls": [
+        {
+          "kind": "random_same_norm",
+          "capacity_changes": [
+            0.0004567543688471787,
+            -0.001523577694595879,
+            0.0030640737098419635
+          ]
+        },
+        {
+          "kind": "random_same_action",
+          "capacity_changes": [
+            -0.007000404385625103,
+            -0.07782432757786761,
+            0.03986323399331404
+          ]
+        }
+      ],
+      "beats_both_controls_all_three": false
+    }
+  ],
+  "cost_ledger": {
+    "inherited_source": [
+      {
+        "model": "0.6B",
+        "native_sequences": 417366
+      },
+      {
+        "model": "1.7B",
+        "native_sequences": 417366
+      }
+    ],
+    "p59": [
+      {
+        "model": "0.6B",
+        "source_native_work": {
+          "batches": 515,
+          "sequences": 16480,
+          "tokens": 32960,
+          "attention_block_tokens": 922880,
+          "mlp_block_tokens": 922880
+        },
+        "source_seconds": 6.10349787492305,
+        "assessment_native_work": {
+          "batches": 19200,
+          "sequences": 614400,
+          "tokens": 1228800,
+          "attention_block_tokens": 34406400,
+          "mlp_block_tokens": 34406400
+        },
+        "assessment_seconds": 311.9943140000105,
+        "native_work": {
+          "batches": 19715,
+          "sequences": 630880,
+          "tokens": 1261760,
+          "attention_block_tokens": 35329280,
+          "mlp_block_tokens": 35329280
+        },
+        "wall_seconds": 323.80194925004616,
+        "observed_array_bytes": {
+          "returns": 12582912,
+          "states": 17203200,
+          "features": 86016000
+        },
+        "process_peak_rss_bytes": 792592384,
+        "weights_unchanged": true
+      },
+      {
+        "model": "1.7B",
+        "source_native_work": {
+          "batches": 515,
+          "sequences": 16480,
+          "tokens": 32960,
+          "attention_block_tokens": 922880,
+          "mlp_block_tokens": 922880
+        },
+        "source_seconds": 21.30575262499042,
+        "assessment_native_work": {
+          "batches": 19200,
+          "sequences": 614400,
+          "tokens": 1228800,
+          "attention_block_tokens": 34406400,
+          "mlp_block_tokens": 34406400
+        },
+        "assessment_seconds": 773.4932745001279,
+        "native_work": {
+          "batches": 19715,
+          "sequences": 630880,
+          "tokens": 1261760,
+          "attention_block_tokens": 35329280,
+          "mlp_block_tokens": 35329280
+        },
+        "wall_seconds": 801.4272802500054,
+        "observed_array_bytes": {
+          "returns": 25165824,
+          "states": 17203200,
+          "features": 86016000
+        },
+        "process_peak_rss_bytes": 1595244544,
+        "weights_unchanged": true
+      }
+    ],
+    "p60": [
+      {
+        "model": "0.6B",
+        "weights_unchanged": true,
+        "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+        "source_fit_seconds": 0.03872449998743832,
+        "native_work": {
+          "batches": 2304,
+          "sequences": 73728,
+          "tokens": 147456,
+          "attention_block_tokens": 4128768,
+          "mlp_block_tokens": 4128768
+        },
+        "native_seconds": 34.6419479008764,
+        "validation_seconds": 37.37331595784053,
+        "wall_seconds": 39.62454333296046,
+        "transport_shape": [
+          40,
+          40
+        ],
+        "transport_matrix_bytes": 12800,
+        "source_normalization_values_per_interface": 160,
+        "source_normalization_bytes_per_interface": 1280,
+        "process_peak_rss_bytes": 775421952
+      },
+      {
+        "model": "1.7B",
+        "weights_unchanged": true,
+        "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7",
+        "source_fit_seconds": 0.042499333154410124,
+        "native_work": {
+          "batches": 2304,
+          "sequences": 73728,
+          "tokens": 147456,
+          "attention_block_tokens": 4128768,
+          "mlp_block_tokens": 4128768
+        },
+        "native_seconds": 87.0943364656996,
+        "validation_seconds": 92.88009620900266,
+        "wall_seconds": 95.10020300000906,
+        "transport_shape": [
+          40,
+          40
+        ],
+        "transport_matrix_bytes": 12800,
+        "source_normalization_values_per_interface": 160,
+        "source_normalization_bytes_per_interface": 1280,
+        "process_peak_rss_bytes": 1684373504
+      }
+    ],
+    "production": {
+      "recurrent_state_dimension": 8,
+      "return_shape": "8 x (2 * hidden_width)",
+      "return_coefficients_0_6B": 16384,
+      "return_coefficients_1_7B": 32768,
+      "extra_shared_transport_coefficients": 1600,
+      "extra_transport_matrix_bytes": 12800,
+      "serialized_normalization_bytes": 1280
+    },
+    "accounting": "Experimental controls, clones, padding and saved trajectories are charged as measurement work. Production merges each return addition into the original matrix. Pretrained weights and inherited readout programs are fixed; transport fitting is shared and receives neural feature pairs.",
+    "native_verification": {
+      "records": [
+        {
+          "model": "0.6B",
+          "run": "p59-preserved-return-augmentation-001",
+          "native_condition_steps": 1536,
+          "native_outputs_bitexact": true
+        },
+        {
+          "model": "0.6B",
+          "run": "p60-shared-observer-transport-001",
+          "native_condition_steps": 480,
+          "native_outputs_bitexact": true
+        },
+        {
+          "model": "0.6B",
+          "weights_unchanged": true,
+          "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+          "native_work": {
+            "batches": 64,
+            "sequences": 2048,
+            "tokens": 4096,
+            "attention_block_tokens": 114688,
+            "mlp_block_tokens": 114688
+          },
+          "native_seconds": 0.7451102510094643
+        },
+        {
+          "model": "1.7B",
+          "run": "p59-preserved-return-augmentation-001",
+          "native_condition_steps": 1536,
+          "native_outputs_bitexact": true
+        },
+        {
+          "model": "1.7B",
+          "run": "p60-shared-observer-transport-001",
+          "native_condition_steps": 480,
+          "native_outputs_bitexact": true
+        },
+        {
+          "model": "1.7B",
+          "weights_unchanged": true,
+          "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7",
+          "native_work": {
+            "batches": 64,
+            "sequences": 2048,
+            "tokens": 4096,
+            "attention_block_tokens": 114688,
+            "mlp_block_tokens": 114688
+          },
+          "native_seconds": 1.6138275885023177
+        }
+      ],
+      "runner_sha256": "30d2cd36bfe2c5a933f143bf360c2c1d82c36b20e1c6d4bcc1e6aa38db337c17"
+    },
+    "incremental_native_sequences_including_verification": 1413312
+  },
+  "evidence_scope": "Prespecified +2percent source-calibrated addition; two P59 test blocks plus fresh P60 validation with frozen capability heads. Shared interface fits paired training features without target labels. Other dose results remain in analysis.json."
+}

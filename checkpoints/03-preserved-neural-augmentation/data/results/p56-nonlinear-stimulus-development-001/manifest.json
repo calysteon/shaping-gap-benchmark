@@ -1,0 +1,66 @@
+{
+  "plan_id": "P56-NONLINEAR-STIMULUS-DEVELOPMENT-001",
+  "config": {
+    "models": [
+      {
+        "label": "0.6B",
+        "receipt": "open-weight/checkpoint-receipt.json",
+        "revision": "173234aa840d113125e9f2271100ddbaf16c9620"
+      },
+      {
+        "label": "1.7B",
+        "receipt": "open-weight/checkpoint-1.7b-receipt.json",
+        "revision": "21457c6f51ed54a7c16e988c0844db973815c137"
+      }
+    ],
+    "seeds": [
+      96001,
+      96002,
+      96003
+    ],
+    "tokens": 2,
+    "state_dimension": 8,
+    "observable_dimension": 32,
+    "probe_dimensions": 9,
+    "amplitudes": [
+      0.0005,
+      0.002,
+      0.008
+    ],
+    "spectral_radii": [
+      0.85,
+      0.95
+    ],
+    "nonlinear_gains": [
+      -0.1,
+      0.0,
+      0.1
+    ],
+    "random_return_projections": 3,
+    "differential_step": 0.1,
+    "curvature_samples": 128,
+    "curvature_probe_scale": 0.25,
+    "source_steps": 1024,
+    "source_burn": 256,
+    "echo_tolerance": 0.05,
+    "state_limit": 10.0,
+    "input_gain": 0.2,
+    "evaluation_washout": 256,
+    "evaluation_training": 2048,
+    "evaluation_test": 2048,
+    "controller_array_cap_bytes": 67108864,
+    "native_batch_size": 32,
+    "readout_ridge": 0.0001,
+    "source_linear_lags": 64,
+    "source_linear_ridge": 0.001,
+    "source_whitening_floor": 0.0001,
+    "evaluation_drive_seed": 97001
+  },
+  "created_utc": "2026-11-13T08:12:03.066592+00:00",
+  "source_sha256": "93e8b51e568d276c6bfb9ad2ef8c118c785a3330eb7ed659a243dae82d762de0",
+  "helper_sha256": {
+    "native.py": "d1e1925eca01f66325c1c8e63da8c37521c8335c8854304f0d51819ba2b5976e",
+    "stimulus.py": "7b918a4b7b0d381b87963605ba300a3d24b5cd6e246a9c1f9536b3643afd1452",
+    "capacity_engine.py": "de528f7124e8bfd5f34c51fab700e717277b7297adbd41b54f92c49976a17075"
+  }
+}

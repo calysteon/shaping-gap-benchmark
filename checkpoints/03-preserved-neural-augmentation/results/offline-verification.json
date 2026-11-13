@@ -1,0 +1,14 @@
+{
+  "p59_test_block_score_vectors_reproduced": 336,
+  "p60_frozen_program_score_vectors_reproduced": 180,
+  "max_r2_error": 6.984919309616089e-10,
+  "source_calibration_max_error": 3.853093524797124e-09,
+  "transport_refit_max_error": 0.0,
+  "sealed_files_verified": 76,
+  "preserved_residual_feedback_rank_range": [
+    8,
+    8
+  ],
+  "verification_seconds": 2.247602791991085,
+  "scope": "Independent Legendre target construction, saved frozen heads, source action calibration, original baseline arrays and unlabeled transport refits. Native re-execution is separate."
+}

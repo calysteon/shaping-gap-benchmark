@@ -1,0 +1,55 @@
+{
+  "records": [
+    {
+      "model": "0.6B",
+      "run": "p59-preserved-return-augmentation-001",
+      "native_condition_steps": 1536,
+      "native_outputs_bitexact": true
+    },
+    {
+      "model": "0.6B",
+      "run": "p60-shared-observer-transport-001",
+      "native_condition_steps": 480,
+      "native_outputs_bitexact": true
+    },
+    {
+      "model": "0.6B",
+      "weights_unchanged": true,
+      "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+      "native_work": {
+        "batches": 64,
+        "sequences": 2048,
+        "tokens": 4096,
+        "attention_block_tokens": 114688,
+        "mlp_block_tokens": 114688
+      },
+      "native_seconds": 0.7451102510094643
+    },
+    {
+      "model": "1.7B",
+      "run": "p59-preserved-return-augmentation-001",
+      "native_condition_steps": 1536,
+      "native_outputs_bitexact": true
+    },
+    {
+      "model": "1.7B",
+      "run": "p60-shared-observer-transport-001",
+      "native_condition_steps": 480,
+      "native_outputs_bitexact": true
+    },
+    {
+      "model": "1.7B",
+      "weights_unchanged": true,
+      "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7",
+      "native_work": {
+        "batches": 64,
+        "sequences": 2048,
+        "tokens": 4096,
+        "attention_block_tokens": 114688,
+        "mlp_block_tokens": 114688
+      },
+      "native_seconds": 1.6138275885023177
+    }
+  ],
+  "runner_sha256": "30d2cd36bfe2c5a933f143bf360c2c1d82c36b20e1c6d4bcc1e6aa38db337c17"
+}

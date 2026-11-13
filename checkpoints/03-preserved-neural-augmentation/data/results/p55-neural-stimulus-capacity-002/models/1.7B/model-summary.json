@@ -1,0 +1,87 @@
+{
+  "model": "1.7B",
+  "parameter_sha256": "f2edbb35656330284e64b4f789f55aae6efed7655476b6e77e7e5e451a9fb1c7",
+  "stored_parameter_bytes": 914237440,
+  "width": 2048,
+  "layers": 28,
+  "source_records": [
+    {
+      "seed": 92001,
+      "seconds": 28.348871417110786,
+      "native_work": {
+        "batches": 1042,
+        "sequences": 28089,
+        "tokens": 56178,
+        "attention_block_tokens": 1572984,
+        "mlp_block_tokens": 1572984
+      },
+      "selection": {
+        "unaligned": 31,
+        "aligned": 14,
+        "curvature": 51
+      },
+      "unstable_candidates": 0,
+      "candidates": 54,
+      "controller_array_bound_bytes": 41713664
+    },
+    {
+      "seed": 92002,
+      "seconds": 28.212126832921058,
+      "native_work": {
+        "batches": 1042,
+        "sequences": 28089,
+        "tokens": 56178,
+        "attention_block_tokens": 1572984,
+        "mlp_block_tokens": 1572984
+      },
+      "selection": {
+        "unaligned": 45,
+        "aligned": 46,
+        "curvature": 53
+      },
+      "unstable_candidates": 0,
+      "candidates": 54,
+      "controller_array_bound_bytes": 41713664
+    },
+    {
+      "seed": 92003,
+      "seconds": 30.198784708976746,
+      "native_work": {
+        "batches": 1042,
+        "sequences": 28089,
+        "tokens": 56178,
+        "attention_block_tokens": 1572984,
+        "mlp_block_tokens": 1572984
+      },
+      "selection": {
+        "unaligned": 31,
+        "aligned": 50,
+        "curvature": 17
+      },
+      "unstable_candidates": 0,
+      "candidates": 54,
+      "controller_array_bound_bytes": 41713664
+    }
+  ],
+  "native_work": {
+    "batches": 7478,
+    "sequences": 149547,
+    "tokens": 299094,
+    "attention_block_tokens": 8374632,
+    "mlp_block_tokens": 8374632
+  },
+  "native_seconds": 193.0660974958446,
+  "assessment_seconds": 116.06779245799407,
+  "assessment_native_work": {
+    "batches": 4352,
+    "sequences": 65280,
+    "tokens": 130560,
+    "attention_block_tokens": 3655680,
+    "mlp_block_tokens": 3655680
+  },
+  "assessment_controller_array_bound_bytes": 46972928,
+  "wall_seconds": 204.7821755828336,
+  "weights_unchanged": true,
+  "mlx_peak_bytes": 1213865152,
+  "process_peak_rss_bytes": 1468612608
+}

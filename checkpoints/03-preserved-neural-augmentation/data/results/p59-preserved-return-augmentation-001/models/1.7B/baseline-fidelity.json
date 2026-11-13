@@ -1,0 +1,32 @@
+[
+  {
+    "case": 0,
+    "features_bitexact": true,
+    "max_feature_error": 0.0
+  },
+  {
+    "case": 1,
+    "features_bitexact": true,
+    "max_feature_error": 0.0
+  },
+  {
+    "case": 2,
+    "features_bitexact": true,
+    "max_feature_error": 0.0
+  },
+  {
+    "case": 3,
+    "features_bitexact": true,
+    "max_feature_error": 0.0
+  },
+  {
+    "case": 4,
+    "features_bitexact": true,
+    "max_feature_error": 0.0
+  },
+  {
+    "case": 5,
+    "features_bitexact": true,
+    "max_feature_error": 0.0
+  }
+]

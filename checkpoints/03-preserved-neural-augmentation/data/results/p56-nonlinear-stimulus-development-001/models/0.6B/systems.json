@@ -1,0 +1,164 @@
+[
+  {
+    "kind": "unaligned",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 45,
+    "seed": 96001,
+    "array_file": "selected-96001-0.npz"
+  },
+  {
+    "kind": "aligned",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 46,
+    "seed": 96001,
+    "array_file": "selected-96001-1.npz"
+  },
+  {
+    "kind": "curvature",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 52,
+    "seed": 96001,
+    "array_file": "selected-96001-2.npz"
+  },
+  {
+    "kind": "curvature_removed",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 52,
+    "seed": 96001,
+    "array_file": "selected-96001-3.npz"
+  },
+  {
+    "kind": "curvature_scrambled",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 52,
+    "seed": 96001,
+    "array_file": "selected-96001-4.npz"
+  },
+  {
+    "kind": "unaligned_rank",
+    "epsilon": 0.0005,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 11,
+    "seed": 96001,
+    "array_file": "selected-96001-5.npz"
+  },
+  {
+    "kind": "unaligned",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 47,
+    "seed": 96002,
+    "array_file": "selected-96002-0.npz"
+  },
+  {
+    "kind": "aligned",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 50,
+    "seed": 96002,
+    "array_file": "selected-96002-1.npz"
+  },
+  {
+    "kind": "curvature",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": -0.1,
+    "source_index": 51,
+    "seed": 96002,
+    "array_file": "selected-96002-2.npz"
+  },
+  {
+    "kind": "curvature_removed",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": -0.1,
+    "source_index": 51,
+    "seed": 96002,
+    "array_file": "selected-96002-3.npz"
+  },
+  {
+    "kind": "curvature_scrambled",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": -0.1,
+    "source_index": 51,
+    "seed": 96002,
+    "array_file": "selected-96002-4.npz"
+  },
+  {
+    "kind": "unaligned_rank",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 49,
+    "seed": 96002,
+    "array_file": "selected-96002-5.npz"
+  },
+  {
+    "kind": "unaligned",
+    "epsilon": 0.008,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 49,
+    "seed": 96003,
+    "array_file": "selected-96003-0.npz"
+  },
+  {
+    "kind": "aligned",
+    "epsilon": 0.002,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 28,
+    "seed": 96003,
+    "array_file": "selected-96003-1.npz"
+  },
+  {
+    "kind": "curvature",
+    "epsilon": 0.002,
+    "rho": 0.95,
+    "gamma": -0.1,
+    "source_index": 33,
+    "seed": 96003,
+    "array_file": "selected-96003-2.npz"
+  },
+  {
+    "kind": "curvature_removed",
+    "epsilon": 0.002,
+    "rho": 0.95,
+    "gamma": -0.1,
+    "source_index": 33,
+    "seed": 96003,
+    "array_file": "selected-96003-3.npz"
+  },
+  {
+    "kind": "curvature_scrambled",
+    "epsilon": 0.002,
+    "rho": 0.95,
+    "gamma": -0.1,
+    "source_index": 33,
+    "seed": 96003,
+    "array_file": "selected-96003-4.npz"
+  },
+  {
+    "kind": "unaligned_rank",
+    "epsilon": 0.002,
+    "rho": 0.95,
+    "gamma": 0.0,
+    "source_index": 27,
+    "seed": 96003,
+    "array_file": "selected-96003-5.npz"
+  }
+]

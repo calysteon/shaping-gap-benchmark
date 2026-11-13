@@ -1,0 +1,79 @@
+{
+  "id": "P55-NEURAL-STIMULUS-CAPACITY-002",
+  "kind": "experiment",
+  "claim_ids": [
+    "MG1",
+    "MG2",
+    "MG3"
+  ],
+  "question": "Can unlabeled neural-response geometry induce executable feedback connections that increase reliably decodable nonlinear temporal computation at fixed pretrained size, and can a shaped smaller model exceed a larger model with an unaligned return interface under the same state/observation dimensions?",
+  "design": "Use the entire frozen transformer as a continuous neural field, with2 native embedding-state positions and no tokenizer/head. Each model/seed receives a fixed random8-state-plus1-drive actuator chart. Unlabeled central response differences identify the native input-output Jacobian; quadratic residual responses identify output curvature modes orthogonal to that Jacobian and a corresponding input direction. A response-aligned return map uses the polar transport of an observed projected Jacobian. A rank-one curvature return connection then feeds a learned native nonlinear mode into the next neural state, while its first-order map is preserved algebraically. All return coefficients are learned from neural observations; no task labels, answer graphs or named logical operators are supplied. Source intrinsic state diversity and replica fading choose operating parameters before any capacity-assessment target labels are formed. Independent white-noise streams subsequently assess linear and higher-order temporal information processing using the same linear readout opportunity for all sizes/methods. P54 completed the0.6B source/evaluation computation but stopped on a serializer collision: the method field named kind conflicted with the event-kind field. Preserve that run. This execution changes only serialization and array ownership/lifetime; repeat all models/seeds without changing source selection, geometry, coupling, input streams or assessment. Source candidate matrices are aliased into the existing batch tensor and selected systems are offloaded between source seeds to enforce the intended active-array budget. These changes preserve numeric values.",
+  "information_access": "Supplied: continuous actuator chart, low-rank return-interface family, polar alignment and curvature-residual learning rules, source stability/diversity objective, finite operating grid and evaluation function family. Acquired: actual neural transport, nonlinear output coordinates, continuous feedback directions/weights and operating choice. Pretrained weights remain fixed; runtime coupling parameters are additional and counted. Native nonlinear temporal activity, not generic self-learning or activation magnitude, is the efficacy target. Larger model is compared within this controlled neural-field apparatus, not claimed inferior at normal language tasks.",
+  "baselines": "Per model and seed:18 source candidates for unaligned random return (3 orientations x3 amplitudes x2 radii);18 for first-order aligned return (same orientations/grid);18 for curvature return (3 amplitudes x2 radii x3 nonlinear gains, first orientation). All receive same calibration data and intrinsic source stream. After source selection evaluate unaligned, aligned, curvature, removal of only the selected curvature connection, and same-norm scrambled curvature mode projected orthogonal to the same Jacobian. A source-identified affine-field replay checks that the affine wrapper alone cannot create nonlinear temporal processing. No evaluation-label tuning of operating parameters.",
+  "resource_accounting": "Count all native source/evaluation batches,sequences,tokens,attention andMLP block-tokens; record scalar training/selection CPU, controller arrays and coupling/readout parameters, checkpoint bytes and full process/MLX peaks. Same state8 and observable32 dimensions, source trial counts and assessment train/test streams for all model sizes and primary methods. No inference-time or energy saving assumed. Return-interface coefficients are counted as added runtime parameters. Additional ablation evaluations and verification are recorded separately.",
+  "primary_outcomes": "Held-out R-squared and summed processing capacity for orthogonal Legendre functionals of the input history, partitioned by totaldegree1..4 and distinct-lag interaction. Main capability outcome is multi-lag nonlinear capacity and number of functions with held-outR2>=.5. Report all per-seed/per-size cases, including unstable/failed operating points, source-selected parameters, first-order map preservation, new-feedback ablation/restoration, deterministic native replay and unchanged weights. Linear-readout labels are used only for assessment after source freezing.",
+  "interpretation_rules": "First test within-model gains from learned stimulus/coupling; then the predefined smaller-shaped versus larger-unaligned contrast. Describe any cross-size reversal only for this neural computation assay, not overall language intelligence or datacenter obsolescence. Pretraining necessity is not isolated. Source-effective-rank is an intrinsic selection signal and not itself capability evidence. Source curves, assessment capacity and full-resource costs remain separate. If selected nonlinear gain is zero, report no curvature connection rather than claim its effect. Input/output projection and recurrence are supplied architecture; continuous couplings are acquired.",
+  "limitations": [
+    "Two pretrained sizes in one model family; three stimulus/embedding seeds, not independent pretraining replications.",
+    "Continuous two-position neural-field execution differs from ordinary text-generation inference.",
+    "Feedback state and measured observables are bounded supplied interfaces; whole-model general capability is not evaluated.",
+    "Known system identification, feedback control and reservoir-capacity tools are building blocks; the experiment tests their learned neural-stimulus embodiment.",
+    "No general claim that more neural activity means greater intelligence."
+  ],
+  "planned_config": {
+    "plan_id": "P55-NEURAL-STIMULUS-CAPACITY-002",
+    "config": {
+      "models": [
+        {
+          "label": "0.6B",
+          "receipt": "open-weight/checkpoint-receipt.json",
+          "revision": "173234aa840d113125e9f2271100ddbaf16c9620"
+        },
+        {
+          "label": "1.7B",
+          "receipt": "open-weight/checkpoint-1.7b-receipt.json",
+          "revision": "21457c6f51ed54a7c16e988c0844db973815c137"
+        }
+      ],
+      "seeds": [
+        92001,
+        92002,
+        92003
+      ],
+      "tokens": 2,
+      "state_dimension": 8,
+      "observable_dimension": 32,
+      "probe_dimensions": 9,
+      "amplitudes": [
+        0.0005,
+        0.002,
+        0.008
+      ],
+      "spectral_radii": [
+        0.85,
+        0.95
+      ],
+      "nonlinear_gains": [
+        -0.1,
+        0.0,
+        0.1
+      ],
+      "random_return_projections": 3,
+      "differential_step": 0.1,
+      "curvature_samples": 128,
+      "curvature_probe_scale": 0.25,
+      "source_steps": 256,
+      "source_burn": 128,
+      "echo_tolerance": 0.05,
+      "state_limit": 10.0,
+      "input_gain": 0.2,
+      "evaluation_washout": 256,
+      "evaluation_training": 2048,
+      "evaluation_test": 2048,
+      "controller_array_cap_bytes": 67108864,
+      "native_batch_size": 32,
+      "readout_ridge": 0.0001
+    }
+  },
+  "stopping_rule": "Run all declared models,seeds and primary conditions. Do not select reported cases using assessment capacity. Preserve invalid source points as failures. Stop only for implementation/numerical/memory/weight-integrity failure and prospectively register corrections."
+}

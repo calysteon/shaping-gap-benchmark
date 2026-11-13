@@ -1,3 +1,12 @@
+Checkpoint 03 — November 13, 2026
+================================
+
+Publish Paper III, preserved-return update and shared-interface implementations,
+complete two-size records, independent checks and lifecycle costs. Shared transport
+recovers 23 old-program instances; two charts have repeated quality gains with
+retention. All primary means, controls and adverse cases are included. Earlier
+checkpoint assets remain byte-identical. See checkpoints/03-preserved-neural-augmentation.
+
 Research checkpoint history
 ===========================
 

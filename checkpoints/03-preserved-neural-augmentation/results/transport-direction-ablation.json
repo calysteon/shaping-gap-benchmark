@@ -1,0 +1,161 @@
+{
+  "classification": "Post-hoc source-only diagonal/normalization controls and retained-program backtest; source fits use fixed training features.",
+  "records": [
+    {
+      "model": "0.6B",
+      "case": 0,
+      "old": 5,
+      "direct": 5,
+      "normalization_only": 5,
+      "learned_diagonal": 4,
+      "full_transport": 5,
+      "transported_retained_all_three_blocks": 5,
+      "transported_losses_across_three": []
+    },
+    {
+      "model": "0.6B",
+      "case": 1,
+      "old": 18,
+      "direct": 17,
+      "normalization_only": 3,
+      "learned_diagonal": 8,
+      "full_transport": 18,
+      "transported_retained_all_three_blocks": 18,
+      "transported_losses_across_three": []
+    },
+    {
+      "model": "0.6B",
+      "case": 2,
+      "old": 16,
+      "direct": 15,
+      "normalization_only": 15,
+      "learned_diagonal": 15,
+      "full_transport": 16,
+      "transported_retained_all_three_blocks": 16,
+      "transported_losses_across_three": []
+    },
+    {
+      "model": "0.6B",
+      "case": 3,
+      "old": 13,
+      "direct": 4,
+      "normalization_only": 9,
+      "learned_diagonal": 9,
+      "full_transport": 13,
+      "transported_retained_all_three_blocks": 11,
+      "transported_losses_across_three": [
+        32,
+        37
+      ]
+    },
+    {
+      "model": "0.6B",
+      "case": 4,
+      "old": 9,
+      "direct": 7,
+      "normalization_only": 8,
+      "learned_diagonal": 8,
+      "full_transport": 9,
+      "transported_retained_all_three_blocks": 9,
+      "transported_losses_across_three": []
+    },
+    {
+      "model": "0.6B",
+      "case": 5,
+      "old": 5,
+      "direct": 4,
+      "normalization_only": 3,
+      "learned_diagonal": 2,
+      "full_transport": 5,
+      "transported_retained_all_three_blocks": 5,
+      "transported_losses_across_three": []
+    },
+    {
+      "model": "1.7B",
+      "case": 0,
+      "old": 18,
+      "direct": 0,
+      "normalization_only": 0,
+      "learned_diagonal": 0,
+      "full_transport": 0,
+      "transported_retained_all_three_blocks": 0,
+      "transported_losses_across_three": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        16,
+        17,
+        18,
+        24,
+        25,
+        26,
+        27,
+        31,
+        32,
+        33,
+        37,
+        38
+      ]
+    },
+    {
+      "model": "1.7B",
+      "case": 1,
+      "old": 7,
+      "direct": 5,
+      "normalization_only": 1,
+      "learned_diagonal": 1,
+      "full_transport": 7,
+      "transported_retained_all_three_blocks": 7,
+      "transported_losses_across_three": []
+    },
+    {
+      "model": "1.7B",
+      "case": 2,
+      "old": 19,
+      "direct": 17,
+      "normalization_only": 18,
+      "learned_diagonal": 18,
+      "full_transport": 19,
+      "transported_retained_all_three_blocks": 19,
+      "transported_losses_across_three": []
+    },
+    {
+      "model": "1.7B",
+      "case": 3,
+      "old": 6,
+      "direct": 4,
+      "normalization_only": 5,
+      "learned_diagonal": 5,
+      "full_transport": 6,
+      "transported_retained_all_three_blocks": 6,
+      "transported_losses_across_three": []
+    },
+    {
+      "model": "1.7B",
+      "case": 4,
+      "old": 10,
+      "direct": 8,
+      "normalization_only": 9,
+      "learned_diagonal": 9,
+      "full_transport": 10,
+      "transported_retained_all_three_blocks": 10,
+      "transported_losses_across_three": []
+    },
+    {
+      "model": "1.7B",
+      "case": 5,
+      "old": 5,
+      "direct": 4,
+      "normalization_only": 4,
+      "learned_diagonal": 4,
+      "full_transport": 5,
+      "transported_retained_all_three_blocks": 4,
+      "transported_losses_across_three": [
+        2
+      ]
+    }
+  ]
+}
