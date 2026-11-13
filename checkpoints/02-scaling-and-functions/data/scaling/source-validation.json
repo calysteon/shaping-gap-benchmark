@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "scope": 0,
+      "index": 0,
+      "max_amplitude_error": 2.943472298255756e-05,
+      "max_readout_error": 2.7442004107980367e-07
+    },
+    {
+      "scope": 0,
+      "index": 1,
+      "max_amplitude_error": 1.9403180765209527e-05,
+      "max_readout_error": 7.44735078050951e-07
+    },
+    {
+      "scope": 0,
+      "index": 2,
+      "max_amplitude_error": 3.0104341014691727e-05,
+      "max_readout_error": 5.206634657861642e-07
+    },
+    {
+      "scope": 0,
+      "index": 3,
+      "max_amplitude_error": 1.6999787526117416e-05,
+      "max_readout_error": 8.995871977335312e-07
+    },
+    {
+      "scope": 1,
+      "index": 0,
+      "max_amplitude_error": 2.846595098660032e-05,
+      "max_readout_error": 1.3930324507249736e-06
+    },
+    {
+      "scope": 1,
+      "index": 1,
+      "max_amplitude_error": 5.373807873354508e-05,
+      "max_readout_error": 8.784107167203459e-07
+    },
+    {
+      "scope": 1,
+      "index": 2,
+      "max_amplitude_error": 2.978411053788932e-05,
+      "max_readout_error": 8.209358677291334e-07
+    },
+    {
+      "scope": 1,
+      "index": 3,
+      "max_amplitude_error": 5.602825191530769e-05,
+      "max_readout_error": 1.2958576345312167e-06
+    },
+    {
+      "scope": 2,
+      "index": 0,
+      "max_amplitude_error": 2.6826374506683237e-05,
+      "max_readout_error": 9.953090627234928e-07
+    },
+    {
+      "scope": 2,
+      "index": 1,
+      "max_amplitude_error": 3.7759962520311774e-05,
+      "max_readout_error": 7.587747026249758e-07
+    },
+    {
+      "scope": 2,
+      "index": 2,
+      "max_amplitude_error": 2.7362753023396635e-05,
+      "max_readout_error": 1.4348475825265439e-06
+    },
+    {
+      "scope": 2,
+      "index": 3,
+      "max_amplitude_error": 1.776969931199801e-05,
+      "max_readout_error": 1.3111784651353986e-06
+    }
+  ],
+  "native_work": {
+    "analytic_pre_norm": 0,
+    "analytic_pre_projection": 0,
+    "analytic_pre_vjp": 0,
+    "atom_down_projection": 0,
+    "consumer_gate_projection": 12,
+    "consumer_norm": 12,
+    "geometry_consumer_coordinate_vjp": 0,
+    "interface_basis_probe": 0,
+    "producer_gate_projection": 336,
+    "producer_norm": 336,
+    "producer_up_projection": 336
+  },
+  "seconds": 0.10959083307534456
+}

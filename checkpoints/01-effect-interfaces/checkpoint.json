@@ -1,0 +1,14 @@
+{
+  "id": "01-effect-interfaces",
+  "number": 1,
+  "date": "2026-11-12",
+  "title": "Shaping Gap Benchmark: Effect Interfaces for Compositional Execution of Frozen Neural Computation",
+  "authors": [
+    "Nathaniel Oh",
+    "Paul Attie"
+  ],
+  "paper": "paper/shaping-gap-benchmark.pdf",
+  "guide": "checkpoints/01-effect-interfaces/README.rst",
+  "publication_commit": "20b5a2a8d63998b13e78041d0d3b7ec7812779e7",
+  "status": "published-in-repository"
+}

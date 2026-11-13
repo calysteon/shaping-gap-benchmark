@@ -1,0 +1,3 @@
+method,exact_functions,robust_functions,targets,acquisition_lpe,construction_lpe,deployment_lpe,acquisition_construction_deployment_lpe,independent_selected_verification_lpe,with_selected_program_verification_lpe,search_seconds,deployment_seconds,median_program_length,maximum_controller_array_bound_bytes
+one_step,24,22,24,5837,35460,2028,43325,2028,45353,7.306352043058723,0.3689151257276535,2.0,58130432
+paired,24,23,24,5837,24436,1644,31917,1644,33561,11.94413533480838,0.33986058342270553,2.0,58130432

@@ -1,0 +1,182 @@
+{
+  "id": "P49-EXTERNAL-FUNCTIONS-001",
+  "claim_ids": [
+    "MG1",
+    "MG2",
+    "MG3"
+  ],
+  "kind": "experiment",
+  "question": "Can acquired interfaces to frozen native computation construct one reusable neural program that implements an independently specified Boolean function correctly over its entire finite input domain?",
+  "design": "Use the sealed512-unit P48 bank, supplied architectural law and the same native residual grammar. Freeze a task-independent numeric encoding of2/3 input bits into native activation: a seeded frame and orthogonal bit directions in the nullspace of the fixed monitored readout. Decoder is sign of one fixed native gate readout. Target specification is an external Boolean formula. Synthesize one component sequence jointly over all4/8 inputs, then independently execute that same program on every input. Eight fixed functions, three encoder seeds, two construction controls.",
+  "information_access": "Source response rows acquired before external function labels. Encoder/decoder are supplied physical I/O conventions, independent of target function. No natural-language prompts, model forward, hosted API, answer programs, trainable adapters or updates to pretrained weights. Construction receives the full finite specification; exhaustive verification establishes finite-domain behavior, not held-out distributional generalization.",
+  "baselines": "One-step acquired-effect guidance versus paired conditioned forecasts; same bank, shared program grammar, beam/depth/query constraints, numeric encoding/decoder and exact native checker. Empty program evaluated as a fixed-substrate reference. This is a feasibility study within the syntax-guided synthesis formulation, not a SyGuS competition score or claim of beating SMT solvers.",
+  "resource_accounting": "Record complete native primitive vectors per input; charge every attempted branch/input, source reuse, beam scalar planning, program deployment and independent verification. Max32768 native LPE/function search, max16 components, beam4, six children; original physical activity/write/state limits. Report shared source acquisition, logical retained/controller arrays, process/MLX peak and timings.",
+  "primary_outcomes": "Exact Boolean agreement on all inputs for one fixed program per function; robust signed margin across all inputs; solved/24 functions per arm, by function/encoder; native LPE and active wall; graph fidelity; changes in pretrained/source arrays. Preserve all failures and partial truth tables.",
+  "interpretation_rules": "Success is function-level, not per-question state repair: exactly one component sequence must work over the complete finite input domain. Report finite bit widths and supplied I/O convention. Target truth values alone do not supply a neural route. Failures inform whether functional acquisition requires additional distinctions before larger applications. No new application-impact claim without these results.",
+  "limitations": [
+    "Small finite Boolean synthesis assay precedes realistic bit-vector/program applications.",
+    "One pretrained model and architecture-aware acquired response bank; no pretraining-specific advantage isolation.",
+    "All finite specification inputs available to construction; this is synthesis, not held-out-input learning.",
+    "No retained higher-level macro reuse in this initial functional-acquisition study."
+  ],
+  "planned_config": {
+    "plan_id": "P49-EXTERNAL-FUNCTIONS-001",
+    "config": {
+      "bank_sizes": [
+        512
+      ],
+      "bank_seed": 71001,
+      "source_anchor_scope": 1,
+      "root_seed_start": 72001,
+      "conditions_per_domain_per_demand": 6,
+      "demands": [
+        0.025,
+        0.05,
+        0.075,
+        0.1
+      ],
+      "domain_count": 3,
+      "micro_contexts_per_bank": 3,
+      "direct_tile_rows": 2,
+      "factored_tile_rows": 16,
+      "methods": [
+        "one_step",
+        "paired"
+      ],
+      "query_budget_lpe": 32768,
+      "beam_width": 4,
+      "children_per_parent": 6,
+      "max_depth": 16,
+      "max_atom_amplitude": 2.0,
+      "max_write_rms": 0.15,
+      "max_live_rms": 2.0,
+      "domain_radius": 1.5,
+      "initial_radius": 0.5,
+      "target_count": 3,
+      "contract_size": 6,
+      "readout_size": 12,
+      "protected_tolerance": 0.05,
+      "controller_payload_cap_bytes": 67108864,
+      "activity_workspace_cap_bytes": 1048576,
+      "validation_contexts_per_domain": 4,
+      "source_units": [
+        [
+          6,
+          2069
+        ],
+        [
+          10,
+          211
+        ],
+        [
+          13,
+          573
+        ],
+        [
+          16,
+          2273
+        ],
+        [
+          18,
+          74
+        ],
+        [
+          18,
+          804
+        ],
+        [
+          18,
+          1234
+        ],
+        [
+          18,
+          1741
+        ],
+        [
+          18,
+          1839
+        ],
+        [
+          18,
+          2230
+        ],
+        [
+          18,
+          2465
+        ],
+        [
+          18,
+          2490
+        ],
+        [
+          18,
+          2599
+        ],
+        [
+          19,
+          622
+        ],
+        [
+          19,
+          2864
+        ],
+        [
+          20,
+          2602
+        ],
+        [
+          21,
+          2259
+        ],
+        [
+          21,
+          2386
+        ],
+        [
+          23,
+          1226
+        ],
+        [
+          23,
+          2031
+        ],
+        [
+          24,
+          1914
+        ],
+        [
+          24,
+          2701
+        ]
+      ],
+      "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+      "source_directory": "data/inherited",
+      "corruption_seed": 65001,
+      "input_bits": [
+        2,
+        3
+      ],
+      "encoder_seeds": [
+        79001,
+        79002,
+        79003
+      ],
+      "input_rms": 0.1,
+      "frame_rms": 0.25,
+      "output_margin": 0.025,
+      "functions": [
+        "and2",
+        "or2",
+        "xor2",
+        "and3",
+        "or3",
+        "xor3",
+        "majority3",
+        "mux3"
+      ],
+      "source_npz": "data/scaling/source.npz",
+      "source_sha256": "b8009bd4e187d5c22a788e5ef8bbc4b66801e570e48c888f0be7d5acc0db08ee"
+    }
+  },
+  "stopping_rule": "Run all8 functions across3 encoders and both arms, no outcome-based task filtering. Stop only on numerical/correctness/resource/weight assertion. Preserve failures and record changes prospectively."
+}

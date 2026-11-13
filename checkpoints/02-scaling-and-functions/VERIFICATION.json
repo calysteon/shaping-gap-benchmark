@@ -1,0 +1,75 @@
+{
+  "paper_pages": 10,
+  "paper_visual_review": "All ten rendered pages inspected; no overlap, clipping or unreadable content.",
+  "pdf_text_and_log_checks": true,
+  "public_entry_points_parse": true,
+  "full_native_scaling_replication": {
+    "programs": 720,
+    "graphs_metrics_outputs_and_native_counts_exact": true,
+    "reacquired_source_bytes_exact": true
+  },
+  "full_native_function_replication": {
+    "programs": 48,
+    "reacquired_source_used": true,
+    "graphs_metrics_outputs_and_native_counts_exact": true
+  },
+  "independent_public_verifiers": {
+    "scaling": {
+      "passed": true,
+      "selected_graphs_native_bit_exact": 720,
+      "branches_sampled": 512,
+      "total_recorded_branches": 21591,
+      "native_primitive_ledger_matches": true,
+      "weights_unchanged": true,
+      "source_unchanged": true,
+      "verification_seconds": 2.415984124876559,
+      "native_work": {
+        "producer_norm": 3298,
+        "producer_gate_projection": 3298,
+        "producer_up_projection": 3298,
+        "verification_masked_down": 3298,
+        "consumer_norm": 1232,
+        "consumer_gate_projection": 1232
+      }
+    },
+    "functions": {
+      "passed": true,
+      "selected_graphs_native_bit_exact": 48,
+      "exhaustive_input_executions": 312,
+      "distinct_specifications": 24,
+      "independent_boolean_specifications_match": true,
+      "task_independent_encodings_match": true,
+      "all_intermediate_physical_bounds_pass": true,
+      "primitive_ledger_matches": true,
+      "weights_unchanged": true,
+      "source_unchanged": true,
+      "verification_seconds": 0.8149430002085865,
+      "native_work": {
+        "producer_norm": 1120,
+        "producer_gate_projection": 1120,
+        "producer_up_projection": 1120,
+        "verification_masked_down": 1120,
+        "consumer_norm": 312,
+        "consumer_gate_projection": 312
+      }
+    }
+  },
+  "deterministic_summary_and_cost_ledger_exact": true,
+  "numpy_only_replay": {
+    "checkpoint_loaded": false,
+    "mlx_imported": false,
+    "programs": 768,
+    "quality_agreement": 768,
+    "max_abs_readout_error": 3.209661327807645e-05,
+    "replay_seconds": 0.4644579170271754,
+    "scope": "Approximate finite-bank replay; independent native float32 verification remains authoritative."
+  },
+  "first_paper_protected_files_unchanged": 368,
+  "first_paper_commit": "20b5a2a8d63998b13e78041d0d3b7ec7812779e7",
+  "candidate_scan": {
+    "local_absolute_paths": false,
+    "private_implementation": false,
+    "model_checkpoint_bundled": false
+  },
+  "interpretation": "Publication reproduction and packaging checks; not additional independent scientific trials."
+}

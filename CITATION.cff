@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "Please cite the accompanying paper when using this benchmark."
-title: "Shaping Gap Benchmark: Effect Interfaces for Compositional Execution of Frozen Neural Computation"
+message: "Please cite the paper for the research checkpoint you use; see CHECKPOINTS.json."
+title: "Shaping Gap Benchmark"
 type: software
 authors:
   - family-names: Oh
@@ -8,8 +8,13 @@ authors:
   - family-names: Attie
     given-names: Paul
 repository-code: "https://github.com/calysteon/shaping-gap-benchmark"
-keywords:
-  - frozen neural computation
-  - effect interfaces
-  - program construction
-  - benchmark
+preferred-citation:
+  type: article
+  title: "Shaping Gap Benchmark II: Scalable Effect-Interface Evaluation and Verified Functional Construction"
+  authors:
+    - family-names: Oh
+      given-names: Nathaniel
+    - family-names: Attie
+      given-names: Paul
+  year: 2026
+  url: "https://github.com/calysteon/shaping-gap-benchmark/blob/main/checkpoints/02-scaling-and-functions/paper/shaping-gap-benchmark-ii.pdf"

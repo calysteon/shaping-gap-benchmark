@@ -1,0 +1,149 @@
+{
+  "plan_id": "P48-CONTRACT-SCALING-001",
+  "config": {
+    "bank_sizes": [
+      22,
+      64,
+      128,
+      256,
+      512
+    ],
+    "bank_seed": 71001,
+    "source_anchor_scope": 1,
+    "root_seed_start": 72001,
+    "conditions_per_domain_per_demand": 6,
+    "demands": [
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "domain_count": 3,
+    "micro_contexts_per_bank": 3,
+    "direct_tile_rows": 2,
+    "factored_tile_rows": 16,
+    "methods": [
+      "native_local",
+      "factored_pair"
+    ],
+    "query_budget_lpe": 512,
+    "beam_width": 4,
+    "children_per_parent": 6,
+    "max_depth": 6,
+    "max_atom_amplitude": 2.0,
+    "max_write_rms": 0.15,
+    "max_live_rms": 2.0,
+    "domain_radius": 1.5,
+    "initial_radius": 0.5,
+    "target_count": 3,
+    "contract_size": 6,
+    "readout_size": 12,
+    "protected_tolerance": 0.05,
+    "controller_payload_cap_bytes": 67108864,
+    "activity_workspace_cap_bytes": 1048576,
+    "validation_contexts_per_domain": 4,
+    "source_units": [
+      [
+        6,
+        2069
+      ],
+      [
+        10,
+        211
+      ],
+      [
+        13,
+        573
+      ],
+      [
+        16,
+        2273
+      ],
+      [
+        18,
+        74
+      ],
+      [
+        18,
+        804
+      ],
+      [
+        18,
+        1234
+      ],
+      [
+        18,
+        1741
+      ],
+      [
+        18,
+        1839
+      ],
+      [
+        18,
+        2230
+      ],
+      [
+        18,
+        2465
+      ],
+      [
+        18,
+        2490
+      ],
+      [
+        18,
+        2599
+      ],
+      [
+        19,
+        622
+      ],
+      [
+        19,
+        2864
+      ],
+      [
+        20,
+        2602
+      ],
+      [
+        21,
+        2259
+      ],
+      [
+        21,
+        2386
+      ],
+      [
+        23,
+        1226
+      ],
+      [
+        23,
+        2031
+      ],
+      [
+        24,
+        1914
+      ],
+      [
+        24,
+        2701
+      ]
+    ],
+    "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+    "source_directory": "data/inherited",
+    "corruption_seed": 65001
+  },
+  "created_utc": "2026-11-13T03:34:18.045458+00:00",
+  "source_sha256": "5a7f547ea60301a7870e906993acf8575909083b0b4a51eaa00e590bde1e63f5",
+  "helper_sha256": {
+    "substrate.py": "2ea65a2217dce0dcc42445390f7c7e59e06509521e59575fbd51017742bae4ad",
+    "geometry_backend.py": "9f1ecc6f0135c1fbddecb46a248c39c684e5da8fc3b284c277749a7a57dc4671",
+    "native.py": "dda56fb1f938c13ce9e7bf0a71e7f05d4a80f4ccd8478252e92b68fbd309f076",
+    "interfaces.py": "45f4c4723c50bebd6ea34df90e6b6314412ad0d244f74301a32e74769deb9f35",
+    "base_planner.py": "bdc522a779d4102ff3d362123e12d59d18d4ab517ffe61de5ab1c95ff7e1a238",
+    "factored.py": "fa08fcab9c588a0b498736348ba26fbc51a0b95771ae2e1557d5fffd6278faa4"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "latest": "02-scaling-and-functions",
+  "checkpoints": [
+    {
+      "id": "01-effect-interfaces",
+      "number": 1,
+      "date": "2026-11-12",
+      "title": "Shaping Gap Benchmark: Effect Interfaces for Compositional Execution of Frozen Neural Computation",
+      "authors": [
+        "Nathaniel Oh",
+        "Paul Attie"
+      ],
+      "paper": "paper/shaping-gap-benchmark.pdf",
+      "guide": "checkpoints/01-effect-interfaces/README.rst",
+      "publication_commit": "20b5a2a8d63998b13e78041d0d3b7ec7812779e7",
+      "status": "published-in-repository"
+    },
+    {
+      "id": "02-scaling-and-functions",
+      "number": 2,
+      "date": "2026-11-12",
+      "title": "Shaping Gap Benchmark II: Scalable Effect-Interface Evaluation and Verified Functional Construction",
+      "authors": [
+        "Nathaniel Oh",
+        "Paul Attie"
+      ],
+      "paper": "checkpoints/02-scaling-and-functions/paper/shaping-gap-benchmark-ii.pdf",
+      "guide": "checkpoints/02-scaling-and-functions/README.rst",
+      "publication_revision": "The commit introducing this checkpoint.json; resolve with git log --diff-filter=A -1 --format=%H -- checkpoints/02-scaling-and-functions/checkpoint.json",
+      "predecessor": "01-effect-interfaces",
+      "status": "published-in-repository",
+      "observed_advances": [
+        "Response-moment pair evaluation over nested22to512-component banks.",
+        "At128 units72/72 numerical contracts versus58/72;57.50percent lower acquisition-through-selected-verification native LPE.",
+        "One fixed program per target implements24/24 complete Boolean truth tables in both interface arms;23/24 versus22/24 meet margin.",
+        "Paired functional construction uses26.00percent less charged native work, with more search wall.",
+        "All768 selected programs independently replay native bit exactly."
+      ],
+      "research_scope": [
+        "One frozen pretrained checkpoint; supplied architectural law and numeric I/O.",
+        "Finite2/3-bit synthesis with all inputs available; no random-weight substrate control.",
+        "Controller-array bound differs from whole-process memory.",
+        "No retained program-interface acquisition or continual maintenance in these studies."
+      ]
+    }
+  ]
+}

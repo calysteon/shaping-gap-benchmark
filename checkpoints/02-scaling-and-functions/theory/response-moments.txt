@@ -1,0 +1,54 @@
+CONTRACT-SPECIALIZED COMPOSITION OF ACQUIRED STRUCTURED INTERFACES
+November 12, 2026. Mathematical and implementation record.
+
+Native form and acquired coefficients
+The supplied architectural law is RMS normalization followed by original linear
+gate/up projections and SwiGLU. A native neuron is F_b(x)=x+d_b a_b(x), where
+a_b(x)=SiLU(g_b x/r(x)) (u_b x/r(x)), r(x)^2=x^T x/n+eps.
+The monitored coordinates have q(x)=Qx/r(x). Normalization weights are absorbed
+into g_b,u_b,Q. Directions d_b and projection rows are acquired from native
+observations and partials using the first paper's structured calibration.
+
+For a normalized linear scalar y(x)=w x/r(x), w=r Dy+y x^T/(n r).
+Proof: differentiate y, then rearrange. The source anchor and architectural
+law are supplied. This calibration is not generic semantic vocabulary discovery.
+
+Reusable response moments
+Let D have columns d_b. Retain GD,UD,D^TD and QD along with G,U,Q,D.
+For a first component A at current state x, t=a_A(x), define
+  s_A=(x^T x+2t x^T d_A+t^2 d_A^T d_A)/n.
+Then each successor B has activity
+  v_B=SiLU((g_B x+t (GD)_{BA})/sqrt(s_A+eps))
+           (u_B x+t (UD)_{BA})/sqrt(s_A+eps).
+The pair's normalized squared state size and readout are
+  s_AB=s_A+[2v_B(x^T d_B+t(D^TD)_{AB})+v_B^2(D^TD)_{BB}]/n,
+  q_AB=[Qx+t(QD)_A+v_B(QD)_B]/sqrt(s_AB+eps).
+
+Proof: substitute x_A=x+t d_A into each linear numerator. Expand
+||x_A+v_B d_B||^2 and substitute into the normalized readout. These are exact
+real-arithmetic identities for the supplied functional form. Actual float32
+native computations and acquired row precision are checked independently.
+
+Contract-specialized evaluation
+Only target/protected readout rows enter pair scoring. Sweep first components
+in tiles and retain one best continuation score per first component. This
+eliminates any need to materialize all K-by-K activation/coordinate vectors.
+The final-depth terminal option uses one-step evaluation only.
+
+For K components, state width n, m contract coordinates and first-action tile t,
+retained response state is O(Kn+K^2+mn); forecast temporaries are O(tKm+K),
+in addition to state/frame storage. Computing the moments is charged source
+preparation, not free online work. Full pair scoring remains quadratic in K.
+The published quadratic-coordinate implementation materializes K^3 coordinate
+entries; a direct activation-space implementation can instead tile states but
+still projects K^2 states through width n. The new evaluator uses retained
+response moments to avoid those repeated projections. The two constructions
+are compared numerically with identical acquired coefficients.
+
+Bounds and evaluation scope
+The declared64MiB limit covers explicit retained/controller forecast arrays,
+with8MiB reserved for search arrays. Native producer activity cache has its own
+1MiB bound. Array reservations include conservative elementwise temporaries.
+Full process and MLX peaks, including the unchanged checkpoint, are reported
+separately. This is a finite-bank scaling result; no unrestricted model memory
+or unbounded-capability conclusion follows from the reservation.

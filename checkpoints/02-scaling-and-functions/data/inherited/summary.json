@@ -1,0 +1,58 @@
+{
+  "source_costs": [
+    {
+      "domain": {
+        "native_work": {
+          "consumer_gate_projection": 1,
+          "consumer_norm": 1,
+          "interface_basis_probe": 0
+        },
+        "seconds": 0.01926112500950694
+      }
+    },
+    {
+      "domain": {
+        "native_work": {
+          "analytic_pre_norm": 0,
+          "analytic_pre_projection": 0,
+          "analytic_pre_vjp": 0,
+          "atom_down_projection": 0,
+          "consumer_gate_projection": 1,
+          "consumer_norm": 1,
+          "geometry_consumer_coordinate_vjp": 0,
+          "geometry_producer_coordinate_vjp": 0,
+          "geometry_producer_gate": 0,
+          "geometry_producer_norm": 0,
+          "geometry_producer_up": 0,
+          "interface_basis_probe": 0,
+          "producer_gate_projection": 0,
+          "producer_norm": 0,
+          "producer_up_projection": 0
+        },
+        "seconds": 0.0012819590047001839
+      }
+    },
+    {
+      "domain": {
+        "native_work": {
+          "analytic_pre_norm": 0,
+          "analytic_pre_projection": 0,
+          "analytic_pre_vjp": 0,
+          "atom_down_projection": 0,
+          "consumer_gate_projection": 1,
+          "consumer_norm": 1,
+          "geometry_consumer_coordinate_vjp": 0,
+          "geometry_producer_coordinate_vjp": 0,
+          "geometry_producer_gate": 0,
+          "geometry_producer_norm": 0,
+          "geometry_producer_up": 0,
+          "interface_basis_probe": 0,
+          "producer_gate_projection": 0,
+          "producer_norm": 0,
+          "producer_up_projection": 0
+        },
+        "seconds": 0.001220750156790018
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "selected_graphs_native_bit_exact": 720,
+  "branches_sampled": 512,
+  "total_recorded_branches": 21591,
+  "native_primitive_ledger_matches": true,
+  "weights_unchanged": true,
+  "source_unchanged": true,
+  "verification_seconds": 2.476471707923338,
+  "native_work": {
+    "producer_norm": 3298,
+    "producer_gate_projection": 3298,
+    "producer_up_projection": 3298,
+    "verification_masked_down": 3298,
+    "consumer_norm": 1232,
+    "consumer_gate_projection": 1232
+  }
+}

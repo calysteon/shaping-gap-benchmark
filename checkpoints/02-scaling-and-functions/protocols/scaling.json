@@ -1,0 +1,164 @@
+{
+  "id": "P48-CONTRACT-SCALING-001",
+  "claim_ids": [
+    "MG2",
+    "MG3",
+    "EK1",
+    "EK3"
+  ],
+  "kind": "experiment",
+  "question": "Can contract-specialized evaluation of acquired native effect interfaces remove cubic planner workspace, preserve direct composition forecasts, and improve verified construction throughput as the available bank grows22to512 under matched online native-query and explicit controller-array limits?",
+  "design": "Acquire one global RMSNorm/SwiGLU-structured behavioral bank from original frozen native value/partial observations. Preserve the22 published units then append seeded uniform distinct neuron IDs. Evaluate nested prefixes22/64/128/256/512. Check moment/tiled pair evaluation against direct activation-space composition on3 fixed contexts/bank. Run72 fresh numerical contracts per bank with native-local versus factored paired guidance in the same beam/execution engine. Fixed root perturbations in the original22-dimensional span, same contracts per bank. Freeze interfaces before later outcomes.",
+  "information_access": "Physical neuron boundaries and RMSNorm/SwiGLU architectural form supplied, as in the published structured reference. Coefficients calibrated from native observations/partials. No language, tokenizer, model-forward, hosted API, teacher programs or target-specific component selection. Uniform additional IDs fixed before native observations. Native checker authoritative.",
+  "baselines": "Native local sensitivity at every bank size; tiled direct activation-space pair forecast as the equality/performance control. Both construction arms receive the same expanded bank, online512LPE, beam/depth/quality and physical limits. Compare each prefix against its22-unit condition, retaining complete failures.",
+  "resource_accounting": "Charge per-prefix actual physical direction/source calibration primitive vectors, reference calibration and CPU preparation; native-local omits unused behavioral calibration but includes physical coordinates. Per-algorithm retention and explicitly allocated forecast workspaces bounded by64MiB; activity cache1MiB. Report full process/MLX peak separately, CPU forecast timings, candidate pairs, search/deployment, sources and diagnostic expenses. No active energy/FLOP claims from LPE.",
+  "primary_outcomes": "Forecast readout/amplitude discrepancy and legal/ranking agreement versus direct; median direct/factored forecast seconds byK; retained/forecast workspace bytes; native solved contracts/72 byK and method; query/search/deployment/lifecycle costs, fixed-stream success-versus-cost; all selected-program native fidelity, original parameter hashes.",
+  "interpretation_rules": "Architectural-structure calibration is explicit and is not generic semantic discovery. Increasing bank size alone can benefit both arms; isolate guidance by same-bank comparison. Constant online native queries do not imply equal lifecycle/time. The scalability claim concerns the measured compiled interface evaluator. More internally verified contracts is construction impact, not demonstrated external semantic utility. External capability grounding and repeated acquisition cycles remain separate subsequent studies. No novelty review is initiated.",
+  "limitations": [
+    "One fixed checkpoint and supplied numerical readouts; pretraining-specific advantage not isolated.",
+    "Actual source calibration uses known architectural shape.",
+    "Finite bank/state/depth horizon, not unbounded growth.",
+    "Controller logical-array limits distinct from complete runtime memory.",
+    "Tiled direct timing is a computational control rather than a separate native search arm."
+  ],
+  "planned_config": {
+    "plan_id": "P48-CONTRACT-SCALING-001",
+    "config": {
+      "bank_sizes": [
+        22,
+        64,
+        128,
+        256,
+        512
+      ],
+      "bank_seed": 71001,
+      "source_anchor_scope": 1,
+      "root_seed_start": 72001,
+      "conditions_per_domain_per_demand": 6,
+      "demands": [
+        0.025,
+        0.05,
+        0.075,
+        0.1
+      ],
+      "domain_count": 3,
+      "micro_contexts_per_bank": 3,
+      "direct_tile_rows": 2,
+      "factored_tile_rows": 16,
+      "methods": [
+        "native_local",
+        "factored_pair"
+      ],
+      "query_budget_lpe": 512,
+      "beam_width": 4,
+      "children_per_parent": 6,
+      "max_depth": 6,
+      "max_atom_amplitude": 2.0,
+      "max_write_rms": 0.15,
+      "max_live_rms": 2.0,
+      "domain_radius": 1.5,
+      "initial_radius": 0.5,
+      "target_count": 3,
+      "contract_size": 6,
+      "readout_size": 12,
+      "protected_tolerance": 0.05,
+      "controller_payload_cap_bytes": 67108864,
+      "activity_workspace_cap_bytes": 1048576,
+      "validation_contexts_per_domain": 4,
+      "source_units": [
+        [
+          6,
+          2069
+        ],
+        [
+          10,
+          211
+        ],
+        [
+          13,
+          573
+        ],
+        [
+          16,
+          2273
+        ],
+        [
+          18,
+          74
+        ],
+        [
+          18,
+          804
+        ],
+        [
+          18,
+          1234
+        ],
+        [
+          18,
+          1741
+        ],
+        [
+          18,
+          1839
+        ],
+        [
+          18,
+          2230
+        ],
+        [
+          18,
+          2465
+        ],
+        [
+          18,
+          2490
+        ],
+        [
+          18,
+          2599
+        ],
+        [
+          19,
+          622
+        ],
+        [
+          19,
+          2864
+        ],
+        [
+          20,
+          2602
+        ],
+        [
+          21,
+          2259
+        ],
+        [
+          21,
+          2386
+        ],
+        [
+          23,
+          1226
+        ],
+        [
+          23,
+          2031
+        ],
+        [
+          24,
+          1914
+        ],
+        [
+          24,
+          2701
+        ]
+      ],
+      "parameter_sha256": "27a04e3e5e6b1d524751fa34d1053044bce9ce7e4995e5b63b5c6b2a2dfe3798",
+      "source_directory": "data/inherited",
+      "corruption_seed": 65001
+    }
+  },
+  "stopping_rule": "Run all declared banks,3 direct-comparison contexts/bank,72 construction conditions/bank and both arms. Stop on correctness, memory or weight-integrity assertion; preserve failure and register any scientific protocol amendment before further outcome runs."
+}
